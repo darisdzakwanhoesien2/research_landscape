@@ -14,7 +14,6 @@ import pandas as pd
 def filter_nonempty_keywords(df):
     return df[df["keywords"].apply(len) > 0]
 
-
 def clean_keywords(df):
     df = df.copy()
 

@@ -1,4 +1,119 @@
 1. https://chatgpt.com/c/695bbb2f-5644-8327-9c13-76501da9e35b
+2. https://chatgpt.com/c/695bfa94-94b8-8332-8f38-55c3e68a33ec
+
+Perfect — here’s a **planning table structure** you can use as the **input control layer** for your modular LaTeX + batch prompt workflow (NotebookLM / Streamlit / CLI).
+
+I’ll give you:
+
+1. ✅ A **conceptual table (Markdown)** for human planning
+2. ✅ A **CSV-ready schema** for automation
+3. ✅ Example rows filled with **your 4 research questions**
+
+---
+
+# ✅ 1. CONCEPTUAL INPUT TABLE (FOR PLANNING)
+
+| section_name | section_part | part_title                            | research_question                                                                                                                        | batch_id | notes                       |
+| ------------ | ------------ | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------- |
+| Introduction | 1            | ESG & SME Reporting Context           | How does the integration of FinBERT-based tone analysis improve detection of greenwashing in SME self-assessments vs standard sentiment? | RQ1_B1   | Market + regulatory context |
+| Introduction | 2            | Greenwashing via Linguistic Framing   | How does the integration of FinBERT-based tone analysis improve detection of greenwashing in SME self-assessments vs standard sentiment? | RQ1_B1   | Disclosure strategies       |
+| Introduction | 3            | Limits of Generic Sentiment Models    | How does the integration of FinBERT-based tone analysis improve detection of greenwashing in SME self-assessments vs standard sentiment? | RQ1_B1   | Motivation for FinBERT      |
+| Methods      | 1            | Financial Tone Modeling (FinBERT)     | How does the integration of FinBERT-based tone analysis improve detection of greenwashing in SME self-assessments vs standard sentiment? | RQ1_B2   | Model + features            |
+| Methods      | 2            | Tone–Evidence Mismatch Signals        | How does the integration of FinBERT-based tone analysis improve detection of greenwashing in SME self-assessments vs standard sentiment? | RQ1_B2   | Detection logic             |
+| Methods      | 1            | Aspect Clustering Pipeline            | How does clustering raw aspects into high-level ESG themes improve Level-2 certification transparency?                                   | RQ2_B1   | 02_Aspects_Clustered.py     |
+| Methods      | 2            | Auditable Theme Mapping               | How does clustering raw aspects into high-level ESG themes improve Level-2 certification transparency?                                   | RQ2_B1   | Traceability                |
+| Evaluation   | 1            | Aspect Agreement vs Score Reliability | What is the quantitative relationship between aspect comparison and ESG score reliability?                                               | RQ3_B1   | Correlation analysis        |
+| Evaluation   | 2            | Error Propagation Analysis            | What is the quantitative relationship between aspect comparison and ESG score reliability?                                               | RQ3_B1   | Confidence metrics          |
+| Discussion   | 1            | Limits of Self-Assessment             | How can benchmarks provide industry context missing from self-assessment?                                                                | RQ4_B1   | Motivation                  |
+| Discussion   | 2            | Benchmark-Aware Scoring               | How can benchmarks provide industry context missing from self-assessment?                                                                | RQ4_B1   | Model integration           |
+
+This table lets you decide:
+
+* what **section**
+* what **sub-part**
+* which **research question**
+* which **batch of papers / evidence**
+
+Each row = one LaTeX module to be generated.
+
+---
+
+# ✅ 2. CSV SCHEMA (FOR NOTEBOOKLM / STREAMLIT / PIPELINES)
+
+This is the **recommended machine-friendly format**:
+
+```csv
+
+```
+
+This works perfectly with:
+
+* batch prompt generation
+* automated `.tex` file naming:
+
+  * `introduction_1.tex`
+  * `methods_2.tex`
+* section-wise BibTeX merging
+
+---
+
+# ✅ 3. HOW THIS MAPS TO YOUR NOTEBOOKLM PROMPT
+
+For each **batch_id**, you feed:
+
+* all papers relevant to that batch
+* plus the rows that reference that batch
+
+Then you use the modular prompt like:
+
+```
+SECTION NAME: Introduction
+REQUIRED OUTPUT MODULES:
+- Part 1: ESG & SME Reporting Context
+- Part 2: Greenwashing via Linguistic Framing
+- Part 3: Limits of Generic Sentiment Models
+RESEARCH QUESTION: ...
+PAPERS: ...
+```
+
+So:
+
+* **table = orchestration layer**
+* **NotebookLM = synthesis engine**
+* **LaTeX = final assembly**
+
+---
+
+# 🎯 Next Step (Very Useful for You)
+
+If you want, I can next give you:
+
+### ✅ Option A — Prompt Auto-Builder
+
+Python / Streamlit app that:
+
+* reads this CSV
+* groups by `batch_id`
+* prints ready-to-paste NotebookLM prompts
+
+### ✅ Option B — LaTeX Export Pipeline
+
+Script that:
+
+* stores each generated part as:
+  `sections/{section}_{part}.tex`
+* merges BibTeX automatically
+
+### ✅ Option C — Research Traceability Matrix
+
+Adds columns for:
+
+* dataset used
+* model used
+* validation metric
+
+Tell me which one you want and I’ll design it for your workflow.
+
 
 Yes — this is actually a **very strong use case for a Sankey diagram**, because your material naturally forms a **flow of ideas** rather than a flat table.
 
@@ -460,3 +575,112 @@ If you want, I can:
 
 Just tell me which direction you want next.
 # research_landscape
+
+https://chatgpt.com/c/695eaa59-f664-832c-bfc9-ea233782cebe
+
+Yes — this is very doable and very useful for debugging LaTeX builds 👍
+You can make a Streamlit app that:
+
+* Uploads or reads:
+
+  * LaTeX build **stdout log** (for example `pdflatex.out` or captured terminal output)
+  * `.aux` file
+* Displays them nicely with:
+
+  * Tabs
+  * Error / warning highlighting
+  * Section jump links (for `.aux`)
+
+Below is a **complete Streamlit app** you can run directly.
+
+---
+
+# ✅ Features
+
+* 📤 Upload `.log` / `stdout.txt` and `.aux` files
+* 📂 Or load from `data/latex/` folder
+* 🔍 Highlight:
+
+  * Errors
+  * Warnings
+  * Overfull boxes
+* 📑 Parse `.aux`:
+
+  * Sections
+  * Labels
+  * Citations
+
+---
+
+# ✅ Folder Structure
+
+```
+latex_viewer_app/
+│
+├── app.py
+└── data/
+    └── latex/
+        ├── build_stdout.txt
+        └── main.aux
+```
+
+---
+
+# ✅ `app.py` — Complete Streamlit App
+
+```python
+
+```
+
+---
+
+# 🔥 Possible Upgrades (very useful for you)
+
+Given your workflow with research + LaTeX + automation, next steps could be:
+
+### ✅ 1. Compile LaTeX inside Streamlit
+
+Run `pdflatex` and capture stdout automatically:
+
+* upload `.tex`
+* compile
+* show log + aux + pdf preview
+
+### ✅ 2. Error Line Linking
+
+Parse:
+
+```
+l.123 \section{...
+```
+
+→ jump to line in `.tex`
+
+### ✅ 3. BibTeX / Biber Support
+
+Parse:
+
+* `.bbl`
+* `.blg`
+
+to show citation failures
+
+### ✅ 4. Build History Dashboard
+
+Store:
+
+* timestamps
+* errors
+* warnings
+
+for regression tracking of papers.
+
+---
+
+If you want, next I can give you:
+
+* ✅ Version that **runs pdflatex from Streamlit**
+* ✅ Version that also previews the **compiled PDF**
+* ✅ Version integrated with your **research paper prompt + LaTeX pipeline**
+
+Just tell me which direction you want to go.

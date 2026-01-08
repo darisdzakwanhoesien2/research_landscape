@@ -1,0 +1,12 @@
+section_name,section_part,part_title,research_question,batch_id,notes
+Introduction,1,ESG & SME Reporting Context,"How does FinBERT tone analysis improve detection of greenwashing vs sentiment?",RQ1_B1,Context
+Introduction,2,Greenwashing via Linguistic Framing,"How does FinBERT tone analysis improve detection of greenwashing vs sentiment?",RQ1_B1,Disclosure bias
+Introduction,3,Limits of Generic Sentiment Models,"How does FinBERT tone analysis improve detection of greenwashing vs sentiment?",RQ1_B1,Model limits
+Methods,1,Financial Tone Modeling (FinBERT),"How does FinBERT tone analysis improve detection of greenwashing vs sentiment?",RQ1_B2,Architecture
+Methods,2,Tone–Evidence Mismatch Signals,"How does FinBERT tone analysis improve detection of greenwashing vs sentiment?",RQ1_B2,Detection logic
+Methods,3,Aspect Clustering Pipeline,"How does clustering aspects into ESG themes improve Level-2 certification?",RQ2_B1,Aspect modeling
+Methods,4,Auditable Theme Mapping,"How does clustering aspects into ESG themes improve Level-2 certification?",RQ2_B1,Traceability
+Evaluation,1,Aspect Agreement vs Score Reliability,"What is the quantitative relationship between aspect comparison and ESG reliability?",RQ3_B1,Correlation
+Evaluation,2,Error Propagation Analysis,"What is the quantitative relationship between aspect comparison and ESG reliability?",RQ3_B1,Uncertainty
+Discussion,1,Limits of Self-Assessment,"How can benchmarks provide industry context missing from self-assessment?",RQ4_B1,Problem framing
+Discussion,2,Benchmark-Aware Scoring,"How can benchmarks provide industry context missing from self-assessment?",RQ4_B1,Model design

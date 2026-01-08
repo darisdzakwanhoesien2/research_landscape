@@ -6,12 +6,12 @@ from pathlib import Path
 # PAGE CONFIG
 # ============================================================
 st.set_page_config(
-    page_title="Research Prompt Generator",
+    page_title="Multi-Prompt Viewer by Paper",
     layout="wide"
 )
 
-st.title("🧩 Research Prompt Generator")
-st.caption("Structured prompt generation from CSV metadata")
+st.title("📄 Research Prompt Viewer")
+st.caption("Visualize all structured prompts grouped by paper https://notebooklm.google.com/notebook/c4b7439e-9dcf-483a-ac57-9a213b52c92f")
 
 # ============================================================
 # LOAD CSV
@@ -37,69 +37,26 @@ if missing:
 # Clean HTML breaks
 df["SCOPE"] = df["SCOPE"].astype(str).str.replace("<br>", "\n", regex=False)
 
+# Ensure stable ordering
+df = df.sort_values(by=["Paper", "#"])
+
 # ============================================================
-# SIDEBAR FILTERS (TABLE-DRIVEN)
+# SIDEBAR: PAPER SELECTION
 # ============================================================
-st.sidebar.header("🔎 Prompt Selection")
+st.sidebar.header("📑 Paper Selection")
 
 paper = st.sidebar.selectbox(
-    "Paper",
+    "Select Paper",
     sorted(df["Paper"].unique())
 )
 
-topic = st.sidebar.selectbox(
-    "Topic",
-    sorted(df[df["Paper"] == paper]["TOPIC"].unique())
-)
-
-section = st.sidebar.selectbox(
-    "Section",
-    sorted(
-        df[
-            (df["Paper"] == paper) &
-            (df["TOPIC"] == topic)
-        ]["SECTION"].unique()
-    )
-)
-
-section_part = st.sidebar.selectbox(
-    "Section Part",
-    sorted(
-        df[
-            (df["Paper"] == paper) &
-            (df["TOPIC"] == topic) &
-            (df["SECTION"] == section)
-        ]["SECTION PART"].unique()
-    )
-)
-
-batch_type = st.sidebar.selectbox(
-    "Batch Type",
-    sorted(
-        df[
-            (df["Paper"] == paper) &
-            (df["TOPIC"] == topic) &
-            (df["SECTION"] == section) &
-            (df["SECTION PART"] == section_part)
-        ]["BATCH TYPE"].unique()
-    )
-)
+paper_df = df[df["Paper"] == paper]
 
 # ============================================================
-# ROW SELECTION
+# PROMPT GENERATION FUNCTION
 # ============================================================
-row = df[
-    (df["Paper"] == paper) &
-    (df["TOPIC"] == topic) &
-    (df["SECTION"] == section) &
-    (df["SECTION PART"] == section_part) &
-    (df["BATCH TYPE"] == batch_type)
-].iloc[0]
-
-# ============================================================
-# PROMPT TEMPLATE
-# ============================================================
-prompt = f"""
+def build_prompt(row):
+    return f"""
 SECTION:
 {row['SECTION']}
 
@@ -120,18 +77,40 @@ TASK:
 """.strip()
 
 # ============================================================
-# OUTPUT
+# DISPLAY PROMPTS
 # ============================================================
-st.subheader("🧠 Generated Prompt")
+st.subheader(f"🧠 Prompts for Paper {paper}")
+
+all_prompts = []
+
+for _, row in paper_df.iterrows():
+    prompt = build_prompt(row)
+    all_prompts.append(prompt)
+
+    with st.expander(
+        f"#{row['#']} — {row['SECTION']} | {row['SECTION PART']}",
+        expanded=True
+    ):
+        st.text_area(
+            label="Prompt",
+            value=prompt,
+            height=260,
+            key=f"prompt_{paper}_{row['#']}"
+        )
+
+# ============================================================
+# COMBINED COPY VIEW
+# ============================================================
+st.subheader("📋 All Prompts (Combined)")
 
 st.text_area(
-    "Copy-ready prompt",
-    value=prompt,
-    height=320
+    "Copy all prompts below",
+    value="\n\n" + ("\n\n" + "-" * 60 + "\n\n").join(all_prompts),
+    height=400
 )
 
 # ============================================================
-# DEBUG / TRANSPARENCY
+# DEBUG / TRACEABILITY
 # ============================================================
-with st.expander("📊 Source Row Metadata"):
-    st.dataframe(row.to_frame(name="Value"))
+with st.expander("📊 Paper Metadata Table"):
+    st.dataframe(paper_df.reset_index(drop=True))

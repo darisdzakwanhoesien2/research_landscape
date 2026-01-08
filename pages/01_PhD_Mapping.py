@@ -12,7 +12,7 @@ st.set_page_config(
 st.title("🔗 Research Mapping: Themes → Research Questions → Projects")
 st.caption(
     "Visualizing how high-level ESG research themes are operationalized "
-    "into research questions and instantiated as concrete research projects."
+    "into research questions and instantiated as concrete research projects"
 )
 
 st.divider()

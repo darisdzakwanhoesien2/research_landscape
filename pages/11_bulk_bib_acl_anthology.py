@@ -11,7 +11,7 @@ from datetime import datetime
 st.set_page_config(page_title="ACL BibTeX Bulk Downloader", layout="wide")
 st.title("⬇️ ACL BibTeX Downloader (Single + Bulk with Logs)")
 
-BASE_DIR = Path("data/acl_anthology")
+BASE_DIR = Path("data/acl_anthology_new")
 BASE_DIR.mkdir(parents=True, exist_ok=True)
 
 LOG_FILE = BASE_DIR / "download_log.csv"

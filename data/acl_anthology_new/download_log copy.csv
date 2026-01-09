@@ -1,0 +1,10 @@
+timestamp,filename,url,status,message
+2026-01-09T18:29:43,2023.ijcnlp-main.bib,https://aclanthology.org/volumes/2023.ijcnlp-main.bib,SUCCESS,
+2026-01-09T18:29:43,2023.ijcnlp-short.bib,https://aclanthology.org/volumes/2023.ijcnlp-short.bib,SUCCESS,
+2026-01-09T18:29:44,2023.ijcnlp-srw.bib,https://aclanthology.org/volumes/2023.ijcnlp-srw.bib,SUCCESS,
+2026-01-09T18:29:44,2023.ijcnlp-tutorials.bib,https://aclanthology.org/volumes/2023.ijcnlp-tutorials.bib,SUCCESS,
+2026-01-09T18:29:45,2022.aacl-main.bib,https://aclanthology.org/volumes/2022.aacl-main.bib,SUCCESS,
+2026-01-09T18:29:46,2022.aacl-short.bib,https://aclanthology.org/volumes/2022.aacl-short.bib,SUCCESS,
+2026-01-09T18:29:46,2022.aacl-srw.bib,https://aclanthology.org/volumes/2022.aacl-srw.bib,SUCCESS,
+2026-01-09T18:29:47,2022.aacl-demo.bib,https://aclanthology.org/volumes/2022.aacl-demo.bib,SUCCESS,
+2026-01-09T18:29:47,2022.aacl-tutorials.bib,https://aclanthology.org/volumes/2022.aacl-tutorials.bib,SUCCESS,

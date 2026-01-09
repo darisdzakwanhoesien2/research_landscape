@@ -1,0 +1,44 @@
+{
+  "title": "Linguistic Issues in Language Technology - ACL Anthology",
+  "text": "Linguistic Issues in Language Technology - ACL Anthology\nACL Anthology\nNews\n(current)\nFAQ\n(current)\nCorrections\n(current)\nSubmissions\n(current)\nGithub\nLinguistic Issues in Language Technology (LILT)\nAcronym:\nLILT\nVenue ID:\nlilt\n2019\nLinguistic Issues in Language Technology, Volume 17, 2019\n4 papers\nLinguistic Issues in Language Technology, Volume 18, 2019 - Exploiting Parsed Corpora: Applications in Research, Pedagogy, and Processing\n6 papers\n2018\nLinguistic Issues in Language Technology, Volume 16, 2018\n1 paper\n2017\nLinguistic Issues in Language Technology, Volume 15, 2017\n4 papers\n2016\nLinguistic Issues in Language Technology, Volume 13, 2016\n4 papers\nLinguistic Issues in Language Technology, Volume 14, 2016 - Modality: Logic, Semantics, Annotation, and Machine Learning\n7 papers\n2015\nLinguistic Issues in Language Technology, Volume 10, 2015\n2 papers\nLinguistic Issues in Language Technology, Volume 12, 2015 - Literature Lifts up Computational Linguistics\n6 papers\n2014\nLinguistic Issues in Language Technology, Volume 9, 2014 - Perspectives on Semantic Representations for Textual Inference\n11 papers\nLinguistic Issues in Language Technology, Volume 10, 2014\n2 papers\nLinguistic Issues in Language Technology, Volume 11, 2014 - Theoretical and Computational Morphology: New Trends and Synergies\n7 papers\nACL materials are Copyright © 1963–2026 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under the\nCreative Commons Attribution-NonCommercial-ShareAlike 3.0 International License\n. Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on a\nCreative Commons Attribution 4.0 International License\n.\nThe ACL Anthology is managed and built by the\nACL Anthology team\nof volunteers.\nSite last built on 07 January 2026 at 14:08 UTC with\ncommit efd9fde\n.",
+  "links": {
+    "ACL Anthology": "https://aclanthology.org/",
+    "News(current)": "/posts/",
+    "FAQ(current)": "/faq/",
+    "Corrections(current)": "/info/corrections/",
+    "Submissions(current)": "/info/contrib/",
+    "Github": "https://github.com/acl-org/acl-anthology/",
+    "2019": "/events/lilt-2019/",
+    "Linguistic Issues in Language Technology, Volume 17, 2019": "/volumes/2019.lilt-17/",
+    "Linguistic Issues in Language Technology, Volume 18, 2019 - Exploiting Parsed Corpora: Applications in Research, Pedagogy, and Processing": "/volumes/2019.lilt-18/",
+    "2018": "/events/lilt-2018/",
+    "Linguistic Issues in Language Technology, Volume 16, 2018": "/volumes/2018.lilt-16/",
+    "2017": "/events/lilt-2017/",
+    "Linguistic Issues in Language Technology, Volume 15, 2017": "/volumes/2017.lilt-15/",
+    "2016": "/events/lilt-2016/",
+    "Linguistic Issues in Language Technology, Volume 13, 2016": "/volumes/2016.lilt-13/",
+    "Linguistic Issues in Language Technology, Volume 14, 2016 - Modality: Logic, Semantics, Annotation, and Machine Learning": "/volumes/2016.lilt-14/",
+    "2015": "/events/lilt-2015/",
+    "Linguistic Issues in Language Technology, Volume 10, 2015": "/volumes/2015.lilt-10/",
+    "Linguistic Issues in Language Technology, Volume 12, 2015 - Literature Lifts up Computational Linguistics": "/volumes/2015.lilt-12/",
+    "2014": "/events/lilt-2014/",
+    "Linguistic Issues in Language Technology, Volume 9, 2014 - Perspectives on Semantic Representations for Textual Inference": "/volumes/2014.lilt-9/",
+    "Linguistic Issues in Language Technology, Volume 10, 2014": "/volumes/2014.lilt-10/",
+    "Linguistic Issues in Language Technology, Volume 11, 2014 - Theoretical and Computational Morphology: New Trends and Synergies": "/volumes/2014.lilt-11/",
+    "": "http://creativecommons.org/licenses/by/4.0/",
+    "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 International License": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "Creative Commons Attribution 4.0 International License": "https://creativecommons.org/licenses/by/4.0/",
+    "ACL Anthology team": "/info/credits/",
+    "commit efd9fde": "https://github.com/acl-org/acl-anthology/tree/efd9fde4dd69796c3043adab08e67bb462df049d"
+  },
+  "_meta": {
+    "source_url": "https://aclanthology.org/venues/lilt/",
+    "fetch_mode": "FAST",
+    "site": "generic",
+    "html_path": "data/html/aclanthology.org_venues_lilt/rendered.html",
+    "quality": {
+      "score": 3,
+      "status": "ok"
+    }
+  }
+}

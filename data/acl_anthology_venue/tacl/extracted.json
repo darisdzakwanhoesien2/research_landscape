@@ -1,0 +1,53 @@
+{
+  "title": "Transactions of the Association for Computational Linguistics - ACL Anthology",
+  "text": "Transactions of the Association for Computational Linguistics - ACL Anthology\nACL Anthology\nNews\n(current)\nFAQ\n(current)\nCorrections\n(current)\nSubmissions\n(current)\nGithub\nTransactions of the Association for Computational Linguistics (TACL)\nAcronym:\nTACL\nVenue ID:\ntacl\n2025\nTransactions of the Association for Computational Linguistics, Volume 13\n33 papers\n2024\nTransactions of the Association for Computational Linguistics, Volume 12\n95 papers\n2023\nTransactions of the Association for Computational Linguistics, Volume 11\n98 papers\n2022\nTransactions of the Association for Computational Linguistics, Volume 10\n84 papers\n2021\nTransactions of the Association for Computational Linguistics, Volume 9\n93 papers\n2020\nTransactions of the Association for Computational Linguistics, Volume 8\n55 papers\n2019\nTransactions of the Association for Computational Linguistics, Volume 7\n46 papers\n2018\nTransactions of the Association for Computational Linguistics, Volume 6\n49 papers\n2017\nTransactions of the Association for Computational Linguistics, Volume 5\n38 papers\n2016\nTransactions of the Association for Computational Linguistics, Volume 4\n40 papers\n2015\nTransactions of the Association for Computational Linguistics, Volume 3\n43 papers\n2014\nTransactions of the Association for Computational Linguistics, Volume 2\n44 papers\n2013\nTransactions of the Association for Computational Linguistics, Volume 1\n36 papers\nACL materials are Copyright © 1963–2026 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under the\nCreative Commons Attribution-NonCommercial-ShareAlike 3.0 International License\n. Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on a\nCreative Commons Attribution 4.0 International License\n.\nThe ACL Anthology is managed and built by the\nACL Anthology team\nof volunteers.\nSite last built on 07 January 2026 at 14:08 UTC with\ncommit efd9fde\n.",
+  "links": {
+    "ACL Anthology": "https://aclanthology.org/",
+    "News(current)": "/posts/",
+    "FAQ(current)": "/faq/",
+    "Corrections(current)": "/info/corrections/",
+    "Submissions(current)": "/info/contrib/",
+    "Github": "https://github.com/acl-org/acl-anthology/",
+    "2025": "/events/tacl-2025/",
+    "Transactions of the Association for Computational Linguistics, Volume 13": "/volumes/2025.tacl-1/",
+    "2024": "/events/tacl-2024/",
+    "Transactions of the Association for Computational Linguistics, Volume 12": "/volumes/2024.tacl-1/",
+    "2023": "/events/tacl-2023/",
+    "Transactions of the Association for Computational Linguistics, Volume 11": "/volumes/2023.tacl-1/",
+    "2022": "/events/tacl-2022/",
+    "Transactions of the Association for Computational Linguistics, Volume 10": "/volumes/2022.tacl-1/",
+    "2021": "/events/tacl-2021/",
+    "Transactions of the Association for Computational Linguistics, Volume 9": "/volumes/2021.tacl-1/",
+    "2020": "/events/tacl-2020/",
+    "Transactions of the Association for Computational Linguistics, Volume 8": "/volumes/2020.tacl-1/",
+    "2019": "/events/tacl-2019/",
+    "Transactions of the Association for Computational Linguistics, Volume 7": "/volumes/Q19-1/",
+    "2018": "/events/tacl-2018/",
+    "Transactions of the Association for Computational Linguistics, Volume 6": "/volumes/Q18-1/",
+    "2017": "/events/tacl-2017/",
+    "Transactions of the Association for Computational Linguistics, Volume 5": "/volumes/Q17-1/",
+    "2016": "/events/tacl-2016/",
+    "Transactions of the Association for Computational Linguistics, Volume 4": "/volumes/Q16-1/",
+    "2015": "/events/tacl-2015/",
+    "Transactions of the Association for Computational Linguistics, Volume 3": "/volumes/Q15-1/",
+    "2014": "/events/tacl-2014/",
+    "Transactions of the Association for Computational Linguistics, Volume 2": "/volumes/Q14-1/",
+    "2013": "/events/tacl-2013/",
+    "Transactions of the Association for Computational Linguistics, Volume 1": "/volumes/Q13-1/",
+    "": "http://creativecommons.org/licenses/by/4.0/",
+    "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 International License": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "Creative Commons Attribution 4.0 International License": "https://creativecommons.org/licenses/by/4.0/",
+    "ACL Anthology team": "/info/credits/",
+    "commit efd9fde": "https://github.com/acl-org/acl-anthology/tree/efd9fde4dd69796c3043adab08e67bb462df049d"
+  },
+  "_meta": {
+    "source_url": "https://aclanthology.org/venues/tacl/",
+    "fetch_mode": "FAST",
+    "site": "generic",
+    "html_path": "data/html/aclanthology.org_venues_tacl/rendered.html",
+    "quality": {
+      "score": 3,
+      "status": "ok"
+    }
+  }
+}

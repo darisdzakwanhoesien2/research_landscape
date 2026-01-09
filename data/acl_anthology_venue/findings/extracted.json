@@ -1,0 +1,51 @@
+{
+  "title": "Findings of the Association for Computational Linguistics - ACL Anthology",
+  "text": "Findings of the Association for Computational Linguistics - ACL Anthology\nACL Anthology\nNews\n(current)\nFAQ\n(current)\nCorrections\n(current)\nSubmissions\n(current)\nGithub\nFindings of the Association for Computational Linguistics (Findings)\nAcronym:\nFindings\nVenue ID:\nfindings\n2025\nFindings of the Association for Computational Linguistics: NAACL 2025\n475 papers\nFindings of the Association for Computational Linguistics: ACL 2025\n1388 papers\nFindings of the Association for Computational Linguistics: EMNLP 2025\n1406 papers\n2024\nFindings of the Association for Computational Linguistics: EACL 2024\n159 papers\nFindings of the Association for Computational Linguistics: NAACL 2024\n297 papers\nFindings of the Association for Computational Linguistics: ACL 2024\n976 papers\nFindings of the Association for Computational Linguistics: EMNLP 2024\n1004 papers\n2023\nFindings of the Association for Computational Linguistics: EACL 2023\n198 papers\nFindings of the Association for Computational Linguistics: ACL 2023\n902 papers\nFindings of the Association for Computational Linguistics: EMNLP 2023\n1060 papers\nFindings of the Association for Computational Linguistics: IJCNLP-AACL 2023 (Findings)\n38 papers\n2022\nFindings of the Association for Computational Linguistics: ACL 2022\n332 papers\nFindings of the Association for Computational Linguistics: NAACL 2022\n210 papers\nFindings of the Association for Computational Linguistics: AACL-IJCNLP 2022\n45 papers\nFindings of the Association for Computational Linguistics: EMNLP 2022\n549 papers\n2021\nFindings of the Association for Computational Linguistics: ACL-IJCNLP 2021\n458 papers\nFindings of the Association for Computational Linguistics: EMNLP 2021\n425 papers\n2020\nFindings of the Association for Computational Linguistics: EMNLP 2020\n448 papers\nACL materials are Copyright © 1963–2026 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under the\nCreative Commons Attribution-NonCommercial-ShareAlike 3.0 International License\n. Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on a\nCreative Commons Attribution 4.0 International License\n.\nThe ACL Anthology is managed and built by the\nACL Anthology team\nof volunteers.\nSite last built on 07 January 2026 at 14:08 UTC with\ncommit efd9fde\n.",
+  "links": {
+    "ACL Anthology": "https://aclanthology.org/",
+    "News(current)": "/posts/",
+    "FAQ(current)": "/faq/",
+    "Corrections(current)": "/info/corrections/",
+    "Submissions(current)": "/info/contrib/",
+    "Github": "https://github.com/acl-org/acl-anthology/",
+    "2025": "/events/findings-2025/",
+    "Findings of the Association for Computational Linguistics: NAACL 2025": "/volumes/2025.findings-naacl/",
+    "Findings of the Association for Computational Linguistics: ACL 2025": "/volumes/2025.findings-acl/",
+    "Findings of the Association for Computational Linguistics: EMNLP 2025": "/volumes/2025.findings-emnlp/",
+    "2024": "/events/findings-2024/",
+    "Findings of the Association for Computational Linguistics: EACL 2024": "/volumes/2024.findings-eacl/",
+    "Findings of the Association for Computational Linguistics: NAACL 2024": "/volumes/2024.findings-naacl/",
+    "Findings of the Association for Computational Linguistics: ACL 2024": "/volumes/2024.findings-acl/",
+    "Findings of the Association for Computational Linguistics: EMNLP 2024": "/volumes/2024.findings-emnlp/",
+    "2023": "/events/findings-2023/",
+    "Findings of the Association for Computational Linguistics: EACL 2023": "/volumes/2023.findings-eacl/",
+    "Findings of the Association for Computational Linguistics: ACL 2023": "/volumes/2023.findings-acl/",
+    "Findings of the Association for Computational Linguistics: EMNLP 2023": "/volumes/2023.findings-emnlp/",
+    "Findings of the Association for Computational Linguistics: IJCNLP-AACL 2023 (Findings)": "/volumes/2023.findings-ijcnlp/",
+    "2022": "/events/findings-2022/",
+    "Findings of the Association for Computational Linguistics: ACL 2022": "/volumes/2022.findings-acl/",
+    "Findings of the Association for Computational Linguistics: NAACL 2022": "/volumes/2022.findings-naacl/",
+    "Findings of the Association for Computational Linguistics: AACL-IJCNLP 2022": "/volumes/2022.findings-aacl/",
+    "Findings of the Association for Computational Linguistics: EMNLP 2022": "/volumes/2022.findings-emnlp/",
+    "2021": "/events/findings-2021/",
+    "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021": "/volumes/2021.findings-acl/",
+    "Findings of the Association for Computational Linguistics: EMNLP 2021": "/volumes/2021.findings-emnlp/",
+    "2020": "/events/findings-2020/",
+    "Findings of the Association for Computational Linguistics: EMNLP 2020": "/volumes/2020.findings-emnlp/",
+    "": "http://creativecommons.org/licenses/by/4.0/",
+    "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 International License": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "Creative Commons Attribution 4.0 International License": "https://creativecommons.org/licenses/by/4.0/",
+    "ACL Anthology team": "/info/credits/",
+    "commit efd9fde": "https://github.com/acl-org/acl-anthology/tree/efd9fde4dd69796c3043adab08e67bb462df049d"
+  },
+  "_meta": {
+    "source_url": "https://aclanthology.org/venues/findings/",
+    "fetch_mode": "FAST",
+    "site": "generic",
+    "html_path": "data/html/aclanthology.org_venues_findings/rendered.html",
+    "quality": {
+      "score": 3,
+      "status": "ok"
+    }
+  }
+}

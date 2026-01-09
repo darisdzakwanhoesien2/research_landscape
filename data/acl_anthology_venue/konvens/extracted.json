@@ -1,0 +1,39 @@
+{
+  "title": "Conference on Natural Language Processing - ACL Anthology",
+  "text": "Conference on Natural Language Processing - ACL Anthology\nACL Anthology\nNews\n(current)\nFAQ\n(current)\nCorrections\n(current)\nSubmissions\n(current)\nGithub\nConference on Natural Language Processing (KONVENS)\nAcronym:\nKONVENS\nVenue ID:\nkonvens\nURL:\nhttps://konvens.org/site/\n2025\nProceedings of the 21st Conference on Natural Language Processing (KONVENS 2025): Long and Short Papers\n32 papers\nProceedings of the 21st Conference on Natural Language Processing (KONVENS 2025): Workshops\n46 papers\n2024\nProceedings of the 20th Conference on Natural Language Processing (KONVENS 2024)\n38 papers\n2023\nProceedings of the 19th Conference on Natural Language Processing (KONVENS 2023)\n24 papers\n2022\nProceedings of the 18th Conference on Natural Language Processing (KONVENS 2022)\n22 papers\n2021\nProceedings of the 17th Conference on Natural Language Processing (KONVENS 2021)\n28 papers\nACL materials are Copyright © 1963–2026 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under the\nCreative Commons Attribution-NonCommercial-ShareAlike 3.0 International License\n. Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on a\nCreative Commons Attribution 4.0 International License\n.\nThe ACL Anthology is managed and built by the\nACL Anthology team\nof volunteers.\nSite last built on 07 January 2026 at 14:08 UTC with\ncommit efd9fde\n.",
+  "links": {
+    "ACL Anthology": "https://aclanthology.org/",
+    "News(current)": "/posts/",
+    "FAQ(current)": "/faq/",
+    "Corrections(current)": "/info/corrections/",
+    "Submissions(current)": "/info/contrib/",
+    "Github": "https://github.com/acl-org/acl-anthology/",
+    "https://konvens.org/site/": "https://konvens.org/site/",
+    "2025": "/events/konvens-2025/",
+    "Proceedings of the 21st Conference on Natural Language Processing (KONVENS 2025): Long and Short Papers": "/volumes/2025.konvens-1/",
+    "Proceedings of the 21st Conference on Natural Language Processing (KONVENS 2025): Workshops": "/volumes/2025.konvens-2/",
+    "2024": "/events/konvens-2024/",
+    "Proceedings of the 20th Conference on Natural Language Processing (KONVENS 2024)": "/volumes/2024.konvens-main/",
+    "2023": "/events/konvens-2023/",
+    "Proceedings of the 19th Conference on Natural Language Processing (KONVENS 2023)": "/volumes/2023.konvens-main/",
+    "2022": "/events/konvens-2022/",
+    "Proceedings of the 18th Conference on Natural Language Processing (KONVENS 2022)": "/volumes/2022.konvens-1/",
+    "2021": "/events/konvens-2021/",
+    "Proceedings of the 17th Conference on Natural Language Processing (KONVENS 2021)": "/volumes/2021.konvens-1/",
+    "": "http://creativecommons.org/licenses/by/4.0/",
+    "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 International License": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "Creative Commons Attribution 4.0 International License": "https://creativecommons.org/licenses/by/4.0/",
+    "ACL Anthology team": "/info/credits/",
+    "commit efd9fde": "https://github.com/acl-org/acl-anthology/tree/efd9fde4dd69796c3043adab08e67bb462df049d"
+  },
+  "_meta": {
+    "source_url": "https://aclanthology.org/venues/konvens/",
+    "fetch_mode": "FAST",
+    "site": "generic",
+    "html_path": "data/html/aclanthology.org_venues_konvens/rendered.html",
+    "quality": {
+      "score": 3,
+      "status": "ok"
+    }
+  }
+}

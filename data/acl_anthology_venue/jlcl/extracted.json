@@ -1,0 +1,35 @@
+{
+  "title": "Journal for Language Technology and Computational Linguistics - ACL Anthology",
+  "text": "Journal for Language Technology and Computational Linguistics - ACL Anthology\nACL Anthology\nNews\n(current)\nFAQ\n(current)\nCorrections\n(current)\nSubmissions\n(current)\nGithub\nJournal for Language Technology and Computational Linguistics (JLCL)\nAcronym:\nJLCL\nVenue ID:\njlcl\n2024\nJournal for Language Technology and Computational Linguistics, Vol. 37 No. 1\n3 papers\n2023\nJournal for Language Technology and Computational Linguistics, Vol. 36 No. 1\n10 papers\nJournal for Language Technology and Computational Linguistics, Vol. 36 No. 2\n3 papers\n2022\nJournal for Language Technology and Computational Linguistics, Vol. 35 No. 1\n2 papers\nJournal for Language Technology and Computational Linguistics, Vol. 35 No. 2\n5 papers\nACL materials are Copyright © 1963–2026 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under the\nCreative Commons Attribution-NonCommercial-ShareAlike 3.0 International License\n. Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on a\nCreative Commons Attribution 4.0 International License\n.\nThe ACL Anthology is managed and built by the\nACL Anthology team\nof volunteers.\nSite last built on 07 January 2026 at 14:08 UTC with\ncommit efd9fde\n.",
+  "links": {
+    "ACL Anthology": "https://aclanthology.org/",
+    "News(current)": "/posts/",
+    "FAQ(current)": "/faq/",
+    "Corrections(current)": "/info/corrections/",
+    "Submissions(current)": "/info/contrib/",
+    "Github": "https://github.com/acl-org/acl-anthology/",
+    "2024": "/events/jlcl-2024/",
+    "Journal for Language Technology and Computational Linguistics, Vol. 37 No. 1": "/volumes/2024.jlcl-1/",
+    "2023": "/events/jlcl-2023/",
+    "Journal for Language Technology and Computational Linguistics, Vol. 36 No. 1": "/volumes/2023.jlcl-1/",
+    "Journal for Language Technology and Computational Linguistics, Vol. 36 No. 2": "/volumes/2023.jlcl-2/",
+    "2022": "/events/jlcl-2022/",
+    "Journal for Language Technology and Computational Linguistics, Vol. 35 No. 1": "/volumes/2022.jlcl-1/",
+    "Journal for Language Technology and Computational Linguistics, Vol. 35 No. 2": "/volumes/2022.jlcl-2/",
+    "": "http://creativecommons.org/licenses/by/4.0/",
+    "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 International License": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "Creative Commons Attribution 4.0 International License": "https://creativecommons.org/licenses/by/4.0/",
+    "ACL Anthology team": "/info/credits/",
+    "commit efd9fde": "https://github.com/acl-org/acl-anthology/tree/efd9fde4dd69796c3043adab08e67bb462df049d"
+  },
+  "_meta": {
+    "source_url": "https://aclanthology.org/venues/jlcl/",
+    "fetch_mode": "FAST",
+    "site": "generic",
+    "html_path": "data/html/aclanthology.org_venues_jlcl/rendered.html",
+    "quality": {
+      "score": 3,
+      "status": "ok"
+    }
+  }
+}

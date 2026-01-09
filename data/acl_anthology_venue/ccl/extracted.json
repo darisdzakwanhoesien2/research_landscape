@@ -1,0 +1,43 @@
+{
+  "title": "Chinese National Conference on Computational Linguistics - ACL Anthology",
+  "text": "Chinese National Conference on Computational Linguistics - ACL Anthology\nACL Anthology\nNews\n(current)\nFAQ\n(current)\nCorrections\n(current)\nSubmissions\n(current)\nGithub\nChinese National Conference on Computational Linguistics (CCL)\nAcronym:\nCCL\nVenue ID:\nccl\nURL:\nhttp://cips-cl.org\n2024\nProceedings of the 23rd Chinese National Conference on Computational Linguistics (Volume 1: Main Conference)\n108 papers\nProceedings of the 23rd Chinese National Conference on Computational Linguistics (Volume 2: Frontier Forum)\n10 papers\nProceedings of the 23rd Chinese National Conference on Computational Linguistics (Volume 3: Evaluations)\n45 papers\n2023\nProceedings of the 22nd Chinese National Conference on Computational Linguistics\n78 papers\nProceedings of the 22nd Chinese National Conference on Computational Linguistics (Volume 2: Frontier Forum)\n9 papers\nProceedings of the 22nd Chinese National Conference on Computational Linguistics (Volume 3: Evaluations)\n34 papers\nProceedings of the 22nd Chinese National Conference on Computational Linguistics (Volume 4: Tutorial Abstracts)\n4 papers\n2022\nProceedings of the 21st Chinese National Conference on Computational Linguistics\n87 papers\n2021\nProceedings of the 20th Chinese National Conference on Computational Linguistics\n109 papers\n2020\nProceedings of the 19th Chinese National Conference on Computational Linguistics\n110 papers\nACL materials are Copyright © 1963–2026 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under the\nCreative Commons Attribution-NonCommercial-ShareAlike 3.0 International License\n. Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on a\nCreative Commons Attribution 4.0 International License\n.\nThe ACL Anthology is managed and built by the\nACL Anthology team\nof volunteers.\nSite last built on 07 January 2026 at 14:08 UTC with\ncommit efd9fde\n.",
+  "links": {
+    "ACL Anthology": "https://aclanthology.org/",
+    "News(current)": "/posts/",
+    "FAQ(current)": "/faq/",
+    "Corrections(current)": "/info/corrections/",
+    "Submissions(current)": "/info/contrib/",
+    "Github": "https://github.com/acl-org/acl-anthology/",
+    "http://cips-cl.org": "http://cips-cl.org",
+    "2024": "/events/ccl-2024/",
+    "Proceedings of the 23rd Chinese National Conference on Computational Linguistics (Volume 1: Main Conference)": "/volumes/2024.ccl-1/",
+    "Proceedings of the 23rd Chinese National Conference on Computational Linguistics (Volume 2: Frontier Forum)": "/volumes/2024.ccl-2/",
+    "Proceedings of the 23rd Chinese National Conference on Computational Linguistics (Volume 3: Evaluations)": "/volumes/2024.ccl-3/",
+    "2023": "/events/ccl-2023/",
+    "Proceedings of the 22nd Chinese National Conference on Computational Linguistics": "/volumes/2023.ccl-1/",
+    "Proceedings of the 22nd Chinese National Conference on Computational Linguistics (Volume 2: Frontier Forum)": "/volumes/2023.ccl-2/",
+    "Proceedings of the 22nd Chinese National Conference on Computational Linguistics (Volume 3: Evaluations)": "/volumes/2023.ccl-3/",
+    "Proceedings of the 22nd Chinese National Conference on Computational Linguistics (Volume 4: Tutorial Abstracts)": "/volumes/2023.ccl-4/",
+    "2022": "/events/ccl-2022/",
+    "Proceedings of the 21st Chinese National Conference on Computational Linguistics": "/volumes/2022.ccl-1/",
+    "2021": "/events/ccl-2021/",
+    "Proceedings of the 20th Chinese National Conference on Computational Linguistics": "/volumes/2021.ccl-1/",
+    "2020": "/events/ccl-2020/",
+    "Proceedings of the 19th Chinese National Conference on Computational Linguistics": "/volumes/2020.ccl-1/",
+    "": "http://creativecommons.org/licenses/by/4.0/",
+    "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 International License": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "Creative Commons Attribution 4.0 International License": "https://creativecommons.org/licenses/by/4.0/",
+    "ACL Anthology team": "/info/credits/",
+    "commit efd9fde": "https://github.com/acl-org/acl-anthology/tree/efd9fde4dd69796c3043adab08e67bb462df049d"
+  },
+  "_meta": {
+    "source_url": "https://aclanthology.org/venues/ccl/",
+    "fetch_mode": "FAST",
+    "site": "generic",
+    "html_path": "data/html/aclanthology.org_venues_ccl/rendered.html",
+    "quality": {
+      "score": 3,
+      "status": "ok"
+    }
+  }
+}

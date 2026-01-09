@@ -1,0 +1,36 @@
+{
+  "title": "Northern European Journal of Language Technology - ACL Anthology",
+  "text": "Northern European Journal of Language Technology - ACL Anthology\nACL Anthology\nNews\n(current)\nFAQ\n(current)\nCorrections\n(current)\nSubmissions\n(current)\nGithub\nNorthern European Journal of Language Technology (NEJLT)\nAcronym:\nNEJLT\nVenue ID:\nnejlt\nURL:\nhttps://nejlt.org\n2024\nNorthern European Journal of Language Technology, Volume 10\n7 papers\n2023\nNorthern European Journal of Language Technology, Volume 9\n10 papers\n2022\nNorthern European Journal of Language Technology, Volume 8\n9 papers\n2021\nNorthern European Journal of Language Technology, Volume 7\n3 papers\nACL materials are Copyright © 1963–2026 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under the\nCreative Commons Attribution-NonCommercial-ShareAlike 3.0 International License\n. Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on a\nCreative Commons Attribution 4.0 International License\n.\nThe ACL Anthology is managed and built by the\nACL Anthology team\nof volunteers.\nSite last built on 07 January 2026 at 14:08 UTC with\ncommit efd9fde\n.",
+  "links": {
+    "ACL Anthology": "https://aclanthology.org/",
+    "News(current)": "/posts/",
+    "FAQ(current)": "/faq/",
+    "Corrections(current)": "/info/corrections/",
+    "Submissions(current)": "/info/contrib/",
+    "Github": "https://github.com/acl-org/acl-anthology/",
+    "https://nejlt.org": "https://nejlt.org",
+    "2024": "/events/nejlt-2024/",
+    "Northern European Journal of Language Technology, Volume 10": "/volumes/2024.nejlt-1/",
+    "2023": "/events/nejlt-2023/",
+    "Northern European Journal of Language Technology, Volume 9": "/volumes/2023.nejlt-1/",
+    "2022": "/events/nejlt-2022/",
+    "Northern European Journal of Language Technology, Volume 8": "/volumes/2022.nejlt-1/",
+    "2021": "/events/nejlt-2021/",
+    "Northern European Journal of Language Technology, Volume 7": "/volumes/2021.nejlt-1/",
+    "": "http://creativecommons.org/licenses/by/4.0/",
+    "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 International License": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "Creative Commons Attribution 4.0 International License": "https://creativecommons.org/licenses/by/4.0/",
+    "ACL Anthology team": "/info/credits/",
+    "commit efd9fde": "https://github.com/acl-org/acl-anthology/tree/efd9fde4dd69796c3043adab08e67bb462df049d"
+  },
+  "_meta": {
+    "source_url": "https://aclanthology.org/venues/nejlt/",
+    "fetch_mode": "FAST",
+    "site": "generic",
+    "html_path": "data/html/aclanthology.org_venues_nejlt/rendered.html",
+    "quality": {
+      "score": 3,
+      "status": "ok"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Human Language Technology Conference - ACL Anthology",
+  "text": "Human Language Technology Conference - ACL Anthology\nACL Anthology\nNews\n(current)\nFAQ\n(current)\nCorrections\n(current)\nSubmissions\n(current)\nGithub\nHuman Language Technology Conference (HLT)\nAcronym:\nHLT\nVenue ID:\nhlt\n2005\nProceedings of Human Language Technology Conference and Conference on Empirical Methods in Natural Language Processing\n128 papers\nProceedings of HLT/EMNLP 2005 Interactive Demonstrations\n20 papers\n2001\nProceedings of the First International Conference on Human Language Technology Research\n76 papers\n1994\nHuman Language Technology: Proceedings of a Workshop held at Plainsboro, New Jersey, March 8-11, 1994\n122 papers\n1993\nHuman Language Technology: Proceedings of a Workshop Held at Plainsboro, New Jersey, March 21-24, 1993\n116 papers\n1992\nSpeech and Natural Language: Proceedings of a Workshop Held at Harriman, New York, February 23-26, 1992\n125 papers\n1991\nSpeech and Natural Language: Proceedings of a Workshop Held at Pacific Grove, California, February 19-22, 1991\n107 papers\n1990\nSpeech and Natural Language: Proceedings of a Workshop Held at Hidden Valley, Pennsylvania, June 24-27,1990\n104 papers\n1989\nSpeech and Natural Language: Proceedings of a Workshop Held at Philadelphia, Pennsylvania, February 21-23, 1989\n55 papers\nSpeech and Natural Language: Proceedings of a Workshop Held at Cape Cod, Massachusetts, October 15-18, 1989\n80 papers\n1986\nStrategic Computing - Natural Language Workshop: Proceedings of a Workshop Held at Marina del Rey, California, May 1-2, 1986\n25 papers\nACL materials are Copyright © 1963–2026 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under the\nCreative Commons Attribution-NonCommercial-ShareAlike 3.0 International License\n. Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on a\nCreative Commons Attribution 4.0 International License\n.\nThe ACL Anthology is managed and built by the\nACL Anthology team\nof volunteers.\nSite last built on 07 January 2026 at 14:08 UTC with\ncommit efd9fde\n.",
+  "links": {
+    "ACL Anthology": "https://aclanthology.org/",
+    "News(current)": "/posts/",
+    "FAQ(current)": "/faq/",
+    "Corrections(current)": "/info/corrections/",
+    "Submissions(current)": "/info/contrib/",
+    "Github": "https://github.com/acl-org/acl-anthology/",
+    "2005": "/events/hlt-2005/",
+    "Proceedings of Human Language Technology Conference and Conference on Empirical Methods in Natural Language Processing": "/volumes/H05-1/",
+    "Proceedings of HLT/EMNLP 2005 Interactive Demonstrations": "/volumes/H05-2/",
+    "2001": "/events/hlt-2001/",
+    "Proceedings of the First International Conference on Human Language Technology Research": "/volumes/H01-1/",
+    "1994": "/events/hlt-1994/",
+    "Human Language Technology: Proceedings of a Workshop held at Plainsboro, New Jersey, March 8-11, 1994": "/volumes/H94-1/",
+    "1993": "/events/hlt-1993/",
+    "Human Language Technology: Proceedings of a Workshop Held at Plainsboro, New Jersey, March 21-24, 1993": "/volumes/H93-1/",
+    "1992": "/events/hlt-1992/",
+    "Speech and Natural Language: Proceedings of a Workshop Held at Harriman, New York, February 23-26, 1992": "/volumes/H92-1/",
+    "1991": "/events/hlt-1991/",
+    "Speech and Natural Language: Proceedings of a Workshop Held at Pacific Grove, California, February 19-22, 1991": "/volumes/H91-1/",
+    "1990": "/events/hlt-1990/",
+    "Speech and Natural Language: Proceedings of a Workshop Held at Hidden Valley, Pennsylvania, June 24-27,1990": "/volumes/H90-1/",
+    "1989": "/events/hlt-1989/",
+    "Speech and Natural Language: Proceedings of a Workshop Held at Philadelphia, Pennsylvania, February 21-23, 1989": "/volumes/H89-1/",
+    "Speech and Natural Language: Proceedings of a Workshop Held at Cape Cod, Massachusetts, October 15-18, 1989": "/volumes/H89-2/",
+    "1986": "/events/hlt-1986/",
+    "Strategic Computing - Natural Language Workshop: Proceedings of a Workshop Held at Marina del Rey, California, May 1-2, 1986": "/volumes/H86-1/",
+    "": "http://creativecommons.org/licenses/by/4.0/",
+    "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 International License": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "Creative Commons Attribution 4.0 International License": "https://creativecommons.org/licenses/by/4.0/",
+    "ACL Anthology team": "/info/credits/",
+    "commit efd9fde": "https://github.com/acl-org/acl-anthology/tree/efd9fde4dd69796c3043adab08e67bb462df049d"
+  },
+  "_meta": {
+    "source_url": "https://aclanthology.org/venues/hlt/",
+    "fetch_mode": "FAST",
+    "site": "generic",
+    "html_path": "data/html/aclanthology.org_venues_hlt/rendered.html",
+    "quality": {
+      "score": 3,
+      "status": "ok"
+    }
+  }
+}

@@ -684,3 +684,100 @@ If you want, next I can give you:
 * ✅ Version integrated with your **research paper prompt + LaTeX pipeline**
 
 Just tell me which direction you want to go.
+
+https://chatgpt.com/c/6960f160-3bac-832e-bb35-2b40d8c359b5
+
+Great idea — this fits perfectly with your ACL pipeline 👍
+Here’s a **complete Streamlit page** that:
+
+### ✅ What this page does
+
+* Loads JSON from:
+  `data/acl_anthology_venue/acl/extracted.json`
+* Parses `"links"` field
+* Filters only **volume links** like:
+  `/volumes/2025.acl-tutorials/`
+* Converts them into **BibTeX download URLs** like:
+  👉 `https://aclanthology.org/volumes/2025.acl-tutorials.bib`
+* Displays:
+
+  * Title
+  * Original volume path
+  * Final BibTeX URL
+* Allows:
+
+  * Copy
+  * CSV export
+  * Bulk download list generation
+
+---
+
+# ✅ Page File
+
+Create this as:
+
+```
+pages/02_ACL_Volume_Bib_Downloader.py
+```
+
+---
+
+# ✅ Full Streamlit Page Code
+
+```python
+
+```
+
+---
+
+# ✅ Example Output
+
+From:
+
+```
+"/volumes/2025.acl-tutorials/"
+```
+
+You get:
+
+```
+https://aclanthology.org/volumes/2025.acl-tutorials.bib
+```
+
+Ready for:
+
+```bash
+wget https://aclanthology.org/volumes/2025.acl-tutorials.bib
+```
+
+or batch processing into your BibTeX search dashboard.
+
+---
+
+# 🔥 Next-Level Upgrade (very useful for you)
+
+If you want, next I can add:
+
+### ✅ Bulk Downloader Page
+
+* fetch all BibTeX files
+* save to `data/acl_anthology/`
+* logging (success / failed)
+
+### ✅ Auto-pipeline
+
+Venue JSON → volume bib → batch parse → topic clustering
+
+Which matches perfectly with your:
+
+* research mapping
+* KG-RAG ESG project
+* PhD literature pipelines
+
+---
+
+If you want next page, say:
+
+👉 **“Add bulk downloader page”**
+or
+👉 **“Connect this to batch abstract search automatically”**

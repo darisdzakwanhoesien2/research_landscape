@@ -69,6 +69,14 @@ markdown_text = "\n\n".join(md_blocks) + "\n"
 
 st.subheader("📝 Markdown Output")
 
+st.download_button(
+    "⬇️ Download Markdown File",
+    data=markdown_text.encode("utf-8"),
+    file_name="papers_blocks.md",
+    mime="text/markdown"
+)
+
+
 st.code(markdown_text, language="markdown")
 
 # =====================================================
@@ -84,9 +92,3 @@ col3.metric("With Abstract", df["abstract"].astype(str).str.len().gt(30).sum())
 # DOWNLOAD
 # =====================================================
 
-st.download_button(
-    "⬇️ Download Markdown File",
-    data=markdown_text.encode("utf-8"),
-    file_name="papers_blocks.md",
-    mime="text/markdown"
-)

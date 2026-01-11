@@ -1,0 +1,328 @@
+[
+  {
+    "meta": {
+      "research_question": "PRQ1 - How can Aspect-Based Sentiment Analysis (ABSA), when integrated with XAI tools like SHAP or LIME, enable investors to identify impression management by visualizing the specific linguistic features that trigger labels of carbonwashing or strategic fluffing in sustainability reports?",
+      "generated_at": "2026-01-11T00:45:00Z",
+      "notes": "Focus on ABSA + XAI for detecting impression management in sustainability disclosures. Use DOI/title matching only. Prefer stable links."
+    },
+    "papers": [
+      {
+        "id": "paper_001",
+        "input": { "title": "", "doi": "", "abstract": "" },
+        "relevance_score": 0.0,
+        "method_category": "Neural | Hybrid",
+        "interpretability_mechanisms": ["SHAP", "LIME", "token attribution", "attention visualization", "feature importance"],
+        "regulatory_relevance": ["ESG", "sustainability reporting", "finance regulation", "auditability", "governance"],
+        "external_links": [
+          { "type": "doi|publisher|semantic_scholar|pdf|arxiv|other", "url": "", "source": "" }
+        ],
+        "key_contributions": [],
+        "decision_trace_support": "none | partial | strong",
+        "suggested_citations": [
+          { "title": "", "reason": "", "link": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "research_question": "PRQ3 - To what extent can neurosymbolic AI resolve the trade-off between predictive accuracy and interpretability in ESG risk models by embedding symbolic logic (e.g., EU Taxonomy rules) into neural learning to provide transparent decision traces for regulatory compliance?",
+      "generated_at": "2026-01-11T00:45:00Z",
+      "notes": "Focus on neural–symbolic integration, rule constraints, and regulatory traceability in ESG models."
+    },
+    "papers": [
+      {
+        "id": "paper_001",
+        "input": { "title": "", "doi": "", "abstract": "" },
+        "relevance_score": 0.0,
+        "method_category": "Neuro-symbolic | Hybrid",
+        "interpretability_mechanisms": ["symbolic rules", "constraints", "logic programs", "neural-symbolic traces", "post-hoc XAI"],
+        "regulatory_relevance": ["EU Taxonomy", "ESG", "finance regulation", "auditability", "governance"],
+        "external_links": [
+          { "type": "doi|publisher|semantic_scholar|pdf|arxiv|other", "url": "", "source": "" }
+        ],
+        "key_contributions": [],
+        "decision_trace_support": "none | partial | strong",
+        "suggested_citations": [
+          { "title": "", "reason": "", "link": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "research_question": "PRQ3 - How can Knowledge Graph–extended Retrieval-Augmented Generation (KG-RAG) utilize multimodal data (text, tables, images) to support holistic real-time intelligence and fact-checking, providing justification-centric verdicts scalable to both MNCs and resource-constrained SMEs?",
+      "generated_at": "2026-01-11T00:45:00Z",
+      "notes": "Focus on KG grounding, multimodal evidence retrieval, and justification-centric RAG for ESG intelligence."
+    },
+    "papers": [
+      {
+        "id": "paper_001",
+        "input": { "title": "", "doi": "", "abstract": "" },
+        "relevance_score": 0.0,
+        "method_category": "Hybrid | Neuro-symbolic",
+        "interpretability_mechanisms": ["KG path tracing", "evidence grounding", "citation graphs", "multimodal alignment traces"],
+        "regulatory_relevance": ["ESG", "fact-checking", "governance", "compliance", "auditability"],
+        "external_links": [
+          { "type": "doi|publisher|semantic_scholar|pdf|arxiv|other", "url": "", "source": "" }
+        ],
+        "key_contributions": [],
+        "decision_trace_support": "none | partial | strong",
+        "suggested_citations": [
+          { "title": "", "reason": "", "link": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "research_question": "PRQ4 - How can Generative AI reporting systems integrate self-correction mechanisms such as Chain-of-Verification (CoVe) with XAI-enabled compliance engines to ensure sustainability disclosures are robust against factual hallucinations and automated greenwashing?",
+      "generated_at": "2026-01-11T00:45:00Z",
+      "notes": "Focus on self-verification, compliance checking, and hallucination mitigation in sustainability reporting."
+    },
+    "papers": [
+      {
+        "id": "paper_001",
+        "input": { "title": "", "doi": "", "abstract": "" },
+        "relevance_score": 0.0,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": ["Chain-of-Verification", "rule-based validators", "consistency checks", "SHAP/LIME for compliance"],
+        "regulatory_relevance": ["sustainability reporting", "ESG", "auditability", "governance", "finance regulation"],
+        "external_links": [
+          { "type": "doi|publisher|semantic_scholar|pdf|arxiv|other", "url": "", "source": "" }
+        ],
+        "key_contributions": [],
+        "decision_trace_support": "none | partial | strong",
+        "suggested_citations": [
+          { "title": "", "reason": "", "link": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "research_question": "MRQ1 - How does FinBERT-based tone analysis improve detection of potential greenwashing in SME self-assessments compared to standard sentiment analysis, and to what extent can tone distribution analysis flag inconsistencies between internal reports and external media sentiment?",
+      "generated_at": "2026-01-11T00:45:00Z",
+      "notes": "Focus on financial NLP tone modeling, cross-source sentiment alignment, and greenwashing detection."
+    },
+    "papers": [
+      {
+        "id": "paper_001",
+        "input": { "title": "", "doi": "", "abstract": "" },
+        "relevance_score": 0.0,
+        "method_category": "Neural | Hybrid",
+        "interpretability_mechanisms": ["token attribution", "SHAP", "attention weights", "distributional sentiment plots"],
+        "regulatory_relevance": ["ESG", "sustainability reporting", "finance regulation", "auditability"],
+        "external_links": [
+          { "type": "doi|publisher|semantic_scholar|pdf|arxiv|other", "url": "", "source": "" }
+        ],
+        "key_contributions": [],
+        "decision_trace_support": "none | partial | strong",
+        "suggested_citations": [
+          { "title": "", "reason": "", "link": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "research_question": "MRQ3 - How does clustering raw aspects into high-level ESG themes facilitate transparent and auditable Level-2 certification, and how do Sankey-style visualizations reduce cognitive load when tracing lineage from raw data to final ESG metrics?",
+      "generated_at": "2026-01-11T00:45:00Z",
+      "notes": "Focus on aspect clustering, hierarchical aggregation, and explainable visualization for audit trails."
+    },
+    "papers": [
+      {
+        "id": "paper_001",
+        "input": { "title": "", "doi": "", "abstract": "" },
+        "relevance_score": 0.0,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": ["aspect clustering", "topic-to-theme mapping", "visual traceability", "hierarchical aggregation"],
+        "regulatory_relevance": ["ESG", "auditability", "governance", "certification processes"],
+        "external_links": [
+          { "type": "doi|publisher|semantic_scholar|pdf|arxiv|other", "url": "", "source": "" }
+        ],
+        "key_contributions": [],
+        "decision_trace_support": "none | partial | strong",
+        "suggested_citations": [
+          { "title": "", "reason": "", "link": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "research_question": "MRQ5 - What is the quantitative relationship between aspect comparison results and SME ESG score reliability, and how effectively do validation modules ensure AI-generated narratives align with metrics extracted by metric analysis components?",
+      "generated_at": "2026-01-11T00:45:00Z",
+      "notes": "Focus on validation, metric–text alignment, and consistency verification in ESG pipelines."
+    },
+    "papers": [
+      {
+        "id": "paper_001",
+        "input": { "title": "", "doi": "", "abstract": "" },
+        "relevance_score": 0.0,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": ["metric-text alignment", "consistency constraints", "post-hoc verification", "rule-based validators"],
+        "regulatory_relevance": ["ESG", "auditability", "governance", "compliance"],
+        "external_links": [
+          { "type": "doi|publisher|semantic_scholar|pdf|arxiv|other", "url": "", "source": "" }
+        ],
+        "key_contributions": [],
+        "decision_trace_support": "none | partial | strong",
+        "suggested_citations": [
+          { "title": "", "reason": "", "link": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "research_question": "MRQ7 - How can data distribution and benchmarking models provide industry-specific ESG context beyond self-assessment, and what role do alignment utilities play in normalizing heterogeneous sources into cohesive SME risk profiles?",
+      "generated_at": "2026-01-11T00:45:00Z",
+      "notes": "Focus on benchmarking, distribution-aware modeling, and cross-source normalization."
+    },
+    "papers": [
+      {
+        "id": "paper_001",
+        "input": { "title": "", "doi": "", "abstract": "" },
+        "relevance_score": 0.0,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": ["distributional comparison", "reference class benchmarking", "data alignment traces"],
+        "regulatory_relevance": ["ESG", "risk management", "governance", "auditability"],
+        "external_links": [
+          { "type": "doi|publisher|semantic_scholar|pdf|arxiv|other", "url": "", "source": "" }
+        ],
+        "key_contributions": [],
+        "decision_trace_support": "none | partial | strong",
+        "suggested_citations": [
+          { "title": "", "reason": "", "link": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rq9",
+    "meta": {
+      "research_question": "PRQ1 - How can Aspect-Based Sentiment Analysis (ABSA), when integrated with XAI tools like SHAP or LIME, enable investors to identify impression management by visualizing the specific linguistic features that trigger labels of carbonwashing or strategic fluffing in sustainability reports?",
+      "generated_at": "2026-01-11T00:45:00Z",
+      "notes": "Focus on ABSA + XAI for detecting impression management in sustainability disclosures. Use DOI/title matching only. Prefer stable links."
+    },
+    "papers": [
+      {
+        "id": "paper_001",
+        "input": { "title": "", "doi": "", "abstract": "" },
+        "relevance_score": 0.0,
+        "method_category": "Neural | Hybrid",
+        "interpretability_mechanisms": ["SHAP", "LIME", "token attribution", "attention visualization", "feature importance"],
+        "regulatory_relevance": ["ESG", "sustainability reporting", "finance regulation", "auditability", "governance"],
+        "external_links": [
+          { "type": "doi|publisher|semantic_scholar|pdf|arxiv|other", "url": "", "source": "" }
+        ],
+        "key_contributions": [],
+        "decision_trace_support": "none | partial | strong",
+        "suggested_citations": [
+          { "title": "", "reason": "", "link": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "research_question": "MRQ2 - To what extent can Tone Distribution analysis accurately flag inconsistencies between a company's internal sustainability reports and external media sentiment?",
+      "generated_at": "2026-01-11T01:05:00Z",
+      "notes": "Focus on cross-source sentiment comparison, distributional divergence, and greenwashing or impression-management detection."
+    },
+    "papers": [
+      {
+        "id": "paper_001",
+        "input": { "title": "", "doi": "", "abstract": "" },
+        "relevance_score": 0.0,
+        "method_category": "Neural | Hybrid",
+        "interpretability_mechanisms": ["sentiment distribution plots", "token attribution", "SHAP", "source-wise comparison metrics"],
+        "regulatory_relevance": ["ESG", "sustainability reporting", "auditability", "finance regulation"],
+        "external_links": [
+          { "type": "doi|publisher|semantic_scholar|pdf|arxiv|other", "url": "", "source": "" }
+        ],
+        "key_contributions": [],
+        "decision_trace_support": "partial",
+        "suggested_citations": [
+          { "title": "", "reason": "Cross-document sentiment inconsistency detection", "link": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "research_question": "MRQ4 - In what ways do complex visualizations, such as Sankey diagrams, reduce the cognitive load for auditors when tracing the lineage from raw data to final ESG metrics?",
+      "generated_at": "2026-01-11T01:05:00Z",
+      "notes": "Focus on explainable visualization, traceability, and human-centered audit support."
+    },
+    "papers": [
+      {
+        "id": "paper_001",
+        "input": { "title": "", "doi": "", "abstract": "" },
+        "relevance_score": 0.0,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": ["flow-based visualization", "hierarchical aggregation paths", "interactive drill-down", "visual provenance"],
+        "regulatory_relevance": ["ESG", "auditability", "governance", "certification processes"],
+        "external_links": [
+          { "type": "doi|publisher|semantic_scholar|pdf|arxiv|other", "url": "", "source": "" }
+        ],
+        "key_contributions": [],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+          { "title": "", "reason": "Visualization for explainable analytics and audit trails", "link": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "research_question": "MRQ6 - How effectively does the validation module ensure that AI-generated sustainability narratives align with the underlying quantitative metrics extracted by metric analysis components?",
+      "generated_at": "2026-01-11T01:05:00Z",
+      "notes": "Focus on metric–text consistency checking, narrative verification, and compliance validation."
+    },
+    "papers": [
+      {
+        "id": "paper_001",
+        "input": { "title": "", "doi": "", "abstract": "" },
+        "relevance_score": 0.0,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": ["metric-text alignment checks", "rule-based validators", "consistency constraints", "post-hoc verification"],
+        "regulatory_relevance": ["ESG", "sustainability reporting", "auditability", "compliance"],
+        "external_links": [
+          { "type": "doi|publisher|semantic_scholar|pdf|arxiv|other", "url": "", "source": "" }
+        ],
+        "key_contributions": [],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+          { "title": "", "reason": "Faithfulness and factual consistency in generated reports", "link": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "research_question": "MRQ8 - What role does data alignment utilities play in normalizing heterogeneous sources such as document uploads and media signals to create cohesive and comparable ESG risk profiles?",
+      "generated_at": "2026-01-11T01:05:00Z",
+      "notes": "Focus on multimodal and multi-source normalization, schema alignment, and risk profile integration."
+    },
+    "papers": [
+      {
+        "id": "paper_001",
+        "input": { "title": "", "doi": "", "abstract": "" },
+        "relevance_score": 0.0,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": ["data normalization traces", "schema alignment mappings", "source attribution", "provenance tracking"],
+        "regulatory_relevance": ["ESG", "risk management", "governance", "auditability"],
+        "external_links": [
+          { "type": "doi|publisher|semantic_scholar|pdf|arxiv|other", "url": "", "source": "" }
+        ],
+        "key_contributions": [],
+        "decision_trace_support": "partial",
+        "suggested_citations": [
+          { "title": "", "reason": "Cross-source data fusion and alignment for decision systems", "link": "" }
+        ]
+      }
+    ]
+  }
+]

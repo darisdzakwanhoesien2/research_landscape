@@ -1,0 +1,3320 @@
+{
+  "research_tracks": [
+    {
+      "id": "rq1_neurosymbolic_esg",
+        "meta": {
+            "research_question": "PRQ2 - To what extent can neurosymbolic AI reduce the accuracy–interpretability trade-off in ESG risk models by embedding symbolic logic (e.g., EU Taxonomy rules) into neural learning to provide transparent decision traces for regulatory compliance?",
+            "generated_at": "2025-05-22T10:00:00Z",
+            "notes": "Selection focused on ESG-specific robust analysis and neurosymbolic/logic-complete frameworks that provide verifiable reasoning chains or formal proofs for regulatory auditability."
+        },
+        "papers": [
+            {
+            "id": "paper_723",
+            "input": {
+                "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+                "doi": "10.18653/v1/2025.acl-long.723",
+                "abstract": "Sustainability reports are key for evaluating companies' ESG performance. To analyze these reports, NLP approaches can efficiently extract ESG insights at scale. However, even the most advanced NLP methods lack robustness against ESG content that is greenwashed. We introduce A3CG - Aspect-Action Analysis with Cross-Category Generalization... By explicitly linking sustainability aspects with their associated actions, A3CG facilitates a more fine-grained and transparent evaluation of sustainability claims, ensuring that insights are grounded in verifiable actions rather than vague or misleading rhetoric."
+            },
+            "relevance_score": 0.95,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Aspect-Action linking",
+                "Verifiable action grounding",
+                "Fine-grained transparency"
+            ],
+            "regulatory_relevance": [
+                "ESG",
+                "Greenwashing risk mitigation",
+                "Sustainability reporting compliance"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "First framework to explicitly link ESG aspects to verifiable physical actions.",
+                "Cross-category generalization to handle shifting reporting patterns."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "A3CG Dataset",
+                "reason": "Directly provides the grounding necessary for transparent ESG analysis.",
+                "link": "https://aclanthology.org/2025.acl-long.723.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_153",
+            "input": {
+                "title": "Aristotle: Mastering Logical Reasoning with A Logic-Complete Decompose-Search-Resolve Framework",
+                "doi": "10.18653/v1/2025.acl-long.153",
+                "abstract": "This paper proposes a logic-complete reasoning framework, Aristotle. The framework consists of three key components: Logical Decomposer, Logical Search Router, and Logical Resolver, in which symbolic expressions and logical rules are comprehensively integrated into the entire reasoning process, significantly alleviating the bottlenecks of logical reasoning."
+            },
+            "relevance_score": 0.92,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Symbolic expressions",
+                "Logical rules",
+                "Decompose-Search-Resolve traces"
+            ],
+            "regulatory_relevance": [
+                "Governance",
+                "Logical auditability",
+                "Rule-based compliance"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.153",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.153.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Integrates symbolic expressions and logical rules into neural reasoning.",
+                "Reduces logical contradictions and search errors via symbolic resolvers."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "Aristotle Framework",
+                "reason": "Provides a logic-complete template for embedding complex regulatory taxonomies.",
+                "link": "https://aclanthology.org/2025.acl-long.153.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_594",
+            "input": {
+                "title": "Safe: Enhancing Mathematical Reasoning in Large Language Models via Retrospective Step-aware Formal Verification",
+                "doi": "10.18653/v1/2025.acl-long.594",
+                "abstract": "We propose a retrospective, step-aware formal verification framework Safe... we strive to articulate mathematical claims in formal mathematical language Lean 4 at each reasoning step and provide formal proofs to identify hallucinations. Our work represents the first endeavor to utilize formal mathematical language Lean 4 for verifying content generated by LLMs."
+            },
+            "relevance_score": 0.88,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Formal language (Lean 4)",
+                "Formal proofs",
+                "Step-aware verification"
+            ],
+            "regulatory_relevance": [
+                "Auditability",
+                "Governance",
+                "Verifiable evidence"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.594",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.594.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Use of formal provers to provide checkable evidence for model reasoning steps.",
+                "FormalStep benchmark for step correctness theorem proving."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "Safe Framework",
+                "reason": "Demonstrates how to generate 'gold standard' proofs for decision-making steps.",
+                "link": "https://aclanthology.org/2025.acl-long.594.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1186",
+            "input": {
+                "title": "Decoding on Graphs: Faithful and Sound Reasoning on Knowledge Graphs through Generation of Well-Formed Chains",
+                "doi": "10.18653/v1/2025.acl-long.1186",
+                "abstract": "We present DoG (Decoding on Graph), a novel framework that facilitates a deep synergy between LLMs and KGs... we propose graph-aware constrained decoding, in which a constraint derived from the topology of the KG regulates the decoding process of the LLMs. This constrained decoding method ensures the generation of well-formed chains."
+            },
+            "relevance_score": 0.87,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Graph-aware constrained decoding",
+                "Well-formed fact chains",
+                "Knowledge Graph topology"
+            ],
+            "regulatory_relevance": [
+                "Factual transparency",
+                "Auditability",
+                "Finance regulation"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1186",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1186.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Forces models to follow KG topology to generate logically sound paths.",
+                "Training-free method to provide faithful reasoning trajectories."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "Decoding on Graphs (DoG)",
+                "reason": "Enables the transformation of taxonomies into executable graph-based constraints.",
+                "link": "https://aclanthology.org/2025.acl-long.1186.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1540",
+            "input": {
+                "title": "Deliberate Reasoning in Language Models as Structure-Aware Planning with an Accurate World Model",
+                "doi": "10.18653/v1/2025.acl-long.1540",
+                "abstract": "We propose a novel reasoning framework, SWAP, that integrates structured knowledge representation with learned planning... SWAP leverages entailment graphs to encode structured dependencies and enable symbolic verification of intermediate steps."
+            },
+            "relevance_score": 0.85,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Entailment graphs",
+                "Symbolic verification",
+                "Learned planning"
+            ],
+            "regulatory_relevance": [
+                "Governance",
+                "Auditability",
+                "Regulatory compliance"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1540",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1540.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Uses a world model to predict structural updates and symbolic verification of steps.",
+                "Mitigates CoT consistency issues via structured planning."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "SWAP Framework",
+                "reason": "Relevant for creating world models of regulatory environments like the EU Taxonomy.",
+                "link": "https://aclanthology.org/2025.acl-long.1540.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_27",
+            "input": {
+                "title": "RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios",
+                "doi": "10.18653/v1/2025.acl-long.27",
+                "abstract": "Coverring three practical domains – airline baggage fees, NBA transactions, and tax regulations – RuleArena assesses LLMs' proficiency in handling intricate natural language instructions that demand long-context understanding, logical reasoning, and accurate mathematical computation... significant performance boost when LLMs are provided with external tools for oracle math and logic operations."
+            },
+            "relevance_score": 0.82,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Rule-guided reasoning",
+                "Oracle logic operations",
+                "Tool-augmented verification"
+            ],
+            "regulatory_relevance": [
+                "Tax regulations",
+                "Finance regulation",
+                "Complex rule adherence"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.27",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.27.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Benchmarks the gap between general reasoning and complex rule adherence.",
+                "Highlights the efficacy of external symbolic tools in improving accuracy for structured rules."
+            ],
+            "decision_trace_support": "partial",
+            "suggested_citations": [
+                {
+                "title": "RuleArena",
+                "reason": "Critical for evaluating model performance against regulatory rulesets.",
+                "link": "https://aclanthology.org/2025.acl-long.27.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1107",
+            "input": {
+                "title": "STRICTA: Structured Reasoning in Critical Text Assessment for Peer Review and Beyond",
+                "doi": "10.18653/v1/2025.acl-long.1107",
+                "abstract": "We introduce Structured Reasoning in Critical Text Assessment (STRICTA), a novel specification framework to model text assessment as an explicit, step-wise reasoning process. STRICTA breaks down the assessment into a graph of interconnected reasoning steps drawing on causality theory."
+            },
+            "relevance_score": 0.80,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Causality-based reasoning graph",
+                "Step-wise reasoning process",
+                "Structural modeling"
+            ],
+            "regulatory_relevance": [
+                "Governance",
+                "Transparency",
+                "Auditability"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1107",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1107.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Framework for explicit, causal modeling of subjective assessment tasks.",
+                "Enables human-AI collaboration via transparent reasoning graphs."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "STRICTA",
+                "reason": "Provides a methodology for modeling the expert reasoning required in ESG risk evaluation.",
+                "link": "https://aclanthology.org/2025.acl-long.1107.bib"
+                }
+            ]
+            }
+        ,
+            {
+            "id": "paper_723",
+            "input": {
+                "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+                "doi": "10.18653/v1/2025.acl-long.723",
+                "abstract": "Sustainability reports are key for evaluating companies' ESG performance. To analyze these reports, NLP approaches can efficiently extract ESG insights at scale. However, even the most advanced NLP methods lack robustness against ESG content that is greenwashed. We introduce A3CG - Aspect-Action Analysis with Cross-Category Generalization... By explicitly linking sustainability aspects with their associated actions, A3CG facilitates a more fine-grained and transparent evaluation of sustainability claims, ensuring that insights are grounded in verifiable actions rather than vague or misleading rhetoric."
+            },
+            "relevance_score": 0.95,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Aspect-Action linking",
+                "Verifiable action grounding",
+                "Fine-grained transparency"
+            ],
+            "regulatory_relevance": [
+                "ESG",
+                "Greenwashing risk mitigation",
+                "Sustainability reporting compliance"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "First framework to explicitly link ESG aspects to verifiable physical actions.",
+                "Cross-category generalization to handle shifting reporting patterns."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "A3CG Dataset",
+                "reason": "Directly provides the grounding necessary for transparent ESG analysis.",
+                "link": "https://aclanthology.org/2025.acl-long.723.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_153",
+            "input": {
+                "title": "Aristotle: Mastering Logical Reasoning with A Logic-Complete Decompose-Search-Resolve Framework",
+                "doi": "10.18653/v1/2025.acl-long.153",
+                "abstract": "This paper proposes a logic-complete reasoning framework, Aristotle. The framework consists of three key components: Logical Decomposer, Logical Search Router, and Logical Resolver, in which symbolic expressions and logical rules are comprehensively integrated into the entire reasoning process, significantly alleviating the bottlenecks of logical reasoning."
+            },
+            "relevance_score": 0.92,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Symbolic expressions",
+                "Logical rules",
+                "Decompose-Search-Resolve traces"
+            ],
+            "regulatory_relevance": [
+                "Governance",
+                "Logical auditability",
+                "Rule-based compliance"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.153",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.153.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Integrates symbolic expressions and logical rules into neural reasoning.",
+                "Reduces logical contradictions and search errors via symbolic resolvers."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "Aristotle Framework",
+                "reason": "Provides a logic-complete template for embedding complex regulatory taxonomies.",
+                "link": "https://aclanthology.org/2025.acl-long.153.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_594",
+            "input": {
+                "title": "Safe: Enhancing Mathematical Reasoning in Large Language Models via Retrospective Step-aware Formal Verification",
+                "doi": "10.18653/v1/2025.acl-long.594",
+                "abstract": "We propose a retrospective, step-aware formal verification framework Safe... we strive to articulate mathematical claims in formal mathematical language Lean 4 at each reasoning step and provide formal proofs to identify hallucinations. Our work represents the first endeavor to utilize formal mathematical language Lean 4 for verifying content generated by LLMs."
+            },
+            "relevance_score": 0.88,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Formal language (Lean 4)",
+                "Formal proofs",
+                "Step-aware verification"
+            ],
+            "regulatory_relevance": [
+                "Auditability",
+                "Governance",
+                "Verifiable evidence"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.594",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.594.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Use of formal provers to provide checkable evidence for model reasoning steps.",
+                "FormalStep benchmark for step correctness theorem proving."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "Safe Framework",
+                "reason": "Demonstrates how to generate 'gold standard' proofs for decision-making steps.",
+                "link": "https://aclanthology.org/2025.acl-long.594.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1186",
+            "input": {
+                "title": "Decoding on Graphs: Faithful and Sound Reasoning on Knowledge Graphs through Generation of Well-Formed Chains",
+                "doi": "10.18653/v1/2025.acl-long.1186",
+                "abstract": "We present DoG (Decoding on Graph), a novel framework that facilitates a deep synergy between LLMs and KGs... we propose graph-aware constrained decoding, in which a constraint derived from the topology of the KG regulates the decoding process of the LLMs. This constrained decoding method ensures the generation of well-formed chains."
+            },
+            "relevance_score": 0.87,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Graph-aware constrained decoding",
+                "Well-formed fact chains",
+                "Knowledge Graph topology"
+            ],
+            "regulatory_relevance": [
+                "Factual transparency",
+                "Auditability",
+                "Finance regulation"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1186",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1186.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Forces models to follow KG topology to generate logically sound paths.",
+                "Training-free method to provide faithful reasoning trajectories."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "Decoding on Graphs (DoG)",
+                "reason": "Enables the transformation of taxonomies into executable graph-based constraints.",
+                "link": "https://aclanthology.org/2025.acl-long.1186.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1540",
+            "input": {
+                "title": "Deliberate Reasoning in Language Models as Structure-Aware Planning with an Accurate World Model",
+                "doi": "10.18653/v1/2025.acl-long.1540",
+                "abstract": "We propose a novel reasoning framework, SWAP, that integrates structured knowledge representation with learned planning... SWAP leverages entailment graphs to encode structured dependencies and enable symbolic verification of intermediate steps."
+            },
+            "relevance_score": 0.85,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Entailment graphs",
+                "Symbolic verification",
+                "Learned planning"
+            ],
+            "regulatory_relevance": [
+                "Governance",
+                "Auditability",
+                "Regulatory compliance"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1540",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1540.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Uses a world model to predict structural updates and symbolic verification of steps.",
+                "Mitigates CoT consistency issues via structured planning."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "SWAP Framework",
+                "reason": "Relevant for creating world models of regulatory environments like the EU Taxonomy.",
+                "link": "https://aclanthology.org/2025.acl-long.1540.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_27",
+            "input": {
+                "title": "RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios",
+                "doi": "10.18653/v1/2025.acl-long.27",
+                "abstract": "Coverring three practical domains – airline baggage fees, NBA transactions, and tax regulations – RuleArena assesses LLMs' proficiency in handling intricate natural language instructions that demand long-context understanding, logical reasoning, and accurate mathematical computation... significant performance boost when LLMs are provided with external tools for oracle math and logic operations."
+            },
+            "relevance_score": 0.82,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Rule-guided reasoning",
+                "Oracle logic operations",
+                "Tool-augmented verification"
+            ],
+            "regulatory_relevance": [
+                "Tax regulations",
+                "Finance regulation",
+                "Complex rule adherence"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.27",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.27.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Benchmarks the gap between general reasoning and complex rule adherence.",
+                "Highlights the efficacy of external symbolic tools in improving accuracy for structured rules."
+            ],
+            "decision_trace_support": "partial",
+            "suggested_citations": [
+                {
+                "title": "RuleArena",
+                "reason": "Critical for evaluating model performance against regulatory rulesets.",
+                "link": "https://aclanthology.org/2025.acl-long.27.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1107",
+            "input": {
+                "title": "STRICTA: Structured Reasoning in Critical Text Assessment for Peer Review and Beyond",
+                "doi": "10.18653/v1/2025.acl-long.1107",
+                "abstract": "We introduce Structured Reasoning in Critical Text Assessment (STRICTA), a novel specification framework to model text assessment as an explicit, step-wise reasoning process. STRICTA breaks down the assessment into a graph of interconnected reasoning steps drawing on causality theory."
+            },
+            "relevance_score": 0.80,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Causality-based reasoning graph",
+                "Step-wise reasoning process",
+                "Structural modeling"
+            ],
+            "regulatory_relevance": [
+                "Governance",
+                "Transparency",
+                "Auditability"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1107",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1107.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Framework for explicit, causal modeling of subjective assessment tasks.",
+                "Enables human-AI collaboration via transparent reasoning graphs."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "STRICTA",
+                "reason": "Provides a methodology for modeling the expert reasoning required in ESG risk evaluation.",
+                "link": "https://aclanthology.org/2025.acl-long.1107.bib"
+                }
+            ]
+            }
+        ]
+    },
+
+    {
+      "id": "rq2_llm_esg_compliance",
+        "meta": {
+            "research_question": "MRQ5 - What is the quantitative relationship between aspect comparison results and the reliability of SME ESG scores, and how effectively do validation modules ensure AI-generated narratives align with underlying extracted metrics?",
+            "generated_at": "2025-05-22T18:45:00Z",
+            "notes": "Selected papers specifically address robust ESG analysis, greenwashing detection through aspect-action linking, and the use of multi-agent or symbolic validation modules to ensure factual alignment between narratives and evidence."
+        },
+        "papers": [
+            {
+            "id": "paper_723",
+            "input": {
+                "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+                "doi": "10.18653/v1/2025.acl-long.723",
+                "abstract": "Sustainability reports are key for evaluating companies' ESG performance... advances in NLP lack robustness against ESG content that is greenwashed. We introduce A3CG... explicitly linking sustainability aspects with their associated actions, ensuring that insights are grounded in verifiable actions rather than vague or misleading rhetoric."
+            },
+            "relevance_score": 1.0,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Aspect-Action linking",
+                "Grounding claims in physical actions",
+                "Cross-category generalization"
+            ],
+            "regulatory_relevance": [
+                "ESG",
+                "Greenwashing risk mitigation",
+                "Sustainability reporting"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Introduces a dataset for linking ESG aspects to verifiable physical actions.",
+                "Demonstrates model limitations in identifying fabricated sustainability claims."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "A3CG: Aspect-Action Analysis",
+                "reason": "Directly defines the quantitative relationship between reported aspects and verifiable performance metrics.",
+                "link": "https://aclanthology.org/2025.acl-long.723.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_043",
+            "input": {
+                "title": "HybGRAG: Hybrid Retrieval-Augmented Generation on Textual and Relational Knowledge Bases",
+                "doi": "10.18653/v1/2025.acl-long.43",
+                "abstract": "Proposes HybGRAG for hybrid question answering over semi-structured knowledge bases... agentic, it automatically refines the output by incorporating feedback from a critic module... justifications of decision making with intuitive refinement path."
+            },
+            "relevance_score": 0.92,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Critic module feedback",
+                "Intuitive refinement paths",
+                "Hybrid retrieval (Textual + Relational)"
+            ],
+            "regulatory_relevance": [
+                "Auditability",
+                "Justification-centric verdicts",
+                "Finance regulation"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.43",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.43.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Ensures generated answers align with both unstructured text and structured relational data.",
+                "Uses a critic module as a validation engine for narrative consistency."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "HybGRAG",
+                "reason": "Offers a validation module to align AI narratives with underlying extracted relational metrics.",
+                "link": "https://aclanthology.org/2025.acl-long.43.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1046",
+            "input": {
+                "title": "CogniBench: A Legal-inspired Framework and Dataset for Assessing Cognitive Faithfulness of Large Language Models",
+                "doi": "10.18653/v1/2025.acl-long.1046",
+                "abstract": "Inspired by how evidence is assessed in the legal domain, we design a rigorous framework to assess different levels of faithfulness... including 'cognitive statements' that involve making inferences from the given context."
+            },
+            "relevance_score": 0.88,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Legal-inspired evidence assessment",
+                "Fine-grained faithfulness levels",
+                "Inference-to-context alignment"
+            ],
+            "regulatory_relevance": [
+                "Auditability",
+                "Finance regulation",
+                "Governance"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1046",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1046.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Addresses the 'faithfulness hallucination' in narratives that go beyond mere rephrasing.",
+                "Provides a scalable pipeline for training detectors of cognitive hallucinations."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "CogniBench",
+                "reason": "Crucial for ensuring that generated ESG narratives remain cognitively faithful to the extracted metrics.",
+                "link": "https://aclanthology.org/2025.acl-long.1046.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_017",
+            "input": {
+                "title": "FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models",
+                "doi": "10.18653/v1/2025.acl-long.17",
+                "abstract": "FACT-AUDIT generates adaptive datasets, performs iterative model-centric evaluations... incorporating justification production alongside verdict prediction... providing a comprehensive audit of factual reasoning."
+            },
+            "relevance_score": 0.85,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Justification production",
+                "Multi-agent collaboration",
+                "Iterative model-centric audit"
+            ],
+            "regulatory_relevance": [
+                "Auditability",
+                "Governance",
+                "Fact-checking compliance"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.17",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.17.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Moves beyond binary classification to provide reasoning-based justifications for factual verdicts.",
+                "Scalable framework for auditing narratives against dynamic knowledge sources."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "FACT-AUDIT",
+                "reason": "A candidate for the 'validation module' mentioned in the RQ to ensure alignment between scores and narratives.",
+                "link": "https://aclanthology.org/2025.acl-long.17.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_446",
+            "input": {
+                "title": "AIMSCheck: Leveraging LLMs for AI-Assisted Review of Modern Slavery Statements Across Jurisdictions",
+                "doi": "10.18653/v1/2025.acl-long.446",
+                "abstract": "Modern Slavery Acts mandate disclosures... verifying these statements remains challenging. We introduce AIMSCheck, an end-to-end framework for compliance validation. AIMSCheck decomposes the compliance assessment task into three levels, enhancing interpretability."
+            },
+            "relevance_score": 0.82,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Task decomposition",
+                "Three-level compliance assessment",
+                "Domain-expert grounded evaluation"
+            ],
+            "regulatory_relevance": [
+                "Governance",
+                "Regulatory compliance",
+                "ESG (Modern Slavery)"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.446",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.446.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "First framework for cross-jurisdictional compliance validation in sustainability statements.",
+                "Validates AI-generated compliance scores against expert human benchmarks."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "AIMSCheck",
+                "reason": "Directly addresses the effectiveness of validation modules in a specific sustainability compliance domain.",
+                "link": "https://aclanthology.org/2025.acl-long.446.bib"
+                }
+            ]
+            }
+        ]
+    },
+    {
+      "id": "rq3",
+        "meta": {
+            "research_question": "MRQ3 - How does clustering raw aspects into high-level ESG themes facilitate a more transparent and auditable Level-2 certification process, and in what ways do complex visualizations (e.g., Sankey) reduce cognitive load for auditors tracing lineage from raw data to final ESG metrics?",
+            "generated_at": "2025-05-22T21:15:00Z",
+            "notes": "Selected papers from the source address the structural organization of themes (hierarchical clustering), the technical tracing of information lineage (provenance and attribution), and the use of interactive visualizations to reduce the cognitive burden on human experts during auditing or systematic review."
+        },
+        "papers": [
+            {
+            "id": "paper_723",
+            "input": {
+                "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+                "doi": "10.18653/v1/2025.acl-long.723",
+                "abstract": "Sustainability reports are key for evaluating companies' ESG performance... existing NLP approaches often extract insights that reflect misleading or exaggerated sustainability claims rather than objective ESG performance. To tackle this issue, we introduce A3CG... explicitly linking sustainability aspects with their associated actions, ensuring that insights are grounded in verifiable actions."
+            },
+            "relevance_score": 0.98,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Aspect-Action linking",
+                "Contextual grounding",
+                "Fine-grained transparency"
+            ],
+            "regulatory_relevance": [
+                "ESG",
+                "Greenwashing risk mitigation",
+                "Sustainability reporting auditability"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Identifies the need to link high-level reported aspects to low-level physical actions.",
+                "Facilitates transparent evaluation of sustainability claims to combat greenwashing."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "A3CG: Aspect-Action Analysis",
+                "reason": "Provides the conceptual foundation for tracing reported ESG aspects back to raw action metrics.",
+                "link": "https://aclanthology.org/2025.acl-long.723.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_124",
+            "input": {
+                "title": "Hierarchical Level-Wise News Article Clustering via Multilingual Matryoshka Embeddings",
+                "doi": "10.18653/v1/2025.acl-long.124",
+                "abstract": "We present a novel, scalable, interpretable, hierarchical approach to clustering... leverages the hierarchical nature of Matryoshka embeddings to identify unique news stories, narratives, and themes. We cluster stories, narratives, and overarching themes within real-world news datasets."
+            },
+            "relevance_score": 0.92,
+            "method_category": "Neural | Symbolic",
+            "interpretability_mechanisms": [
+                "Hierarchical clustering",
+                "Matryoshka embeddings",
+                "Granularity-based theme identification"
+            ],
+            "regulatory_relevance": [
+                "Narrative discovery",
+                "Governance",
+                "Thematic transparency"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.124",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.124.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Enables level-wise theme discovery from raw data points.",
+                "Provides an interpretable hierarchy for organizing disparate information into coherent high-level themes."
+            ],
+            "decision_trace_support": "partial",
+            "suggested_citations": [
+                {
+                "title": "Matryoshka Clustering",
+                "reason": "Offers a technical method for clustering raw aspects into the 'high-level themes' required for the RQ.",
+                "link": "https://aclanthology.org/2025.acl-long.124.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_577",
+            "input": {
+                "title": "TROVE: A Challenge for Fine-Grained Text Provenance via Source Sentence Tracing and Relationship Classification",
+                "doi": "10.18653/v1/2025.acl-long.577",
+                "abstract": "We introduce the Text pROVEnance (TROVE) challenge, designed to trace each sentence of a target text back to specific source sentences... provides a deep understanding of how each target sentence is formed (quotation, compression, inference)."
+            },
+            "relevance_score": 0.96,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Source sentence tracing",
+                "Fine-grained relationship classification",
+                "Relationship-based audit trails"
+            ],
+            "regulatory_relevance": [
+                "Auditability",
+                "Accountability",
+                "Finance regulation"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.577",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.577.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Framework for tracing the lineage of generated metrics/claims back to raw source material.",
+                "Classifies the exact transformation logic (lineage) for auditor verification."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "TROVE: Text Provenance",
+                "reason": "Directly supports the 'tracing lineage from raw data' portion of the RQ for Level-2 certification.",
+                "link": "https://aclanthology.org/2025.acl-long.577.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1523",
+            "input": {
+                "title": "Completing A Systematic Review in Hours instead of Months with Interactive AI Agents",
+                "doi": "10.18653/v1/2025.acl-long.1523",
+                "abstract": "We introduce InsightAgent... provides intuitive visualizations of the corpus and agent trajectories, allowing users to effortlessly monitor the actions of the agent... visualization and interaction mechanisms can effectively improve the quality of synthesized reviews."
+            },
+            "relevance_score": 0.94,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Agent trajectory visualization",
+                "Corpus semantic partitioning",
+                "Human-AI interaction loops"
+            ],
+            "regulatory_relevance": [
+                "Auditor cognitive load reduction",
+                "Systematic review transparency",
+                "Governance"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1523",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1523.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Demonstrates that complex visualizations of reasoning paths significantly reduce human expert cognitive load.",
+                "Increases satisfaction and speed (months to hours) for experts reviewing large data corpora."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "InsightAgent",
+                "reason": "Empirically validates that visualizations reduce cognitive load when tracing lineages, as posited in the RQ.",
+                "link": "https://aclanthology.org/2025.acl-long.1523.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_746",
+            "input": {
+                "title": "LAQuer: Localized Attribution Queries in Content-grounded Generation",
+                "doi": "10.18653/v1/2025.acl-long.746",
+                "abstract": "We introduce Localized Attribution Queries (LAQuer)... localizes selected spans of generated output to their corresponding source spans, allowing fine-grained and user-directed attribution."
+            },
+            "relevance_score": 0.89,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Span-level localized attribution",
+                "User-directed evidence retrieval",
+                "Source span mapping"
+            ],
+            "regulatory_relevance": [
+                "Factual verification",
+                "Auditability",
+                "Linage verification"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.746",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.746.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Improves attribution usability by providing exact coordinates for evidence.",
+                "Significantly reduces the amount of text an auditor must review by focusing on localized spans."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "LAQuer",
+                "reason": "Complements TROVE by focusing on sub-sentence attribution for pinpointing raw data lineage.",
+                "link": "https://aclanthology.org/2025.acl-long.746.bib"
+                }
+            ]
+            }
+        ]      
+    },
+    {
+        "id": "rq4",
+        "meta": {
+            "research_question": "MRQ7 - How can data distribution and benchmarking models provide industry-specific ESG context beyond self-assessment, and what role does alignment utilities play in normalizing heterogeneous sources to create cohesive risk profiles?",
+            "generated_at": "2025-05-23T11:20:15Z",
+            "notes": "Evaluation of papers from the source focuses on robust ESG analysis, the bridging of data distribution gaps through importance sampling, and the use of modular alignment to normalize heterogeneous data for financial and regulatory compliance."
+        },
+        "papers": [
+            {
+            "id": "paper_723",
+            "input": {
+                "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+                "doi": "10.18653/v1/2025.acl-long.723",
+                "abstract": "Sustainability reports are key for evaluating companies’ ESG performance... advanced NLP methods lack robustness against ESG content that is greenwashed. We introduce A3CG... explicitly linking sustainability aspects with their associated actions, ensuring that insights are grounded in verifiable actions rather than vague or misleading rhetoric. A3CG emphasizes cross-category generalization."
+            },
+            "relevance_score": 0.99,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Aspect-Action linking",
+                "Verifiable action grounding",
+                "Cross-category generalization"
+            ],
+            "regulatory_relevance": [
+                "ESG",
+                "Finance regulation",
+                "Greenwashing risk mitigation",
+                "Sustainability reporting"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Establishes a framework to move beyond self-assessment by verifying claims against physical actions.",
+                "Demonstrates how generalization across categories prevents models from being misled by shifts in corporate reporting styles."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "A3CG Dataset",
+                "reason": "Provides the industry-specific context required to identify 'impression management'.",
+                "link": "https://aclanthology.org/2025.acl-long.723.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_053",
+            "input": {
+                "title": "ATLANTIS: Weak-to-Strong Learning via Importance Sampling",
+                "doi": "10.18653/v1/2025.acl-long.52",
+                "abstract": "The gap between the distribution of current datasets from human annotations or model generations and the real-world data distribution heavily limits the capacities of models. We propose ATLANTIS, adopt importance sampling to estimate the optimal data distribution in the real world from existing training datasets."
+            },
+            "relevance_score": 0.91,
+            "method_category": "Neural",
+            "interpretability_mechanisms": [
+                "Importance sampling estimation",
+                "Probability gap analysis",
+                "Real-world distribution modeling"
+            ],
+            "regulatory_relevance": [
+                "Data governance",
+                "Reliability",
+                "Benchmarking"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.52",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.52.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Uses importance sampling to normalize current datasets toward real-world data distributions.",
+                "Reduces the reliance on biased human-annotated 'self-assessments' by aligning with estimated optimal distributions."
+            ],
+            "decision_trace_support": "partial",
+            "suggested_citations": [
+                {
+                "title": "ATLANTIS Framework",
+                "reason": "Provides a methodology for normalizing heterogeneous datasets based on estimated real-world distribution.",
+                "link": "https://aclanthology.org/2025.acl-long.52.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_043",
+            "input": {
+                "title": "HybGRAG: Hybrid Retrieval-Augmented Generation on Textual and Relational Knowledge Bases",
+                "doi": "10.18653/v1/2025.acl-long.43",
+                "abstract": "Questions require both textual and relational information from SKB — referred to as 'hybrid' questions. We propose HybGRAG consisting of a retriever bank and a critic module. Agentic, it automatically refines the output. Interpretable, it justifies decision making with intuitive refinement path."
+            },
+            "relevance_score": 0.93,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Intuitive refinement path",
+                "Critic module feedback",
+                "Hybrid evidence synthesis"
+            ],
+            "regulatory_relevance": [
+                "Auditability",
+                "Finance regulation",
+                "Cohesive risk profiling"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.43",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.43.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Normalizes heterogeneous sources (unstructured text and structured relational data) into a cohesive response.",
+                "Provides an 'intuitive refinement path' which serves as a decision trace for complex regulatory queries."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "HybGRAG",
+                "reason": "Directly addresses the role of alignment utilities (critic module) in normalizing disparate sources.",
+                "link": "https://aclanthology.org/2025.acl-long.43.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_126",
+            "input": {
+                "title": "InvestorBench: A Benchmark for Financial Decision-Making Tasks with LLM-based Agent",
+                "doi": "10.18653/v1/2025.acl-long.126",
+                "abstract": "Lack of standardized benchmarks and consistent datasets for assessing agent performance. We introduce InvestorBench, a suite of tasks applicable to different financial products. Curated diverse collection of open-source datasets and developed a comprehensive suite of environments."
+            },
+            "relevance_score": 0.88,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Standardized benchmarking",
+                "Consistent metric evaluation",
+                "Financial environment simulation"
+            ],
+            "regulatory_relevance": [
+                "Finance regulation",
+                "Governance",
+                "ESG (investment risk)"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.126",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.126.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Provides the industry-specific benchmarking context required to assess risk beyond self-reporting.",
+                "Normalizes performance across equities, ETFs, and cryptocurrencies to create standard risk indicators."
+            ],
+            "decision_trace_support": "partial",
+            "suggested_citations": [
+                {
+                "title": "InvestorBench",
+                "reason": "Sets a standard for industry-specific context in financial LLM agents.",
+                "link": "https://aclanthology.org/2025.acl-long.126.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_108",
+            "input": {
+                "title": "Modular Sentence Encoders: Separating Language Specialization from Cross-Lingual Alignment",
+                "doi": "10.18653/v1/2025.acl-long.108",
+                "abstract": "MSEs are subject to curse of multilinguality... cross-lingual alignment training distorts the optimal monolingual structure. We address both issues by means of modular training. First train language-specific modules, then align embeddings via cross-lingual alignment adapters."
+            },
+            "relevance_score": 0.85,
+            "method_category": "Neural",
+            "interpretability_mechanisms": [
+                "Modular alignment adapters",
+                "Specialization-alignment separation",
+                "Latent space normalization"
+            ],
+            "regulatory_relevance": [
+                "Governance",
+                "Cross-jurisdictional normalization",
+                "Transparency"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.108",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.108.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Demonstrates how modular alignment utilities prevent interference between specific domain knowledge and cross-domain normalization.",
+                "Crucial for maintaining 'industry-specific' context (specialization) while 'normalizing' (alignment) across heterogeneous sources."
+            ],
+            "decision_trace_support": "none",
+            "suggested_citations": [
+                {
+                "title": "Modular Sentence Encoders",
+                "reason": "Theoretical basis for utilizing alignment utilities to create cohesive profiles without losing industry granularity.",
+                "link": "https://aclanthology.org/2025.acl-long.108.bib"
+                }
+            ]
+            }
+        ]
+    },
+    {
+        "id": "rq5",
+        "meta": {
+            "research_question": "MRQ1 - How does FinBERT-based tone analysis improve detection of potential greenwashing in SME self-assessments compared to standard sentiment analysis, and to what extent can tone distribution analysis flag inconsistencies between internal reports and external media sentiment?",
+            "generated_at": "2025-05-23T16:10:00Z",
+            "notes": "Sources from ACL 2025 address the specific components of the RQ: detection of strategic phrasing (fluffing), the gap between reported aspects and physical actions (greenwashing), and the use of RAG to ground financial sentiment in contemporary news to identify temporal inconsistencies."
+        },
+        "papers": [
+            {
+            "id": "paper_723_long",
+            "input": {
+                "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+                "doi": "10.18653/v1/2025.acl-long.723",
+                "abstract": "Sustainability reports are key for evaluating companies' ESG performance... even the most advanced NLP methods lack robustness against ESG content that is greenwashed – i.e. sustainability claims that are misleading, exaggerated, and fabricated. We introduce A3CG... explicitly linking sustainability aspects with their associated actions, ensuring that insights are grounded in verifiable actions rather than vague or misleading rhetoric."
+            },
+            "relevance_score": 0.98,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Aspect-Action linking",
+                "Fine-grained transparency",
+                "Contextual grounding"
+            ],
+            "regulatory_relevance": [
+                "ESG",
+                "Greenwashing risk mitigation",
+                "Sustainability reporting auditability"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "semantic_scholar",
+                "url": "https://www.semanticscholar.org/search?q=Towards+Robust+ESG+Analysis+Against+Greenwashing+Risks",
+                "source": "Semantic Scholar"
+                }
+            ],
+            "key_contributions": [
+                "Identifies the failure of standard NLP in detecting fabricated sustainability claims.",
+                "Proposes a method to unmask greenwashing by verifying 'actions' against reported 'aspects'."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "A3CG: Aspect-Action Analysis",
+                "reason": "Directly addresses the greenwashing detection requirement through structural grounding.",
+                "link": "https://aclanthology.org/2025.acl-long.723.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1600_long",
+            "input": {
+                "title": "Language Models can Subtly Deceive Without Lying: A Case Study on Strategic Phrasing in Legislation",
+                "doi": "10.18653/v1/2025.acl-long.1600",
+                "abstract": "We explore the ability of large language models to engage in subtle deception through strategically phrasing and intentionally manipulating information. We build a simple testbed mimicking a legislative environment where a corporate lobbyist module proposes amendments to bills that benefit a specific company while evading identification... Optimization increases deception rates by 40 percentage points."
+            },
+            "relevance_score": 0.94,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Lobbyist intent detection",
+                "Strategic phrasing analysis",
+                "Deception rate metrics"
+            ],
+            "regulatory_relevance": [
+                "Corporate governance",
+                "Legislative transparency",
+                "Auditability"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1600",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1600.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Demonstrates how 'strategic phrasing' (fluffing) can bypass standard detection filters.",
+                "Provides a framework for identifying subtle deception in professional/regulated text."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "Strategic Phrasing Case Study",
+                "reason": "Models the linguistic tactics used in 'strategic fluffing' mentioned in the RQ.",
+                "link": "https://aclanthology.org/2025.acl-long.1600.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_098_srw",
+            "input": {
+                "title": "Bridging the Data Gap in Financial Sentiment: LLM-Driven Augmentation",
+                "doi": "10.18653/v1/2025.acl-srw.98",
+                "abstract": "Static and outdated datasets hinder the accuracy of Financial Sentiment Analysis (FSA) in capturing rapidly evolving market sentiment. We tackle this by proposing a novel data augmentation technique using RAG. Our method leverages a generative LLM to infuse established benchmarks with up-to-date contextual information from contemporary financial news."
+            },
+            "relevance_score": 0.92,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "BERT-BiGRU judge verification",
+                "Sentiment preservation checks",
+                "Contextual news grounding"
+            ],
+            "regulatory_relevance": [
+                "Financial regulation",
+                "Market sentiment auditability",
+                "Cohesive risk profiling"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-srw.98",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-srw.98.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Uses RAG to bridge the gap between static internal data and dynamic external financial news.",
+                "A robust judge model ensures sentiment alignment between disparate data sources."
+            ],
+            "decision_trace_support": "partial",
+            "suggested_citations": [
+                {
+                "title": "FSA Data Augmentation",
+                "reason": "Addresses the 'inconsistencies between internal reports and external media' part of the RQ.",
+                "link": "https://aclanthology.org/2025.acl-srw.98.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_806_long",
+            "input": {
+                "title": "RAEmoLLM: Retrieval Augmented LLMs for Cross-Domain Misinformation Detection Using In-Context Learning Based on Emotional Information",
+                "doi": "10.18653/v1/2025.acl-long.806",
+                "abstract": "Proposes RAEmoLLM, the first retrieval augmented LLMs framework to address cross-domain misinformation detection using in-context learning based on affective information... apply an emotional LLM to obtain affective embeddings... can effectively enhance the general performance of LLMs in cross-domain misinformation detection tasks through affect-based retrieval."
+            },
+            "relevance_score": 0.89,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Affective embeddings",
+                "In-context affective demonstrations",
+                "Emotional signal separation"
+            ],
+            "regulatory_relevance": [
+                "Auditability",
+                "Fact-checking",
+                "Sentiment/Tone governance"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.806",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.806.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Introduces affect-based retrieval to identify patterns of misinformation.",
+                "Proves that tone/affect is a more reliable indicator for cross-domain truthfulness than standard features."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "RAEmoLLM",
+                "reason": "Directly supports the 'tone distribution analysis' aspect of detecting inconsistencies/misinformation.",
+                "link": "https://aclanthology.org/2025.acl-long.806.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_070_srw",
+            "input": {
+                "title": "Towards Robust Sentiment Analysis of Temporally-Sensitive Policy-Related Online Text",
+                "doi": "10.18653/v1/2025.acl-srw.70",
+                "abstract": "Sentiment analysis in policy-related studies... existing methods fail to adequately capture the temporal volatility inherent in policy-related sentiments... leverage continuous time-series clustering to select data points for annotation based on temporal trends."
+            },
+            "relevance_score": 0.86,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Time-series clustering",
+                "Temporal trend analysis",
+                "Model merging (TIES)"
+            ],
+            "regulatory_relevance": [
+                "Policy auditability",
+                "Governance",
+                "Temporal risk monitoring"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-srw.70",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-srw.70.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Framework for analyzing how sentiment changes over time in response to external shocks.",
+                "Captures the 'volatility' which flags inconsistencies between report release dates and media response."
+            ],
+            "decision_trace_support": "partial",
+            "suggested_citations": [
+                {
+                "title": "Temporally-Sensitive Sentiment Analysis",
+                "reason": "Technical method for flagging distribution shifts between internal and external tone.",
+                "link": "https://aclanthology.org/2025.acl-srw.70.bib"
+                }
+            ]
+            }
+        ]
+    },
+    {
+        "id": "rq6",
+        "meta": {
+            "research_question": "PRQ4 - How can Generative AI reporting systems integrate self-correction mechanisms such as Chain-of-Verification (CoVe) with XAI-enabled compliance engines to ensure sustainability disclosures are robust against factual hallucinations and automated greenwashing?",
+            "generated_at": "2025-05-23T16:00:00Z",
+            "notes": "Registry identifies critical papers at the intersection of ESG analysis, iterative self-correction (StepCo, ProgCo), and multi-level feature attribution (MExGen) to facilitate auditable and hallucination-free sustainability reporting."
+        },
+        "papers": [
+            {
+            "id": "paper_723",
+            "input": {
+                "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+                "doi": "10.18653/v1/2025.acl-long.723",
+                "abstract": "Sustainability reports are key for evaluating ESG performance. Existing NLP approaches reflect misleading or exaggerated claims. We introduce A3CG, which explicitly links sustainability aspects with their associated actions, ensuring insights are grounded in verifiable actions rather than vague rhetoric. A3CG emphasizes cross-category generalization."
+            },
+            "relevance_score": 1.0,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Aspect-Action linking",
+                "Contextual grounding",
+                "Cross-category generalization"
+            ],
+            "regulatory_relevance": [
+                "ESG",
+                "Greenwashing risk mitigation",
+                "Sustainability disclosure auditability"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "bib",
+                "url": "https://aclanthology.org/2025.acl-long.723.bib",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Directly addresses 'automated greenwashing' by defining a framework to verify reported aspects against physical actions.",
+                "Introduces a cross-category dataset to ensure robustness against 'impression management' shifts in reporting styles."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "A3CG: Aspect-Action Analysis",
+                "reason": "Foundational for linking generative narratives to extracted verifiable metrics.",
+                "link": "https://aclanthology.org/2025.acl-long.723.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1048",
+            "input": {
+                "title": "Enhancing Mathematical Reasoning in LLMs by Stepwise Correction",
+                "doi": "10.18653/v1/2025.acl-long.1048",
+                "abstract": "Repeated independent processes often lead to the same mistakes. We propose Stepwise Correction (StepCo) that helps LLMs identify and revise incorrect steps in generated reasoning paths. It iterates verification and revision phases using a process-supervised verifier. Improves answer correctness and reduces tokens."
+            },
+            "relevance_score": 0.92,
+            "method_category": "Neural",
+            "interpretability_mechanisms": [
+                "Process-supervised verifier",
+                "Iterative verification and revision",
+                "Stepwise reasoning traces"
+            ],
+            "regulatory_relevance": [
+                "Auditability",
+                "Error handling compliance",
+                "Fact-checking"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1048",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1048.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Provides a robust alternative to static CoVe by using process-supervised verifiers to correct hallucinations in a stepwise manner.",
+                "Significantly reduces errors in complex reasoning chains required for financial reporting."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "StepCo",
+                "reason": "Implements the 'self-correction mechanism' requested for robust reporting.",
+                "link": "https://aclanthology.org/2025.acl-long.1048.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1553",
+            "input": {
+                "title": "Multi-Level Explanations for Generative Language Models",
+                "doi": "10.18653/v1/2025.acl-long.1553",
+                "abstract": "We propose Multi-Level Explanations for Generative Language Models (MExGen), a technique to provide explanations for context-grounded text generation. MExGen assigns scores to quantify influence on output, extending SHAP and LIME to LLMs where inference cost is high and context is long."
+            },
+            "relevance_score": 0.96,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "SHAP",
+                "LIME",
+                "Multi-level feature attribution",
+                "Influence scoring"
+            ],
+            "regulatory_relevance": [
+                "XAI compliance",
+                "Finance regulation",
+                "Factual verification"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1553",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1553.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Enables the 'XAI-enabled compliance engine' by allowing auditors to trace generated claims back to specific context segments via SHAP/LIME logic.",
+                "Demonstrates higher faithfulness in explanations than standard model self-rationalization."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "MExGen Framework",
+                "reason": "Provides the attribution tool for detecting 'linguistic triggers' of greenwashing.",
+                "link": "https://aclanthology.org/2025.acl-long.1553.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_073",
+            "input": {
+                "title": "ProgCo: Program Helps Self-Correction of Large Language Models",
+                "doi": "10.18653/v1/2025.acl-short.73",
+                "abstract": "LLMs often fail to effectively self-verify. We propose Program-driven Self-Correction (ProgCo). Program-driven verification achieves complex logic and validation through self-generated verification pseudo-programs. Conducts dual reflection and refinement on both responses and verification programs."
+            },
+            "relevance_score": 0.89,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Pseudo-program execution",
+                "Dual reflection",
+                "Algorithmic verification"
+            ],
+            "regulatory_relevance": [
+                "Logical auditability",
+                "Governance",
+                "Verification transparency"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-short.73",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-short.73.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Introduces a programmatic self-correction layer that ensures numerical and logical consistency, vital for metrics-heavy sustainability reports.",
+                "Mitigates the 'blind self-correction' failure where models fail to spot their own errors without external tools."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "ProgCo",
+                "reason": "Provides the symbolic verification layer for compliance engines.",
+                "link": "https://aclanthology.org/2025.acl-short.73.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_446",
+            "input": {
+                "title": "AIMSCheck: Leveraging LLMs for AI-Assisted Review of Modern Slavery Statements Across Jurisdictions",
+                "doi": "10.18653/v1/2025.acl-long.446",
+                "abstract": "Verifying Modern Slavery statements remains challenging due to complex language. We introduce AIMSCheck, an end-to-end framework for compliance validation. Decomposes assessment into three levels, enhancing interpretability and practical applicability. Generalizes well across jurisdictions."
+            },
+            "relevance_score": 0.87,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Task decomposition",
+                "Three-level assessment hierarchy",
+                "Domain-expert grounding"
+            ],
+            "regulatory_relevance": [
+                "Sustainability regulation",
+                "Modern Slavery Acts",
+                "Legal compliance"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.446",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.446.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Real-world application of AI-driven compliance engines for sustainability-adjacent legislation.",
+                "Demonstrates the effectiveness of hierarchical review structures in validating generated disclosures."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "AIMSCheck",
+                "reason": "Benchmark for multi-level regulatory compliance checking in the ESG space.",
+                "link": "https://aclanthology.org/2025.acl-long.446.bib"
+                }
+            ]
+            }
+        ]
+    },
+    {
+        "id": "rq7",
+        "meta": {
+        "research_question": "PRQ3 - How can Knowledge Graph–extended Retrieval-Augmented Generation (KG-RAG) utilize multimodal data (text, tables, images) to support holistic real-time intelligence and fact-checking, providing justification-centric verdicts scalable to both MNCs and resource-constrained SMEs?",
+        "generated_at": "2025-05-23T14:15:00Z",
+        "notes": "Selection covers multimodal KG integration, fact-checking frameworks with justification production, and knowledge distillation methods for small language models to address SME scalability."
+    },
+        "papers": [
+            {
+            "id": "paper_1652",
+            "input": {
+                "title": "HybGRAG: Hybrid Retrieval-Augmented Generation on Textual and Relational Knowledge Bases",
+                "doi": "10.18653/v1/2025.acl-long.43",
+                "abstract": "We propose HybGRAG consisting of a retriever bank and a critic module. Agentic, it automatically refines the output by incorporating feedback from the critic module. Adaptive, it solves hybrid questions requiring both textual and relational information with the retriever bank. Interpretable, it justifies decision making with intuitive refinement path."
+            },
+            "relevance_score": 0.98,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Intuitive refinement path",
+                "Critic module feedback",
+                "Agentic self-correction"
+            ],
+            "regulatory_relevance": [
+                "Auditability",
+                "Justification-centric verdicts",
+                "Relational transparency"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.43",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.43.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Bridges the gap between standard RAG (unstructured) and Graph RAG (structured).",
+                "Provides a justification-centric verdict through an intuitive path of evidence refinement."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "HybGRAG",
+                "reason": "Directly addresses the hybrid information retrieval and justification requirements of the RQ.",
+                "link": "https://aclanthology.org/2025.acl-long.43.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1943",
+            "input": {
+                "title": "DRAG: Distilling RAG for SLMs from LLMs to Transfer Knowledge and Mitigate Hallucination via Evidence and Graph-based Distillation",
+                "doi": "10.18653/v1/2025.acl-long.358",
+                "abstract": "We introduce DRAG, a novel framework for distilling RAG knowledge from large-scale Language Models (LLMs) into small LMs (SLMs). Our approach leverages evidence- and knowledge graph-based distillation, ensuring that the distilled model retains critical factual knowledge while significantly reducing model size and computational cost."
+            },
+            "relevance_score": 0.95,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Graph-based distillation",
+                "Ranked evidence alignment",
+                "Hallucination mitigation filters"
+            ],
+            "regulatory_relevance": [
+                "Scalability for SMEs",
+                "Factual accuracy",
+                "User privacy risk mitigation"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.358",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.358.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Provides a resource-efficient roadmap for SMEs to deploy high-accuracy KG-RAG systems.",
+                "Demonstrates knowledge transfer from LLMs to SLMs using structured KG signals."
+            ],
+            "decision_trace_support": "partial",
+            "suggested_citations": [
+                {
+                "title": "DRAG Framework",
+                "reason": "Essential for the 'scalability for resource-constrained SMEs' aspect of the RQ.",
+                "link": "https://aclanthology.org/2025.acl-long.358.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_2878",
+            "input": {
+                "title": "Medical Graph RAG: Evidence-based Medical Large Language Model via Graph Retrieval-Augmented Generation",
+                "doi": "10.18653/v1/2025.acl-long.1381",
+                "abstract": "We introduce MedGraphRAG... enhanced GraphRAG, enabling holistic insights and evidence-based response generation... specifically connecting user documents to credible medical sources and integrating Top-down Precise Retrieval with Bottom-up Response Refinement."
+            },
+            "relevance_score": 0.94,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Triple Graph Construction",
+                "U-Retrieval Precise Indexing",
+                "Bottom-up Response Refinement"
+            ],
+            "regulatory_relevance": [
+                "Evidence-based safety",
+                "Governance",
+                "Regulatory fact-checking"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1381",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1381.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Novel graph-based RAG framework for generating evidence-grounded responses in high-stakes domains.",
+                "Precision indexing for balanced context awareness."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "MedGraphRAG",
+                "reason": "Provides a template for evidence-based grounding and fact-checking in regulated domains.",
+                "link": "https://aclanthology.org/2025.acl-long.1381.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1742",
+            "input": {
+                "title": "HyperFM: Fact-Centric Multimodal Fusion for Link Prediction over Hyper-Relational Knowledge Graphs",
+                "doi": "10.18653/v1/2025.acl-long.142",
+                "abstract": "Traditional multimodal fusion approaches fail to integrate multimodal information with the rich context of the hyper-relational fact consisting of multiple entities and relations. We propose HyperFM, effectively capturing intricate interactions between different data modalities via a customized Hypergraph Transformer."
+            },
+            "relevance_score": 0.92,
+            "method_category": "Neural",
+            "interpretability_mechanisms": [
+                "Fact-centric fusion",
+                "Hypergraph Transformer",
+                "Multimodal interactions"
+            ],
+            "regulatory_relevance": [
+                "Multimodal intelligence",
+                "Complex relationship modeling",
+                "Holistic data integration"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.142",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.142.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Enables integration of non-textual data (images, etc.) into hyper-relational facts within a KG.",
+                "Captures complex interactions that standard triplet-based KGs overlook."
+            ],
+            "decision_trace_support": "none",
+            "suggested_citations": [
+                {
+                "title": "HyperFM",
+                "reason": "Critical for understanding how to fuse multimodal data within KG structures.",
+                "link": "https://aclanthology.org/2025.acl-long.142.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_2700",
+            "input": {
+                "title": "Decoding on Graphs: Faithful and Sound Reasoning on Knowledge Graphs through Generation of Well-Formed Chains",
+                "doi": "10.18653/v1/2025.acl-long.1186",
+                "abstract": "We present DoG (Decoding on Graph)... we first define a concept, well-formed chain, which consists of a sequence of interrelated fact triplets on the KGs, starting from question entities and leading to answers. Graph-aware constrained decoding ensures the generation of well-formed chains."
+            },
+            "relevance_score": 0.91,
+            "method_category": "Neuro-symbolic",
+            "interpretability_mechanisms": [
+                "Graph-aware constrained decoding",
+                "Well-formed reasoning chains",
+                "KG topology constraints"
+            ],
+            "regulatory_relevance": [
+                "Sound reasoning",
+                "Auditability",
+                "Logical faithfulness"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1186",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1186.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Implements training-free sound reasoning by forcing LLM decoding to follow verified KG paths.",
+                "Solves the 'hallucination' problem in reasoning steps."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "Decoding on Graphs (DoG)",
+                "reason": "Technical solution for generating the 'justification-centric verdicts' required by the RQ.",
+                "link": "https://aclanthology.org/2025.acl-long.1186.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1693",
+            "input": {
+                "title": "RelationalCoder: Rethinking Complex Tables via Programmatic Relational Transformation",
+                "doi": "10.18653/v1/2025.acl-long.89",
+                "abstract": "We propose RelationalCoder, which uniformly converts semi-structured tables into relational data, enabling smooth integration with the rich ecosystem of data processing and analytics tools... boosts QA accuracy raising Llama-2 and Mistral models by more than 20%."
+            },
+            "relevance_score": 0.88,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Programmatic symbolic reasoning",
+                "SQL code generation",
+                "Loop Reference Decoding (LRD)"
+            ],
+            "regulatory_relevance": [
+                "Table understanding",
+                "Compliance reporting",
+                "Data normalization"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.89",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.89.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Solves the table-to-relational gap in multimodal KG construction.",
+                "Scales to extremely large tables, reducing output length from O(N*M) to O(K)."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "RelationalCoder",
+                "reason": "Necessary for processing the 'tables' part of the multimodal data requirement.",
+                "link": "https://aclanthology.org/2025.acl-long.89.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1628",
+            "input": {
+                "title": "FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models",
+                "doi": "10.18653/v1/2025.acl-long.17",
+                "abstract": "We introduce FACT-AUDIT, an agent-driven framework that adaptively and dynamically assesses LLMs’ fact-checking capabilities. By incorporating justification production alongside verdict prediction, this framework provides a comprehensive and evolving audit of LLMs’ factual reasoning capabilities."
+            },
+            "relevance_score": 0.87,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Justification production",
+                "Adaptive fact-checking",
+                "Multi-agent auditing"
+            ],
+            "regulatory_relevance": [
+                "Fact-checking compliance",
+                "Auditability",
+                "Governance"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.17",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.17.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Evolving framework to investigate the trustworthiness of real-time intelligence.",
+                "Moves from static datasets to adaptive reasoning audits."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "FACT-AUDIT",
+                "reason": "Provides the 'fact-checking' and 'justification-centric' components for the KG-RAG architecture.",
+                "link": "https://aclanthology.org/2025.acl-long.17.bib"
+                }
+            ]
+            }
+        ]
+    },
+    {
+        "meta": {
+            "research_question": "PRQ1 - How can Aspect-Based Sentiment Analysis (ABSA), when integrated with XAI tools like SHAP or LIME, enable investors to identify impression management by visualizing the specific linguistic features that trigger labels of carbonwashing or strategic fluffing in sustainability reports?",
+            "generated_at": "2025-05-23T14:45:00Z",
+            "notes": "Synthesis of papers addresses the mechanics of ABSA, the extension of SHAP/LIME to generative models, and the identification of 'strategic phrasing' and 'greenwashing' through action-linking and feature attribution."
+        },
+        "papers": [
+            {
+            "id": "paper_723",
+            "input": {
+                "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+                "doi": "10.18653/v1/2025.acl-long.723",
+                "abstract": "Sustainability reports are key for evaluating companies' ESG performance. NLP approaches extract ESG insights at scale, but lack robustness against greenwashed content. We introduce A3CG - Aspect-Action Analysis with Cross-Category Generalization. By explicitly linking sustainability aspects with associated actions, A3CG ensures insights are grounded in verifiable actions rather than vague or misleading rhetoric."
+            },
+            "relevance_score": 1.0,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Aspect-Action linking",
+                "Fine-grained action grounding",
+                "Contextual transparency"
+            ],
+            "regulatory_relevance": [
+                "ESG",
+                "Greenwashing risk mitigation",
+                "Sustainability reporting auditability",
+                "Governance"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "bib",
+                "url": "https://aclanthology.org/2025.acl-long.723.bib",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "First framework to detect greenwashing by correlating reported aspects with physical actions.",
+                "Demonstrates that current NLP models fail to distinguish fabricated claims from objective performance."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "A3CG: Aspect-Action Analysis",
+                "reason": "Directly identifies the 'aspects' and 'actions' necessary for investors to detect impression management.",
+                "link": "https://aclanthology.org/2025.acl-long.723.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1553",
+            "input": {
+                "title": "Multi-Level Explanations for Generative Language Models",
+                "doi": "10.18653/v1/2025.acl-long.1553",
+                "abstract": "We propose Multi-Level Explanations for Generative Language Models (MExGen), a technique to provide explanations for context-grounded text generation. MExGen assigns scores to parts of the context to quantify their influence on the model's output. It extends attribution methods like LIME and SHAP to LLMs used in context-grounded tasks where inference cost is high and output is text."
+            },
+            "relevance_score": 0.98,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "LIME",
+                "SHAP",
+                "Feature attribution scores",
+                "Perturbation-based evaluation"
+            ],
+            "regulatory_relevance": [
+                "Auditability",
+                "Finance regulation",
+                "Explainability benchmarks"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1553",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1553.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Solves the high-cost barrier of applying SHAP/LIME to generative sustainability reporting.",
+                "Proves that perturbation-based methods provide more faithful explanations than model self-explanations."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "MExGen",
+                "reason": "Provides the technical XAI implementation (SHAP/LIME) requested in the RQ.",
+                "link": "https://aclanthology.org/2025.acl-long.1553.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_1600",
+            "input": {
+                "title": "Language Models can Subtly Deceive Without Lying: A Case Study on Strategic Phrasing in Legislation",
+                "doi": "10.18653/v1/2025.acl-long.1600",
+                "abstract": "We explore the ability of large language models to engage in subtle deception through strategically phrasing and intentionally manipulating information. We build a simple testbed mimicking a legislative environment where a corporate lobbyist module proposes amendments to bills that benefit a specific company while evading identification. Optimization increases deception rates by 40%."
+            },
+            "relevance_score": 0.88,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Lobbyist intent detection",
+                "Strategic phrasing analysis",
+                "Adversarial optimization traces"
+            ],
+            "regulatory_relevance": [
+                "Regulatory compliance",
+                "Finance regulation",
+                "Legislative transparency"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.1600",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.1600.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Directly defines 'strategic phrasing' (fluffing) in a regulated text environment.",
+                "Demonstrates how models can optimize text to evade detection by standard safety/truth filters."
+            ],
+            "decision_trace_support": "partial",
+            "suggested_citations": [
+                {
+                "title": "Strategic Phrasing Case Study",
+                "reason": "Offers a parallel for 'strategic fluffing' mentioned in the user RQ.",
+                "link": "https://aclanthology.org/2025.acl-long.1600.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_086",
+            "input": {
+                "title": "Normalized AOPC: Fixing Misleading Faithfulness Metrics for Feature Attributions Explainability",
+                "doi": "10.18653/v1/2025.acl-long.86",
+                "abstract": "Feature attribution methods aim to explain predictions by identifying input feature contributions. Faithfulness, evaluated by AOPC, reflects accuracy in describing internal mechanisms. We find AOPC is sensitive to model variations, leading to false conclusions. We propose Normalized AOPC (NAOPC) for consistent cross-model evaluation."
+            },
+            "relevance_score": 0.85,
+            "method_category": "Hybrid",
+            "interpretability_mechanisms": [
+                "Normalized Area Over the Perturbation Curve (NAOPC)",
+                "Feature attribution faithfulness",
+                "Consistent cross-model interpretability"
+            ],
+            "regulatory_relevance": [
+                "Auditability",
+                "Transparency standards",
+                "Regulatory verification"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.86",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.86.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Provides a robust mathematical framework for verifying if XAI visualizations (SHAP/LIME) are actually faithful to the model's logic.",
+                "Corrects misleading metrics used to interpret linguistic features in high-stakes decisions."
+            ],
+            "decision_trace_support": "strong",
+            "suggested_citations": [
+                {
+                "title": "NAOPC Framework",
+                "reason": "Essential for ensuring that visualizations used by investors are scientifically reliable and not artifacts of model variance.",
+                "link": "https://aclanthology.org/2025.acl-long.86.bib"
+                }
+            ]
+            },
+            {
+            "id": "paper_752",
+            "input": {
+                "title": "Dual-Stream Data Synthesis with Label Refinement for Few-Shot Aspect-Based Sentiment Analysis",
+                "doi": "10.18653/v1/2025.acl-long.752",
+                "abstract": "We propose DS-ABSA, a dual-stream data synthesis framework for few-shot ABSA. It leverages LLMs to synthesize data from key-point-driven and instance-driven perspectives, effectively generating diverse and high-quality ABSA samples in low-resource settings."
+            },
+            "relevance_score": 0.82,
+            "method_category": "Neural",
+            "interpretability_mechanisms": [
+                "Key-point-driven perspective",
+                "Instance-driven perspective",
+                "Label refinement"
+            ],
+            "regulatory_relevance": [
+                "ESG (Specialized domain analysis)",
+                "Resource-constrained SME reporting"
+            ],
+            "external_links": [
+                {
+                "type": "doi",
+                "url": "https://doi.org/10.18653/v1/2025.acl-long.752",
+                "source": "ACL Anthology"
+                },
+                {
+                "type": "pdf",
+                "url": "https://aclanthology.org/2025.acl-long.752.pdf",
+                "source": "ACL Anthology"
+                }
+            ],
+            "key_contributions": [
+                "Facilitates ABSA in niche domains where gold-labeled greenwashing training data is scarce.",
+                "Improves label accuracy via automated refinement, reducing noise in investor sentiment analysis."
+            ],
+            "decision_trace_support": "partial",
+            "suggested_citations": [
+                {
+                "title": "DS-ABSA",
+                "reason": "Technically enables the ABSA portion of the RQ in low-data ESG scenarios.",
+                "link": "https://aclanthology.org/2025.acl-long.752.bib"
+                }
+            ]
+            }
+        ]
+    },
+    {
+    "meta": {
+        "research_question": "MRQ8 - What role does data alignment utilities play in normalizing heterogeneous sources such as document uploads and media signals to create cohesive and comparable ESG risk profiles?",
+        "generated_at": "2026-01-11T10:35:00.000Z",
+        "notes": "Synthesis of ACL 2025 papers focusing on the architectural role of alignment modules in bridging structured (tabular/relational) and unstructured (text/multimodal) data for financial and regulatory oversight."
+    },
+    "papers": [
+        {
+        "id": "paper_acl_long_723",
+        "input": {
+            "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+            "doi": "10.18653/v1/2025.acl-long.723",
+            "abstract": "Sustainability reports are key for evaluating companies' ESG performance... We introduce A3CG - Aspect-Action Analysis with Cross-Category Generalization... By explicitly linking sustainability aspects with their associated actions, A3CG facilitates a more fine-grained and transparent evaluation of sustainability claims, ensuring that insights are grounded in verifiable actions rather than vague or misleading rhetoric."
+        },
+        "relevance_score": 1.0,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Aspect-Action linking",
+            "Grounding claims in physical performance",
+            "Cross-category generalization"
+        ],
+        "regulatory_relevance": [
+            "ESG risk profiling",
+            "Greenwashing detection",
+            "Sustainability disclosure compliance"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "bib",
+            "url": "https://aclanthology.org/2025.acl-long.723.bib",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Defines the role of 'Action' alignment as a prerequisite for robust ESG profiles.",
+            "Demonstrates that standard NLP fails to identify fabricated claims without structural grounding."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "A3CG Framework",
+            "reason": "Directly addresses the creation of cohesive ESG profiles by aligning reported aspects with underlying metrics.",
+            "link": "https://aclanthology.org/2025.acl-long.723.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_acl_long_43",
+        "input": {
+            "title": "HybGRAG: Hybrid Retrieval-Augmented Generation on Textual and Relational Knowledge Bases",
+            "doi": "10.18653/v1/2025.acl-long.43",
+            "abstract": "Many questions require both textual and relational information from SKB... We propose HybGRAG for HQA, consisting of a retriever bank and a critic module... Agentic, it automatically refines the output by incorporating feedback from the critic module... Interpretable, it justifies decision making with intuitive refinement path."
+        },
+        "relevance_score": 0.94,
+        "method_category": "Neuro-symbolic",
+        "interpretability_mechanisms": [
+            "Critic module feedback",
+            "Relational path tracing",
+            "Intuitive refinement path"
+        ],
+        "regulatory_relevance": [
+            "Knowledge-intensive auditability",
+            "Relational data normalization",
+            "Cohesive evidence synthesis"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.43",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.43.pdf",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Utilizes a 'critic module' as an alignment utility to ensure narrative output matches structured relational data.",
+            "Solves 'hybrid' queries by normalizing document text with interconnected relational schemas."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "HybGRAG",
+            "reason": "Provides a template for aligning media signals (text) with relational databases (risk metrics).",
+            "link": "https://aclanthology.org/2025.acl-long.43.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_acl_long_89",
+        "input": {
+            "title": "RelationalCoder: Rethinking Complex Tables via Programmatic Relational Transformation",
+            "doi": "10.18653/v1/2025.acl-long.89",
+            "abstract": "Semi-structured tables... remain a major obstacle for automated data processing. We propose RelationalCoder, which uniformly converts semi-structured tables into relational data... leveraging SQL code, RelationalCoder prevents schema errors and markedly improves normalization quality across multiple relational tables."
+        },
+        "relevance_score": 0.91,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "SQL code generation",
+            "Loop Reference Decoding (LRD)",
+            "Symbolic reasoning"
+        ],
+        "regulatory_relevance": [
+            "Auditability",
+            "Compliance reporting",
+            "Data lineage"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.89",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.89.pdf",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Enables comparability between document uploads by normalizing complex table structures into a unified relational format.",
+            "Scales to extremely large tables, ensuring consistent metric extraction for ESG risk profiles."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "RelationalCoder",
+            "reason": "Technical utility for the 'normalizing heterogeneous sources' part of the MRQ8, specifically for uploaded document tables.",
+            "link": "https://aclanthology.org/2025.acl-long.89.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_acl_long_142",
+        "input": {
+            "title": "HyperFM: Fact-Centric Multimodal Fusion for Link Prediction over Hyper-Relational Knowledge Graphs",
+            "doi": "10.18653/v1/2025.acl-long.142",
+            "abstract": "Traditional multimodal fusion approaches... fail to integrate the multimodal information with the rich context of the hyper-relational fact consisting of multiple entities and relations... we propose HyperFM... capturing intricate interactions between different data modalities via a customized Hypergraph Transformer."
+        },
+        "relevance_score": 0.88,
+        "method_category": "Neural",
+        "interpretability_mechanisms": [
+            "Hypergraph structure",
+            "Fact-centric fusion",
+            "Multimodal interaction attention"
+        ],
+        "regulatory_relevance": [
+            "Holistic risk monitoring",
+            "Multimodal auditability",
+            "Relational intelligence"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.142",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.142.pdf",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Aligns diverse modalities (images, text) into a hyper-relational context.",
+            "Facilitates real-time multimodal intelligence by normalizing media signals into fact-centric entities."
+        ],
+        "decision_trace_support": "partial",
+        "suggested_citations": [
+            {
+            "title": "HyperFM",
+            "reason": "Relevant for the 'media signals' aspect of MRQ8, providing fusion logic for multimodal data.",
+            "link": "https://aclanthology.org/2025.acl-long.142.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_acl_long_108",
+        "input": {
+            "title": "Modular Sentence Encoders: Separating Language Specialization from Cross-Lingual Alignment",
+            "doi": "10.18653/v1/2025.acl-long.108",
+            "abstract": "Cross-lingual alignment training distorts the optimal monolingual structure... We address both issues by means of modular training... align all non-English sentence embeddings to the English by training cross-lingual alignment adapters, preventing interference with monolingual specialization."
+        },
+        "relevance_score": 0.82,
+        "method_category": "Neural",
+        "interpretability_mechanisms": [
+            "Alignment adapters",
+            "Modular specialization",
+            "Embedding space normalization"
+        ],
+        "regulatory_relevance": [
+            "Cross-jurisdictional profile consistency",
+            "Normalization benchmarks",
+            "Transparency in latent representations"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.108",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.108.pdf",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Introduces alignment utilities that normalize heterogeneous linguistic sources into a comparable semantic space.",
+            "Prevents 'catastrophic forgetting' of domain-specific (e.g., ESG) specialization during the normalization process."
+        ],
+        "decision_trace_support": "none",
+        "suggested_citations": [
+            {
+            "title": "Modular Sentence Encoders",
+            "reason": "Theoretical foundation for utilizing alignment utilities to ensure risk profiles are comparable across different source languages/contexts.",
+            "link": "https://aclanthology.org/2025.acl-long.108.bib"
+            }
+        ]
+        }
+    ]
+    },
+    {
+    "meta": {
+        "research_question": "MRQ6 - How effectively does the validation module ensure that AI-generated sustainability narratives align with the underlying quantitative metrics extracted by metric analysis components?",
+        "generated_at": "2025-05-24T12:00:00Z",
+        "notes": "Evidence from the sources highlights several validation strategies: 'critic modules' in hybrid RAG systems, 'process-supervised verifiers' for step-wise correction, and 'aspect-action' grounding frameworks specifically designed to prevent greenwashing by ensuring narratives remain anchored to verifiable physical actions."
+    },
+    "papers": [
+        {
+        "id": "paper_723",
+        "input": {
+            "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+            "doi": "10.18653/v1/2025.acl-long.723",
+            "abstract": "Existing NLP approaches often extract insights that reflect misleading or exaggerated sustainability claims rather than objective ESG performance. To tackle this issue, we introduce A3CG... explicitly linking sustainability aspects with their associated actions, ensuring that insights are grounded in verifiable actions rather than vague or misleading rhetoric."
+        },
+        "relevance_score": 1.0,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Aspect-Action linking",
+            "Physical action grounding",
+            "Fine-grained transparency"
+        ],
+        "regulatory_relevance": [
+            "ESG",
+            "Greenwashing mitigation",
+            "Sustainability disclosure compliance",
+            "Auditability"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+            "source": "the sources"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+            "source": "the sources"
+            }
+        ],
+        "key_contributions": [
+            "Identifies that advanced models fail to detect 'fabricated' sustainability claims.",
+            "Proposes linking narratives (aspects) directly to quantitative/verifiable evidence (actions)."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "A3CG: Aspect-Action Analysis",
+            "reason": "Directly defines the mechanism for narrative-to-metric alignment in ESG contexts.",
+            "link": "https://aclanthology.org/2025.acl-long.723.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_043",
+        "input": {
+            "title": "HybGRAG: Hybrid Retrieval-Augmented Generation on Textual and Relational Knowledge Bases",
+            "doi": "10.18653/v1/2025.acl-long.43",
+            "abstract": "HybGRAG consists of a retriever bank and a critic module. Agentic, it automatically refines the output by incorporating feedback from the critic module... Interpretable, it justifies decision making with intuitive refinement path."
+        },
+        "relevance_score": 0.98,
+        "method_category": "Neuro-symbolic",
+        "interpretability_mechanisms": [
+            "Critic module feedback",
+            "Intuitive refinement paths",
+            "Justification-centric verdicts"
+        ],
+        "regulatory_relevance": [
+            "Auditability",
+            "Factual alignment",
+            "Relational transparency"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.43",
+            "source": "the sources"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.43.pdf",
+            "source": "the sources"
+            }
+        ],
+        "key_contributions": [
+            "Integrates unstructured narrative text with structured relational data (metrics).",
+            "Uses a critic module to act as an automated validation engine."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "HybGRAG",
+            "reason": "Provides a formal 'critic module' architecture for validating narrative/metric synergy.",
+            "link": "https://aclanthology.org/2025.acl-long.43.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_1062",
+        "input": {
+            "title": "FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation",
+            "doi": "10.18653/v1/2025.acl-long.1062",
+            "abstract": "FaithfulRAG resolves knowledge conflicts by explicitly modeling discrepancies between the model’s parametric knowledge and retrieved context... designs a self-thinking process, allowing LLMs to reason about and integrate conflicting facts before generating responses."
+        },
+        "relevance_score": 0.95,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Fact-level conflict modeling",
+            "Self-thinking reasoning process",
+            "Context adherence"
+        ],
+        "regulatory_relevance": [
+            "Factual integrity",
+            "Hallucination mitigation",
+            "Compliance monitoring"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.1062",
+            "source": "the sources"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.1062.pdf",
+            "source": "the sources"
+            }
+        ],
+        "key_contributions": [
+            "Addresses 'unfaithfulness' where generated narratives ignore the extracted quantitative context.",
+            "Prevents the suppression of internal knowledge in favor of misleading external text."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "FaithfulRAG",
+            "reason": "Ensures narratives remain faithful to extracted facts even when internal biases conflict.",
+            "link": "https://aclanthology.org/2025.acl-long.1062.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_1048",
+        "input": {
+            "title": "Enhancing Mathematical Reasoning in LLMs by Stepwise Correction",
+            "doi": "10.18653/v1/2025.acl-long.1048",
+            "abstract": "We propose Stepwise Correction (StepCo) that helps LLMs identify and revise incorrect steps in generated reasoning paths. It iterates verification and revision phases that employ a process-supervised verifier."
+        },
+        "relevance_score": 0.94,
+        "method_category": "Neural",
+        "interpretability_mechanisms": [
+            "Process-supervised verifier (PSV)",
+            "Stepwise reasoning traces",
+            "Iterative revision"
+        ],
+        "regulatory_relevance": [
+            "Auditability",
+            "Quantitative precision",
+            "Error correction logic"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.1048",
+            "source": "the sources"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.1048.pdf",
+            "source": "the sources"
+            }
+        ],
+        "key_contributions": [
+            "Improves narrative/metric alignment by checking the 'math' at every step of the reasoning chain.",
+            "Reduces token consumption by avoiding generating entirely wrong paths."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "StepCo",
+            "reason": "Validation module implementation for step-by-step metric alignment.",
+            "link": "https://aclanthology.org/2025.acl-long.1048.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_1046",
+        "input": {
+            "title": "CogniBench: A Legal-inspired Framework and Dataset for Assessing Cognitive Faithfulness of Large Language Models",
+            "doi": "10.18653/v1/2025.acl-long.1046",
+            "abstract": "Inspired by how evidence is assessed in the legal domain, we design a rigorous framework to assess different levels of faithfulness... focusing on 'cognitive statements' that involve making inferences from the given context."
+        },
+        "relevance_score": 0.92,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Legal-inspired evidence assessment",
+            "Multi-level faithfulness categorization",
+            "Inference verification"
+        ],
+        "regulatory_relevance": [
+            "Governance",
+            "Evidence-based reporting",
+            "Legal compliance"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.1046",
+            "source": "the sources"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.1046.pdf",
+            "source": "the sources"
+            }
+        ],
+        "key_contributions": [
+            "Validates if high-level 'cognitive' narratives are truly supported by the metrics in the provided context.",
+            "Provides an automated pipeline to scale faithfulness assessments."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "CogniBench",
+            "reason": "A robust framework for auditing the inference logic between extracted metrics and final narratives.",
+            "link": "https://aclanthology.org/2025.acl-long.1046.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_1370",
+        "input": {
+            "title": "A3: Automatic Alignment Framework for Attributed Text Generation",
+            "doi": "10.18653/v1/2025.acl-long.1407",
+            "abstract": "Attributed text generation aims to enhance the reliability of content... providing citations for each claim. We propose A3, a novel framework designed to automatically generate high-quality attributed query-response pairs... without human annotation."
+        },
+        "relevance_score": 0.90,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Citation-based attribution",
+            "Automatic preference optimization",
+            "Factual grounding"
+        ],
+        "regulatory_relevance": [
+            "Auditability",
+            "Transparency",
+            "Attributed disclosure verification"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.1407",
+            "source": "the sources"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.1407.pdf",
+            "source": "the sources"
+            }
+        ],
+        "key_contributions": [
+            "Enables models to provide specific citations (traces) from source metrics for every generated claim.",
+            "Outperforms GPT-4 in citation precision and recall."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "A3 Framework",
+            "reason": "Ensures every narrative claim is backed by a specific metric attribution.",
+            "link": "https://aclanthology.org/2025.acl-long.1407.bib"
+            }
+        ]
+        }
+    ]
+    },
+    {
+    "meta": {
+        "research_question": "MRQ4 - In what ways do complex visualizations, such as Sankey diagrams, reduce the cognitive load for auditors when tracing the lineage from raw data to final ESG metrics?",
+        "generated_at": "2026-01-11T10:22:23.423868Z",
+        "notes": "Evidence from the sources highlights that interactive visualizations of agent trajectories and semantic partitioning significantly reduce cognitive effort during systematic reviews and data auditing. Specifically, graph-based modeling of reasoning steps and provenance-aware lineage tracing facilitate auditable decision-making from raw data to high-level metrics."
+    },
+    "papers": [
+        {
+        "id": "paper_1523",
+        "input": {
+            "title": "Completing A Systematic Review in Hours instead of Months with Interactive AI Agents",
+            "doi": "10.18653/v1/2025.acl-long.1523",
+            "abstract": "We introduce InsightAgent... provides intuitive visualizations of the corpus and agent trajectories, allowing users to effortlessly monitor the actions of the agent and provide real-time feedback based on their expertise. User studies demonstrate that the visualization and interaction mechanisms effectively improve quality and user satisfaction (up by 34.4%)."
+        },
+        "relevance_score": 0.95,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Interactive agent trajectory visualization",
+            "Semantic corpus partitioning",
+            "Real-time expert feedback loops"
+        ],
+        "regulatory_relevance": [
+            "Auditability",
+            "Governance",
+            "Systematic review transparency"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.1523",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.1523.pdf",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "semantic_scholar",
+            "url": "https://www.semanticscholar.org/search?q=Completing+A+Systematic+Review+in+Hours+instead+of+Months+with+Interactive+AI+Agents",
+            "source": "Semantic Scholar"
+            }
+        ],
+        "key_contributions": [
+            "Empirically validates that visualizations reduce human expert cognitive load in large-scale data monitoring.",
+            "Reduces workflow time from months to hours through visual reasoning transparency."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "InsightAgent",
+            "reason": "Direct evidence for the cognitive load reduction claim through trajectory visualization.",
+            "link": "https://aclanthology.org/2025.acl-long.1523.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_723",
+        "input": {
+            "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+            "doi": "10.18653/v1/2025.acl-long.723",
+            "abstract": "Sustainability reports are key for evaluating ESG performance... even advanced NLP methods lack robustness against greenwashed content. We introduce A3CG... explicitly linking sustainability aspects with their associated actions, ensuring that insights are grounded in verifiable actions rather than vague rhetoric."
+        },
+        "relevance_score": 0.92,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Aspect-Action linking",
+            "Factual grounding in raw physical actions",
+            "Cross-category verification"
+        ],
+        "regulatory_relevance": [
+            "ESG",
+            "EU Taxonomy compliance",
+            "Greenwashing risk mitigation",
+            "Auditability"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Establishes the semantic lineage required to move from abstract ESG metrics back to raw action data.",
+            "Demonstrates that current black-box models fail to detect greenwashing without explicit aspect-action tracing."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "A3CG Framework",
+            "reason": "Defines the 'lineage' structure (Aspect to Action) that auditors must trace.",
+            "link": "https://aclanthology.org/2025.acl-long.723.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_577",
+        "input": {
+            "title": "TROVE: A Challenge for Fine-Grained Text Provenance via Source Sentence Tracing and Relationship Classification",
+            "doi": "10.18653/v1/2025.acl-long.577",
+            "abstract": "We introduce the Text pROVEnance (TROVE) challenge, designed to trace each sentence of a target text back to specific source sentences... Beyond identifying sources, TROVE annotates fine-grained relationships (quotation, compression, inference)."
+        },
+        "relevance_score": 0.90,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Fine-grained source sentence tracing",
+            "Relationship classification",
+            "Lineage audit trails"
+        ],
+        "regulatory_relevance": [
+            "Auditability",
+            "Content reliability",
+            "Finance regulation",
+            "Accountability"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.577",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.577.pdf",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Provides the technical foundation for tracing the provenance of high-level metrics back to multi-document sources.",
+            "Classifies the transformation logic, essential for auditors checking if a metric was derived through sound inference."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "TROVE Challenge",
+            "reason": "Core methodology for tracing 'lineage from raw data' as requested in the RQ.",
+            "link": "https://aclanthology.org/2025.acl-long.577.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_1107",
+        "input": {
+            "title": "STRICTA: Structured Reasoning in Critical Text Assessment for Peer Review and Beyond",
+            "doi": "10.18653/v1/2025.acl-long.1107",
+            "abstract": "We introduce Structured Reasoning in Critical Text Assessment (STRICTA), a specification framework to model text assessment as an explicit, step-wise reasoning process. STRICTA breaks down the assessment into a graph of interconnected reasoning steps drawing on causality theory."
+        },
+        "relevance_score": 0.88,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Causal reasoning graphs",
+            "Explicit step-wise breakdown",
+            "Collaborative expert-AI interaction"
+        ],
+        "regulatory_relevance": [
+            "Auditability",
+            "Governance",
+            "Transparency in assessment"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.1107",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.1107.pdf",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Models the critical assessment of text (similar to auditing) as a causal graph, facilitating human inspection of the trace.",
+            "Reduces cognitive load by externalizing the complex reasoning chain into a visible structure."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "STRICTA Specification",
+            "reason": "Provides the causal graph structure that serves as a visual lineage for auditors.",
+            "link": "https://aclanthology.org/2025.acl-long.1107.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_960",
+        "input": {
+            "title": "nvAgent: Automated Data Visualization from Natural Language via Collaborative Agent Workflow",
+            "doi": "10.18653/v1/2025.acl-long.960",
+            "abstract": "Natural Language to Visualization (NL2Vis) seeks to convert natural-language descriptions into visual representations of given tables... We propose nvAgent, a collaborative agent workflow consisting of processor, composer, and validator agents to produce high-quality visual representations from heterogeneous sources."
+        },
+        "relevance_score": 0.85,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Collaborative agent visualization planning",
+            "Code-based validation of visuals",
+            "Multi-table reasoning for viz"
+        ],
+        "regulatory_relevance": [
+            "Reporting transparency",
+            "Data visualization for governance",
+            "Auditability of generated charts"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.960",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.960.pdf",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Enables automated generation of the 'complex visualizations' requested by auditors.",
+            "Uses a validator agent to ensure the visualization faithfully represents the underlying raw metrics."
+        ],
+        "decision_trace_support": "partial",
+        "suggested_citations": [
+            {
+            "title": "nvAgent",
+            "reason": "Relevant for the automated creation of the auditor-facing visualizations mentioned in the RQ.",
+            "link": "https://aclanthology.org/2025.acl-long.960.bib"
+            }
+        ]
+        }
+    ]
+    },
+    {
+    "meta": {
+        "research_question": "MRQ2 - To what extent can Tone Distribution analysis accurately flag inconsistencies between a company's internal sustainability reports and external media sentiment?",
+        "generated_at": "2025-05-23T18:30:00Z",
+        "notes": "Evidence from the sources suggests that Tone Distribution (affective information) is a high-fidelity signal for cross-domain inconsistency detection, particularly when identifying strategic phrasing or greenwashing in corporate disclosures."
+    },
+    "papers": [
+        {
+        "id": "paper_793",
+        "input": {
+            "title": "RAEmoLLM: Retrieval Augmented LLMs for Cross-Domain Misinformation Detection Using In-Context Learning Based on Emotional Information",
+            "doi": "10.18653/v1/2025.acl-long.806",
+            "abstract": "Proposes RAEmoLLM, the first retrieval augmented LLMs framework to address cross-domain misinformation detection using in-context learning based on affective information. It uses emotional LLMs to obtain affective embeddings to construct a retrieval database to process target domain content."
+        },
+        "relevance_score": 0.98,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Affective embeddings",
+            "In-context affective demonstrations",
+            "Emotion-based retrieval"
+        ],
+        "regulatory_relevance": [
+            "Auditability",
+            "Fact-checking",
+            "Misinformation governance"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.806",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.806.pdf",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Proves that 'affect' (emotion/tone) is a robust indicator for identifying misinformation when shifting across domains.",
+            "Demonstrates a 15-31% performance increase in detection by grounding reasoning in emotional signals rather than just factual tokens."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "RAEmoLLM Framework",
+            "reason": "Provides the primary methodology for using 'affective information' as a proxy for truthfulness across disparate sources.",
+            "link": "https://aclanthology.org/2025.acl-long.806.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_710",
+        "input": {
+            "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+            "doi": "10.18653/v1/2025.acl-long.723",
+            "abstract": "Sustainability reports are key for evaluating ESG performance, but NLP methods lack robustness against greenwashed content. We introduce A3CG, explicitly linking sustainability aspects with associated actions to ensure insights are grounded in verifiable actions rather than vague rhetoric."
+        },
+        "relevance_score": 0.96,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Aspect-Action linking",
+            "Actionable grounding",
+            "Cross-category variance analysis"
+        ],
+        "regulatory_relevance": [
+            "ESG",
+            "EU Taxonomy",
+            "Greenwashing risk mitigation"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Establishes the 'Aspect-Action' gap as a quantitative measure of greenwashing.",
+            "Uses cross-category generalization to maintain detection accuracy when report tones shift to favor different sustainability pillars."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "A3CG: Aspect-Action Analysis",
+            "reason": "Directly identifies the 'vague rhetoric' in internal reports that often conflicts with external performance metrics.",
+            "link": "https://aclanthology.org/2025.acl-long.723.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_1562",
+        "input": {
+            "title": "Language Models can Subtly Deceive Without Lying: A Case Study on Strategic Phrasing in Legislation",
+            "doi": "10.18653/v1/2025.acl-long.1600",
+            "abstract": "Explores LLMs' ability to engage in subtle deception through strategically phrasing information. Mimics a legislative environment where lobbyists propose amendments to benefit a company while evading identification. Optimization increases deception rates by 40%."
+        },
+        "relevance_score": 0.92,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Strategic phrasing analysis",
+            "Intent-concealment metrics",
+            "Adversarial re-planning"
+        ],
+        "regulatory_relevance": [
+            "Auditability",
+            "Governance",
+            "Lobbying transparency"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.1600",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.1600.pdf",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Defines 'strategic phrasing' as a form of tone-based deception that can bypass standard fact-checkers.",
+            "Shows that models can be optimized to generate a 'neutral' tone that achieves self-serving goals, creating a measurable inconsistency with actual intent."
+        ],
+        "decision_trace_support": "partial",
+        "suggested_citations": [
+            {
+            "title": "Strategic Phrasing Case Study",
+            "reason": "Critical for understanding the 'strategic fluffing' often found in sustainability reports to mask poor media sentiment.",
+            "link": "https://aclanthology.org/2025.acl-long.1600.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_1319",
+        "input": {
+            "title": "Representations of Fact, Fiction and Forecast in Large Language Models: Epistemics and Attitudes",
+            "doi": "10.18653/v1/2025.acl-long.1345",
+            "abstract": "Examines the linguistic knowledge of uncertainty encoded in LLM latent space. Explores how models generate epistemic expressions based on evidence strength."
+        },
+        "relevance_score": 0.88,
+        "method_category": "Neural",
+        "interpretability_mechanisms": [
+            "Epistemic modality probing",
+            "Uncertainty-aware latent analysis",
+            "Attitudinal representation"
+        ],
+        "regulatory_relevance": [
+            "Factual reliability",
+            "Risk disclosure auditability",
+            "Transparency"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.1345",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.1345.pdf",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Proves that the internal 'tone' of uncertainty in models is often uncalibrated to actual strength of evidence.",
+            "Provides a framework for measuring the 'epistemic modality' (tone of certainty) which is key for identifying confident-but-false report claims."
+        ],
+        "decision_trace_support": "none",
+        "suggested_citations": [
+            {
+            "title": "Epistemics and Attitudes in LLMs",
+            "reason": "Foundational for quantifying the 'Confidence' tone in internal reports vs the 'Skepticism' tone in external media.",
+            "link": "https://aclanthology.org/2025.acl-long.1345.bib"
+            }
+        ]
+        },
+        {
+        "id": "paper_135",
+        "input": {
+            "title": "Context-Aware Sentiment Forecasting via LLM-based Multi-Perspective Role-Playing Agents",
+            "doi": "10.18653/v1/2025.acl-long.136",
+            "abstract": "Address the problem of sentiment forecasting on social media to predict users' future sentiment based on event developments. Simulates human response processes."
+        },
+        "relevance_score": 0.85,
+        "method_category": "Hybrid",
+        "interpretability_mechanisms": [
+            "Multi-perspective role-playing",
+            "Event development simulation",
+            "Sentiment-related feature extraction"
+        ],
+        "regulatory_relevance": [
+            "Sentiment governance",
+            "Public opinion monitoring",
+            "Social risk profiling"
+        ],
+        "external_links": [
+            {
+            "type": "doi",
+            "url": "https://doi.org/10.18653/v1/2025.acl-long.136",
+            "source": "ACL Anthology"
+            },
+            {
+            "type": "pdf",
+            "url": "https://aclanthology.org/2025.acl-long.136.pdf",
+            "source": "ACL Anthology"
+            }
+        ],
+        "key_contributions": [
+            "Simulates the 'media sentiment' response to corporate events, allowing auditors to see if a report's internal tone is 'out of phase' with expected social media responses.",
+            "Uses multi-perspective agents to capture microscopic sentiment dynamics that flag inconsistencies."
+        ],
+        "decision_trace_support": "strong",
+        "suggested_citations": [
+            {
+            "title": "Sentiment Forecasting Framework",
+            "reason": "Enables the comparison between a company's static report release and the dynamic media response.",
+            "link": "https://aclanthology.org/2025.acl-long.136.bib"
+            }
+        ]
+        }
+    ]
+    }
+]
+}

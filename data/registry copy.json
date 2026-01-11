@@ -1,0 +1,628 @@
+{
+  "meta": {
+    "research_question": "To what extent can neurosymbolic AI reduce the accuracy–interpretability trade-off in ESG risk models by embedding symbolic logic (e.g., EU Taxonomy rules) into neural learning to provide transparent decision traces for regulatory compliance?",
+    "generated_at": "2025-05-22T10:00:00Z",
+    "notes": "Selection focused on ESG-specific robust analysis and neurosymbolic/logic-complete frameworks that provide verifiable reasoning chains or formal proofs for regulatory auditability."
+  },
+  "papers": [
+    {
+      "id": "paper_723",
+      "input": {
+        "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+        "doi": "10.18653/v1/2025.acl-long.723",
+        "abstract": "Sustainability reports are key for evaluating companies' ESG performance. To analyze these reports, NLP approaches can efficiently extract ESG insights at scale. However, even the most advanced NLP methods lack robustness against ESG content that is greenwashed. We introduce A3CG - Aspect-Action Analysis with Cross-Category Generalization... By explicitly linking sustainability aspects with their associated actions, A3CG facilitates a more fine-grained and transparent evaluation of sustainability claims, ensuring that insights are grounded in verifiable actions rather than vague or misleading rhetoric."
+      },
+      "relevance_score": 0.95,
+      "method_category": "Hybrid",
+      "interpretability_mechanisms": [
+        "Aspect-Action linking",
+        "Verifiable action grounding",
+        "Fine-grained transparency"
+      ],
+      "regulatory_relevance": [
+        "ESG",
+        "Greenwashing risk mitigation",
+        "Sustainability reporting compliance"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "First framework to explicitly link ESG aspects to verifiable physical actions.",
+        "Cross-category generalization to handle shifting reporting patterns."
+      ],
+      "decision_trace_support": "strong",
+      "suggested_citations": [
+        {
+          "title": "A3CG Dataset",
+          "reason": "Directly provides the grounding necessary for transparent ESG analysis.",
+          "link": "https://aclanthology.org/2025.acl-long.723.bib"
+        }
+      ]
+    },
+    {
+      "id": "paper_153",
+      "input": {
+        "title": "Aristotle: Mastering Logical Reasoning with A Logic-Complete Decompose-Search-Resolve Framework",
+        "doi": "10.18653/v1/2025.acl-long.153",
+        "abstract": "This paper proposes a logic-complete reasoning framework, Aristotle. The framework consists of three key components: Logical Decomposer, Logical Search Router, and Logical Resolver, in which symbolic expressions and logical rules are comprehensively integrated into the entire reasoning process, significantly alleviating the bottlenecks of logical reasoning."
+      },
+      "relevance_score": 0.92,
+      "method_category": "Neuro-symbolic",
+      "interpretability_mechanisms": [
+        "Symbolic expressions",
+        "Logical rules",
+        "Decompose-Search-Resolve traces"
+      ],
+      "regulatory_relevance": [
+        "Governance",
+        "Logical auditability",
+        "Rule-based compliance"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.153",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.153.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "Integrates symbolic expressions and logical rules into neural reasoning.",
+        "Reduces logical contradictions and search errors via symbolic resolvers."
+      ],
+      "decision_trace_support": "strong",
+      "suggested_citations": [
+        {
+          "title": "Aristotle Framework",
+          "reason": "Provides a logic-complete template for embedding complex regulatory taxonomies.",
+          "link": "https://aclanthology.org/2025.acl-long.153.bib"
+        }
+      ]
+    },
+    {
+      "id": "paper_594",
+      "input": {
+        "title": "Safe: Enhancing Mathematical Reasoning in Large Language Models via Retrospective Step-aware Formal Verification",
+        "doi": "10.18653/v1/2025.acl-long.594",
+        "abstract": "We propose a retrospective, step-aware formal verification framework Safe... we strive to articulate mathematical claims in formal mathematical language Lean 4 at each reasoning step and provide formal proofs to identify hallucinations. Our work represents the first endeavor to utilize formal mathematical language Lean 4 for verifying content generated by LLMs."
+      },
+      "relevance_score": 0.88,
+      "method_category": "Neuro-symbolic",
+      "interpretability_mechanisms": [
+        "Formal language (Lean 4)",
+        "Formal proofs",
+        "Step-aware verification"
+      ],
+      "regulatory_relevance": [
+        "Auditability",
+        "Governance",
+        "Verifiable evidence"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.594",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.594.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "Use of formal provers to provide checkable evidence for model reasoning steps.",
+        "FormalStep benchmark for step correctness theorem proving."
+      ],
+      "decision_trace_support": "strong",
+      "suggested_citations": [
+        {
+          "title": "Safe Framework",
+          "reason": "Demonstrates how to generate 'gold standard' proofs for decision-making steps.",
+          "link": "https://aclanthology.org/2025.acl-long.594.bib"
+        }
+      ]
+    },
+    {
+      "id": "paper_1186",
+      "input": {
+        "title": "Decoding on Graphs: Faithful and Sound Reasoning on Knowledge Graphs through Generation of Well-Formed Chains",
+        "doi": "10.18653/v1/2025.acl-long.1186",
+        "abstract": "We present DoG (Decoding on Graph), a novel framework that facilitates a deep synergy between LLMs and KGs... we propose graph-aware constrained decoding, in which a constraint derived from the topology of the KG regulates the decoding process of the LLMs. This constrained decoding method ensures the generation of well-formed chains."
+      },
+      "relevance_score": 0.87,
+      "method_category": "Neuro-symbolic",
+      "interpretability_mechanisms": [
+        "Graph-aware constrained decoding",
+        "Well-formed fact chains",
+        "Knowledge Graph topology"
+      ],
+      "regulatory_relevance": [
+        "Factual transparency",
+        "Auditability",
+        "Finance regulation"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.1186",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.1186.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "Forces models to follow KG topology to generate logically sound paths.",
+        "Training-free method to provide faithful reasoning trajectories."
+      ],
+      "decision_trace_support": "strong",
+      "suggested_citations": [
+        {
+          "title": "Decoding on Graphs (DoG)",
+          "reason": "Enables the transformation of taxonomies into executable graph-based constraints.",
+          "link": "https://aclanthology.org/2025.acl-long.1186.bib"
+        }
+      ]
+    },
+    {
+      "id": "paper_1540",
+      "input": {
+        "title": "Deliberate Reasoning in Language Models as Structure-Aware Planning with an Accurate World Model",
+        "doi": "10.18653/v1/2025.acl-long.1540",
+        "abstract": "We propose a novel reasoning framework, SWAP, that integrates structured knowledge representation with learned planning... SWAP leverages entailment graphs to encode structured dependencies and enable symbolic verification of intermediate steps."
+      },
+      "relevance_score": 0.85,
+      "method_category": "Neuro-symbolic",
+      "interpretability_mechanisms": [
+        "Entailment graphs",
+        "Symbolic verification",
+        "Learned planning"
+      ],
+      "regulatory_relevance": [
+        "Governance",
+        "Auditability",
+        "Regulatory compliance"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.1540",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.1540.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "Uses a world model to predict structural updates and symbolic verification of steps.",
+        "Mitigates CoT consistency issues via structured planning."
+      ],
+      "decision_trace_support": "strong",
+      "suggested_citations": [
+        {
+          "title": "SWAP Framework",
+          "reason": "Relevant for creating world models of regulatory environments like the EU Taxonomy.",
+          "link": "https://aclanthology.org/2025.acl-long.1540.bib"
+        }
+      ]
+    },
+    {
+      "id": "paper_27",
+      "input": {
+        "title": "RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios",
+        "doi": "10.18653/v1/2025.acl-long.27",
+        "abstract": "Coverring three practical domains – airline baggage fees, NBA transactions, and tax regulations – RuleArena assesses LLMs' proficiency in handling intricate natural language instructions that demand long-context understanding, logical reasoning, and accurate mathematical computation... significant performance boost when LLMs are provided with external tools for oracle math and logic operations."
+      },
+      "relevance_score": 0.82,
+      "method_category": "Hybrid",
+      "interpretability_mechanisms": [
+        "Rule-guided reasoning",
+        "Oracle logic operations",
+        "Tool-augmented verification"
+      ],
+      "regulatory_relevance": [
+        "Tax regulations",
+        "Finance regulation",
+        "Complex rule adherence"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.27",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.27.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "Benchmarks the gap between general reasoning and complex rule adherence.",
+        "Highlights the efficacy of external symbolic tools in improving accuracy for structured rules."
+      ],
+      "decision_trace_support": "partial",
+      "suggested_citations": [
+        {
+          "title": "RuleArena",
+          "reason": "Critical for evaluating model performance against regulatory rulesets.",
+          "link": "https://aclanthology.org/2025.acl-long.27.bib"
+        }
+      ]
+    },
+    {
+      "id": "paper_1107",
+      "input": {
+        "title": "STRICTA: Structured Reasoning in Critical Text Assessment for Peer Review and Beyond",
+        "doi": "10.18653/v1/2025.acl-long.1107",
+        "abstract": "We introduce Structured Reasoning in Critical Text Assessment (STRICTA), a novel specification framework to model text assessment as an explicit, step-wise reasoning process. STRICTA breaks down the assessment into a graph of interconnected reasoning steps drawing on causality theory."
+      },
+      "relevance_score": 0.80,
+      "method_category": "Hybrid",
+      "interpretability_mechanisms": [
+        "Causality-based reasoning graph",
+        "Step-wise reasoning process",
+        "Structural modeling"
+      ],
+      "regulatory_relevance": [
+        "Governance",
+        "Transparency",
+        "Auditability"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.1107",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.1107.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "Framework for explicit, causal modeling of subjective assessment tasks.",
+        "Enables human-AI collaboration via transparent reasoning graphs."
+      ],
+      "decision_trace_support": "strong",
+      "suggested_citations": [
+        {
+          "title": "STRICTA",
+          "reason": "Provides a methodology for modeling the expert reasoning required in ESG risk evaluation.",
+          "link": "https://aclanthology.org/2025.acl-long.1107.bib"
+        }
+      ]
+    }
+  ,
+    {
+      "id": "paper_723",
+      "input": {
+        "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+        "doi": "10.18653/v1/2025.acl-long.723",
+        "abstract": "Sustainability reports are key for evaluating companies' ESG performance. To analyze these reports, NLP approaches can efficiently extract ESG insights at scale. However, even the most advanced NLP methods lack robustness against ESG content that is greenwashed. We introduce A3CG - Aspect-Action Analysis with Cross-Category Generalization... By explicitly linking sustainability aspects with their associated actions, A3CG facilitates a more fine-grained and transparent evaluation of sustainability claims, ensuring that insights are grounded in verifiable actions rather than vague or misleading rhetoric."
+      },
+      "relevance_score": 0.95,
+      "method_category": "Hybrid",
+      "interpretability_mechanisms": [
+        "Aspect-Action linking",
+        "Verifiable action grounding",
+        "Fine-grained transparency"
+      ],
+      "regulatory_relevance": [
+        "ESG",
+        "Greenwashing risk mitigation",
+        "Sustainability reporting compliance"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.723",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.723.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "First framework to explicitly link ESG aspects to verifiable physical actions.",
+        "Cross-category generalization to handle shifting reporting patterns."
+      ],
+      "decision_trace_support": "strong",
+      "suggested_citations": [
+        {
+          "title": "A3CG Dataset",
+          "reason": "Directly provides the grounding necessary for transparent ESG analysis.",
+          "link": "https://aclanthology.org/2025.acl-long.723.bib"
+        }
+      ]
+    },
+    {
+      "id": "paper_153",
+      "input": {
+        "title": "Aristotle: Mastering Logical Reasoning with A Logic-Complete Decompose-Search-Resolve Framework",
+        "doi": "10.18653/v1/2025.acl-long.153",
+        "abstract": "This paper proposes a logic-complete reasoning framework, Aristotle. The framework consists of three key components: Logical Decomposer, Logical Search Router, and Logical Resolver, in which symbolic expressions and logical rules are comprehensively integrated into the entire reasoning process, significantly alleviating the bottlenecks of logical reasoning."
+      },
+      "relevance_score": 0.92,
+      "method_category": "Neuro-symbolic",
+      "interpretability_mechanisms": [
+        "Symbolic expressions",
+        "Logical rules",
+        "Decompose-Search-Resolve traces"
+      ],
+      "regulatory_relevance": [
+        "Governance",
+        "Logical auditability",
+        "Rule-based compliance"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.153",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.153.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "Integrates symbolic expressions and logical rules into neural reasoning.",
+        "Reduces logical contradictions and search errors via symbolic resolvers."
+      ],
+      "decision_trace_support": "strong",
+      "suggested_citations": [
+        {
+          "title": "Aristotle Framework",
+          "reason": "Provides a logic-complete template for embedding complex regulatory taxonomies.",
+          "link": "https://aclanthology.org/2025.acl-long.153.bib"
+        }
+      ]
+    },
+    {
+      "id": "paper_594",
+      "input": {
+        "title": "Safe: Enhancing Mathematical Reasoning in Large Language Models via Retrospective Step-aware Formal Verification",
+        "doi": "10.18653/v1/2025.acl-long.594",
+        "abstract": "We propose a retrospective, step-aware formal verification framework Safe... we strive to articulate mathematical claims in formal mathematical language Lean 4 at each reasoning step and provide formal proofs to identify hallucinations. Our work represents the first endeavor to utilize formal mathematical language Lean 4 for verifying content generated by LLMs."
+      },
+      "relevance_score": 0.88,
+      "method_category": "Neuro-symbolic",
+      "interpretability_mechanisms": [
+        "Formal language (Lean 4)",
+        "Formal proofs",
+        "Step-aware verification"
+      ],
+      "regulatory_relevance": [
+        "Auditability",
+        "Governance",
+        "Verifiable evidence"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.594",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.594.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "Use of formal provers to provide checkable evidence for model reasoning steps.",
+        "FormalStep benchmark for step correctness theorem proving."
+      ],
+      "decision_trace_support": "strong",
+      "suggested_citations": [
+        {
+          "title": "Safe Framework",
+          "reason": "Demonstrates how to generate 'gold standard' proofs for decision-making steps.",
+          "link": "https://aclanthology.org/2025.acl-long.594.bib"
+        }
+      ]
+    },
+    {
+      "id": "paper_1186",
+      "input": {
+        "title": "Decoding on Graphs: Faithful and Sound Reasoning on Knowledge Graphs through Generation of Well-Formed Chains",
+        "doi": "10.18653/v1/2025.acl-long.1186",
+        "abstract": "We present DoG (Decoding on Graph), a novel framework that facilitates a deep synergy between LLMs and KGs... we propose graph-aware constrained decoding, in which a constraint derived from the topology of the KG regulates the decoding process of the LLMs. This constrained decoding method ensures the generation of well-formed chains."
+      },
+      "relevance_score": 0.87,
+      "method_category": "Neuro-symbolic",
+      "interpretability_mechanisms": [
+        "Graph-aware constrained decoding",
+        "Well-formed fact chains",
+        "Knowledge Graph topology"
+      ],
+      "regulatory_relevance": [
+        "Factual transparency",
+        "Auditability",
+        "Finance regulation"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.1186",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.1186.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "Forces models to follow KG topology to generate logically sound paths.",
+        "Training-free method to provide faithful reasoning trajectories."
+      ],
+      "decision_trace_support": "strong",
+      "suggested_citations": [
+        {
+          "title": "Decoding on Graphs (DoG)",
+          "reason": "Enables the transformation of taxonomies into executable graph-based constraints.",
+          "link": "https://aclanthology.org/2025.acl-long.1186.bib"
+        }
+      ]
+    },
+    {
+      "id": "paper_1540",
+      "input": {
+        "title": "Deliberate Reasoning in Language Models as Structure-Aware Planning with an Accurate World Model",
+        "doi": "10.18653/v1/2025.acl-long.1540",
+        "abstract": "We propose a novel reasoning framework, SWAP, that integrates structured knowledge representation with learned planning... SWAP leverages entailment graphs to encode structured dependencies and enable symbolic verification of intermediate steps."
+      },
+      "relevance_score": 0.85,
+      "method_category": "Neuro-symbolic",
+      "interpretability_mechanisms": [
+        "Entailment graphs",
+        "Symbolic verification",
+        "Learned planning"
+      ],
+      "regulatory_relevance": [
+        "Governance",
+        "Auditability",
+        "Regulatory compliance"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.1540",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.1540.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "Uses a world model to predict structural updates and symbolic verification of steps.",
+        "Mitigates CoT consistency issues via structured planning."
+      ],
+      "decision_trace_support": "strong",
+      "suggested_citations": [
+        {
+          "title": "SWAP Framework",
+          "reason": "Relevant for creating world models of regulatory environments like the EU Taxonomy.",
+          "link": "https://aclanthology.org/2025.acl-long.1540.bib"
+        }
+      ]
+    },
+    {
+      "id": "paper_27",
+      "input": {
+        "title": "RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios",
+        "doi": "10.18653/v1/2025.acl-long.27",
+        "abstract": "Coverring three practical domains – airline baggage fees, NBA transactions, and tax regulations – RuleArena assesses LLMs' proficiency in handling intricate natural language instructions that demand long-context understanding, logical reasoning, and accurate mathematical computation... significant performance boost when LLMs are provided with external tools for oracle math and logic operations."
+      },
+      "relevance_score": 0.82,
+      "method_category": "Hybrid",
+      "interpretability_mechanisms": [
+        "Rule-guided reasoning",
+        "Oracle logic operations",
+        "Tool-augmented verification"
+      ],
+      "regulatory_relevance": [
+        "Tax regulations",
+        "Finance regulation",
+        "Complex rule adherence"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.27",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.27.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "Benchmarks the gap between general reasoning and complex rule adherence.",
+        "Highlights the efficacy of external symbolic tools in improving accuracy for structured rules."
+      ],
+      "decision_trace_support": "partial",
+      "suggested_citations": [
+        {
+          "title": "RuleArena",
+          "reason": "Critical for evaluating model performance against regulatory rulesets.",
+          "link": "https://aclanthology.org/2025.acl-long.27.bib"
+        }
+      ]
+    },
+    {
+      "id": "paper_1107",
+      "input": {
+        "title": "STRICTA: Structured Reasoning in Critical Text Assessment for Peer Review and Beyond",
+        "doi": "10.18653/v1/2025.acl-long.1107",
+        "abstract": "We introduce Structured Reasoning in Critical Text Assessment (STRICTA), a novel specification framework to model text assessment as an explicit, step-wise reasoning process. STRICTA breaks down the assessment into a graph of interconnected reasoning steps drawing on causality theory."
+      },
+      "relevance_score": 0.80,
+      "method_category": "Hybrid",
+      "interpretability_mechanisms": [
+        "Causality-based reasoning graph",
+        "Step-wise reasoning process",
+        "Structural modeling"
+      ],
+      "regulatory_relevance": [
+        "Governance",
+        "Transparency",
+        "Auditability"
+      ],
+      "external_links": [
+        {
+          "type": "doi",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.1107",
+          "source": "ACL Anthology"
+        },
+        {
+          "type": "pdf",
+          "url": "https://aclanthology.org/2025.acl-long.1107.pdf",
+          "source": "ACL Anthology"
+        }
+      ],
+      "key_contributions": [
+        "Framework for explicit, causal modeling of subjective assessment tasks.",
+        "Enables human-AI collaboration via transparent reasoning graphs."
+      ],
+      "decision_trace_support": "strong",
+      "suggested_citations": [
+        {
+          "title": "STRICTA",
+          "reason": "Provides a methodology for modeling the expert reasoning required in ESG risk evaluation.",
+          "link": "https://aclanthology.org/2025.acl-long.1107.bib"
+        }
+      ]
+    }
+  ]
+}
+
+

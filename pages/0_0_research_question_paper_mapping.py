@@ -183,7 +183,7 @@ st.dataframe(
 )
 
 # ================================
-# PAPER DETAIL
+# PAPER DETAIL (WITH RQ COVERAGE)
 # ================================
 
 st.subheader("🔍 Paper Details")
@@ -192,10 +192,28 @@ titles = sorted(filtered["title"].dropna().unique().tolist())
 
 if titles:
     selected_title = st.selectbox("Select a paper", titles)
-    selected_row = filtered[filtered["title"] == selected_title].iloc[0]
+
+    selected_rows = df[df["title"] == selected_title]
+
+    selected_row = selected_rows.iloc[0]
     selected = paper_lookup[selected_row["paper_id"]]
 
     st.markdown(f"### {selected['input']['title']}")
+
+    # ---- RQ COVERAGE ---------------------------------
+
+    st.markdown("### 🧠 Addressed Research Questions")
+
+    rq_list = selected_rows["rq"].unique().tolist()
+
+    st.caption(f"This paper is mapped to {len(rq_list)} research question(s):")
+
+    for rq in rq_list:
+        st.markdown(f"- {rq}")
+
+    st.divider()
+
+    # ---- PAPER META ----------------------------------
 
     col1, col2 = st.columns(2)
 
@@ -214,6 +232,8 @@ if titles:
         for r in selected.get("regulatory_relevance", []):
             st.write(f"- {r}")
 
+    # ---- CONTENT -------------------------------------
+
     st.markdown("**Abstract**")
     st.write(selected.get("input", {}).get("abstract", ""))
 
@@ -221,12 +241,63 @@ if titles:
     for m in selected.get("interpretability_mechanisms", []):
         st.write(f"- {m}")
 
+    st.markdown("**Key Contributions**")
+    for k in selected.get("key_contributions", []):
+        st.write(f"- {k}")
+
     st.markdown("**External Links**")
     for l in selected.get("external_links", []):
         st.markdown(f"- [{l['type']}]({l['url']}) — {l.get('source','')}")
 
 else:
     st.info("No papers available after filtering.")
+
+
+# # ================================
+# # PAPER DETAIL
+# # ================================
+
+# st.subheader("🔍 Paper Details")
+
+# titles = sorted(filtered["title"].dropna().unique().tolist())
+
+# if titles:
+#     selected_title = st.selectbox("Select a paper", titles)
+#     selected_row = filtered[filtered["title"] == selected_title].iloc[0]
+#     selected = paper_lookup[selected_row["paper_id"]]
+
+#     st.markdown(f"### {selected['input']['title']}")
+
+#     col1, col2 = st.columns(2)
+
+#     with col1:
+#         st.markdown("**Method Category**")
+#         st.write(selected.get("method_category"))
+
+#         st.markdown("**Decision Trace Support**")
+#         st.write(selected.get("decision_trace_support"))
+
+#         st.markdown("**Relevance Score**")
+#         st.write(selected.get("relevance_score"))
+
+#     with col2:
+#         st.markdown("**Regulatory Relevance**")
+#         for r in selected.get("regulatory_relevance", []):
+#             st.write(f"- {r}")
+
+#     st.markdown("**Abstract**")
+#     st.write(selected.get("input", {}).get("abstract", ""))
+
+#     st.markdown("**Interpretability Mechanisms**")
+#     for m in selected.get("interpretability_mechanisms", []):
+#         st.write(f"- {m}")
+
+#     st.markdown("**External Links**")
+#     for l in selected.get("external_links", []):
+#         st.markdown(f"- [{l['type']}]({l['url']}) — {l.get('source','')}")
+
+# else:
+#     st.info("No papers available after filtering.")
 
 # ================================
 # EXPORT

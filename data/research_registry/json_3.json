@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "project": "Document-Aware, Bilingual, and Explainable ESG-ABSA Intelligence System",
+    "generated_at": "2026-01-20T10:00:00Z",
+    "version": "1.0.0",
+    "description": "A structured mapping of the 5-layer integrated research plan to the curated literature corpus, establishing causal traceability from technical contributions to empirical evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "xGQA: Cross-Lingual Visual Question Answering",
+          "authors": "Jonas Pfeiffer et al.",
+          "year": 2021,
+          "source_index": 58,
+          "relevance": "Provides empirical evidence on the difficulty of zero-shot cross-lingual transfer, justifying the need for the bilingual optimization proposed in RQ1.1 and C3.",
+          "tags": ["Cross-lingual", "Zero-shot", "Benchmarking"]
+        },
+        {
+          "title": "Improving Zero-shot Cross-lingual Transfer between Closely Related Languages by injecting Character-level Noise",
+          "authors": "Noëmi Aepli and Rico Sennrich",
+          "year": 2021,
+          "source_index": 78,
+          "relevance": "Supports C3 by demonstrating how character-level noise improves transfer between related varieties, applicable to regional calibration in ESG lexicons (RQ1.3).",
+          "tags": ["Data Augmentation", "Cross-lingual", "Robustness"]
+        },
+        {
+          "title": "XFUND: A Benchmark Dataset for Multilingual Visually Rich Form Understanding",
+          "authors": "Yiheng Xu et al.",
+          "year": 2022,
+          "source_index": 154,
+          "relevance": "Establishes a baseline for multilingual document understanding across diverse scripts, providing a structural precedent for the normalized ESG schema in C2.",
+          "tags": ["Multilingual", "Dataset", "Document Analysis"]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Learning to Robustly Aggregate Labeling Functions for Semi-supervised Data Programming",
+          "authors": "Ayush Maheshwari et al.",
+          "year": 2021,
+          "source_index": 49,
+          "relevance": "Directly supports C16 by proposing a framework for semi-supervised data programming to mitigate label scarcity in ESG datasets.",
+          "tags": ["Weak Supervision", "Semi-supervised", "Data Programming"]
+        },
+        {
+          "title": "Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models",
+          "authors": "Robert L. Logan et al.",
+          "year": 2021,
+          "source_index": 72,
+          "relevance": "Validates the few-shot approach in RQ2.1 by showing that fine-tuning only bias terms can achieve high accuracy with minimal parameter updates.",
+          "tags": ["Few-shot", "Efficiency", "Prompting"]
+        },
+        {
+          "title": "FocusLLM: Precise Understanding of Long Context by Dynamic Condensing",
+          "authors": "Zhenyu Li et al.",
+          "year": 2024,
+          "source_index": 398,
+          "relevance": "Provides the technical foundation for the long-context architecture in C13, utilizing dynamic condensing to integrate extensive sequences up to 400K tokens.",
+          "tags": ["Long Context", "Dynamic Condensing", "Scalability"]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C14: Tone-aware bias correction models",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Towards Collaborative Neural-Symbolic Graph Semantic Parsing via Uncertainty",
+          "authors": "Zi Lin et al.",
+          "year": 2022,
+          "source_index": 257,
+          "relevance": "Establishes the causal link for C7 and RQ3.1 by demonstrating how symbolic knowledge improves neural parser performance in long-tail scenarios.",
+          "tags": ["Neural-Symbolic", "Semantic Parsing", "Knowledge Graphs"]
+        },
+        {
+          "title": "Agentic Reasoning: A Streamlined Framework for Enhancing LLM Reasoning with Agentic Tools",
+          "authors": "Junde Wu et al.",
+          "year": 2025,
+          "source_index": 507,
+          "relevance": "Supports C7 by introducing Mind-Map agents that use structured knowledge graphs to maintain coherence in long reasoning chains.",
+          "tags": ["Agentic Reasoning", "Knowledge Graphs", "Coherence"]
+        },
+        {
+          "title": "GAMEBoT: Transparent Assessment of LLM Reasoning in Games",
+          "authors": "Wenye Lin et al.",
+          "year": 2024,
+          "source_index": 439,
+          "relevance": "Direct evidence for RQ3.2, utilizing rule-based algorithms to validate intermediate reasoning steps for transparent output assessment.",
+          "tags": ["Explainability", "Reasoning Validation", "Transparency"]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection"
+        ],
+        "research_questions": [
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?",
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Mitigating Contradictions in Dialogue Based on Contrastive Learning",
+          "authors": "Weizhao Li et al.",
+          "year": 2022,
+          "source_index": 250,
+          "relevance": "Provides a methodology for greenwashing detection (C11) by discriminating contradictory patterns through contrastive learning.",
+          "tags": ["Contradiction Detection", "Contrastive Learning", "Reliability"]
+        },
+        {
+          "title": "ICR Probe: Tracking Hidden State Dynamics for Reliable Hallucination Detection in LLMs",
+          "authors": "Zhenliang Zhang et al.",
+          "year": 2025,
+          "source_index": 509,
+          "relevance": "Justifies RQ4.5 by introducing the ICR Score to differentiate factual evidence from hallucinated commitments in narrative disclosures.",
+          "tags": ["Hallucination Detection", "Truthfulness", "Interpretability"]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C12: Open-source ESG pipeline + visualization"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "AXIS: Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents",
+          "authors": "Junting Lu et al.",
+          "year": 2024,
+          "source_index": 423,
+          "relevance": "Enables the deployment goals of C12 and RQ5.2 by reducing latency and increasing reliability in agent-human interactions through API prioritization.",
+          "tags": ["Deployment", "HCI", "Efficiency"]
+        },
+        {
+          "title": "A Simple Hash-Based Early Exiting Approach For Language Understanding and Generation",
+          "authors": "Tianxiang Sun et al.",
+          "year": 2022,
+          "source_index": 313,
+          "relevance": "Supports the scalability requirements in RQ5.2 by providing a lightweight method to achieve higher inference speed with fewer FLOPs.",
+          "tags": ["Inference Efficiency", "Early Exiting", "Scalability"]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "project": "Bilingual, Ontology-Aware, and Explainable ESG Intelligence System",
+    "generated_at": "2026-05-22T10:15:00Z",
+    "version": "1.0.0",
+    "description": "Machine-persistable reference mapping linking integrated ESG research objectives and contributions to empirical literature evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Improving Zero-shot Cross-lingual Transfer between Closely Related Languages by injecting Character-level Noise",
+          "authors": "Noëmi Aepli, Rico Sennrich",
+          "year": 2021,
+          "source_index": 77,
+          "relevance": "Provides the causal evidence that character-level noise improves zero-shot transfer for closely related languages, supporting C3 and the optimization of Indonesian-English transfer in RQ1.1.",
+          "tags": ["Cross-lingual", "Character-level Noise", "Indonesian"]
+        },
+        {
+          "title": "How Can Cross-lingual Knowledge Contribute Better to Fine-Grained Entity Typing?",
+          "authors": "Hailong Jin et al.",
+          "year": 2022,
+          "source_index": 177,
+          "relevance": "Supports RQ1.3 by proposing a mixture-of-experts approach to capture relationships between target and source languages, directly addressing regional calibration for ESG lexicons.",
+          "tags": ["Entity Typing", "Mixture of Experts", "Regional Calibration"]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: How well do 30+ LLMs perform on ESG ABSA tasks?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "M-MAD: Multidimensional Multi-Agent Debate for Advanced Machine Translation Evaluation",
+          "authors": "Zhaopeng Feng et al.",
+          "year": 2024,
+          "source_index": 397,
+          "relevance": "Establishes the LLM-as-a-judge framework used for C8 and RQ2.1 to evaluate complex multidimensional performance across distinct reasoning agents.",
+          "tags": ["Multi-Agent Debate", "Benchmarking", "LLM-as-Judge"]
+        },
+        {
+          "title": "RefreshKV: Updating Small KV Cache During Long-form Generation",
+          "authors": "Fangyuan Xu, Tanya Goyal, Eunsol Choi",
+          "year": 2024,
+          "source_index": 411,
+          "relevance": "Provides technical grounding for C13 and RQ2.2 by demonstrating how flexible KV cache updates mitigate performance degradation in long institutional narratives.",
+          "tags": ["Long Context", "Inference Efficiency", "Scalability"]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C14: Tone-aware bias correction models",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Learning Reasoning Patterns for Relational Triple Extraction with Mutual Generation of Text and Graph",
+          "authors": "Yubo Chen, Yunqi Zhang, Yongfeng Huang",
+          "year": 2022,
+          "source_index": 215,
+          "relevance": "Directly supports C7 and RQ3.2 by detailing a framework for constructing relational graphs to uncover implicit multi-hop reasoning paths in text.",
+          "tags": ["Knowledge Graph", "Relational Triples", "Reasoning Graphs"]
+        },
+        {
+          "title": "Improving Neural Political Statement Classification with Class Hierarchical Information",
+          "authors": "Erenay Dayanik et al.",
+          "year": 2022,
+          "source_index": 132,
+          "relevance": "Validates C15 and RQ3.1 by demonstrating that incorporating hierarchical ontological relations improves performance for infrequent and fine-grained categories.",
+          "tags": ["Ontology", "Hierarchical Classification", "Semantic Correctness"]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?",
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Local Structure Matters Most: Perturbation Study in NLU",
+          "authors": "Louis Clouâtre et al.",
+          "year": 2022,
+          "source_index": 252,
+          "relevance": "Supports C11 and RQ4.5 by demonstrating model reliance on local structure, justifying the disentanglement of commitment/action tones to detect structural deception.",
+          "tags": ["Structure Analysis", "Robustness", "Greenwashing"]
+        },
+        {
+          "title": "Explaining Classes through Stable Word Attributions",
+          "authors": "Samuel Rönnqvist et al.",
+          "year": 2022,
+          "source_index": 186,
+          "relevance": "Provides the causal link for C4 and RQ4.1, establishing a framework for systematic attribution evaluation to enhance stakeholder trust in model decisions.",
+          "tags": ["Explainable AI", "Word Attribution", "Stakeholder Trust"]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C12: Open-source ESG pipeline + visualization",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: Deployable auditable reasoning"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Using Interactive Feedback to Improve the Accuracy and Explainability of Question Answering Systems Post-Deployment",
+          "authors": "Zichao Li et al.",
+          "year": 2022,
+          "source_index": 156,
+          "relevance": "Directly supports C12 by showing how interactive post-deployment feedback loops improve both performance and stakeholder decision readiness.",
+          "tags": ["Post-Deployment", "Interactive Feedback", "Dashboard"]
+        },
+        {
+          "title": "La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America",
+          "authors": "María Grandury et al.",
+          "year": 2025,
+          "source_index": 527,
+          "relevance": "Establishes a precedent for C8 and RQ5.2 regarding community-driven, reproducible evaluation standards for language varieties and specialized domains.",
+          "tags": ["Reproducibility", "Leaderboards", "Community Standards"]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "project": "Bilingual, Ontology-Aware, and Explainable ESG Intelligence System",
+    "generated_at": "2026-05-20T14:30:00Z",
+    "version": "1.0.0",
+    "description": "Comprehensive reference mapping of the 5-layer integrated research plan to the curated literature corpus, establishing causal traceability from contributions to research questions and empirical evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "NusaAksara: A Multimodal and Multilingual Benchmark for Preserving Indonesian Indigenous Scripts",
+          "authors": "Muhammad Farid Adilazuarda et al.",
+          "year": 2025,
+          "source_index": 214,
+          "relevance": "Directly supports C1 and RQ1.1 by providing a benchmark for Indonesian low-resource language processing and establishing that existing models struggle with local script nuances.",
+          "tags": ["Indonesian", "Multilingual", "Benchmark"]
+        },
+        {
+          "title": "From Neurons to Semantics: Evaluating Cross-Linguistic Alignment Capabilities of Large Language Models via Neurons Alignment",
+          "authors": "Chongxuan Huang et al.",
+          "year": 2025,
+          "source_index": 173,
+          "relevance": "Provides the semantic infrastructure (NeuronXA) required for C3 and RQ1.1 to assess cross-lingual alignment efficiency with minimal parallel data.",
+          "tags": ["Alignment", "Cross-lingual", "Semantic"]
+        },
+        {
+          "title": "Code-Switching Red-Teaming: LLM Evaluation for Safety and Multilingual Understanding",
+          "authors": "Haneul Yoo et al.",
+          "year": 2024,
+          "source_index": 50,
+          "relevance": "Validates the necessity of bilingual optimization (RQ1.1) by showing that code-switching identifies safety and understanding gaps in multilingual LLMs.",
+          "tags": ["Code-switching", "Safety", "Multilingual"]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: How well do 30+ LLMs perform on ESG ABSA tasks?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Dynamic and Generalizable Process Reward Modeling",
+          "authors": "Zhangyue Yin et al.",
+          "year": 2025,
+          "source_index": 167,
+          "relevance": "Supports C8 and RQ2.1 by introducing DG-PRM to provide generalized reward signals for benchmarking LLMs as judges in complex process supervision.",
+          "tags": ["Benchmarking", "Reward Modeling", "LLM-as-Judge"]
+        },
+        {
+          "title": "DS2-ABSA: Dual-Stream Data Synthesis with Label Refinement for Few-Shot Aspect-Based Sentiment Analysis",
+          "authors": "Hongling Xu et al.",
+          "year": 2024,
+          "source_index": 55,
+          "relevance": "Justifies C16 and RQ2.1 by demonstrating how dual-stream synthesis overcomes data scarcity in few-shot ABSA scenarios.",
+          "tags": ["ABSA", "Few-shot", "Data Synthesis"]
+        },
+        {
+          "title": "Beyond Output Matching: Bidirectional Alignment for Enhanced In-Context Learning",
+          "authors": "Chengwei Qin et al.",
+          "year": 2025,
+          "source_index": 234,
+          "relevance": "Establishes the causal link for C10 and RQ2.4 by showing that aligning input preferences reduces computational demands and improves student model robustness.",
+          "tags": ["Alignment", "Fusion", "ICL"]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C14: Tone-aware bias correction models",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "GraphCheck: Breaking Long-Term Text Barriers with Extracted Knowledge Graph-Powered Fact-Checking",
+          "authors": "Yingjian Chen et al.",
+          "year": 2025,
+          "source_index": 259,
+          "relevance": "Direct evidence for C7 and RQ3.2, showing that KG-powered fact-checking captures multihop reasoning chains missed by standard models.",
+          "tags": ["Knowledge Graph", "Fact-checking", "RAG"]
+        },
+        {
+          "title": "GraphNarrator: Generating Textual Explanations for Graph Neural Networks",
+          "authors": "Bo Pan et al.",
+          "year": 2024,
+          "source_index": 100,
+          "relevance": "Supports C15 and RQ3.2 by providing a framework for mapping GNN decision processes to natural language explanations.",
+          "tags": ["Explainability", "GNN", "Natural Language"]
+        },
+        {
+          "title": "iQUEST: An Iterative Question-Guided Framework for Knowledge Base Question Answering",
+          "authors": "Shuai Wang et al.",
+          "year": 2025,
+          "source_index": 281,
+          "relevance": "Operationalizes RQ3.1 by using iterative decomposition to maintain coherent reasoning paths in multi-hop KBQA.",
+          "tags": ["KBQA", "Iterative Reasoning", "Ontology"]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?",
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Real-time Factuality Assessment from Adversarial Feedback",
+          "authors": "Sanxing Chen et al.",
+          "year": 2025,
+          "source_index": 252,
+          "relevance": "Provides a methodology for C11 and RQ4.5 by using RAG feedback to iteratively modify news into deceptive variants for factuality assessment.",
+          "tags": ["Deception", "Factuality", "Adversarial"]
+        },
+        {
+          "title": "Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Training",
+          "authors": "Shahrad Mohammadzadeh et al.",
+          "year": 2024,
+          "source_index": 76,
+          "relevance": "Addresses trust risks (RQ4.1) by reducing hallucination variance in training, enhancing model reliability in specialized domains like legal and medical.",
+          "tags": ["Trust", "Hallucination", "Reliability"]
+        },
+        {
+          "title": "My Words Imply Your Opinion: Reader Agent-Based Propagation Enhancement for Personalized Implicit Emotion Analysis",
+          "authors": "Jian Liao et al.",
+          "year": 2025,
+          "source_index": 211,
+          "relevance": "Supports the implicit analysis goal of C11 and RQ4.5 by simulating reader feedback to resolve subjective variability in emotional narratives.",
+          "tags": ["Implicit Analysis", "Emotion", "Reader Agents"]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C12: Open-source ESG pipeline + visualization",
+          "C8: Large-scale ESG LLM benchmark (30+ models)"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Pre3: Enabling Deterministic Pushdown Automata for Faster Structured LLM Generation",
+          "authors": "Junyi Chen et al.",
+          "year": 2025,
+          "source_index": 198,
+          "relevance": "Directly enables the scalability goals of C12 and O5 by optimizing constrained decoding efficiency for structured formats like JSON.",
+          "tags": ["Efficiency", "Structured Generation", "Throughput"]
+        },
+        {
+          "title": "IAM: Efficient Inference through Attention Mapping between Different-scale LLMs",
+          "authors": "Yiyi Zhao et al.",
+          "year": 2025,
+          "source_index": 237,
+          "relevance": "Supports RQ5.2 by reducing resource consumption (KV cache) during long-context inference, critical for real-world deployment.",
+          "tags": ["Inference", "Efficiency", "KV Cache"]
+        },
+        {
+          "title": "AbGen: Evaluating Large Language Models in Ablation Study Design and Evaluation for Scientific Research",
+          "authors": "Yilun Zhao et al.",
+          "year": 2025,
+          "source_index": 162,
+          "relevance": "Provides a framework for auditable benchmarking (RQ5.1) by evaluating the faithfulness and soundness of complex study designs generated by LLMs.",
+          "tags": ["Benchmarking", "Reproducibility", "Ablation"]
+        }
+      ]
+    }
+  }
+}

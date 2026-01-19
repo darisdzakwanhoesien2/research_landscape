@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "project": "Integrated ESG-ABSA Framework for Multilingual and Explainable Reasoning",
+    "generated_at": "2026-01-20T12:00:00Z",
+    "version": "1.0.0",
+    "description": "Systematic reference mapping between integrated research objectives (v-1 to v3) and curated NLP/LLM literature evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Improving Zero-shot Cross-lingual Transfer between Closely Related Languages by injecting Character-level Noise",
+          "authors": "Noëmi Aepli, Rico Sennrich",
+          "year": 2021,
+          "source_index": 77,
+          "relevance": "Supports C3 and RQ1.1 by demonstrating that character-level noise improves zero-shot transfer for closely related languages, providing a method for regional calibration of Indonesian and English dialects.",
+          "tags": [
+            "Cross-lingual",
+            "Zero-shot",
+            "Robustness"
+          ]
+        },
+        {
+          "title": "Morphosyntactic Tagging with Pre-trained Language Models for Arabic and its Dialects",
+          "authors": "Go Inoue, Salam Khalifa, Nizar Habash",
+          "year": 2021,
+          "source_index": 48,
+          "relevance": "Provides empirical evidence that strategic fine-tuning with high-resource data benefits low-resource dialects, justifying the approach for C1 (bilingual Indonesian engine).",
+          "tags": [
+            "Morphosyntactic Tagging",
+            "Pre-trained LMs",
+            "Dialects"
+          ]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models",
+          "authors": "Robert L. Logan, Ivana Balazevic, Eric Wallace, Fabio Petroni, Sameer Singh, Sebastian Riedel",
+          "year": 2021,
+          "source_index": 71,
+          "relevance": "Validates the few-shot strategies in RQ2.1 and C16, showing that updating only 0.1% of parameters can outperform standard fine-tuning in low-resource settings.",
+          "tags": [
+            "Few-Shot",
+            "Parameter Efficiency",
+            "Prompting"
+          ]
+        },
+        {
+          "title": "Learning to Robustly Aggregate Labeling Functions for Semi-supervised Data Programming",
+          "authors": "Ayush Maheshwari, KrishnaTeja Killamsetty, Ganesh Ramakrishnan, Rishabh Iyer, Marina Danilevsky, Lucian Popa",
+          "year": 2021,
+          "source_index": 49,
+          "relevance": "Provides the algorithmic foundation for C16 by proposing reweighting frameworks for noisy labeling functions in semi-supervised paradigms.",
+          "tags": [
+            "Weak Supervision",
+            "Label Aggregation",
+            "Semi-supervised"
+          ]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Fact-Tree Reasoning for N-ary Question Answering over Knowledge Graphs",
+          "authors": "Yao Zhang, Peiyao Li, Hongru Liang, Adam Jatowt, Zhenglu Yang",
+          "year": 2021,
+          "source_index": 68,
+          "relevance": "Causal evidence for C7 and RQ3.2, illustrating how iterative fact-tree reasoning improves accuracy and interpretability compared to chain-based methods.",
+          "tags": [
+            "Knowledge Graphs",
+            "Question Answering",
+            "Explainable Reasoning"
+          ]
+        },
+        {
+          "title": "BiSyn-GAT+: Bi-Syntax Aware Graph Attention Network for Aspect-based Sentiment Analysis",
+          "authors": "Shuo Liang, Wei Wei, Xian-Ling Mao, Fei Wang, Zhiyong He",
+          "year": 2022,
+          "source_index": 181,
+          "relevance": "Justifies C15 by demonstrating that exploiting hierarchical syntax/trees reduces noise in aspect-sentiment alignment, critical for ontology-grounded ABSA.",
+          "tags": [
+            "Graph Attention",
+            "Syntactic Awareness",
+            "ABSA"
+          ]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?",
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Table-based Fact Verification with Self-adaptive Mixture of Experts",
+          "authors": "Yuxuan Zhou, Xien Liu, Kaiyin Zhou, Ji Wu",
+          "year": 2022,
+          "source_index": 311,
+          "relevance": "Supports C11 and RQ4.5 by providing a mixture-of-experts model to handle numerical and logical reasoning over tabular data (KPIs) to verify narrative claims.",
+          "tags": [
+            "Fact Verification",
+            "Mixture of Experts",
+            "Numerical Reasoning"
+          ]
+        },
+        {
+          "title": "BBQ: A hand-built bias benchmark for question answering",
+          "authors": "Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, Phu Mon Htut, Sam Bowman",
+          "year": 2021,
+          "source_index": 245,
+          "relevance": "Establishes a baseline for identifying social and narrative biases (RQ4.1) by testing whether model choices override correct choice in biased contexts.",
+          "tags": [
+            "Bias",
+            "Benchmarking",
+            "XAI"
+          ]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade platform",
+          "C5: Unified Research-Model-Metric framework",
+          "C12: Open-source ESG pipeline + visualization"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "ED2LM: Encoder-Decoder to Language Model for Faster Document Re-ranking Inference",
+          "authors": "Kai Hui, Honglei Zhuang, Tao Chen, Zhen Qin, Jing Lu, Dara Bahri, Ji Ma, Jai Gupta, C. D. Santos, Yi Tay, Donald Metzler",
+          "year": 2022,
+          "source_index": 154,
+          "relevance": "Enables the scalability goals of C12 and RQ5.2 by showing how encoder-decoder architectures can be decomposed for faster inference speeds up to 6.8X.",
+          "tags": [
+            "Inference Speed",
+            "Model Decomposition",
+            "Scalability"
+          ]
+        },
+        {
+          "title": "Using Interactive Feedback to Improve the Accuracy and Explainability of Question Answering Systems Post-Deployment",
+          "authors": "Zichao Li, Yiran Wang, M. Utiyama, E. Sumita, Hai Zhao, Taro Watanabe",
+          "year": 2021,
+          "source_index": 253,
+          "relevance": "Supports C12's dashboard goal by proving that interactive correction loops post-deployment enhance stakeholder trust and overall parse accuracy.",
+          "tags": [
+            "Interactive Feedback",
+            "Post-Deployment",
+            "Explainability"
+          ]
+        }
+      ]
+    }
+  }
+}

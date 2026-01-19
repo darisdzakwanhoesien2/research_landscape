@@ -1,0 +1,133 @@
+{
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": ["C1: Bilingual ESG-ABSA platform", "C2: Normalized ESG schema", "C3: Cross-lingual transfer learning"],
+        "research_questions": ["RQ1.1 (v-1/v1): Bilingual Transformer optimization", "RQ1.3: Regional calibration"]
+      },
+      "literature_references": [
+        {
+          "title": "MEXMA: Token-level objectives improve sentence representations",
+          "authors": "Janeiro et al. (2024)",
+          "source_index": 44,
+          "relevance": "Supports cross-lingual sentence encoder approaches to improve representation quality across tasks, essential for C3."
+        },
+        {
+          "title": "LACA: Improving Cross-lingual Aspect-Based Sentiment Analysis with LLM Data Augmentation",
+          "authors": "Šmíd et al. (2025)",
+          "source_index": 251,
+          "relevance": "Directly addresses the bilingual ESG coverage gap (G1) by generating high-quality pseudo-labeled data in target languages without translation tools."
+        },
+        {
+          "title": "Multi-level Association Refinement Network for Dialogue Aspect-based Sentiment Quadruple Analysis",
+          "authors": "Tong et al. (2025)",
+          "source_index": 248,
+          "relevance": "Provides methods for precise handling of associations at utterance and word levels, supporting the fine-grained ABSA goal of C1."
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": ["C8: 30+ LLM Benchmark", "C10: Multi-LLM fusion", "C13: Hybrid hierarchical–long context architecture"],
+        "research_questions": ["RQ2.1 (v2): LLM performance on ESG", "RQ2.4: Hallucination reduction via fusion"]
+      },
+      "literature_references": [
+        {
+          "title": "Auto-Arena: Automating LLM Evaluations with Agent Peer Battles and Committee Discussions",
+          "authors": "Zhao et al. (2024)",
+          "source_index": 46,
+          "relevance": "Foundational for C8; provides an innovative framework for automating evaluation using LLM-powered agents to reduce bias."
+        },
+        {
+          "title": "SkillAggregation: Reference-free LLM-Dependent Aggregation",
+          "authors": "Sun et al. (2024)",
+          "source_index": 49,
+          "relevance": "Supports C10 (Fusion) by proposing methods to combine estimates from multiple LLM judges without ground truth data."
+        },
+        {
+          "title": "LLM×MapReduce: Simplified Long-Sequence Processing using Large Language Models",
+          "authors": "Zhou et al. (2025)",
+          "source_index": 212,
+          "relevance": "Directly supports C13 and P4 by using a divide-and-conquer strategy to process long texts without training."
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": ["C7: GraphRAG architecture", "C14: Tone-aware bias correction", "C15: Ontology-aligned explainability"],
+        "research_questions": ["RQ3.1 (v1): Symbolic reasoning integration", "RQ3.2: Auditable reasoning graphs"]
+      },
+      "literature_references": [
+        {
+          "title": "NeuSym-RAG: Hybrid Neural Symbolic Retrieval with Multiview Structuring for PDF Question Answering",
+          "authors": "Cao et al. (2025)",
+          "source_index": 207,
+          "relevance": "Validates C7 and C15; proposes a hybrid framework combining neural and symbolic retrieval for structured content like PDFs."
+        },
+        {
+          "title": "Deliberate Reasoning in Language Models as Structure-Aware Planning with an Accurate World Model",
+          "authors": "Xiong et al. (2024)",
+          "source_index": 67,
+          "relevance": "Aligns with C7; uses entailment graphs to encode structured dependencies and enable symbolic verification."
+        },
+        {
+          "title": "Improving Chain-of-Thought Reasoning via Quasi-Symbolic Abstractions",
+          "authors": "Ranaldi et al. (2025)",
+          "source_index": 264,
+          "relevance": "Provides the 'Quasi-Symbolic Abstract Reasoning' (QuaSAR) framework to disentangle content from logical reasoning, supporting C15."
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": ["C11: Narrative-grounded greenwashing detection", "C14: Tone-aware bias correction"],
+        "research_questions": ["RQ4.5: Tone–outcome mismatch as greenwashing indicator"]
+      },
+      "literature_references": [
+        {
+          "title": "Language Models can Subtly Deceive Without Lying: A Case Study on Strategic Phrasing in Legislation",
+          "authors": "Dogra et al. (2025)",
+          "source_index": 256,
+          "relevance": "Provides the 'Lobbyist' testbed for analyzing subtle deception through phrasing, highly relevant to C11 (Greenwashing detection)."
+        },
+        {
+          "title": "Pattern Recognition or Medical Knowledge? The Problem with Multiple-Choice Questions in Medicine",
+          "authors": "Griot et al. (2024)",
+          "source_index": 116,
+          "relevance": "Supports the need for G3 and P3 by highlighting how pattern recognition can overestimate true clinical/contextual understanding."
+        },
+        {
+          "title": "A Theory of Response Sampling in LLMs: Part Descriptive and Part Prescriptive",
+          "authors": "Sivaprasad et al. (2024)",
+          "source_index": 137,
+          "relevance": "Theoretically supports C14 by exploring how prescriptive norms (ideals) in LLMs result in biased decision-making."
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": ["C12: Open-source ESG pipeline", "C8: Large-scale benchmarking"],
+        "research_questions": ["RQ5.1: Ensuring auditable outputs", "RQ5.2: Scaling reasoning quality"]
+      },
+      "literature_references": [
+        {
+          "title": "Controllable and Reliable Knowledge-Intensive Task-Oriented Conversational Agents with Declarative Genie Worksheets",
+          "authors": "Joshi et al. (2024)",
+          "source_index": 134,
+          "relevance": "Provides a programmable framework (Genie) for reliable, grounded responses, supporting the 'auditable pipeline' goal of C12."
+        },
+        {
+          "title": "RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework",
+          "authors": "Zhu et al. (2025)",
+          "source_index": 234,
+          "relevance": "Supports O5 by introducing novel metrics (Completeness, Hallucination, Irrelevance) to rigorously evaluate RAG responses."
+        }
+      ]
+    }
+  }
+}

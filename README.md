@@ -1,5 +1,6 @@
 1. https://chatgpt.com/c/695bbb2f-5644-8327-9c13-76501da9e35b
 2. https://chatgpt.com/c/695bfa94-94b8-8332-8f38-55c3e68a33ec
+3. https://chatgpt.com/c/6962c8a3-8914-8326-b4a7-c0709d871cbf
 
 Perfect — here’s a **planning table structure** you can use as the **input control layer** for your modular LaTeX + batch prompt workflow (NotebookLM / Streamlit / CLI).
 

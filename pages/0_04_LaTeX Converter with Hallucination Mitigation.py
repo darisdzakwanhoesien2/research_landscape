@@ -6,6 +6,8 @@ st.set_page_config(page_title="LaTeX Citation ↔ DOI Linker", layout="wide")
 st.title("🔗 LaTeX Citation → DOI Linker")
 
 st.markdown("""
+Personal Documentation of Obsidian are stopped here. Will be continue from here
+
 This app links:
 
 - **LaTeX citation keys** from `\\citation{...}`

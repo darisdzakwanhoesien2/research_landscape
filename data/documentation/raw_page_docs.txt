@@ -1,0 +1,251 @@
+page_doc(
+    title="""Research Landscape Explorer""",
+    file="""app.py""",
+    purpose="""Acts as the central dashboard to visualize academic metadata using knowledge maps, word cloud analysis, and bibliometrics to compare journals and conference papers.""",
+    inputs="""Academic metadata from WoS, Scopus, OpenAlex, or Semantic Scholar in CSV/JSON format.""",
+    outputs="""Interactive word clouds, keyword co-occurrence knowledge graphs, and temporal topic evolution charts.""",
+    when_to_use="""Exploration and PRISMA-adjacent systematic landscape analysis."""
+)
+
+page_doc(
+    title="""PhD Mapping and Project Traceability""",
+    file="""pages/01_PhD_Mapping.py""",
+    purpose="""Visualizes the flow between high-level research themes, specific research questions, and individual research papers using a multi-layer Sankey structure.""",
+    inputs="""Research themes, research questions, and project target lists (Paper 1-4).""",
+    outputs="""Plotly-based Sankey diagrams illustrating methodological convergence and justified divergence.""",
+    when_to_use="""Research design, project exploration, and proposal writing."""
+)
+
+page_doc(
+    title="""NotebookLM Prompt Orchestrator""",
+    file="""pages/03_NotebookLM_Master.py""",
+    purpose="""Orchestrates the synthesis process by grouping relevant research papers by batch_id to generate structured prompts for the NotebookLM synthesis engine.""",
+    inputs="""CSV data containing paper references and batch identifiers.""",
+    outputs="""Ready-to-paste prompts tailored for batch-wise research synthesis.""",
+    when_to_use="""Preprocessing and prompt engineering for synthesis tasks."""
+)
+
+page_doc(
+    title="""LaTeX Build and Aux Analysis""",
+    file="""pages/05_aux.py""",
+    purpose="""Analyzes LaTeX build logs and auxiliary files to provide debugging insights and document structural verification.""",
+    inputs="""LaTeX .log files, stdout.txt, and .aux files.""",
+    outputs="""Highlighted lists of errors, warnings, overfull boxes, and parsed tables of document labels and citations.""",
+    when_to_use="""Debugging and document verification during the reporting phase."""
+)
+
+page_doc(
+    title="""LaTeX Converter with Hallucination Mitigation""",
+    file="""pages/08_latex_converter_with_hallucination_mitigation.py""",
+    purpose="""Transforms generated research content into LaTeX format while implementing validation checks to ensure citation accuracy and reduce model hallucinations.""",
+    inputs="""Raw research text and associated BibTeX citation keys.""",
+    outputs="""Validated, LaTeX-ready .tex files with grounded citations.""",
+    when_to_use="""Reporting and final assembly with quality control."""
+)
+
+page_doc(
+    title="""ACL Anthology BibTeX Linker""",
+    file="""pages/10_acl_anthology.py""",
+    purpose="""Parses extracted volume links from the ACL Anthology and converts them into standardized BibTeX download URLs.""",
+    inputs="""extracted.json from ACL Anthology venue data.""",
+    outputs="""Searchable tables of volume titles, original paths, and functional BibTeX URLs for bulk download list generation.""",
+    when_to_use="""Literature search and bibliographic data gathering."""
+)
+
+page_doc(
+    title="""ACL Volume Bib Downloader""",
+    file="""pages/12_ACL_Volume_Bib_Downloader.py""",
+    purpose="""Performs automated batch retrieval of BibTeX files for identified ACL Anthology volumes to populate local research databases.""",
+    inputs="""Generated lists of ACL BibTeX download URLs.""",
+    outputs="""Local .bib files stored in the data/acl_anthology/ directory and success/failure logs.""",
+    when_to_use="""Data acquisition and bibliographic preprocessing."""
+)
+
+page_doc(
+    title="""Keyword Co-occurrence Analysis""",
+    file="""pipeline/cooccurrence.py""",
+    purpose="""Processes cleaned academic metadata to calculate relationship strengths between keywords for knowledge mapping.""",
+    inputs="""Cleaned and normalized keyword data from the research pipeline.""",
+    outputs="""Relationship matrices and edge data for network visualization.""",
+    when_to_use="""Preprocessing and intermediate modeling stage."""
+)
+
+page_doc(
+    title="""Interactive Network Visualization""",
+    file="""viz/network.py""",
+    purpose="""Generates interactive graphical representations of research keyword relationships to identify thematic clusters.""",
+    inputs="""Co-occurrence data and node-edge relationship matrices.""",
+    outputs="""Interactive Plotly or NetworkX visualizations of knowledge graphs.""",
+    when_to_use="""Exploration and thematic evaluation."""
+)
+
+page_doc(
+    title="""Research Flow Sankey Visualization""",
+    file="""0_0_2.py""",
+    purpose="""Visualizes the hierarchical flow between research themes, specific research questions (RQs), and implementation papers using an interactive Sankey diagram to demonstrate project coherence.""",
+    inputs="""Mapping data from 0_0_mapping_data.py and thematic link definitions.""",
+    outputs="""Interactive Plotly-based Sankey diagrams illustrating the flow from themes to papers.""",
+    when_to_use="""Research design and proposal stage to visualize methodological convergence and thematic overlap."""
+)
+
+page_doc(
+    title="""Research Mapping Markdown Export""",
+    file="""0_0_3_markdown_exports.py""",
+    purpose="""Exports structured research mapping data into formatted Markdown files for use in thesis documentation, proposals, or collaborative reports.""",
+    inputs="""Internal research mapping dataframes and traceability matrix structures.""",
+    outputs="""Markdown files (.md) summarizing the research hierarchy, themes, and question-paper alignments.""",
+    when_to_use="""Reporting and documentation stage of the research project."""
+)
+
+page_doc(
+    title="""Enriched Global Research Mapping""",
+    file="""0_0_4_enriched_global_mapping.py""",
+    purpose="""Enriches the core research mapping with technical metadata, including datasets used, specific models employed, and validation metrics for each paper project.""",
+    inputs="""Base research mapping structures and technical performance CSV files.""",
+    outputs="""A comprehensive, enriched global traceability matrix suitable for technical audits.""",
+    when_to_use="""Modeling and validation audit stage to ensure technical traceability."""
+)
+
+page_doc(
+    title="""Research Mapping Data Core""",
+    file="""0_0_mapping_data.py""",
+    purpose="""Serves as the primary data definition layer for the research hierarchy, hardcoding the relationships between Themes, RQs, and Paper projects.""",
+    inputs="""Hardcoded theme and research question definitions based on project requirements.""",
+    outputs="""Structured dictionaries and data objects utilized by downstream visualization and export modules.""",
+    when_to_use="""Initial project setup and structural configuration phase."""
+)
+
+page_doc(
+    title="""Research Question to Paper Mapper""",
+    file="""0_0_research_question_paper_mapping.py""",
+    purpose="""Maps granular inquiry lines to corresponding implementation papers to ensure every research question is addressed by a specific project phase.""",
+    inputs="""List of research questions and high-level paper descriptions.""",
+    outputs="""Alignment tables and verification reports mapping questions to paper IDs.""",
+    when_to_use="""Research design and methodological mapping phase."""
+)
+
+page_doc(
+    title="""Condensed RQ-Paper Utility""",
+    file="""0_0_rq_paper_mapping.py""",
+    purpose="""Provides a condensed, lightweight mapping utility for quick association between research questions and paper projects for use in UI components.""",
+    inputs="""Mapping data structures from 0_0_mapping_data.py.""",
+    outputs="""Simplified lookup tables and mapping indices for research question associations.""",
+    when_to_use="""Quick reference during writing and prompt engineering tasks."""
+)
+
+page_doc(
+    title="""ACL Anthology Data Schema""",
+    file="""0_acl.py""",
+    purpose="""Defines baseline data paths and ingestion schemas for handling ACL Anthology venue and volume metadata across the application.""",
+    inputs="""Configuration files and standard directory paths for ACL Anthology data.""",
+    outputs="""Standardized path objects and configuration variables for ACL-related pages.""",
+    when_to_use="""Infrastructure configuration and initialization for literature processing."""
+)
+
+page_doc(
+    title="""Central Data Loader""",
+    file="""0_data.py""",
+    purpose="""Acts as the primary data ingestion utility, providing shared loading functions for CSV and JSON datasets used across the analytical modules.""",
+    inputs="""Local data directory files including CSV/JSON metadata and bibliometric exports.""",
+    outputs="""Cleaned DataFrames and data structures for Streamlit app state management.""",
+    when_to_use="""Initial application boot and universal data ingestion stage."""
+)
+
+page_doc(
+    title="""Modular Prompt Templates""",
+    file="""0_prompt.py""",
+    purpose="""Manages and stores reusable prompt fragments and orchestration templates for synthesis, tone analysis, and LaTeX conversion tasks.""",
+    inputs="""Contextual research metadata and section-specific content strings.""",
+    outputs="""Structured text prompts designed for synthesis engines like NotebookLM or LLM-based converters.""",
+    when_to_use="""Prompt engineering and research synthesis orchestration phase."""
+)
+
+page_doc(
+    title="""ACL Bulk BibTeX Linker""",
+    file="""11_bulk_bib_acl_anthology.py""",
+    purpose="""Processes extracted ACL Anthology venue JSON files to generate standardized BibTeX download URLs for all identified volumes.""",
+    inputs="""extracted.json metadata files from ACL Anthology venue directories.""",
+    outputs="""Searchable tables and exportable CSV lists of functional BibTeX download URLs.""",
+    when_to_use="""Literature search and bibliographic data gathering stage."""
+)
+
+page_doc(
+    title="""ACL Metadata Preview Dashboard""",
+    file="""1_ACLAnthology_Upload_and_Preview.py""",
+    purpose="""Provides an interface for uploading raw ACL Anthology metadata and previewing the extracted papers and volume links before processing.""",
+    inputs="""User-uploaded JSON files from ACL Anthology venue scrapers.""",
+    outputs="""Interactive data previews and summary metrics for conference venues.""",
+    when_to_use="""Initial data ingestion and exploratory literature review stage."""
+)
+
+page_doc(
+    title="""ACL Data Cleaning and Download""",
+    file="""2_ACLAnthology_Clean_and_Download.py""",
+    purpose="""Cleans volume links and automates the batch retrieval of BibTeX files for identified ACL Anthology volumes.""",
+    inputs="""Filtered volume lists and BibTeX URLs generated by upstream ACL pages.""",
+    outputs="""Local .bib files saved to data directories and batch download status logs.""",
+    when_to_use="""Preprocessing and data acquisition phase for bibliography building."""
+)
+
+page_doc(
+    title="""NotebookLM Prompt Orchestrator""",
+    file="""2_json_to_notebooklm_prompt.py""",
+    purpose="""Orchestrates the synthesis process by grouping relevant paper metadata by batch ID to generate structured, ready-to-paste prompts for NotebookLM.""",
+    inputs="""CSV metadata containing paper references and unique batch identifiers.""",
+    outputs="""Formatted synthesis prompts tailored for batch-wise research evaluation.""",
+    when_to_use="""Preprocessing and synthesis stage for automated research evaluation."""
+)
+
+page_doc(
+    title="""Unified ACL Literature Dashboard""",
+    file="""3_ACL_combined.py""",
+    purpose="""Integrates cleaned ACL metadata with existing research mappings to provide a unified landscape view of the academic field.""",
+    inputs="""Cleaned ACL bibliometric data and research project mapping CSVs.""",
+    outputs="""Integrated dashboards combining literature trends with internal research project milestones.""",
+    when_to_use="""Final reporting and landscape visualization phase."""
+)
+
+page_doc(
+    title="""NotebookLM Prompt Builder""",
+    file="""02_NotebookLM.py""",
+    purpose="""Orchestrates the synthesis process by reading research CSVs and grouping papers by batch_id to generate structured, ready-to-paste prompts for the NotebookLM synthesis engine.""",
+    inputs="""Research metadata CSV files containing paper descriptions and associated batch identifiers.""",
+    outputs="""Formatted, ready-to-paste text prompts tailored for batch-wise research synthesis.""",
+    when_to_use="""Preprocessing and synthesis stage to prepare research content for external LLM evaluation."""
+)
+
+page_doc(
+    title="""Research Data Management""",
+    file="""04_data.py""",
+    purpose="""Provides a centralized interface for the ingestion and preliminary viewing of research datasets, including bibliometric exports and internal mapping matrices.""",
+    inputs="""Local CSV/JSON files, bibliometric data, and research traceability files.""",
+    outputs="""Interactive data previews, summary statistics, and cleaned dataframes for downstream analytical modules.""",
+    when_to_use="""Data ingestion and initial exploratory stage of the research pipeline."""
+)
+
+page_doc(
+    title="""LaTeX Section Exporter""",
+    file="""06_latex_converter.py""",
+    purpose="""Transforms synthesized text segments into modular LaTeX files, organizing content into structured section-wise outputs like introduction_1.tex or methods_2.tex.""",
+    inputs="""Synthesized research text parts and target section identifiers.""",
+    outputs="""Modular .tex files stored in a hierarchical directory structure for final document assembly.""",
+    when_to_use="""Reporting and final assembly stage to convert raw synthesis into a structured document."""
+)
+
+page_doc(
+    title="""Grounded LaTeX Converter""",
+    file="""08_latex_converter_with_hallucination_mitigation.py""",
+    purpose="""Converts research text into LaTeX while implementing automated BibTeX merging and citation validation to mitigate model hallucinations and ensure factual grounding.""",
+    inputs="""Raw research text, specific BibTeX citation keys, and master .bib files.""",
+    outputs="""Validated .tex files with grounded citations and automatically merged bibliography files.""",
+    when_to_use="""Final reporting stage where rigorous citation accuracy and automated bibliography management are critical."""
+)
+
+page_doc(
+    title="""Scraping Distribution Analysis""",
+    file="""09_scrapping_distribution.py""",
+    purpose="""Analyzes and visualizes the distribution of extracted academic metadata or scraped content across different research themes, venues, or temporal markers.""",
+    inputs="""Scraped research datasets, venue JSON files, and extraction logs.""",
+    outputs="""Distribution charts, coverage metrics, and summary tables of the acquired research landscape.""",
+    when_to_use="""Data acquisition and preprocessing monitoring stage to ensure comprehensive literature coverage."""
+)

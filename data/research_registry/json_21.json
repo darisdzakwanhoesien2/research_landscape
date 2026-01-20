@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "project": "Integrated ESG-ABSA Intelligence Framework",
+    "generated_at": "2026-01-20T16:45:00Z",
+    "version": "1.0.0-final",
+    "description": "Strictly valid JSON mapping of the 5-layer integrated ESG research plan to empirical literature evidence, establishing the causal logic chain from expected contributions to research questions and validated evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Multilingual Language Model Pretraining using Machine-translated Data",
+          "authors": "Jiayi Wang, Yao Lu, Maurice Weber, Max Ryabinin, David Ifeoluwa Adelani, Yihong Chen, Raphael Tang, Pontus Stenetorp",
+          "year": 2025,
+          "source_index": 129,
+          "relevance": "Supports C3 and RQ1.1 by demonstrating that machine-translated data can significantly enhance pretraining quality for languages like Indonesian, establishing a state-of-the-art baseline for cross-lingual transfer.",
+          "tags": ["Multilingual", "Indonesian", "Pretraining"]
+        },
+        {
+          "title": "OpenNER 1.0: Standardized Open-Access Named Entity Recognition Datasets in 50+ Languages",
+          "authors": "Chester Palen-Michel, Maxwell Pickering, Maya Kruse, Jonne Saleva, Constantine Lignos",
+          "year": 2024,
+          "source_index": 83,
+          "relevance": "Directly relevant to C2 and C9 by providing a standardized uniform representation across 51 languages and multi-ontology NER, crucial for normalizing ESG data schemas.",
+          "tags": ["NER", "Standardization", "Multilingual"]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "FinMTEB: Finance Massive Text Embedding Benchmark",
+          "authors": "Yuan Yan Tang, Yi Yang",
+          "year": 2025,
+          "source_index": 112,
+          "relevance": "Justifies C8 and RQ2.1 by establishing a specialized financial benchmark for ESG reports and regulatory filings, highlighting the performance gap of general-purpose models in vertical domains.",
+          "tags": ["Financial NLP", "Benchmarking", "Embeddings"]
+        },
+        {
+          "title": "Facilitating Long Context Understanding via Supervised Chain-of-Thought Reasoning",
+          "authors": "Jingyang Lin, Andy Wong, Tian Xia, Shenghua He, Hui Wei, Mei Han, Jiebo Luo",
+          "year": 2025,
+          "source_index": 140,
+          "relevance": "Supports C13 and RQ2.2 by introducing LongFinanceQA to improve long-context reasoning in the financial domain via intermediate CoT steps, directly addressing the scalability bottleneck P4.",
+          "tags": ["Long Context", "CoT", "Finance"]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Two Heads Are Better Than One: Dual-Model Verbal Reflection at Inference-Time",
+          "authors": "Jiazheng Li, Yuxiang Zhou, Junru Lu, Gladys Tyen, Lin Gui, Cesare Aloisi, Yulan He",
+          "year": 2025,
+          "source_index": 157,
+          "relevance": "Provides the causal logic for C7 and RQ3.2 by introducing DARS, a dual-model framework that generates feedback based on discrepancies in structured reasoning graph paths.",
+          "tags": ["Reasoning Graphs", "Reflection", "Transparency"]
+        },
+        {
+          "title": "Graph-Guided Textual Explanation Generation Framework",
+          "authors": "Shuzhou Yuan, Jingyi Sun, Ran Zhang, Michael Färber, Steffen Eger, Pepa Atanasova, Isabelle Augenstein",
+          "year": 2024,
+          "source_index": 89,
+          "relevance": "Directly supports C15 and RQ3.2 by utilizing graph neural networks to explicitly guide explanation generation, increasing faithfulness to the model's underlying reasoning.",
+          "tags": ["XAI", "Graph Neural Networks", "Faithfulness"]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?",
+          "RQ4.2: How can cross-model consistency be measured?",
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Attention-guided Self-reflection for Zero-shot Hallucination Detection in Large Language Models",
+          "authors": "Qiang Liu, Xinlong Chen, Yue Ding, Shizhen Xu, Shu Wu, Liang Wang",
+          "year": 2025,
+          "source_index": 101,
+          "relevance": "Supports C14 and RQ4.2 by proposing a low-overhead attention-guided reflection method to detect hallucinations and ensure output consistency, a prerequisite for trust intelligence.",
+          "tags": ["Hallucination Detection", "Self-reflection", "Trust"]
+        },
+        {
+          "title": "Retrieval-Augmented Generation with Estimation of Source Reliability",
+          "authors": "Jeongyeon Hwang, Junyoung Park, Hyejin Park, Sangdon Park, Jungseul Ok",
+          "year": 2024,
+          "source_index": 73,
+          "relevance": "Provides empirical evidence for RQ4.1 and C11 by estimating source reliability through cross-checking, enabling the model to prioritize credible evidence over misleading narratives.",
+          "tags": ["Reliability", "Risk Assessment", "Fact-checking"]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade platform",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: Deployable auditable reasoning",
+          "C12: Open-source ESG pipeline + visualization"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "GraphAgent: Agentic Graph Language Assistant",
+          "authors": "Yuhao Yang, Jiabin Tang, Lianghao Xia, Xingchen Zou, Yuxuan Liang, Chao Huang",
+          "year": 2024,
+          "source_index": 92,
+          "relevance": "Supports C12 and RQ5.1 by introducing an automated agent pipeline for building knowledge graphs and planning tasks, facilitating scalable, auditable reasoning deployments.",
+          "tags": ["Agents", "Knowledge Graphs", "Deployment"]
+        },
+        {
+          "title": "s1: Simple test-time scaling",
+          "authors": "Niklas Muennighoff, Zitong Yang, Weijia Shi, Xiang Lisa Li, Feifei Li, Hannaneh Hajishirzi, Luke Zettlemoyer, Percy Liang, Emmanuel Candès, Tatsunori Hashimoto",
+          "year": 2025,
+          "source_index": 106,
+          "relevance": "Justifies C5 and RQ5.2 by demonstrating that simple budget forcing and reasoning traces can scale reasoning performance at test-time, essential for operationalizing the system at scale.",
+          "tags": ["Scaling", "Production", "Reasoning"]
+        }
+      ]
+    }
+  }
+}

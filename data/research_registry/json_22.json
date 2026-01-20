@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "project": "Integrated ESG-ABSA Intelligence Framework",
+    "generated_at": "2026-01-20T17:15:00Z",
+    "version": "1.0.0-integrated",
+    "description": "Comprehensive reference mapping of the five-layer ESG research architecture to the curated NAACL-2025 literature corpus, establishing causal traceability from technical contributions to empirical evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "What Do Indonesians Really Need from Language Technology? A Nationwide Survey",
+          "authors": "Muhammad Dehan Al Kautsar, Fajri Koto, Lucky Susanto, Derry Wijaya",
+          "year": 2025,
+          "source_index": 1368,
+          "relevance": "Directly supports C1 and RQ1.3 by providing empirical evidence of user needs in the Indonesian context, specifically highlighting the priority for machine translation and information retrieval to address language barriers in regional deployments.",
+          "tags": ["Indonesian", "User Needs", "Bilingual"]
+        },
+        {
+          "title": "Multilingual Dialogue Generation and Localization with Dialogue Act Scripting",
+          "authors": "Eunike Andriani Kardinata, Yusuke Sakai, Justin Vasselli, Taro Watanabe",
+          "year": 2025,
+          "source_index": 1865,
+          "relevance": "Provides a structured framework (DAS) for encoding and generating multilingual dialogues that are culturally appropriate, supporting the cross-lingual transfer goals of C3 and the foundational multilingual infrastructure of O1.",
+          "tags": ["Localization", "Multilingual", "Cross-lingual Transfer"]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Efficient Context Selection for Long-Context QA: No Tuning, No Iteration, Just Adaptive-k",
+          "authors": "Nikita Bhutani, Seiji Maekawa, Chihiro Taguchi",
+          "year": 2025,
+          "source_index": 1842,
+          "relevance": "Justifies C13 and RQ2.2 by introducing an adaptive-k retrieval method that improves long-context reasoning efficiency without requiring intensive fine-tuning, directly addressing the scalability bottleneck identified in P4.",
+          "tags": ["Long Context", "Efficiency", "Scalability"]
+        },
+        {
+          "title": "From Parameters to Performance: A Data-Driven Study on LLM Structure and Development",
+          "authors": "Bo Du, Zuchao Li, Yun Li, Luohe Shi, Qianren Wang, Suqing Wang, Hai Zhao",
+          "year": 2025,
+          "source_index": 1776,
+          "relevance": "Supports C8 and RQ2.1 by providing a systematic analysis of how structural configurations affect LLM performance across various benchmarks, offering a data-driven baseline for the proposed large-scale ESG benchmark.",
+          "tags": ["Benchmarking", "Model Structure", "Representation Learning"]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C14: Tone-aware bias correction models",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Mapping the Minds of LLMs: A Graph-Based Analysis of Reasoning LLMs",
+          "authors": "Yujun Cai, Zhecheng Li, Yi-wei Wang, Zhen Xiong",
+          "year": 2025,
+          "source_index": 1835,
+          "relevance": "Provides the causal logic for C7 and RQ3.2 by introducing a framework to convert sequential Chain-of-Thought (CoT) into hierarchical reasoning graphs to improve transparency and diagnostic interpretability.",
+          "tags": ["Reasoning Graphs", "Explainability", "CoT"]
+        },
+        {
+          "title": "Unveiling Internal Reasoning Modes in LLMs: A Deep Dive into Latent Reasoning vs. Factual Shortcuts",
+          "authors": "Jianxin Liao, Qi Qi, Peng-fei Ren, Haifeng Sun, Jing-yu Wang, Huazheng Wang, Jing Wang, Yiran Yang, Zi-rui Zhuang",
+          "year": 2025,
+          "source_index": 1828,
+          "relevance": "Direct evidence for RQ3.3, identifying distinct reasoning modes (latent reasoning vs. factual shortcuts) that allow models to uncover bridge information required for multi-hop ESG claims.",
+          "tags": ["Latent Reasoning", "Multi-hop QA", "Internal Mechanisms"]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?",
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?",
+          "RQ4.2: How can cross-model consistency be measured?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "SSA: Semantic Contamination of LLM-Driven Fake News Detection",
+          "authors": "Shuhao Guan, Tahar Kechadi, Yuke Mei, Cheng Xu, Nan Yan",
+          "year": 2025,
+          "source_index": 1102,
+          "relevance": "Supports C11 and RQ4.5 by analyzing how models can 'remember' answers via semantic contamination rather than reasoning, highlighting the need for robust verification in risk-sensitive detection tasks like greenwashing.",
+          "tags": ["Detection", "Contamination", "Veracity"]
+        },
+        {
+          "title": "MS-RAG: Simple and Effective Multi-Semantic Retrieval-Augmented Generation",
+          "authors": "Lihong Gu, Ya-Hui Luo, Xiaozhou You",
+          "year": 2025,
+          "source_index": 1816,
+          "relevance": "Validates the multi-model consistency approach (RQ4.2) by integrating knowledge graphs with dense vectors to mitigate hallucinations, which is a prerequisite for trustworthy risk intelligence in O4.",
+          "tags": ["Hallucination Mitigation", "Knowledge Graphs", "Trust"]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade platform",
+          "C5: Unified Research–Model–Metric framework",
+          "C12: Open-source ESG pipeline + visualization"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "OmniEval: An Omnidirectional and Automatic RAG Evaluation Benchmark in Financial Domain",
+          "authors": "Zhicheng Dou, Jiejun Tan, Shuting Wang, Ji-Rong Wen",
+          "year": 2025,
+          "source_index": 1807,
+          "relevance": "Justifies C12 and RQ5.2 by providing a multi-dimensional automatic evaluation framework for RAG in finance, offering a scalable template for the ESG pipeline's operational validation.",
+          "tags": ["Deployment", "Financial NLP", "Automatic Evaluation"]
+        },
+        {
+          "title": "CLMTracing: Black-box User-level Watermarking for Code Language Model Tracing",
+          "authors": "Kingsum Chow, Tianyu Du, Ping He, Jianwei Yin, Lei Yun, Boyu Zhang, Xuhong Zhang",
+          "year": 2025,
+          "source_index": 1296,
+          "relevance": "Supports C5 and RQ5.1 by introducing watermarking techniques for tracing model outputs in black-box settings, essential for maintaining auditability in the deployed ESG platform.",
+          "tags": ["Auditability", "Watermarking", "Security"]
+        }
+      ]
+    }
+  }
+}

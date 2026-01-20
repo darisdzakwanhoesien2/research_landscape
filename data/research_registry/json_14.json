@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "project": "Integrated ESG-ABSA Intelligence System",
+    "generated_at": "2026-01-20T16:00:00Z",
+    "version": "1.0.0",
+    "description": "Comprehensive reference mapping of a 5-layer integrated research plan to curated literature, establishing a causal logic chain from technical contributions to empirical evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "AdaMergeX: Cross-Lingual Transfer with Large Language Models via Adaptive Adapter Merging",
+          "authors": "Yiran Zhao, Wenxuan Zhang, Sheng Wang, Kenji Kawaguchi, Lidong Bing",
+          "year": 2024,
+          "source_index": 92,
+          "relevance": "Provides the causal mechanism for C3 and RQ1.1 by proposing a method to decouple task ability from language ability, enabling effective cross-lingual transfer between high-resource and target languages like Indonesian.",
+          "tags": ["Cross-lingual", "Adapter Merging", "Transfer Learning"]
+        },
+        {
+          "title": "Multilingual Machine Translation with Open Large Language Models at Practical Scale: An Empirical Study",
+          "authors": "Menglong Cui et al.",
+          "year": 2025,
+          "source_index": 498,
+          "relevance": "Supports C1 and C9 by evaluating 9B parameter models on 28 languages, establishing the empirical performance baselines for the foundational bilingual platform.",
+          "tags": ["Multilingual", "Machine Translation", "Scaling"]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "HMT: Hierarchical Memory Transformer for Efficient Long Context Language Processing",
+          "authors": "Zifan He, Yingqi Cao, Zongyue Qin, Neha Prakriya, Yizhou Sun, Jason Cong",
+          "year": 2024,
+          "source_index": 523,
+          "relevance": "Supports C13 and RQ2.2 by imitating human memory hierarchy to enable efficient processing of long ESG disclosures with significantly fewer parameters.",
+          "tags": ["Long Context", "Hierarchical Memory", "Scalability"]
+        },
+        {
+          "title": "Active Few-Shot Learning for Text Classification",
+          "authors": "Saeed Ahmadnia, Arash Yousefi Jordehi, Mahsa Hosseini Khasheh Heyran, S. Mirroshandel, Owen Rambow, Cornelia Caragea",
+          "year": 2025,
+          "source_index": 573,
+          "relevance": "Direct evidence for RQ2.1 and C16, demonstrating that an active learning-based instance selection mechanism improves the performance of few-shot learning in data-sparse domains.",
+          "tags": ["Few-shot", "Active Learning", "Data Scarcity"]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C14: Tone-aware bias correction models",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Verify-in-the-Graph: Entity Disambiguation Enhancement for Complex Claim Verification with Interactive Graph Representation",
+          "authors": "Hoang Pham, Thanh-Do Nguyen, Khac-Hoai Nam Bui",
+          "year": 2025,
+          "source_index": 649,
+          "relevance": "Supports C7 and RQ3.2/3.3 by leveraging interactive graph representations to resolve ambiguous entities and provide deep sub-claim verification.",
+          "tags": ["GraphRAG", "Claim Verification", "Reasoning"]
+        },
+        {
+          "title": "XPrompt: Explaining Large Language Model's Generation via Joint Prompt Attribution",
+          "authors": "Yurui Chang, Bochuan Cao, Yujia Wang, Jinghui Chen, Lu Lin",
+          "year": 2024,
+          "source_index": 581,
+          "relevance": "Provides structural evidence for C15 and RQ3.2, offering a counterfactual framework to explain the combined influence of prompts on model outputs.",
+          "tags": ["XAI", "Explainability", "Prompt Attribution"]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?",
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Faithful, Unfaithful or Ambiguous? Multi-Agent Debate with Initial Stance for Summary Evaluation",
+          "authors": "Mahnaz Koupaee et al.",
+          "year": 2025,
+          "source_index": 560,
+          "relevance": "Directly supports RQ4.5 and C11 by introducing a multi-agent debate framework with initial stances to identify errors and ambiguities in generated narratives.",
+          "tags": ["Greenwashing", "Faithfulness", "Multi-Agent Debate"]
+        },
+        {
+          "title": "Decoding Hate: Exploring Language Models' Reactions to Hate Speech",
+          "authors": "Paloma Piot, Javier Parapar",
+          "year": 2024,
+          "source_index": 660,
+          "relevance": "Supports C14 and RQ4.1 by analyzing model reactions to toxic or biased inputs, essential for building trust in the risk intelligence layer.",
+          "tags": ["Bias Correction", "Trust", "Safety Alignment"]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C5: Unified Research–Model–Metric framework",
+          "C8: Large-scale ESG LLM benchmark",
+          "C12: Open-source ESG pipeline + visualization"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "PROMPTEVALS: A Dataset of Assertions and Guardrails for Custom Production Large Language Model Pipelines",
+          "authors": "Reya Vir et al.",
+          "year": 2025,
+          "source_index": 632,
+          "relevance": "Provides the dataset and assertion criteria for RQ5.1 and C5 to improve reliability and auditability in production-level data processing pipelines.",
+          "tags": ["Production", "Guardrails", "Auditability"]
+        },
+        {
+          "title": "Towards Sustainable NLP: Insights from Benchmarking Inference Energy in Large Language Models",
+          "authors": "Soham Poddar et al.",
+          "year": 2025,
+          "source_index": 545,
+          "relevance": "Supports RQ5.2 and C12 by providing a comprehensive benchmark for inference energy, essential for optimizing system scalability in deployment.",
+          "tags": ["Deployment", "Scalability", "Sustainability"]
+        }
+      ]
+    }
+  }
+}

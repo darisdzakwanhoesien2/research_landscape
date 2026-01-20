@@ -1,0 +1,72 @@
+{
+  "RAG": [
+    "retrieval",
+    "rag",
+    "retrieval-augmented",
+    "knowledge graph",
+    "reranking",
+    "pdf",
+    "document"
+  ],
+  "Question-Answer": [
+    "question answering"
+  ],
+  "Aspect": [
+    "aspect",
+    "sentiment",
+    "absa",
+    "quadruple",
+    "triplet"
+  ],
+  "Opinion": [
+    "opinion",
+    "emotion"
+  ],
+  "ESG": [
+    "esg",
+    "sustainability",
+    "environmental",
+    "governance",
+    "finance",
+    "investment",
+    "carbon",
+    "climate"
+  ],
+  "Evaluation": [
+    "benchmark",
+    "evaluation",
+    "leaderboard",
+    "dataset",
+    "metric"
+  ],
+  "Reasoning": [
+    "reasoning",
+    "planning",
+    "symbolic",
+    "logic"
+  ],
+  "agent": [
+    "multi-agent",
+    "agent"
+  ],
+  "CoT": [
+    "chain-of-thought"
+  ],
+  "Multilingual": [
+    "multilingual",
+    "cross-lingual",
+    "translation",
+    "indonesian",
+    "language",
+    "low-resource"
+  ],
+  "Safety": [
+    "hallucination",
+    "alignment",
+    "safety",
+    "bias",
+    "truthfulness",
+    "robustness",
+    "privacy"
+  ]
+}

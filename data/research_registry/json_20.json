@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "project": "Integrated ESG-ABSA Intelligence Framework",
+    "generated_at": "2026-01-20T16:45:00Z",
+    "version": "1.0.0-final",
+    "description": "Strictly valid JSON mapping of the 5-layer integrated ESG research plan to empirical literature evidence, establishing the causal logic chain from expected contributions to research questions and validated evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "LORAXBENCH: A Multitask, Multilingual Benchmark Suite for 20 Indonesian Languages",
+          "authors": "Aji, Alham, Cohn, Trevor",
+          "year": 2025,
+          "source_index": 1334,
+          "relevance": "Directly supports C1 and C3 by providing a benchmark for low-resource Indonesian languages, identifying performance discrepancies that justify the need for regional calibration (RQ1.3).",
+          "tags": ["Indonesian", "Multilingual", "Benchmark"]
+        },
+        {
+          "title": "Shared Path: Unraveling Memorization in Multilingual LLMs through Language Similarities",
+          "authors": "Bjerva, Johannes, et al.",
+          "year": 2025,
+          "source_index": 906,
+          "relevance": "Provides evidence for C3 and RQ1.1 by demonstrating that language similarity underpins cross-lingual transferability, validating the foundational multilingual design.",
+          "tags": ["Cross-lingual Transfer", "Memorization", "Language Similarity"]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Query-Focused Retrieval Heads Improve Long-Context Reasoning and Re-ranking",
+          "authors": "Chen Danqi, et al.",
+          "year": 2025,
+          "source_index": 1489,
+          "relevance": "Supports C13 and RQ2.2 by identifying specific attention heads responsible for long-context retrieval, enabling scalable document processing.",
+          "tags": ["Long Context", "Retrieval Heads", "Scalability"]
+        },
+        {
+          "title": "TreeRare: Syntax Tree-Guided Retrieval and Reasoning for Knowledge-Intensive Question Answering",
+          "authors": "Boyi Zhang, et al.",
+          "year": 2025,
+          "source_index": 1894,
+          "relevance": "Causally links to C13 and RQ2.1 by demonstrating how syntax tree traversal resolves localized uncertainty in complex, knowledge-intensive tasks.",
+          "tags": ["Structured Reasoning", "Granularity", "Uncertainty"]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "LoCt-Instruct: An Automatic Pipeline for Constructing Datasets of Logical Continuous Instructions",
+          "authors": "Hayashi Kazuki, et al.",
+          "year": 2025,
+          "source_index": 1739,
+          "relevance": "Justifies C7 and RQ3.1 by proposing a pipeline for multi-turn logical instructions that progressively deepens content, essential for neuro-symbolic alignment.",
+          "tags": ["Logical Instructions", "Neuro-symbolic", "Ontology"]
+        },
+        {
+          "title": "OmniThink: Expanding Knowledge Boundaries in Machine Writing through Thinking",
+          "authors": "Chen, Huajun, et al.",
+          "year": 2025,
+          "source_index": 1441,
+          "relevance": "Supports C4 and RQ3.2 by simulating iterative expansion and reflection to improve knowledge density and reasoning transparency.",
+          "tags": ["Reflection", "Knowledge Density", "Transparency"]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?",
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "MOSAIC: Modeling Social AI for Content Dissemination and Regulation in Multi-Agent Simulations",
+          "authors": "Gabriel, Saadia, et al.",
+          "year": 2025,
+          "source_index": 1013,
+          "relevance": "Provides the causal framework for C11 and RQ4.5 by analyzing emergent deception behaviors and how agents determine content veracity in social simulations.",
+          "tags": ["Deception", "Veracity", "Greenwashing"]
+        },
+        {
+          "title": "Video-RTS: Rethinking Reinforcement Learning and Test-Time Scaling for Efficient and Enhanced Video Reasoning",
+          "authors": "Bansal, Mohit, et al.",
+          "year": 2025,
+          "source_index": 1546,
+          "relevance": "Supports C14 and RQ4.1 by utilizing output consistency and adaptive scaling to improve reasoning reliability and trust.",
+          "tags": ["Reinforcement Learning", "Reliability", "Trust"]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade platform",
+          "C5: Unified Research–Model–Metric framework",
+          "C12: Open-source ESG pipeline + visualization"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "DatawiseAgent: A Notebook-Centric LLM Agent Framework for Adaptive and Robust Data Science Automation",
+          "authors": "Ziming You, et al.",
+          "year": 2025,
+          "source_index": 769,
+          "relevance": "Supports C12 and RQ5.1 by providing a unified interaction representation for flexible long-horizon planning and robust recovery in open-source pipelines.",
+          "tags": ["Automation", "Open-source", "Planning"]
+        },
+        {
+          "title": "SwarmAgentic: Towards Fully Automated Agentic System Generation via Swarm Intelligence",
+          "authors": "Yao Zhang, et al.",
+          "year": 2025,
+          "source_index": 422,
+          "relevance": "Validates the deployment strategy (O5) by constructing agentic systems from scratch and self-optimizing collaboration for complex planning (RQ5.2).",
+          "tags": ["Deployment", "Self-optimization", "Swarm Intelligence"]
+        }
+      ]
+    }
+  }
+}

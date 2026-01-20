@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "project": "Bilingual, Ontology-Aware, and Explainable ESG Intelligence System",
+    "generated_at": "2026-05-20T10:00:00Z",
+    "version": "1.0.0-integrated",
+    "description": "Comprehensive mapping of integrated research objectives to curated literature corpus, establishing causal traceability from expected contributions to empirical evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Morphosyntactic Tagging with Pre-trained Language Models for Arabic and its Dialects",
+          "authors": "Go Inoue, Salam Khalifa, Nizar Habash",
+          "year": 2021,
+          "source_index": 48,
+          "relevance": "Provides empirical justification for C1 and RQ1.3 by demonstrating that pre-trained language models can be successfully adapted to low-resource dialects and regional variations through strategic fine-tuning.",
+          "tags": ["Multilingual", "Dialects", "Fine-tuning"]
+        },
+        {
+          "title": "Towards Offensive Language Identification for Dravidian Languages",
+          "authors": "Siva Sai, Yashvardhan Sharma",
+          "year": 2021,
+          "source_index": 59,
+          "relevance": "Supports C3 and RQ1.1 by exploring zero-shot and few-shot cross-lingual transfer learning in multilingual transformer networks (XLM-R, mBERT) for low-resource language settings.",
+          "tags": ["Cross-lingual", "Low-resource", "XLM-R"]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models",
+          "authors": "Robert L. Logan, Ivana Balazevic, Eric Wallace, Fabio Petroni, Sameer Singh, Sebastian Riedel",
+          "year": 2021,
+          "source_index": 71,
+          "relevance": "Directly addresses RQ2.1 and C16 by validating that few-shot learning with minimal parameter updates can achieve high accuracy in specialized domains with sparse labeled data.",
+          "tags": ["Few-shot", "Parameter Efficiency", "ESG Granularity"]
+        },
+        {
+          "title": "PandaLM: An Automatic Evaluation Benchmark for LLM Instruction Tuning Optimization",
+          "authors": "Yidong Wang et al.",
+          "year": 2023,
+          "source_index": 73,
+          "relevance": "Provides a methodology for C8 by introducing automated benchmarking frameworks to evaluate LLMs as judges, essential for the systematic performance baselines of Objective 2.",
+          "tags": ["Benchmarking", "LLM-as-Judge", "Evaluation"]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C14: Tone-aware bias correction models",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Representing Rule-based Chatbots with Transformers",
+          "authors": "Dan Friedman, Abhishek Panigrahi, Danqi Chen",
+          "year": 2024,
+          "source_index": 187,
+          "relevance": "Establishes the technical foundation for C7 and RQ3.1 by demonstrating how transformer architectures can implement interpretable symbolic mechanisms and long-term state tracking.",
+          "tags": ["Neuro-symbolic", "Rule-based", "Mechanistic Analysis"]
+        },
+        {
+          "title": "XPrompt: Explaining Large Language Model's Generation via Joint Prompt Attribution",
+          "authors": "Yurui Chang, Bochuan Cao, Yujia Wang, Jinghui Chen, Lu Lin",
+          "year": 2024,
+          "source_index": 581,
+          "relevance": "Supports C15 and RQ3.2 by providing a counterfactual framework for joint prompt attribution, enabling the explainable neuro-symbolic reasoning required for this layer.",
+          "tags": ["XAI", "Attribution", "Explainability"]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models",
+          "C6: Ontology-linked evaluation metrics"
+        ],
+        "research_questions": [
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?",
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "A Probabilistic Framework for LLM Hallucination Detection via Belief Tree Propagation",
+          "authors": "Bairu Hou, Yang Zhang, Jacob Andreas, Shiyu Chang",
+          "year": 2024,
+          "source_index": 132,
+          "relevance": "Justifies C11 and RQ4.5 by introducing structured belief trees to detect inconsistencies in LLM-generated statements, a prerequisite for quantifying greenwashing risk.",
+          "tags": ["Hallucination", "Consistency", "Greenwashing"]
+        },
+        {
+          "title": "Evaluating Object Hallucination in Large Vision-Language Models",
+          "authors": "Yifan Li et al.",
+          "year": 2023,
+          "source_index": 72,
+          "relevance": "Addresses RQ4.1 and the trust gap by providing systematic study on model failures (hallucinations), which is critical for establishing risk intelligence layers.",
+          "tags": ["Trust", "Hallucination Detection", "Reliability"]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C12: Open-source ESG pipeline + visualization",
+          "C5: Unified Research–Model–Metric framework",
+          "C1: Production-grade platform"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Seq1F1B: Efficient Sequence-Level Pipeline Parallelism for Large Language Model Training",
+          "authors": "Ao Sun et al.",
+          "year": 2024,
+          "source_index": 138,
+          "relevance": "Supports the scalability requirements of RQ5.2 and C12 by introducing efficient scheduling for long sequences, enabling the system to process massive institutional disclosures.",
+          "tags": ["Scalability", "Deployment", "Pipeline Parallelism"]
+        },
+        {
+          "title": "Babysit A Language Model From Scratch: Interactive Language Learning by Trials and Demonstrations",
+          "authors": "Ziqiao Ma, Zekun Wang, Joyce Chai",
+          "year": 2024,
+          "source_index": 120,
+          "relevance": "Validates the iterative dashboard and human-in-the-loop design in C12, showing how interactive corrective feedback loops improve learning efficiency and decision readiness.",
+          "tags": ["Interactive Dashboards", "Human-in-the-loop", "Decision Support"]
+        }
+      ]
+    }
+  }
+}

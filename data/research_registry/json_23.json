@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "project": "Integrated ESG-ABSA Intelligence Framework (v-1 to v3)",
+    "generated_at": "2026-01-20T17:30:00Z",
+    "version": "1.0.0-final",
+    "description": "Comprehensive reference mapping of the five-layer research plan to technical contributions and literature evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "CMHG: A Dataset and Benchmark for Headline Generation of Minority Languages in China",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 900,
+          "relevance": "Supports C1 and C9 by providing a scalable benchmark for minority and low-resource languages, validating the semantic infrastructure needed for bilingual systems.",
+          "tags": [
+            "Multilingual",
+            "Minority Languages",
+            "Dataset"
+          ]
+        },
+        {
+          "title": "Multi-LMentry: Can Multilingual LLMs Solve Elementary Tasks Across Languages?",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 924,
+          "relevance": "Directly addresses RQ1.1 and C3 by exposing failure modes in core model abilities across nine languages, justifying the need for optimized cross-lingual transfer.",
+          "tags": [
+            "Benchmarking",
+            "Unit Tests",
+            "Linguistic Invariants"
+          ]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "DrDiff: Dynamic Routing Diffusion with Hierarchical Attention for Breaking the Efficiency-Quality Trade-off",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1000,
+          "relevance": "Validates C13 and RQ2.2 through the use of dynamic expert scheduling and hierarchical attention to manage long-text scalability challenges.",
+          "tags": [
+            "Scalability",
+            "Hierarchical Attention",
+            "Inference Efficiency"
+          ]
+        },
+        {
+          "title": "HMoE: Heterogeneous Mixture of Experts for Language Modeling",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1116,
+          "relevance": "Supports C10 and RQ2.4 by utilizing experts with diverse capacities to handle varying input complexity, thereby reducing parameter imbalance and single-model bias.",
+          "tags": [
+            "Model Fusion",
+            "Mixture of Experts",
+            "Representation Learning"
+          ]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C14: Tone-aware bias correction models",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "LogicTree: Structured Proof Exploration for Coherent and Rigorous Logical Reasoning with Large Language Models",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1327,
+          "relevance": "Operationalizes C7 and RQ3.2 by employing algorithm-guided search to automate structured proof exploration and ensure logical transparency.",
+          "tags": [
+            "Neuro-symbolic",
+            "Logic Graphs",
+            "Interpretability"
+          ]
+        },
+        {
+          "title": "Context-Aware Hierarchical Taxonomy Generation for Scientific Papers via LLM-Guided Multi-Aspect Clustering",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1229,
+          "relevance": "Supports C15 and RQ3.1 by integrating aspect-specific summaries with dynamic clustering to form coherent semantic hierarchies, enforcing ontology-aligned correctness.",
+          "tags": [
+            "Ontology Alignment",
+            "Taxonomy",
+            "Semantic Coherence"
+          ]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable monitoring",
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?",
+          "RQ4.2: How can cross-model consistency be measured?",
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Debate-to-Detect: Reformulating Misinformation Detection as a Real-World Debate with Large Language Models",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1084,
+          "relevance": "Directly supports C11 and RQ4.5 by utilizing multi-agent adversarial debates to evaluate factual reliability and reasoning quality in deceptive narratives.",
+          "tags": [
+            "Greenwashing",
+            "Misinformation",
+            "Multi-Agent Debate"
+          ]
+        },
+        {
+          "title": "A Multi-Agent Framework with Automated Decision Rule Optimization for Cross-Domain Misinformation Detection",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 901,
+          "relevance": "Addresses RQ4.2 by proposing a question-reflection mechanism among agents to improve detection quality across differing domains.",
+          "tags": [
+            "Cross-model Consistency",
+            "Trust Intelligence",
+            "Decision Support"
+          ]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade platform",
+          "C5: Unified Research–Model–Metric framework",
+          "C12: Open-source ESG pipeline + visualization"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "A Position Paper on the Automatic Generation of Machine Learning Leaderboards",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 879,
+          "relevance": "Provides the methodological basis for the reproducible benchmarking required in C5 and RQ5.2, advocating for standardised conceptual frameworks.",
+          "tags": [
+            "Reproducibility",
+            "Benchmarking",
+            "Scalability"
+          ]
+        },
+        {
+          "title": "PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1212,
+          "relevance": "Supports C12 and RQ5.1 by operationalizing structural coherence and visual appeal in output artifacts, ensuring usability in real-world environments.",
+          "tags": [
+            "Deployment",
+            "Visualization",
+            "User-Centric Design"
+          ]
+        }
+      ]
+    }
+  }
+}

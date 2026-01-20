@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "project": "Multilingual and Explainable ESG Intelligence System",
+    "generated_at": "2026-01-20T14:30:00Z",
+    "version": "1.0.0",
+    "description": "Machine-persistable reference mapping linking five integrated objective layers to technical contributions and empirical literature evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Hierarchical Sequence Labeling Model for Aspect Sentiment Triplet Extraction",
+          "authors": "Peng Chen, Shaowei Chen, Jie Liu",
+          "year": 2020,
+          "source_index": 57,
+          "relevance": "Provides a state-of-the-art framework for identifying aspects, opinions, and sentiment triplets in a single end-to-end model, directly supporting the foundation for C1 and RQ1.1.",
+          "tags": [
+            "ABSA",
+            "Triplet Extraction",
+            "Deep Learning"
+          ]
+        },
+        {
+          "title": "Test-Time Code-Switching for Cross-lingual Aspect Sentiment Triplet Extraction",
+          "authors": "Dongming Sheng, Kexin Han, Hao Li, Yan Zhang, Yucheng Huang, Jun Lang, Wenqiang Liu",
+          "year": 2025,
+          "source_index": 435,
+          "relevance": "Directly addresses the challenge of cross-lingual transfer in ASTE using code-switching techniques, justifying the bilingual approach for Indonesian-English ESG coverage in C3.",
+          "tags": [
+            "Cross-lingual",
+            "Code-switching",
+            "ASTE"
+          ]
+        },
+        {
+          "title": "Knowledge Distillation for Machine Translation",
+          "authors": "Zhen Li, Dan Qu, Chaojie Xie, Wei Xue-juan",
+          "year": 2018,
+          "source_index": 56,
+          "relevance": "Offers evidence for improving low-resource language translation via knowledge distillation, which informs the transfer learning strategies for Indonesian ESG data in C3.",
+          "tags": [
+            "Knowledge Distillation",
+            "Low-resource",
+            "NMT"
+          ]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "HMT: Hierarchical Memory Transformer for Efficient Long Context Language Processing",
+          "authors": "Zifan He, Yingqi Cao, Zongyue Qin, Neha Prakriya, Yizhou Sun, Jason Cong",
+          "year": 2024,
+          "source_index": 495,
+          "relevance": "Demonstrates that imitating brain memory hierarchy improves long-context processing with significantly lower inference memory, providing the technical basis for C13 and RQ2.2.",
+          "tags": [
+            "Long Context",
+            "Scalability",
+            "Memory Hierarchy"
+          ]
+        },
+        {
+          "title": "Progressive Fusion Network with Mixture of Experts for Multimodal Sentiment Analysis",
+          "authors": "Dahuang Liu, Zhenguo Yang, Zhiwei Guo",
+          "year": 2024,
+          "source_index": 111,
+          "relevance": "Validates the use of Mixture of Experts and progressive fusion to reinforce sentiment dynamics, supporting the multi-LLM fusion approach in C10 and RQ2.4.",
+          "tags": [
+            "Model Fusion",
+            "Mixture of Experts",
+            "Sentiment Analysis"
+          ]
+        },
+        {
+          "title": "Instruction-following Evaluation through Verbalizer Manipulation",
+          "authors": "Shiyang Li, Jun Yan, Hai Wang, Zheng Tang, Xiang Ren, Vijay Srinivasan, Hongxia Jin",
+          "year": 2023,
+          "source_index": 73,
+          "relevance": "Introduces a protocol for evaluating model reliance on priors vs. instructions, essential for the systematic benchmarking of 30+ LLMs in C8 and RQ2.1.",
+          "tags": [
+            "Benchmarking",
+            "Instruction Following",
+            "Evaluation"
+          ]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C14: Tone-aware bias correction models",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "SymBa: Symbolic Backward Chaining for Structured Natural Language Reasoning",
+          "authors": "Jinu Lee, Wonseok Hwang",
+          "year": 2024,
+          "source_index": 309,
+          "relevance": "Proposes a novel system integrating symbolic solvers with LLMs for structured reasoning, providing a causal link for the neuro-symbolic framework in C7 and RQ3.1.",
+          "tags": [
+            "Neuro-symbolic",
+            "Backward Chaining",
+            "Explainability"
+          ]
+        },
+        {
+          "title": "Verify-in-the-Graph: Entity Disambiguation Enhancement for Complex Claim Verification with Interactive Graph Representation",
+          "authors": "Hoang Pham, Thanh-Do Nguyen, Khac-Hoai Nam Bui",
+          "year": 2025,
+          "source_index": 615,
+          "relevance": "Utilizes graph-based representations to resolve ambiguous entities and verify complex claims, supporting the reasoning graph architecture in C7 and RQ3.2.",
+          "tags": [
+            "GraphRAG",
+            "Claim Verification",
+            "Reasoning Graphs"
+          ]
+        },
+        {
+          "title": "Evaluating Input Feature Explanations through a Unified Diagnostic Evaluation Framework",
+          "authors": "Jingyi Sun, Pepa Atanasova, Isabelle Augenstein",
+          "year": 2024,
+          "source_index": 498,
+          "relevance": "Provides diagnostic properties for comparing highlight and interactive explanations, establishing the evaluation metrics for C15 and RQ3.2.",
+          "tags": [
+            "XAI",
+            "Evaluation Framework",
+            "Interpretability"
+          ]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?",
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?",
+          "RQ4.2: How can cross-model consistency be measured?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "AI-LieDar: Examine the Trade-off Between Utility and Truthfulness in LLM Agents",
+          "authors": "Zhe Su, Xuhui Zhou, Sanketh Rangreji, Anubha Kabra, Julia Mendelsohn, Faeze Brahman, Maarten Sap",
+          "year": 2024,
+          "source_index": 215,
+          "relevance": "Develops a truthfulness detector based on psychological literature to navigate goal conflicts, directly informing the greenwashing detection logic in C11 and RQ4.5.",
+          "tags": [
+            "Truthfulness",
+            "Deception Detection",
+            "Greenwashing"
+          ]
+        },
+        {
+          "title": "Evaluating Evidence Attribution in Generated Fact Checking Explanations",
+          "authors": "Rui Xing, Timothy Baldwin, Jey Han Lau",
+          "year": 2024,
+          "source_index": 251,
+          "relevance": "Introduces citation masking and recovery to assess attribution quality, which supports the trust metrics and bias correction models in C14 and RQ4.1.",
+          "tags": [
+            "Trust",
+            "Fact Checking",
+            "Attribution"
+          ]
+        },
+        {
+          "title": "A Logical Fallacy-Informed Framework for Argument Generation",
+          "authors": "Luca Mouchel, Debjit Paul, Shaobo Cui, Robert West, Antoine Bosselut, Boi Faltings",
+          "year": 2024,
+          "source_index": 186,
+          "relevance": "Steers LLMs away from logical fallacies to prevent misinformation, providing a baseline for the bias correction models in C14 and RQ4.1.",
+          "tags": [
+            "Bias Correction",
+            "Logical Fallacies",
+            "Safety"
+          ]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade platform",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: Deployable auditable reasoning",
+          "C8: Large-scale benchmark",
+          "C12: Open-source ESG pipeline + visualization"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "CSR-Bench: Benchmarking LLM Agents in Deployment of Computer Science Research Repositories",
+          "authors": "Yijia Xiao, Runhui Wang, Luyang Kong, Davor Golac, Wei Wang",
+          "year": 2025,
+          "source_index": 482,
+          "relevance": "Assesses LLMs in automating the deployment of code repositories, establishing the reproducibility standards required for C12 and RQ5.2.",
+          "tags": [
+            "Reproducibility",
+            "Deployment",
+            "Benchmarking"
+          ]
+        },
+        {
+          "title": "EASYTOOL: Enhancing LLM-based Agents with Concise Tool Instruction",
+          "authors": "Siyu Yuan, Kaitao Song, Jiangjie Chen, Xu Tan, Yongliang Shen, Ren Kan, Dongsheng Li, Deqing Yang",
+          "year": 2024,
+          "source_index": 82,
+          "relevance": "Transforms complex documentation into standardized tool instructions, improving the usability and scalability of the ESG pipeline in C12.",
+          "tags": [
+            "Pipeline Efficiency",
+            "Tool Usage",
+            "Deployment"
+          ]
+        },
+        {
+          "title": "A Survey of QUD Models for Discourse Processing",
+          "authors": "Yingxue Fu",
+          "year": 2025,
+          "source_index": 537,
+          "relevance": "Provides the discourse processing foundation for the interactive visualization and communication strategies in C12 and RQ5.1.",
+          "tags": [
+            "Decision Support",
+            "Visualization",
+            "Discourse Processing"
+          ]
+        }
+      ]
+    }
+  }
+}

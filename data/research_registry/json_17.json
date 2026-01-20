@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "project": "Integrated ESG-ABSA Intelligence Framework (v-1 to v3)",
+    "generated_at": "2026-01-20T10:00:00Z",
+    "version": "1.0.0-integrated",
+    "description": "Valid JSON artifact mapping research objective layers to contributions, research questions, and supporting literature evidence from the Thesis Evaluation and NAACL-2025 corpus."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Test-Time Code-Switching for Cross-lingual Aspect Sentiment Triplet Extraction",
+          "authors": "Dongming Sheng, Kexin Han, Hao Li, Yan Zhang, Yucheng Huang, Jun Lang, Wenqiang Liu",
+          "year": 2025,
+          "source_index": 428,
+          "relevance": "Provides a generative framework for cross-lingual ASTE using code-switching, directly supporting C3 (cross-lingual transfer) and the foundational multilingual requirements of O1.",
+          "tags": [
+            "Cross-lingual",
+            "ASTE",
+            "Bilingual"
+          ]
+        },
+        {
+          "title": "Soft Language Prompts for Language Transfer",
+          "authors": "Ivan Vykopal, Simon Ostermann, Marián Simko",
+          "year": 2024,
+          "source_index": 616,
+          "relevance": "Supports RQ1.1 by demonstrating how language-specific adapters and soft prompts improve transfer to mid- and low-resource languages, essential for Indonesian-English coverage.",
+          "tags": [
+            "Language Transfer",
+            "Soft Prompts",
+            "Low-resource"
+          ]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "HMT: Hierarchical Memory Transformer for Efficient Long Context Language Processing",
+          "authors": "Zifan He, Yingqi Cao, Zongyue Qin, Neha Prakriya, Yizhou Sun, Jason Cong",
+          "year": 2024,
+          "source_index": 488,
+          "relevance": "Validates C13 and RQ2.2 by proposing a memory-augmented hierarchy that processes long context with 2.5–116x less inference memory, directly addressing the scalability problems (P4) noted in the plan.",
+          "tags": [
+            "Long Context",
+            "Hierarchical Memory",
+            "Efficiency"
+          ]
+        },
+        {
+          "title": "MixLLM: Dynamic Routing in Mixed Large Language Models",
+          "authors": "Xinyu Wang, Yanchi Liu, Wei Cheng, Xujiang Zhao, Zhengzhang Chen, Wenchao Yu, Yanjie Fu, Haifeng Chen",
+          "year": 2025,
+          "source_index": 536,
+          "relevance": "Provides a bandit-based routing system to assign queries to the most suitable LLM, supporting C10 and RQ2.4 by mitigating single-model bias and hallucinations through specialized selection.",
+          "tags": [
+            "Model Fusion",
+            "Dynamic Routing",
+            "Efficiency"
+          ]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C14: Tone-aware bias correction models",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "SymBa: Symbolic Backward Chaining for Structured Natural Language Reasoning",
+          "authors": "Jinu Lee, Wonseok Hwang",
+          "year": 2024,
+          "source_index": 302,
+          "relevance": "Directly operationalizes C7 and RQ3.1 by integrating symbolic solvers with LLMs for backward-chaining proofs, creating the interpretable reasoning artifacts required by O3.",
+          "tags": [
+            "Neuro-symbolic",
+            "Backward Chaining",
+            "Explainability"
+          ]
+        },
+        {
+          "title": "Verify-in-the-Graph: Entity Disambiguation Enhancement for Complex Claim Verification with Interactive Graph Representation",
+          "authors": "Hoang Pham, Thanh-Do Nguyen, Khac-Hoai Nam Bui",
+          "year": 2025,
+          "source_index": 607,
+          "relevance": "Provides evidence for C7 and RQ3.2, showing that structured triplet decomposition into graphs enables verifiable, deep sub-claim fact-checking.",
+          "tags": [
+            "GraphRAG",
+            "Claim Verification",
+            "Transparency"
+          ]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?",
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?",
+          "RQ4.2: How can cross-model consistency be measured?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "COVE: COntext and VEracity prediction for out-of-context images",
+          "authors": "Jonathan Tonglet, Gabriel Thiem, Iryna Gurevych",
+          "year": 2025,
+          "source_index": 436,
+          "relevance": "Supports C11 and RQ4.5 by demonstrating a sequential process for context and veracity prediction, which mirrors the proposed narrative-grounded detection of greenwashing (H2/H5).",
+          "tags": [
+            "Veracity",
+            "Greenwashing",
+            "Fact-checking"
+          ]
+        },
+        {
+          "title": "Language Models Predict Empathy Gaps Between Social In-groups and Out-groups",
+          "authors": "Yu Hou, Hal Daum'e, Rachel Rudinger",
+          "year": 2025,
+          "source_index": 542,
+          "relevance": "Addresses C14 and RQ4.1 by uncovering how model personas exhibit systematic biases based on identity cues, justifying the need for tone-aware correction and trust metrics.",
+          "tags": [
+            "Bias Detection",
+            "Persona Bias",
+            "Trust"
+          ]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade platform",
+          "C5: Unified Research–Model–Metric framework",
+          "C12: Open-source ESG pipeline + visualization"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "CSR-Bench: Benchmarking LLM Agents in Deployment of Computer Science Research Repositories",
+          "authors": "Yijia Xiao, Runhui Wang, Luyang Kong, Davor Golac, Wei Wang",
+          "year": 2025,
+          "source_index": 475,
+          "relevance": "Directly supports O5 by providing an evaluation methodology for the autonomous deployment and audit of code repositories, essential for the open-source pipeline goals of C12.",
+          "tags": [
+            "Deployment",
+            "Benchmarking",
+            "Reproducibility"
+          ]
+        },
+        {
+          "title": "MICE for CATs: Model-Internal Confidence Estimation for Calibrating Agents with Tools",
+          "authors": "Nishant Subramani, Jason Eisner, Justin Svegliato, Benjamin Van Durme, Yu Su, Sam Thomson",
+          "year": 2025,
+          "source_index": 586,
+          "relevance": "Supports RQ5.1 by introducing internal confidence estimators to weigh risk vs. reward, ensuring the production platform (C1) provides auditable, safe decision support.",
+          "tags": [
+            "Confidence Estimation",
+            "Auditability",
+            "Safety"
+          ]
+        }
+      ]
+    }
+  }
+}

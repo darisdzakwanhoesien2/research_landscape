@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "project": "Multilingual, Ontology-Aware, and Explainable ESG Intelligence System",
+    "generated_at": "2026-01-20T10:00:00Z",
+    "version": "1.0.0",
+    "description": "Integrated research traceability matrix mapping ESG objective layers to technical contributions and empirical literature evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Can You Translate for Me? Code-Switched Machine Translation with Large Language Models",
+          "authors": "Jyotsana Khatri, Vivek Srivastava, L. Vig",
+          "year": 2023,
+          "source_index": 86,
+          "relevance": "Supports C3 and RQ1.1 by evaluating LLM performance in code-switched multilingual communities, highlighting factual inconsistencies and gender bias that must be mitigated in bilingual ESG platforms.",
+          "tags": [
+            "Multilingual",
+            "Code-switching",
+            "Cross-lingual Transfer"
+          ]
+        },
+        {
+          "title": "Single Ground Truth Is Not Enough: Adding Flexibility to Aspect-Based Sentiment Analysis Evaluation",
+          "authors": "Soyoung Yang et al.",
+          "year": 2024,
+          "source_index": 522,
+          "relevance": "Establishes the empirical necessity for C1 and C2 by demonstrating that traditional single-ground-truth ABSA evaluation misrepresents accuracy in subjective domains, advocating for flexible span extraction.",
+          "tags": [
+            "ABSA",
+            "Flexible Evaluation",
+            "Schema Normalization"
+          ]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "HMT: Hierarchical Memory Transformer for Efficient Long Context Language Processing",
+          "authors": "Zifan He et al.",
+          "year": 2024,
+          "source_index": 500,
+          "relevance": "Directly justifies C13 and RQ2.2 by proposing a memory-augmented segment-level recurrence that enables long-document processing with 2.5–116x less inference memory.",
+          "tags": [
+            "Long Context",
+            "Hierarchical Memory",
+            "Scalability"
+          ]
+        },
+        {
+          "title": "Ensembling Large Language Models with Process Reward-Guided Tree Search for Better Complex Reasoning",
+          "authors": "Sungjin Park et al.",
+          "year": 2024,
+          "source_index": 411,
+          "relevance": "Supports C10 and RQ2.4 by providing a framework (LE-MCTS) for ensembling language models to identify the most accurate reasoning chain through tree search.",
+          "tags": [
+            "Model Fusion",
+            "Hallucination Mitigation",
+            "Reasoning"
+          ]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Verify-in-the-Graph: Entity Disambiguation Enhancement for Complex Claim Verification with Interactive Graph Representation",
+          "authors": "Hoang Pham et al.",
+          "year": 2025,
+          "source_index": 622,
+          "relevance": "Provides causal evidence for C7 and RQ3.2, illustrating how structured triplet decomposition and knowledge-base interaction resolve ambiguous entities for deep sub-claim verification.",
+          "tags": [
+            "GraphRAG",
+            "Claim Verification",
+            "Explainability"
+          ]
+        },
+        {
+          "title": "Verifiable by Design: Aligning Language Models to Quote from Pre-Training Data",
+          "authors": "Jingyu Zhang et al.",
+          "year": 2024,
+          "source_index": 107,
+          "relevance": "Supports C15 and RQ3.2 by introducing Quote-Tuning, a method to enhance verifiability through verbatim attribution, essential for audit-ready explainability.",
+          "tags": [
+            "Verifiability",
+            "Attribution",
+            "XAI"
+          ]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?",
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Towards Knowledge Checking in Retrieval-augmented Generation: A Representation Perspective",
+          "authors": "Shenglai Zeng et al.",
+          "year": 2024,
+          "source_index": 380,
+          "relevance": "Supports C11 and RQ4.5 by demonstrating how representation-based classifiers can identify misleading information in RAG systems, providing a foundation for mismatch detection.",
+          "tags": [
+            "Knowledge Checking",
+            "Risk Assessment",
+            "Greenwashing"
+          ]
+        },
+        {
+          "title": "On the Impact of Fine-Tuning on Chain-of-Thought Reasoning",
+          "authors": "Elita Lobo et al.",
+          "year": 2024,
+          "source_index": 395,
+          "relevance": "Justifies the need for C14 and RQ4.1 by showing that fine-tuning can decrease the faithfulness of CoT reasoning, requiring explicit tone-aware bias correction.",
+          "tags": [
+            "Trust",
+            "CoT Faithfulness",
+            "Bias"
+          ]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade platform",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: Deployable auditable reasoning",
+          "C12: Open-source ESG pipeline + visualization"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "MICE for CATs: Model-Internal Confidence Estimation for Calibrating Agents with Tools",
+          "authors": "Nishant Subramani et al.",
+          "year": 2025,
+          "source_index": 601,
+          "relevance": "Supports C1 and RQ5.1 by introducing a class of confidence estimators that allow agents to weigh risk versus reward, ensuring auditable decision processes during deployment.",
+          "tags": [
+            "Deployment",
+            "Confidence Estimation",
+            "Auditability"
+          ]
+        },
+        {
+          "title": "A Survey of QUD Models for Discourse Processing",
+          "authors": "Yingxue Fu",
+          "year": 2025,
+          "source_index": 537,
+          "relevance": "Justifies C12 and O5 by reviewing Question Under Discussion (QUD) frameworks, providing a linguistic foundation for the interactive dashboard communication strategies.",
+          "tags": [
+            "Decision Support",
+            "Discourse Processing",
+            "Dashboard"
+          ]
+        }
+      ]
+    }
+  }
+}

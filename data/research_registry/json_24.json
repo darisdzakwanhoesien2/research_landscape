@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "project": "Integrated ESG-ABSA Intelligence Framework (v-1 to v3)",
+    "generated_at": "2026-05-20T14:30:00Z",
+    "version": "1.0.0-final",
+    "description": "Consolidated research mapping linking five-layer integrated ESG objectives to technical contributions, research questions, and validated empirical evidence from the NAACL-2025 and thesis evaluation corpus."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "NOVA-63: Native Omni-lingual Versatile Assessments of 63 Disciplines",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1443,
+          "relevance": "Directly supports C3 by providing a native multilingual benchmark that avoids 'translationese', essential for validating cross-lingual transfer in bilingual ESG systems.",
+          "tags": ["Multilingual", "Benchmarking", "Cross-lingual Transfer"]
+        },
+        {
+          "title": "WangchanThaiInstruct: An instruction-following Dataset for Culture-Aware, Multitask, and Multi-domain Evaluation in Thai",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1311,
+          "relevance": "Provides evidence for RQ1.3 by demonstrating that native, culturally-grounded datasets outperform translated data in model alignment for regional contexts.",
+          "tags": ["Regional Calibration", "Instruction Following", "Dataset"]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "SWAN: An Efficient and Scalable Approach for Long-Context Language Modeling",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1225,
+          "relevance": "Addresses RQ2.2 and C13 by introducing an architecture that generalizes to long sequences without positional encoding drift, enabling scalable processing of long ESG reports.",
+          "tags": ["Long Context", "Scalability", "Architecture"]
+        },
+        {
+          "title": "DSMoE: Matrix-Partitioned Experts with Dynamic Routing for Computation-Efficient Dense LLMs",
+          "authors": "M. Lv, et al.",
+          "year": 2025,
+          "source_index": 117,
+          "relevance": "Justifies C10 and RQ2.4 by demonstrating how mixture-of-expert partitioning handles input complexity effectively while maintaining computational efficiency.",
+          "tags": ["MoE", "Fusion", "Efficiency"]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Search-o1: Agentic Search-Enhanced Large Reasoning Models",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1315,
+          "relevance": "Links C7 and RQ3.2 by providing a framework for agentic retrieval to resolve reasoning uncertainties in complex, multi-step chains.",
+          "tags": ["GraphRAG", "Search", "Reasoning"]
+        },
+        {
+          "title": "CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1692,
+          "relevance": "Supports C15 and RQ3.1 by demonstrating how to align natural language CoT with latent spaces, enforcing semantic correctness in reasoning.",
+          "tags": ["CoT", "Explainability", "Distillation"]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?",
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "MPCG: Multi-Round Persona-Conditioned Generation for Modeling the Evolution of Misinformation with LLMs",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1174,
+          "relevance": "Directly justifies C11 and RQ4.5 by showing how persona-driven narrative evolution models the drift of claims, mirroring ESG greenwashing behavior.",
+          "tags": ["Greenwashing", "Misinformation", "Persona"]
+        },
+        {
+          "title": "SMART: Sycophancy Mitigation Through Reinforcement Learning with Uncertainty-Aware Adaptive Reasoning Trajectories",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1188,
+          "relevance": "Causally supports C14 and RQ4.1 by providing a mechanism to mitigate model alignment with incorrect user claims, enhancing truthfulness in risk reporting.",
+          "tags": ["Trust", "Sycophancy", "RL"]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade platform",
+          "C5: Unified Research–Model–Metric framework",
+          "C12: Open-source ESG pipeline + visualization"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "OMS: On-the-fly, Multi-Objective, Self-Reflective Ad Keyword Generation via LLM Agent",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1398,
+          "relevance": "Provides evidence for C12 and RQ5.1 by demonstrating a deployment framework that monitors multi-objective performance in real-time environments.",
+          "tags": ["Deployment", "Self-Reflection", "Automation"]
+        },
+        {
+          "title": "Jailbreak LLMs through Internal Stance Manipulation",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 1314,
+          "relevance": "Supports RQ5.2 by identifying latent vulnerabilities in deployed models, stressing the need for auditable safety guardrails in the final platform.",
+          "tags": ["Security", "Guardrails", "Auditability"]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "project": "Integrated ESG-ABSA Intelligence Framework",
+    "generated_at": "2026-01-20T08:45:00Z",
+    "version": "1.0.0",
+    "description": "Machine-persistable reference mapping linking five integrated objective layers to technical contributions and literature evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: Optimization of Transformer architectures for bilingual ESG ABSA",
+          "RQ1.3: Regional calibration and lexicon-based bias mitigation"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Improving Zero-shot Cross-lingual Transfer between Closely Related Languages by injecting Character-level Noise",
+          "authors": "Noëmi Aepli, Rico Sennrich",
+          "year": 2021,
+          "source_index": 77,
+          "relevance": "Provides causal evidence for C3 and RQ1.1 by demonstrating that character-level noise improves zero-shot transfer for closely related languages like Indonesian-English contexts.",
+          "tags": ["Cross-lingual", "Zero-shot", "Robustness"]
+        },
+        {
+          "title": "Morphosyntactic Tagging with Pre-trained Language Models for Arabic and its Dialects",
+          "authors": "Go Inoue, Salam Khalifa, Nizar Habash",
+          "year": 2021,
+          "source_index": 48,
+          "relevance": "Supports RQ1.3 by establishing that strategic fine-tuning with high-resource data benefits low-resource dialects, justifying the approach for C1.",
+          "tags": ["Dialectal NLP", "Calibration", "Bilingual"]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: Granularity improvement via few-shot learning",
+          "RQ2.4: Reducing hallucination through multi-LLM fusion",
+          "RQ2.2: Enhancing scalability with long-context mechanisms"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "DS2-ABSA: Dual-Stream Data Synthesis with Label Refinement for Few-Shot Aspect-Based Sentiment Analysis",
+          "authors": "Hongling Xu, Yice Zhang, Qianlong Wang, Ruifeng Xu",
+          "year": 2024,
+          "source_index": 375,
+          "relevance": "Directly supports C16 and RQ2.1 by proposing a dual-stream synthesis framework to overcome label scarcity in low-resource ABSA scenarios.",
+          "tags": ["Few-shot", "ABSA", "Data Synthesis"]
+        },
+        {
+          "title": "On Many-Shot In-Context Learning for Long-Context Evaluation",
+          "authors": "Kaijian Zou, Muhammad Khalifa, Lu Wang",
+          "year": 2024,
+          "source_index": 391,
+          "relevance": "Provides the benchmarking methodology for RQ2.2 and C13, analyzing performance drops in long-context models beyond 16k tokens.",
+          "tags": ["Long-context", "ICL", "Benchmarking"]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C14: Tone-aware bias correction models",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: Integrating symbolic reasoning with ESG ontologies",
+          "RQ3.2: Ensuring transparent outputs via reasoning graphs",
+          "RQ3.3: Identification of implicit ESG claims"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Fact-Tree Reasoning for N-ary Question Answering over Knowledge Graphs",
+          "authors": "Yao Zhang, Peiyao Li, Hongru Liang, Adam Jatowt, Zhenglu Yang",
+          "year": 2021,
+          "source_index": 68,
+          "relevance": "Establishes the logic for C7 and RQ3.2, illustrating how fact-tree reasoning improves interpretability over standard chain-based methods in multi-hop QA.",
+          "tags": ["Knowledge Graphs", "Interpretability", "Reasoning"]
+        },
+        {
+          "title": "LLMSR@XLLM25: Less is More: Enhancing Structured Multi-Agent Reasoning via Quality-Guided Distillation",
+          "authors": "Jiahao Yuan et al.",
+          "year": 2025,
+          "source_index": 584,
+          "relevance": "Supports C15 and RQ3.1 by detailing a multi-agent framework to distill high-quality structured reasoning with minimal labeled data.",
+          "tags": ["Structured Reasoning", "Distillation", "Multi-Agent"]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.1: Enhancing stakeholder trust through XAI",
+          "RQ4.5: Using tone–outcome mismatch as a greenwashing indicator"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Probing Factually Grounded Content Transfer with Factual Ablation",
+          "authors": "Peter West, Chris Quirk, Michel Galley, Yejin Choi",
+          "year": 2022,
+          "source_index": 305,
+          "relevance": "Operationalizes RQ4.5 and C11 by introducing factual ablation to measure consistency between corporate narratives and external grounding.",
+          "tags": ["Factual Consistency", "Greenwashing", "Ablation"]
+        },
+        {
+          "title": "CoCoLex: Confidence-guided Copy-based Decoding for Grounded Legal Text Generation",
+          "authors": "Santosh T.y.s.s et al.",
+          "year": 2025,
+          "source_index": 518,
+          "relevance": "Validates the mechanism for C11 and RQ4.1, showing how confidence-guided copying from context ensures higher fidelity in specialized domains.",
+          "tags": ["Trust", "Fidelity", "Decoding"]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C12: Open-source ESG pipeline and interactive visualization",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: Deployable auditable reasoning"
+        ],
+        "research_questions": [
+          "RQ5.1: Ensuring transparent and auditable pipeline outputs",
+          "RQ5.2: Scaling reasoning quality and consistency in real environments"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "A Few-Shot Semantic Parser for Wizard-of-Oz Dialogues with the Precise ThingTalk Representation",
+          "authors": "Giovanni Campagna et al.",
+          "year": 2022,
+          "source_index": 154,
+          "relevance": "Supports the deployment goals of C12 and RQ5.2 by establishing sample-efficient methodologies for building precise operational agents.",
+          "tags": ["Deployment", "Sample-Efficiency", "Semantic Parsing"]
+        },
+        {
+          "title": "CLEME2.0: Towards Interpretable Evaluation by Disentangling Edits for Grammatical Error Correction",
+          "authors": "Jingheng Ye et al.",
+          "year": 2024,
+          "source_index": 411,
+          "relevance": "Justifies C5 and RQ5.1 by introducing reference-based metrics that disentangle system qualities for superior consistency and auditability.",
+          "tags": ["Auditability", "Evaluation Metrics", "Reproducibility"]
+        }
+      ]
+    }
+  }
+}

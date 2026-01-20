@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "project": "Integrated ESG-ABSA Intelligence Framework",
+    "generated_at": "2026-01-20T10:00:00Z",
+    "version": "1.0.0-integrated",
+    "description": "Comprehensive reference mapping of the 5-layer research plan to the curated literature corpus, establishing causal traceability from technical contributions to empirical evidence."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "ML-Promise: A Multilingual Dataset for Corporate Promise Verification",
+          "authors": "Yohei Seki, Hua Shu, Anaïs Lhuissier, Hanwool Lee, Juyeon Kang, Min-Yuh Day, Chung-Chi Chen",
+          "year": 2024,
+          "source_index": 81,
+          "relevance": "Directly supports C9 and RQ1.1 by providing a multilingual baseline for ESG-specific commitment verification across diverse linguistic contexts, justifying the multidimensional dataset approach.",
+          "tags": ["ESG", "Multilingual", "Fact-checking"]
+        },
+        {
+          "title": "M-ABSA: A Multilingual Dataset for Aspect-Based Sentiment Analysis",
+          "authors": "Chengyan Wu, Bolei Ma, Yihong Liu, Zheyu Zhang, Ningyuan Deng, Yanshu Li, Baolan Chen, Yi Zhang, Barbara Plank, Yun Xue",
+          "year": 2025,
+          "source_index": 133,
+          "relevance": "Establishes the empirical foundation for C1 and C3 by providing extensive parallel triplets for ABSA across 21 languages, essential for bilingual ESG coverage.",
+          "tags": ["ABSA", "Multilingual", "Triplet Extraction"]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "ESGenius: Benchmarking LLMs on Environmental, Social, and Governance (ESG) and Sustainability Knowledge",
+          "authors": "Chaoyue He, Xin Zhou, Yi Wu, Xinjia Yu, Yan Zhang, Lei Zhang, Di Wang, Shengfei Lyu, Hong Xu, Xiaoqiao Wang, Wei Liu, C. Miao",
+          "year": 2025,
+          "source_index": 384,
+          "relevance": "Provides the methodological justification for C8 and RQ2.1, evidencing that RAG and benchmarking are required to bridge the knowledge gap in specialized ESG domains.",
+          "tags": ["ESG", "Benchmarking", "LLM-as-Judge"]
+        },
+        {
+          "title": "Dynamic Collaboration of Multi-Language Models based on Minimal Complete Semantic Units",
+          "authors": "Chao Hao, Zezheng Wang, Yanhua Huang, Ruiwen Xu, Wenzhe Niu, Xin Liu, Zitong Yu",
+          "year": 2025,
+          "source_index": 504,
+          "relevance": "Supports C10 and RQ2.4 by demonstrating a strategy for multi-model collaboration using minimal complete semantic units to improve reasoning and reduce hallucinations.",
+          "tags": ["Model Fusion", "Collaboration", "Reasoning"]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C14: Tone-aware bias correction models",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Route Sparse Autoencoder to Interpret Large Language Models",
+          "authors": "Wei Shi, Sihang Li, Tao Liang, Mingyang Wan, Gojun Ma, Xiang Wang, Xiangnan He",
+          "year": 2025,
+          "source_index": 171,
+          "relevance": "Provides the causal logic for C15 and RQ3.2, showing that extracting features across multiple layers via sparse autoencoders improves mechanistic interpretability for explainable reasoning.",
+          "tags": ["Interpretability", "Sparse Autoencoders", "Mechanistic Analysis"]
+        },
+        {
+          "title": "Empowering Multi-step Reasoning across Languages via Tree-of-Thoughts",
+          "authors": "Leonardo Ranaldi, F. M. Zanzotto",
+          "year": 2023,
+          "source_index": 47,
+          "relevance": "Supports C7 and RQ3.1 by validating that tree-structured prompting aligns reasoning paths across languages, a core requirement for neuro-symbolic alignment.",
+          "tags": ["Tree-of-Thoughts", "Reasoning", "Cross-lingual"]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?",
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?",
+          "RQ4.2: How can cross-model consistency be measured?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Long-Form Information Alignment Evaluation Beyond Atomic Facts",
+          "authors": "Danna Zheng, Mirella Lapata, Jeff Z. Pan",
+          "year": 2025,
+          "source_index": 305,
+          "relevance": "Directly supports C11 and RQ4.5 by introducing the MontageLie benchmark, which detects deceptive narratives formed by misaligning truthful facts—a key greenwashing indicator.",
+          "tags": ["Greenwashing", "Information Alignment", "Trust"]
+        },
+        {
+          "title": "Alignment Quality Index (AQI) : Beyond Refusals: AQI as an Intrinsic Alignment Diagnostic via Latent Geometry, Cluster Divergence, and Layer wise Pooled Representations",
+          "authors": "Abhilekh Borah et al.",
+          "year": 2025,
+          "source_index": 421,
+          "relevance": "Operationalizes RQ4.1 and RQ4.2 by proposing a geometric metric for assessing alignment quality, providing the 'trust intelligence' required by Layer 4.",
+          "tags": ["Trust", "Alignment", "Evaluation"]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade platform",
+          "C12: Open-source ESG pipeline + visualization",
+          "C5: Unified Research–Model–Metric framework"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "CompassVerifier: A Unified and Robust Verifier for LLMs Evaluation and Outcome Reward",
+          "authors": "Shudong Liu, Hongwei Liu, Junnan Liu, Linchen Xiao, Songyang Gao, Chengqi Lyu, Yuzhe Gu, Wenwei Zhang, Derek F. Wong, Songyang Zhang, Kai Chen",
+          "year": 2025,
+          "source_index": 488,
+          "relevance": "Supports C5 and RQ5.1 by introducing a unified verifier for evaluation and reward modelling, essential for creating an auditable research-to-model pipeline.",
+          "tags": ["Deployment", "Verification", "Auditability"]
+        },
+        {
+          "title": "Arena-Lite: Efficient and Reliable Large Language Model Evaluation via Tournament-Based Direct Comparisons",
+          "authors": "Seonil Son, Ju-Min Oh, Heegon Jin, Cheolhun Jang, Jeongbeom Jeong, Kuntae Kim",
+          "year": 2024,
+          "source_index": 489,
+          "relevance": "Justifies C12 and RQ5.2 by providing a scalable evaluation architecture that ensures reliable comparisons and rankings for system deployment.",
+          "tags": ["Deployment", "Reliability", "Benchmarking"]
+        }
+      ]
+    }
+  }
+}

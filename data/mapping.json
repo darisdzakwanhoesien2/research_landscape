@@ -52,6 +52,9 @@
   "CoT": [
     "chain-of-thought"
   ],
+  "News": [
+    "news"
+  ],
   "Multilingual": [
     "multilingual",
     "cross-lingual",

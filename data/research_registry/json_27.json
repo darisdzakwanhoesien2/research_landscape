@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "project": "Multilingual Explainable ESG Intelligence System",
+    "generated_at": "2025-03-24T10:00:00Z",
+    "version": "1.0",
+    "description": "A machine-persistable reference mapping linking ESG research objectives to supporting literature and causal logic chains."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?",
+          "RQ1.1 (v1): How can we design a Document-, Tone-, and Ontology-Aware ESG-ABSA system?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Exploring Pretraining via Active Forgetting for Improving Cross Lingual Transfer for Decoder Language Models",
+          "authors": "Divyanshu Aggarwal, Ashutosh Sathe, Sunayana Sitaram",
+          "year": 2024,
+          "source_index": 69,
+          "relevance": "Provides empirical evidence for enhancing cross-lingual transfer (C3), directly addressing the optimization of bilingual architectures (RQ1.1).",
+          "tags": ["Cross-lingual Transfer", "Multilingualism"]
+        },
+        {
+          "title": "MMLU-ProX: A Multilingual Benchmark for Advanced Large Language Model Evaluation",
+          "authors": "Weihao Xuan, et al.",
+          "year": 2025,
+          "source_index": 153,
+          "relevance": "Supports the creation of a normalized ESG data schema (C2) and cross-linguistic reasoning benchmarks required for regional calibration (RQ1.3).",
+          "tags": ["Benchmarking", "Multilingual Evaluation"]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Dipper: Diversity in Prompts for Producing Large Language Model Ensembles in Reasoning tasks",
+          "authors": "Gregory Kang Ruey Lau, et al.",
+          "year": 2024,
+          "source_index": 88,
+          "relevance": "Validates the effectiveness of multi-LLM ensembles (C10) in reducing hallucination and improving stability (RQ2.4).",
+          "tags": ["Ensemble Methods", "Fusion"]
+        },
+        {
+          "title": "A Systematic Analysis of Base Model Choice for Reward Modeling",
+          "authors": "Kian Ahrabian, et al.",
+          "year": 2025,
+          "source_index": 218,
+          "relevance": "Informs the selection of models for the large-scale benchmark (C8) by analyzing downstream performance variations (RQ2.1).",
+          "tags": ["Model Selection", "Benchmarking"]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can explainable AI enhance stakeholder trust?",
+          "RQ3.1 (v1): How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Empowering GraphRAG with Knowledge Filtering and Integration",
+          "authors": "Kai Guo, et al.",
+          "year": 2025,
+          "source_index": 166,
+          "relevance": "Directly supports the development of the GraphRAG reasoning architecture (C7) to provide transparent outputs (RQ3.2).",
+          "tags": ["GraphRAG", "Knowledge Integration"]
+        },
+        {
+          "title": "Chain of Mathematically Annotated Thought Improves Mathematical Reasoning",
+          "authors": "Joshua Ong Jun Leang, et al.",
+          "year": 2024,
+          "source_index": 67,
+          "relevance": "Provides a framework for symbolic conversion and reasoning execution (C15), essential for ontology-linked symbolic reasoning (RQ3.1v1).",
+          "tags": ["Symbolic Reasoning", "CoT"]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models",
+          "C6: Ontology-linked evaluation metrics"
+        ],
+        "research_questions": [
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?",
+          "RQ4.2: How can cross-model consistency be measured?",
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Mind the Value-Action Gap: Do LLMs Act in Alignment with Their Values?",
+          "authors": "Hua Shen, Nicholas Clark, Tanushree Mitra",
+          "year": 2025,
+          "source_index": 95,
+          "relevance": "Supports narrative-grounded greenwashing detection (C11) by quantifying the discrepancy between stated values and actions (RQ4.5).",
+          "tags": ["Value Alignment", "Deception Detection"]
+        },
+        {
+          "title": "VeriFact: Enhancing Long-Form Factuality Evaluation with Refined Fact Extraction and Reference Facts",
+          "authors": "Xin Liu, et al.",
+          "year": 2025,
+          "source_index": 212,
+          "relevance": "Provides metrics for factuality and consistency (C6), essential for validating greenwashing risk intelligence (RQ4.2).",
+          "tags": ["Factuality", "Evaluation Metrics"]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C12: Open-source ESG pipeline + visualization",
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C5: Unified Research–Model–Metric framework"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "MobiZO: Enabling Efficient LLM Fine-Tuning at the Edge via Inference Engines",
+          "authors": "Lei Gao, et al.",
+          "year": 2024,
+          "source_index": 613,
+          "relevance": "Demonstrates the feasibility of deploying efficient pipelines at the edge (C12), ensuring scalability and operational readiness (RQ5.2).",
+          "tags": ["Edge Deployment", "Efficiency"]
+        },
+        {
+          "title": "Co-Eval: Augmenting LLM-based Evaluation with Machine Metrics",
+          "authors": "Min-yu Chen, et al.",
+          "year": 2025,
+          "source_index": 1462,
+          "relevance": "Addresses the operationalization of reasoning quality at scale (C5) by integrating criteria-guided machine metrics (RQ5.1).",
+          "tags": ["Operationalization", "Hybrid Evaluation"]
+        }
+      ]
+    }
+  }
+}

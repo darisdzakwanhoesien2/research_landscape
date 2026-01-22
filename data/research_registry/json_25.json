@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "project": "Bilingual, Ontology-Aware, and Explainable ESG Intelligence System",
+    "generated_at": "2026-01-20T17:50:00Z",
+    "version": "1.0.0-final",
+    "description": "Integrated research synthesis mapping 5-layer ESG objectives to technical contributions and empirical literature evidence from the EMNLP/ACL 2025 dataset."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "It's All About In-Context Learning! Teaching Extremely Low-Resource Languages to LLMs",
+          "authors": "Yue Li, Carolina Scarton, Zhi-xue Zhao",
+          "year": 2025,
+          "source_index": 1241,
+          "relevance": "Provides empirical evidence for C3 and RQ1.1 by demonstrating that zero-shot ICL with language alignment is effective for acquiring extremely low-resource languages without PEFT, specifically where scripts are under-represented.",
+          "tags": [
+            "Low-resource",
+            "ICL",
+            "Cross-lingual Transfer"
+          ]
+        },
+        {
+          "title": "A Case Against Implicit Standards: Homophone Normalization in Machine Translation for Languages that use the Ge'ez Script",
+          "authors": "Hellina Hailu Nigatu, et al.",
+          "year": 2025,
+          "source_index": 426,
+          "relevance": "Supports RQ1.3 by analyzing how normalization affects linguistic understanding in under-represented scripts, justifying the need for the regional calibration strategies proposed in C1.",
+          "tags": [
+            "Normalization",
+            "Script Awareness",
+            "Machine Translation"
+          ]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "DCIS: Efficient Length Extrapolation of LLMs via Divide-and-Conquer Scaling Factor Search",
+          "authors": "Lei Yang, Shaoyang Xu, Deyi Xiong",
+          "year": 2024,
+          "source_index": 90,
+          "relevance": "Directly justifies C13 and RQ2.2 by introducing a divide-and-conquer search for scaling factors to extend context windows efficiently, addressing the scalability problems (P4) identified in the plan.",
+          "tags": [
+            "Scalability",
+            "Long Context",
+            "Divide-and-conquer"
+          ]
+        },
+        {
+          "title": "Persona-Augmented Benchmarking: Evaluating LLMs Across Diverse Writing Styles",
+          "authors": "Riccardo Fogliato, et al.",
+          "year": 2025,
+          "source_index": 1581,
+          "relevance": "Supports C8 by demonstrating how diverse writing styles impact benchmark scores, necessitating the robust representation learning and multi-model benchmarking proposed.",
+          "tags": [
+            "Benchmarking",
+            "Diversity",
+            "Writing Styles"
+          ]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Thread: A Logic-Based Data Organization Paradigm for How-To Question Answering with Retrieval Augmented Generation",
+          "authors": "Kaikai An, et al.",
+          "year": 2024,
+          "source_index": 52,
+          "relevance": "Causally supports C7 and RQ3.2 by introducing 'logic units' to transform documents into structured representations, enabling more coherent and transparent reasoning chains.",
+          "tags": [
+            "GraphRAG",
+            "Logic Units",
+            "Structured Reasoning"
+          ]
+        },
+        {
+          "title": "Sparse Autoencoder Features for Classifications and Transferability",
+          "authors": "Jack Gallifant, et al.",
+          "year": 2025,
+          "source_index": 110,
+          "relevance": "Justifies C15 and RQ3.1 by providing a framework for extracting interpretable, ontology-aligned features from LLM activations to improve transparency.",
+          "tags": [
+            "Interpretability",
+            "Sparse Autoencoders",
+            "Explainability"
+          ]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?",
+          "RQ4.2: How can cross-model consistency be measured?",
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "The Stepwise Deception: Simulating the Evolution from True News to Fake News with LLM Agents",
+          "authors": "Yuhan Liu, et al.",
+          "year": 2024,
+          "source_index": 353,
+          "relevance": "Provides the causal logic for C11 and RQ4.5 by modeling how truthful narratives are gradually distorted, offering a simulation framework for detecting greenwashing.",
+          "tags": [
+            "Greenwashing",
+            "Deception Detection",
+            "Multi-agent Simulation"
+          ]
+        },
+        {
+          "title": "Attacking Misinformation Detection Using Adversarial Examples Generated by Language Models",
+          "authors": "Piotr Przybyla",
+          "year": 2024,
+          "source_index": 72,
+          "relevance": "Supports RQ4.1 and C14 by identifying how adversarial rephrasings can bypass detectors, validating the need for the plan's tone-aware bias correction.",
+          "tags": [
+            "Adversarial Attacks",
+            "Misinformation",
+            "Robustness"
+          ]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade platform",
+          "C5: Unified Research–Model–Metric framework",
+          "C12: Open-source ESG pipeline + visualization"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "CheckEval: A reliable LLM-as-a-Judge framework for evaluating text generation using checklists",
+          "authors": "Yukyung Lee, et al.",
+          "year": 2024,
+          "source_index": 176,
+          "relevance": "Operationalizes RQ5.1 and C5 by providing a checklist-based framework that decomposes criteria into traceable binary decisions for auditable outputs.",
+          "tags": [
+            "Auditability",
+            "Evaluation",
+            "Reproducibility"
+          ]
+        },
+        {
+          "title": "A Position Paper on the Automatic Generation of Machine Learning Leaderboards",
+          "authors": "Association for Computational Linguistics 2025",
+          "year": 2025,
+          "source_index": 905,
+          "relevance": "Supports C12 and RQ5.2 by advocating for standardized, automatically generated leaderboards to ensure system scalability and research extensibility.",
+          "tags": [
+            "Leaderboards",
+            "Automation",
+            "Standardization"
+          ]
+        }
+      ]
+    }
+  }
+}

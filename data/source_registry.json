@@ -1,0 +1,424 @@
+{
+  "source3": {
+    "numeric_id": 3,
+    "title": "Comprehensive Integrated Objectives (With Provenance & Reasoning)",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source4": {
+    "numeric_id": 4,
+    "title": "Integrated Mapping of Hypothesis, Objectives, Research Gaps, and Problems",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source5": {
+    "numeric_id": 5,
+    "title": "Problem-Gap-RQ-Objective Matrix and Reasoning",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source6": {
+    "numeric_id": 6,
+    "title": "Integrated Mapping of Objective Layers, Research Gaps, and Questions",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source12": {
+    "numeric_id": null,
+    "title": "Gradio-based interface for ESG Data ()",
+    "section": "research-artifacts",
+    "wiki_links": [
+      "gradio-esgdata"
+    ]
+  },
+  "source14": {
+    "numeric_id": null,
+    "title": "Research Gap Reference Index (Linking Gaps G1–G4 to Source Files)",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source17": {
+    "numeric_id": 17,
+    "title": "Objective Layer 1 — ESG Data, Semantics & Multilingual Foundations",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source18": {
+    "numeric_id": 18,
+    "title": "Aligned Research Questions for Objective Layer 1",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source20": {
+    "numeric_id": null,
+    "title": "Aligned Research Questions for Objective Layer 2",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source22": {
+    "numeric_id": null,
+    "title": "Objective Layer 3 — Reasoning, Explainability & Semantic Alignment",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source23": {
+    "numeric_id": null,
+    "title": "Aligned Research Questions for Objective Layer 3",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source25": {
+    "numeric_id": 25,
+    "title": "Objective Layer 4 — Trust, Risk & Greenwashing Intelligence",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source26": {
+    "numeric_id": 26,
+    "title": "Aligned Research Questions for Objective Layer 4",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source32": {
+    "numeric_id": 32,
+    "title": "Problem P1 — Lack of Fine-Grained ESG Sentiment Understanding",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source33": {
+    "numeric_id": 33,
+    "title": "Aligned Research Questions for Problem Statement P1",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source34": {
+    "numeric_id": 34,
+    "title": "Problem P2 — Structural, Tonal & Ontological Modeling Limitations",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source36": {
+    "numeric_id": 36,
+    "title": "Research Objectives addressing Problem Statement P2",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source37": {
+    "numeric_id": 37,
+    "title": "Problem P3 — Narrative Complexity & Greenwashing Detection Limitations",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source39": {
+    "numeric_id": 39,
+    "title": "Problem P4 — Scalability & Contextual Coherence in Long Documents",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source40": {
+    "numeric_id": 40,
+    "title": "Derived Research Gap G4 — Need for scalable long-context DL-ABSA frameworks",
+    "section": "research-artifacts",
+    "wiki_links": []
+  },
+  "source44": {
+    "numeric_id": null,
+    "title": "Improving Neural Political Statement Classification with Class Hierarchical Information",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source46": {
+    "numeric_id": null,
+    "title": "BiSyn-GAT+: Bi-Syntax Aware Graph Attention Network for Aspect-based Sentiment Analysis",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source49": {
+    "numeric_id": null,
+    "title": "Incorporating Dynamic Semantics into Pre-Trained Language Model for Aspect-based Sentiment Analysis",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source50": {
+    "numeric_id": null,
+    "title": "Seq2Path: Generating Sentiment Tuples as Paths of a Tree",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source55": {
+    "numeric_id": null,
+    "title": "Towards Unifying the Label Space for Aspect- and Sentence-based Sentiment Analysis",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source56": {
+    "numeric_id": 56,
+    "title": "Attention Mechanism with Energy-Friendly Operations",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source57": {
+    "numeric_id": null,
+    "title": "Graph-Guided Textual Explanation Generation Framework",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source58": {
+    "numeric_id": null,
+    "title": "s1: Simple test-time scaling",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source59": {
+    "numeric_id": null,
+    "title": "FinMTEB: Finance Massive Text Embedding Benchmark",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source60": {
+    "numeric_id": null,
+    "title": "M-ABSA: A Multilingual Dataset for Aspect-Based Sentiment Analysis",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source61": {
+    "numeric_id": null,
+    "title": "Facilitating Long Context Understanding via Supervised Chain-of-Thought Reasoning",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source62": {
+    "numeric_id": 62,
+    "title": "Two Heads Are Better Than One: Dual-Model Verbal Reflection at Inference-Time",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source65": {
+    "numeric_id": null,
+    "title": "What Makes a Good Reasoning Chain? Uncovering Structural Patterns in Long Chain-of-Thought Reasoning",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source68": {
+    "numeric_id": null,
+    "title": "ESGenius: Benchmarking LLMs on Environmental, Social, and Governance (ESG) and Sustainability Knowledge",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source69": {
+    "numeric_id": 69,
+    "title": "Measuring Chain of Thought Faithfulness by Unlearning Reasoning Steps",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source71": {
+    "numeric_id": 71,
+    "title": "Analysing Chain of Thought Dynamics: Active Guidance or Unfaithful Post-hoc Rationalisation?",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source74": {
+    "numeric_id": null,
+    "title": "Reward Model Perspectives: Whose Opinions Do Reward Models Reward?",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source75": {
+    "numeric_id": null,
+    "title": "Comprehensive and Efficient Distillation for Lightweight Sentiment Analysis Models",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source77": {
+    "numeric_id": null,
+    "title": "DICE: Structured Reasoning in LLMs through SLM-Guided Chain-of-Thought Correction",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source82": {
+    "numeric_id": null,
+    "title": "Towards AI-Assisted Psychotherapy: Emotion-Guided Generative Interventions",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source83": {
+    "numeric_id": 83,
+    "title": "TokenSkip: Controllable Chain-of-Thought Compression in LLMs",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source85": {
+    "numeric_id": 85,
+    "title": "SSA: Semantic Contamination of LLM-Driven Fake News Detection",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source91": {
+    "numeric_id": null,
+    "title": "RD-MCSA: A Multi-Class Sentiment Analysis Approach Integrating In-Context Classification Rationales and Demonstrations",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source93": {
+    "numeric_id": null,
+    "title": "Knowledge Editing through Chain-of-Thought",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source94": {
+    "numeric_id": null,
+    "title": "Look Beyond Feeling: Unveiling Latent Needs from Implicit Expressions for Proactive Emotional Support",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source95": {
+    "numeric_id": null,
+    "title": "TracSum: A New Benchmark for Aspect-Based Summarization with Sentence-Level Traceability in Medical Domain",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source97": {
+    "numeric_id": null,
+    "title": "Long Chain-of-Thought Fine-tuning via Understanding-to-Reasoning Transition",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source100": {
+    "numeric_id": 100,
+    "title": "NOVA-63: Native Omni-lingual Versatile Assessments of 63 Disciplines",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source101": {
+    "numeric_id": null,
+    "title": "Parallel Continuous Chain-of-Thought with Jacobi Iteration",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source102": {
+    "numeric_id": 102,
+    "title": "A Systematic Survey of Automatic Prompt Optimization Techniques",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source103": {
+    "numeric_id": null,
+    "title": "Internal Chain-of-Thought: Empirical Evidence for Layer-wise Subtask Scheduling in LLMs",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source104": {
+    "numeric_id": 104,
+    "title": "From Long to Lean: Performance-aware and Adaptive Chain-of-Thought Compression via Multi-round Refinement",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source107": {
+    "numeric_id": null,
+    "title": "CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source109": {
+    "numeric_id": null,
+    "title": "Diagnosing Memorization in Chain-of-Thought Reasoning, One Token at a Time",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source112": {
+    "numeric_id": 112,
+    "title": "DS 2 -ABSA: Dual-Stream Data Synthesis with Label Refinement for Few-Shot Aspect-Based Sentiment Analysis",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source114": {
+    "numeric_id": null,
+    "title": "CoT-ICL Lab: A Synthetic Framework for Studying Chain-of-Thought Learning from In-Context Demonstrations",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source115": {
+    "numeric_id": null,
+    "title": "Fine-Tuning on Diverse Reasoning Chains Drives Within-Inference CoT Refinement in LLMs",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source116": {
+    "numeric_id": null,
+    "title": "A Theory of Response Sampling in LLMs: Part Descriptive and Part Prescriptive",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source118": {
+    "numeric_id": null,
+    "title": "Enhancing Chain-of-Thought Reasoning with Critical Representation Fine-tuning",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source124": {
+    "numeric_id": null,
+    "title": "LACA: Improving Cross-lingual Aspect-Based Sentiment Analysis with LLM Data Augmentation",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source125": {
+    "numeric_id": null,
+    "title": "Know Your Mistakes: Towards Preventing Overreliance on Task-Oriented Conversational AI Through Accountability Modeling",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source126": {
+    "numeric_id": 126,
+    "title": "Improving Chain-of-Thought Reasoning via Quasi-Symbolic Abstractions",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source128": {
+    "numeric_id": null,
+    "title": "Hierarchical Sequence Labeling Model for Aspect Sentiment Triplet Extraction",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source130": {
+    "numeric_id": null,
+    "title": "Self-Harmonized Chain of Thought",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source131": {
+    "numeric_id": null,
+    "title": "Markov Chain of Thought for Efficient Mathematical Reasoning",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source132": {
+    "numeric_id": 132,
+    "title": "On the Impact of Fine-Tuning on Chain-of-Thought Reasoning",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source133": {
+    "numeric_id": 133,
+    "title": "Test-Time Code-Switching for Cross-lingual Aspect Sentiment Triplet Extraction",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source136": {
+    "numeric_id": null,
+    "title": "Single Ground Truth Is Not Enough: Adding Flexibility to Aspect-Based Sentiment Analysis Evaluation",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source138": {
+    "numeric_id": 138,
+    "title": "Verify-in-the-Graph: Entity Disambiguation Enhancement for Complex Claim Verification with Interactive Graph Representation",
+    "section": "literature",
+    "wiki_links": []
+  },
+  "source139": {
+    "numeric_id": 139,
+    "title": "EmoDynamiX: Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics",
+    "section": "literature",
+    "wiki_links": []
+  }
+}

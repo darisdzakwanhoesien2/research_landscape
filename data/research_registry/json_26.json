@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "project": "Integrated ESG-ABSA Intelligence Framework (v-1 to v3)",
+    "generated_at": "2025-05-22T10:00:00Z",
+    "version": "1.0.0-final",
+    "description": "Comprehensive reference mapping linking 5-layer integrated ESG research objectives to specific contributions, research questions, and validated empirical evidence from the 2025 literature corpus."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "AlignX: Advancing Multilingual Large Language Models with Multilingual Representation Alignment",
+          "authors": "Mengyu Bu, Yang Feng, ZhongJun He, Hua Wu, Shaolei Zhang",
+          "year": 2025,
+          "source_index": 1453,
+          "relevance": "Directly supports C3 and RQ1.1 by providing a two-stage representation-level framework that aligns multilingual semantics to improve performance in non-dominant languages like Indonesian.",
+          "tags": [
+            "Multilingual",
+            "Representation Alignment",
+            "Cross-lingual Transfer"
+          ]
+        },
+        {
+          "title": "Grounding Multilingual Multimodal LLMs With Cultural Knowledge",
+          "authors": "Simran Khanuja, Graham Neubig, Jean de Dieu Nyandwi, Yue-qi Song",
+          "year": 2025,
+          "source_index": 1385,
+          "relevance": "Justifies the regional calibration needs of RQ1.3 by demonstrating that grounding cultural knowledge in MLLMs narrows the performance gap in regional contexts.",
+          "tags": [
+            "Cultural Grounding",
+            "Regional Calibration",
+            "Indonesian"
+          ]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "DCIS: Efficient Length Extrapolation of LLMs via Divide-and-Conquer Scaling Factor Search",
+          "authors": "Lei Yang, Shaoyang Xu, Deyi Xiong",
+          "year": 2024,
+          "source_index": 90,
+          "relevance": "Provides the causal logic for C13 and RQ2.2 by introducing a divide-and-conquer search for scaling factors to extend context windows efficiently, addressing the scalability problems of long ESG documents.",
+          "tags": [
+            "Scalability",
+            "Long Context",
+            "Length Extrapolation"
+          ]
+        },
+        {
+          "title": "HookMoE: A learnable performance compensation strategy of Mixture-of-Experts for LLM inference acceleration",
+          "authors": "Along He, Mulin Li, Tao Li, Longkai Cheng, Xueshuo Xie",
+          "year": 2025,
+          "source_index": 1835,
+          "relevance": "Supports C10 and RQ2.4 by demonstrating a plug-and-play compensation framework that allows for efficient multi-model expert integration while maintaining task performance.",
+          "tags": [
+            "MoE",
+            "Fusion",
+            "Inference Efficiency"
+          ]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C14: Tone-aware bias correction models",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?",
+          "RQ3.3: How can implicit ESG claims be identified?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Direct Value Optimization: Improving Chain-of-Thought Reasoning in LLMs with Refined Values",
+          "authors": "Guangsheng Bao, Han Cui, Jun Wang, Linyi Yang, Yue Zhang, Hong-bo Zhang",
+          "year": 2025,
+          "source_index": 1838,
+          "relevance": "Supports C7 and RQ3.1 by utilizing value signals at individual reasoning steps to optimize CoT without intensive human annotation, aligning with neuro-symbolic objectives.",
+          "tags": [
+            "CoT Reasoning",
+            "Neuro-symbolic",
+            "Value Optimization"
+          ]
+        },
+        {
+          "title": "Socratic-MCTS: Test-Time Visual Reasoning by Asking the Right Questions",
+          "authors": "David Acuna, Yejin Choi, Sanja Fidler, Jaehun Jung, Amlan Kar, Hyunwoo Kim, Ximing Lu",
+          "year": 2025,
+          "source_index": 1711,
+          "relevance": "Establishes the link for C4 and RQ3.2 by showing how sub-questioning and search can elicit hidden knowledge and produce extended reasoning traces.",
+          "tags": [
+            "MCTS",
+            "Stepwise Reasoning",
+            "Explainability"
+          ]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C6: Ontology-linked evaluation metrics",
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models"
+        ],
+        "research_questions": [
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?",
+          "RQ4.2: How can cross-model consistency be measured?",
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "The Stepwise Deception: Simulating the Evolution from True News to Fake News with LLM Agents",
+          "authors": "Yuhan Liu, Zirui Song, Xiaoqing Zhang, Xiuying Chen, Rui Yan",
+          "year": 2024,
+          "source_index": 353,
+          "relevance": "Directly relevant to C11 and RQ4.5 by modeling how truthful information gradually distorts into misinformation, providing a parallel for detecting greenwashing in corporate narratives.",
+          "tags": [
+            "Greenwashing",
+            "Deception Simulation",
+            "Risk Intelligence"
+          ]
+        },
+        {
+          "title": "reWordBench: Benchmarking and Improving the Robustness of Reward Models with Transformed Inputs",
+          "authors": "Asli Celikyilmaz, Andrew Cohen, Marjan Ghazvininejad, Yoon Kim, Zhaofeng Wu, Michihiro Yasunaga",
+          "year": 2025,
+          "source_index": 1791,
+          "relevance": "Supports C6 and RQ4.2 by analyzing the robustness of reward models to input transformations, which is critical for measuring cross-model consistency in risk assessment.",
+          "tags": [
+            "Reward Models",
+            "Robustness",
+            "Trust Metrics"
+          ]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade platform",
+          "C5: Unified Research–Model–Metric framework",
+          "C12: Open-source ESG pipeline + visualization"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "CheckEval: A reliable LLM-as-a-Judge framework for evaluating text generation using checklists",
+          "authors": "Yukyung Lee, Joonghoon Kim, Jaehee Kim, Hyowon Cho, Jaewook Kang, Pilsung Kang, Najoung Kim",
+          "year": 2024,
+          "source_index": 176,
+          "relevance": "Operationalizes RQ5.1 and C5 by providing a framework that decomposes criteria into traceable binary decisions for auditable, transparent outputs in production.",
+          "tags": [
+            "Auditability",
+            "Evaluation",
+            "LLM-as-Judge"
+          ]
+        },
+        {
+          "title": "Beyond A Single AI Cluster: A Survey of Decentralized LLM Training",
+          "authors": "Haotian Dong, Jingyan Jiang, Bowen Li, Rongwei Lu, Jia-jun Luo, Ying Shen, Jia-jun Song, Zhi Wang",
+          "year": 2025,
+          "source_index": 1130,
+          "relevance": "Supports C1 and RQ5.2 by evaluating decentralized resources and training, enabling the scalable deployment of large-scale models in resource-constrained environments.",
+          "tags": [
+            "Deployment",
+            "Decentralization",
+            "Scalability"
+          ]
+        }
+      ]
+    }
+  }
+}

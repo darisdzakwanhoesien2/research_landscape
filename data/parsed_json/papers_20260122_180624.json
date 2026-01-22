@@ -1,0 +1,322 @@
+[
+  {
+    "paper_id": "transformers_based_approach_for_a_sustainability_term_based_sentiment_analysis_s",
+    "title": "Transformers-based approach for a sustainability term-based sentiment analysis (STBSA)",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "B Sandwidi, SP Mukkolakal - … of the Second Workshop on NLP for …, 2022 - aclanthology.org Domain-Specific Model: Introduces a Term-Based Sentiment Analysis model (STBSA) that is specifically a sustainability-domain adaptation of transformer-based models to perform tasks like ESG term extraction and sentiment analysis in complex sustainability reporting documents. Measures Effectiveness: Demonstrates the effectiveness of the Sustainability TBSA model with an accuracy of 91.30% (90% F1-score) in predicting the context of ESG terms in sentences and classifying words by positive, negative, or neutral ESG sentiment.",
+    "highlights": [
+      "Proposes a Term-Based Sentiment Analysis (TBSA) model, which is a novel method designed to learn Environmental, Social, and Governance (ESG) contexts based on a sustainability taxonomy for ESG aspect-oriented sentiment analysis."
+    ],
+    "cited_by": null,
+    "versions": null,
+    "pdf_available": false,
+    "raw_text": "Transformers-based approach for a sustainability term-based sentiment analysis (STBSA)\nB Sandwidi, SP Mukkolakal - … of the Second Workshop on NLP for …, 2022 - aclanthology.org\nProposes a Term-Based Sentiment Analysis (TBSA) model, which is a novel method designed to learn Environmental, Social, and Governance (ESG) contexts based on a sustainability taxonomy for ESG aspect-oriented sentiment analysis.\nDomain-Specific Model: Introduces a Term-Based Sentiment Analysis model (STBSA) that is specifically a sustainability-domain adaptation of transformer-based models to perform tasks like ESG term extraction and sentiment analysis in complex sustainability reporting documents.\nMeasures Effectiveness: Demonstrates the effectiveness of the Sustainability TBSA model with an accuracy of 91.30% (90% F1-score) in predicting the context of ESG terms in sentences and classifying words by positive, negative, or neutral ESG sentiment."
+  },
+  {
+    "paper_id": "save_cite_cited_by_11_related_articles_all_3_versions",
+    "title": "Save Cite Cited by 11 Related articles All 3 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "Exploring the Relevance of Sustainability Reporting Using a Performativity Approach: A Case Study in the Agrifood Sector A Della Porta, M De Nicola, C Salvatore - … , Social, Governance (ESG) Risk …, 2025 - Springer Uncovers Dynamics of Adoption: Delves into the performative aspects of sustainability reporting practices to uncover the dynamics influencing why organizations adopt and implement reporting, along with its broader internal and external impacts, providing context for distinguishing types of claims. Defines Effective Performativity: Discusses the concept of \"effective performativity,\" which is defined as accounting tools and practices, like sustainability reporting, influencing and shaping behaviors and decisions within an organization, linking reporting to tangible impacts on internal behavior.",
+    "highlights": [
+      "Examines sustainability reporting's performative aspects through a case study, using a \"performativity approach\" to scrutinize how narratives and stakeholder responses influence the reporting's trajectory and significance, which is relevant to distinguishing between performative and actionable claims."
+    ],
+    "cited_by": 11,
+    "versions": 3,
+    "pdf_available": false,
+    "raw_text": "Save Cite Cited by 11 Related articles All 3 versions \nExploring the Relevance of Sustainability Reporting Using a Performativity Approach: A Case Study in the Agrifood Sector\nA Della Porta, M De Nicola, C Salvatore - … , Social, Governance (ESG) Risk …, 2025 - Springer\nExamines sustainability reporting's performative aspects through a case study, using a \"performativity approach\" to scrutinize how narratives and stakeholder responses influence the reporting's trajectory and significance, which is relevant to distinguishing between performative and actionable claims.\nUncovers Dynamics of Adoption: Delves into the performative aspects of sustainability reporting practices to uncover the dynamics influencing why organizations adopt and implement reporting, along with its broader internal and external impacts, providing context for distinguishing types of claims.\nDefines Effective Performativity: Discusses the concept of \"effective performativity,\" which is defined as accounting tools and practices, like sustainability reporting, influencing and shaping behaviors and decisions within an organization, linking reporting to tangible impacts on internal behavior."
+  },
+  {
+    "paper_id": "save_cite_related_articles_all_6_versions",
+    "title": "Save Cite Related articles All 6 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "[PDF] arxiv.org Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+    "highlights": [],
+    "cited_by": null,
+    "versions": 6,
+    "pdf_available": true,
+    "raw_text": "Save Cite Related articles All 6 versions\n[PDF] arxiv.org\nTowards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization"
+  },
+  {
+    "paper_id": "k_ong_r_mao_d_varshney_e_cambria_",
+    "title": "K Ong, R Mao, D Varshney, E Cambria…",
+    "authors": [
+      "arXiv preprint arXiv …",
+      "2025"
+    ],
+    "venue": "arxiv.org",
+    "year": null,
+    "source": null,
+    "description": "Introduces A3CG, a novel dataset for Aspect-Action Analysis (AAA) that links sustainability aspects with associated actions, facilitating fine-grained evaluation of claims and improving robustness against greenwashing. Classifies Action Types: Defines the 'Action' component of the analysis by classifying engagement as 'implemented,' 'planning,' or 'indeterminate,' where 'implemented' and 'planning' indicate concrete steps (actionable) and 'indeterminate' highlights vague or evasive claims (performative or greenwashing-related). Utilizes ABSA Model Adaptation: Adapts prompts from Aspect-Based Sentiment Analysis (ABSA) models, such as InstructABSA and IT-RER-ABSA, for aspect-action classification, suggesting that existing ABSA templates are leveraged in the proposed framework for distinguishing claim types, although the specific \"Policy Focus ABSA template\" is not explicitly detailed.",
+    "highlights": [],
+    "cited_by": null,
+    "versions": null,
+    "pdf_available": false,
+    "raw_text": "K Ong, R Mao, D Varshney, E Cambria… - arXiv preprint arXiv …, 2025 - arxiv.org\nIntroduces A3CG, a novel dataset for Aspect-Action Analysis (AAA) that links sustainability aspects with associated actions, facilitating fine-grained evaluation of claims and improving robustness against greenwashing.\nClassifies Action Types: Defines the 'Action' component of the analysis by classifying engagement as 'implemented,' 'planning,' or 'indeterminate,' where 'implemented' and 'planning' indicate concrete steps (actionable) and 'indeterminate' highlights vague or evasive claims (performative or greenwashing-related).\nUtilizes ABSA Model Adaptation: Adapts prompts from Aspect-Based Sentiment Analysis (ABSA) models, such as InstructABSA and IT-RER-ABSA, for aspect-action classification, suggesting that existing ABSA templates are leveraged in the proposed framework for distinguishing claim types, although the specific \"Policy Focus ABSA template\" is not explicitly detailed."
+  },
+  {
+    "paper_id": "save_cite_cited_by_10_related_articles_all_5_versions",
+    "title": "Save Cite Cited by 10 Related articles All 5 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "Measuring accountable information in CSR reports: A new operationalization and analysis applied to greenhouse gas disclosures AM Huq, K Carling - Journal of Emerging Technologies in …, 2024 - publications.aaahq.org Develops a novel and generic text-based measure using collocation analysis and regular expressions to classify and evaluate greenhouse gas (GHG) disclosures, contributing to the debate on whether nonfinancial disclosures exhibit accountability or are merely greenwashing. Distinguishes Substantive/Symbolic Disclosure: Uses a text mining approach based on collocation analysis to identify words that discriminate between substantive and symbolic GHG-related disclosure, and employs regular expressions to classify sentence structures likely to exhibit accountability in CSR reporting. Focuses on GHG Accountability: Measures accountable disclosures in reporting of GHG emissions-related information, focusing on actions taken or results in terms of increase or decrease in emissions.",
+    "highlights": [],
+    "cited_by": 10,
+    "versions": 5,
+    "pdf_available": false,
+    "raw_text": "Save Cite Cited by 10 Related articles All 5 versions \nMeasuring accountable information in CSR reports: A new operationalization and analysis applied to greenhouse gas disclosures\nAM Huq, K Carling - Journal of Emerging Technologies in …, 2024 - publications.aaahq.org\nDevelops a novel and generic text-based measure using collocation analysis and regular expressions to classify and evaluate greenhouse gas (GHG) disclosures, contributing to the debate on whether nonfinancial disclosures exhibit accountability or are merely greenwashing.\nDistinguishes Substantive/Symbolic Disclosure: Uses a text mining approach based on collocation analysis to identify words that discriminate between substantive and symbolic GHG-related disclosure, and employs regular expressions to classify sentence structures likely to exhibit accountability in CSR reporting.\nFocuses on GHG Accountability: Measures accountable disclosures in reporting of GHG emissions-related information, focusing on actions taken or results in terms of increase or decrease in emissions."
+  },
+  {
+    "paper_id": "save_cite_cited_by_8_related_articles_all_4_versions",
+    "title": "Save Cite Cited by 8 Related articles All 4 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "[PDF] wiley.com Critical Discourse Analysis in Corporate Reports: Legitimation Strategies in the Context of Environmental Controversies RL de Castilho Rossoni… - … Social Responsibility and …, 2025 - Wiley Online Library Applies Critical Discourse Analysis: Uses Critical Discourse Analysis (CDA) to assess the authenticity of corporate claims, bridging the gap between discourse analysis and normative ethical assessment by focusing on legitimacy construction under public scrutiny.",
+    "highlights": [
+      "Examines how corporate narratives can be manipulated to minimize responsibility and reinforce a positive public image despite operational failures, prioritizing maintaining organizational legitimacy over a genuine ethical commitment to sustainability.",
+      "Proposes Ethical Evaluation Model: Proposes a theoretical model for evaluating environmental disclosure based on Kant's categorical imperative and Hans Jonas' principle of co-responsibility, suggesting a framework for assessing the ethical credibility of corporate claims."
+    ],
+    "cited_by": 8,
+    "versions": 4,
+    "pdf_available": true,
+    "raw_text": "Save Cite Cited by 8 Related articles All 4 versions\n[PDF] wiley.com\nCritical Discourse Analysis in Corporate Reports: Legitimation Strategies in the Context of Environmental Controversies\nRL de Castilho Rossoni… - … Social Responsibility and …, 2025 - Wiley Online Library\nExamines how corporate narratives can be manipulated to minimize responsibility and reinforce a positive public image despite operational failures, prioritizing maintaining organizational legitimacy over a genuine ethical commitment to sustainability.\nProposes Ethical Evaluation Model: Proposes a theoretical model for evaluating environmental disclosure based on Kant's categorical imperative and Hans Jonas' principle of co-responsibility, suggesting a framework for assessing the ethical credibility of corporate claims.\nApplies Critical Discourse Analysis: Uses Critical Discourse Analysis (CDA) to assess the authenticity of corporate claims, bridging the gap between discourse analysis and normative ethical assessment by focusing on legitimacy construction under public scrutiny."
+  },
+  {
+    "paper_id": "save_cite_related_articles",
+    "title": "Save Cite Related articles",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "[HTML] springer.com [HTML] Legitimizing negative aspects in GRI-oriented sustainability reporting: A qualitative analysis of corporate disclosure strategies R Hahn, R Lülfs - Journal of business ethics, 2014 - Springer Analyzes communicative legitimation strategies companies use when reporting \"negative aspects\" (negative ecological and social impact) in voluntary, GRI-oriented sustainability reports. Identifies Six Strategies: Identifies six legitimation strategies used by companies in sustainability reports and discusses these strategies in relation to symbolic versus substantial management of legitimacy. Symbolic Strategies Dominate: Shows that symbolic legitimation strategies, aimed at modifying stakeholder perception, dominate the reports, which contrasts with the impartiality required by GRI guidelines.",
+    "highlights": [],
+    "cited_by": null,
+    "versions": null,
+    "pdf_available": false,
+    "raw_text": "Save Cite Related articles\n[HTML] springer.com\n[HTML] Legitimizing negative aspects in GRI-oriented sustainability reporting: A qualitative analysis of corporate disclosure strategies\nR Hahn, R Lülfs - Journal of business ethics, 2014 - Springer\nAnalyzes communicative legitimation strategies companies use when reporting \"negative aspects\" (negative ecological and social impact) in voluntary, GRI-oriented sustainability reports.\nIdentifies Six Strategies: Identifies six legitimation strategies used by companies in sustainability reports and discusses these strategies in relation to symbolic versus substantial management of legitimacy.\nSymbolic Strategies Dominate: Shows that symbolic legitimation strategies, aimed at modifying stakeholder perception, dominate the reports, which contrasts with the impartiality required by GRI guidelines."
+  },
+  {
+    "paper_id": "save_cite_cited_by_893_related_articles_all_12_versions",
+    "title": "Save Cite Cited by 893 Related articles All 12 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "[PDF] econstor.eu Exploring the predictive capacity of ESG sentiment on official ratings: A few-shot learning perspective C Funk, E Tönjes, C Haas - 2024 - econstor.eu Applies an Aspect-Based Sentiment Analysis (ABSA) few-shot model, specifically a RoBERTa-based few-shot model, to analyze ESG-related entities and their sentiments within corporate reports. Systematic Entity Extraction: Develops an ABSA model that systematically extracts ESG-related entities and their associated sentiment from company reports, offering detailed insights into a company's perspective on ESG issues. Analyzes Reporting Tone: Focuses on examining the tone of ESG reporting (positive, negative, or neutral) at a granular entity level, rather than just the quantity of reporting, which is essential for distinguishing nuanced claims.",
+    "highlights": [],
+    "cited_by": 893,
+    "versions": 12,
+    "pdf_available": true,
+    "raw_text": "Save Cite Cited by 893 Related articles All 12 versions \n[PDF] econstor.eu\nExploring the predictive capacity of ESG sentiment on official ratings: A few-shot learning perspective\nC Funk, E Tönjes, C Haas - 2024 - econstor.eu\nApplies an Aspect-Based Sentiment Analysis (ABSA) few-shot model, specifically a RoBERTa-based few-shot model, to analyze ESG-related entities and their sentiments within corporate reports.\nSystematic Entity Extraction: Develops an ABSA model that systematically extracts ESG-related entities and their associated sentiment from company reports, offering detailed insights into a company's perspective on ESG issues.\nAnalyzes Reporting Tone: Focuses on examining the tone of ESG reporting (positive, negative, or neutral) at a granular entity level, rather than just the quantity of reporting, which is essential for distinguishing nuanced claims."
+  },
+  {
+    "paper_id": "save_cite_cited_by_1_related_articles_all_3_versions",
+    "title": "Save Cite Cited by 1 Related articles All 3 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "[PDF] arxiv.org ESGSenticNet: A neurosymbolic knowledge base for corporate sustainability analysis",
+    "highlights": [],
+    "cited_by": 1,
+    "versions": 3,
+    "pdf_available": true,
+    "raw_text": "Save Cite Cited by 1 Related articles All 3 versions \n[PDF] arxiv.org\nESGSenticNet: A neurosymbolic knowledge base for corporate sustainability analysis"
+  },
+  {
+    "paper_id": "k_ong_r_mao_d_varshney_f_xing_r_satapathy_",
+    "title": "K Ong, R Mao, D Varshney, F Xing, R Satapathy…",
+    "authors": [
+      "arXiv preprint arXiv …",
+      "2025"
+    ],
+    "venue": "arxiv.org",
+    "year": null,
+    "source": null,
+    "description": "Introduces a specialized evaluation metric called \"ESG-action orientation,\" which is defined as the proportion of all topic terms focused on ESG actions, thus representing their material significance in sustainability assessments. ESGSenticNet Effectiveness: Shows that the developed knowledge base, ESGSenticNet, outperforms baseline methods by 31% on the ESG action orientation metric, indicating greater effectiveness in identifying action-focused sustainability information. Addressing Immateriality Challenge: Addresses the challenge of immateriality in sustainability disclosures by providing a tool that captures ESG content relevant for assessments and aligned with established ESG frameworks.",
+    "highlights": [],
+    "cited_by": null,
+    "versions": null,
+    "pdf_available": false,
+    "raw_text": "K Ong, R Mao, D Varshney, F Xing, R Satapathy… - arXiv preprint arXiv …, 2025 - arxiv.org\nIntroduces a specialized evaluation metric called \"ESG-action orientation,\" which is defined as the proportion of all topic terms focused on ESG actions, thus representing their material significance in sustainability assessments.\nESGSenticNet Effectiveness: Shows that the developed knowledge base, ESGSenticNet, outperforms baseline methods by 31% on the ESG action orientation metric, indicating greater effectiveness in identifying action-focused sustainability information.\nAddressing Immateriality Challenge: Addresses the challenge of immateriality in sustainability disclosures by providing a tool that captures ESG content relevant for assessments and aligned with established ESG frameworks."
+  },
+  {
+    "paper_id": "save_cite_cited_by_5_related_articles_all_4_versions",
+    "title": "Save Cite Cited by 5 Related articles All 4 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "[PDF] sagepub.com Performative and political: Corporate constructions of climate change risk D Nyberg, C Wright - Organization, 2016 - journals.sagepub.com Empirical Study Scope: Investigates how five large Australian corporations develop risk frames and their effects, using interviews with sustainability managers and analysis of corporate documents, including sustainability and annual reports. Performativity of Claims: Discusses how corporate claims about climate change are performative, having material effects by turning the complexity of climate change into narrow risk frames and shifting the focus to mitigating corporate risk and identifying opportunities.",
+    "highlights": [
+      "Examines how corporations respond to climate change threats by framing them as different 'risks,' including market, reputational, regulatory, and physical risks, and demonstrates that these risk frames are performative and political."
+    ],
+    "cited_by": 5,
+    "versions": 4,
+    "pdf_available": true,
+    "raw_text": "Save Cite Cited by 5 Related articles All 4 versions \n[PDF] sagepub.com\nPerformative and political: Corporate constructions of climate change risk\nD Nyberg, C Wright - Organization, 2016 - journals.sagepub.com\nExamines how corporations respond to climate change threats by framing them as different 'risks,' including market, reputational, regulatory, and physical risks, and demonstrates that these risk frames are performative and political.\nEmpirical Study Scope: Investigates how five large Australian corporations develop risk frames and their effects, using interviews with sustainability managers and analysis of corporate documents, including sustainability and annual reports.\nPerformativity of Claims: Discusses how corporate claims about climate change are performative, having material effects by turning the complexity of climate change into narrow risk frames and shifting the focus to mitigating corporate risk and identifying opportunities."
+  },
+  {
+    "paper_id": "save_cite_cited_by_127_related_articles_all_7_versions",
+    "title": "Save Cite Cited by 127 Related articles All 7 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "[PDF] wiley.com Greenwashing: A systematic literature review Z Huang, Y Shi, M Jia - Accounting & Finance, 2025 - Wiley Online Library Greenwashing Framework: Reviews the motivations and outcomes of greenwashing, and its mediators and moderators, which are key components in understanding the nature of sustainability claims. Policy and Practice Guidance: Offers useful guidance for future government policy and corporate practice regarding greenwashing, suggesting relevance to the application of analysis templates.",
+    "highlights": [
+      "Explains the fragmented definitions, measurements, and manifestations of greenwashing, which is central to distinguishing between performative and actionable claims."
+    ],
+    "cited_by": 127,
+    "versions": 7,
+    "pdf_available": true,
+    "raw_text": "Save Cite Cited by 127 Related articles All 7 versions\n[PDF] wiley.com\nGreenwashing: A systematic literature review\nZ Huang, Y Shi, M Jia - Accounting & Finance, 2025 - Wiley Online Library\nExplains the fragmented definitions, measurements, and manifestations of greenwashing, which is central to distinguishing between performative and actionable claims.\nGreenwashing Framework: Reviews the motivations and outcomes of greenwashing, and its mediators and moderators, which are key components in understanding the nature of sustainability claims.\nPolicy and Practice Guidance: Offers useful guidance for future government policy and corporate practice regarding greenwashing, suggesting relevance to the application of analysis templates."
+  },
+  {
+    "paper_id": "save_cite_cited_by_33_related_articles_all_3_versions",
+    "title": "Save Cite Cited by 33 Related articles All 3 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "Negative Media Coverage and Corporate Digital Transformation Behavior—An Empirical Study Based on Chinese A-share Listed Companies J Li, M Yan, T Liu - 2025 - aisel.aisnet.org Employs ABSA Methodology: Uses Aspect-based Sentiment Analysis (ABSA) built upon the BERT pre-model to analyze the sentiment of news text and identify corresponding subjects, offering a methodological approach for analyzing claims. Impact of Symbolic Behavior: Finds that purely symbolic transformational behavior (performative claims) does not significantly impact corporate reputation because increased transparency makes it easier for stakeholders to identify true intentions.",
+    "highlights": [
+      "Explains the distinction between \"symbolic\" and \"substantive\" behaviors of corporate digital transformation, which parallels \"performative\" and \"actionable\" claims."
+    ],
+    "cited_by": 33,
+    "versions": 3,
+    "pdf_available": false,
+    "raw_text": "Save Cite Cited by 33 Related articles All 3 versions\nNegative Media Coverage and Corporate Digital Transformation Behavior—An Empirical Study Based on Chinese A-share Listed Companies\nJ Li, M Yan, T Liu - 2025 - aisel.aisnet.org\nExplains the distinction between \"symbolic\" and \"substantive\" behaviors of corporate digital transformation, which parallels \"performative\" and \"actionable\" claims.\nEmploys ABSA Methodology: Uses Aspect-based Sentiment Analysis (ABSA) built upon the BERT pre-model to analyze the sentiment of news text and identify corresponding subjects, offering a methodological approach for analyzing claims.\nImpact of Symbolic Behavior: Finds that purely symbolic transformational behavior (performative claims) does not significantly impact corporate reputation because increased transparency makes it easier for stakeholders to identify true intentions."
+  },
+  {
+    "paper_id": "save_cite_related_articles",
+    "title": "Save Cite Related articles",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "[PDF] berkeley.edu Data-Driven Sustainable Design Opportunities From Automated User Insights N Goridkov, ZW Ng… - … and Information in …, 2025 - asmedigitalcollection.asme.org Explores a method combining Aspect-Based Sentiment Analysis (ABSA), topic modeling, and Large Language Models (LLMs) to extract sustainability insights from user product reviews, bridging the gap between unstructured feedback and actionable design recommendations. ABSA-Driven Insight Extraction: Demonstrates the use of ABSA trends to structure LLM prompts, facilitating the extraction of sustainability-related insights in a targeted and actionable manner from product reviews. Analyzing Certification Claims: Uses ABSA to analyze whether sustainability certifications align with user concerns and to measure whether certified products receive positive sentiment in the areas they claim to support, providing insight into the gap between certification claims and user perception.",
+    "highlights": [],
+    "cited_by": null,
+    "versions": null,
+    "pdf_available": true,
+    "raw_text": "Save Cite Related articles\n[PDF] berkeley.edu\nData-Driven Sustainable Design Opportunities From Automated User Insights\nN Goridkov, ZW Ng… - … and Information in …, 2025 - asmedigitalcollection.asme.org\nExplores a method combining Aspect-Based Sentiment Analysis (ABSA), topic modeling, and Large Language Models (LLMs) to extract sustainability insights from user product reviews, bridging the gap between unstructured feedback and actionable design recommendations.\nABSA-Driven Insight Extraction: Demonstrates the use of ABSA trends to structure LLM prompts, facilitating the extraction of sustainability-related insights in a targeted and actionable manner from product reviews.\nAnalyzing Certification Claims: Uses ABSA to analyze whether sustainability certifications align with user concerns and to measure whether certified products receive positive sentiment in the areas they claim to support, providing insight into the gap between certification claims and user perception."
+  },
+  {
+    "paper_id": "save_cite_related_articles_all_2_versions",
+    "title": "Save Cite Related articles All 2 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "The harm of symbolic actions and green-washing: Corporate actions and communications on environmental performance and their financial implications K Walker, F Wan - Journal of business ethics, 2012 - Springer Defines Green-Washing: Defines \"green-washing\" as symbolic information emanating from within an organization without substantive actions, which aligns with the distinction between \"performative\" and \"actionable\" claims. Relates Symbolic/Substantive Action to Financial Performance: Finds that substantive actions of environmental issues (\"green walk\") neither harm nor benefit firms financially, but symbolic actions (\"green talk\") are negatively related to financial performance.",
+    "highlights": [
+      "Examines the financial implications of \"green-washing\" (discrepancy between symbolic and substantive action) and \"green-highlighting\" (combined effect of both actions) in corporate environmental communications."
+    ],
+    "cited_by": null,
+    "versions": 2,
+    "pdf_available": false,
+    "raw_text": "Save Cite Related articles All 2 versions\nThe harm of symbolic actions and green-washing: Corporate actions and communications on environmental performance and their financial implications\nK Walker, F Wan - Journal of business ethics, 2012 - Springer\nExamines the financial implications of \"green-washing\" (discrepancy between symbolic and substantive action) and \"green-highlighting\" (combined effect of both actions) in corporate environmental communications.\nDefines Green-Washing: Defines \"green-washing\" as symbolic information emanating from within an organization without substantive actions, which aligns with the distinction between \"performative\" and \"actionable\" claims.\nRelates Symbolic/Substantive Action to Financial Performance: Finds that substantive actions of environmental issues (\"green walk\") neither harm nor benefit firms financially, but symbolic actions (\"green talk\") are negatively related to financial performance."
+  },
+  {
+    "paper_id": "save_cite_cited_by_1457_related_articles_all_20_versions",
+    "title": "Save Cite Cited by 1457 Related articles All 20 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "[HTML] mdpi.com [HTML] Uncovering sustainability insights from amazon's eco-friendly product reviews for design optimization MR Maarif, M Syafrudin, NL Fitriyani - Sustainability, 2024 - mdpi.com Utilizes Aspect-Based Sentiment Analysis (ABSA), a subfield of sentiment analysis, to identify sentiment toward specific features or aspects of eco-friendly products mentioned in consumer reviews, rather than classifying overall sentiment. Analyzes Product Features: Applies ABSA to extract consumer sentiments related to various aspects of eco-friendly products, enabling the identification of which product features correlate with certain categories of customer satisfaction, which helps interpret the meaning of sustainability claims. Identifies Actionable Terms: Mentions the use of \"actionable terms\" in relation to product attributes, suggesting a focus on concrete and verifiable eco-friendly characteristics, which is related to distinguishing between different types of claims.",
+    "highlights": [],
+    "cited_by": 1457,
+    "versions": 20,
+    "pdf_available": false,
+    "raw_text": "Save Cite Cited by 1457 Related articles All 20 versions\n[HTML] mdpi.com\n[HTML] Uncovering sustainability insights from amazon's eco-friendly product reviews for design optimization\nMR Maarif, M Syafrudin, NL Fitriyani - Sustainability, 2024 - mdpi.com\nUtilizes Aspect-Based Sentiment Analysis (ABSA), a subfield of sentiment analysis, to identify sentiment toward specific features or aspects of eco-friendly products mentioned in consumer reviews, rather than classifying overall sentiment.\nAnalyzes Product Features: Applies ABSA to extract consumer sentiments related to various aspects of eco-friendly products, enabling the identification of which product features correlate with certain categories of customer satisfaction, which helps interpret the meaning of sustainability claims.\nIdentifies Actionable Terms: Mentions the use of \"actionable terms\" in relation to product attributes, suggesting a focus on concrete and verifiable eco-friendly characteristics, which is related to distinguishing between different types of claims."
+  },
+  {
+    "paper_id": "save_cite_cited_by_12_related_articles_all_7_versions",
+    "title": "Save Cite Cited by 12 Related articles All 7 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "[PDF] jbe-platform.com Framing the path to net zero: A corpus-assisted discourse analysis of sustainability disclosures by major corporate emitters, 2011–2020 M Fuoli, A Beelitz - International Journal of Corpus Linguistics, 2024 - jbe-platform.com Disconnect in Corporate Claims: Reveals a \"troubling disconnect\" between corporations' proclaimed climate goals, the solutions they advocate, and the radical steps needed to address the climate crisis, indicating the presence of performative (not actionable) claims. Uses Discourse Analysis Methodology: Employs a corpus-assisted discourse analysis approach to compare sustainability reports published before and after the Paris Agreement by 69 \"carbon majors,\" a methodology that could incorporate or be related to the Policy Focus ABSA template for claim distinction.",
+    "highlights": [
+      "Examines how major corporate emitters have responded to the Paris Agreement and legitimize their practices, suggesting an underlying analysis of the nature of their climate claims."
+    ],
+    "cited_by": 12,
+    "versions": 7,
+    "pdf_available": true,
+    "raw_text": "Save Cite Cited by 12 Related articles All 7 versions \n[PDF] jbe-platform.com\nFraming the path to net zero: A corpus-assisted discourse analysis of sustainability disclosures by major corporate emitters, 2011–2020\nM Fuoli, A Beelitz - International Journal of Corpus Linguistics, 2024 - jbe-platform.com\nExamines how major corporate emitters have responded to the Paris Agreement and legitimize their practices, suggesting an underlying analysis of the nature of their climate claims.\nDisconnect in Corporate Claims: Reveals a \"troubling disconnect\" between corporations' proclaimed climate goals, the solutions they advocate, and the radical steps needed to address the climate crisis, indicating the presence of performative (not actionable) claims.\nUses Discourse Analysis Methodology: Employs a corpus-assisted discourse analysis approach to compare sustainability reports published before and after the Paris Agreement by 69 \"carbon majors,\" a methodology that could incorporate or be related to the Policy Focus ABSA template for claim distinction."
+  },
+  {
+    "paper_id": "save_cite_cited_by_26_related_articles_all_5_versions",
+    "title": "Save Cite Cited by 26 Related articles All 5 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "[HTML] mdpi.com [HTML] An integrated framework to assess greenwashing N Nemes, SJ Scanlan, P Smith, T Smith, M Aronczyk… - Sustainability, 2022 - mdpi.com Develops an integrated framework designed as the first actionable tool for analyzing the quality and truthfulness of claims, which can be used to distinguish genuine green claims from false and misleading statements. Provides Guidance for Organizations: Offers a mechanism for systematically assessing an organization’s environmental claims, intended to be a guide for organizations to avoid greenwashing and a tool for users to identify misleading claims. Addresses Greenwashing Gap: Aims to fill a gap in the understanding of misleading and deceptive environmental communication by providing a framework to assess greenwashing efforts by various actors, including corporations and governments.",
+    "highlights": [],
+    "cited_by": 26,
+    "versions": 5,
+    "pdf_available": false,
+    "raw_text": "Save Cite Cited by 26 Related articles All 5 versions\n[HTML] mdpi.com\n[HTML] An integrated framework to assess greenwashing\nN Nemes, SJ Scanlan, P Smith, T Smith, M Aronczyk… - Sustainability, 2022 - mdpi.com\nDevelops an integrated framework designed as the first actionable tool for analyzing the quality and truthfulness of claims, which can be used to distinguish genuine green claims from false and misleading statements.\nProvides Guidance for Organizations: Offers a mechanism for systematically assessing an organization’s environmental claims, intended to be a guide for organizations to avoid greenwashing and a tool for users to identify misleading claims.\nAddresses Greenwashing Gap: Aims to fill a gap in the understanding of misleading and deceptive environmental communication by providing a framework to assess greenwashing efforts by various actors, including corporations and governments."
+  },
+  {
+    "paper_id": "save_cite_cited_by_229_related_articles_all_17_versions",
+    "title": "Save Cite Cited by 229 Related articles All 17 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "[PDF] diva-portal.org [PDF] Integrating the UN Sustainable Development Goals in Sustainability Reporting: A Discourse Analysis on Value Creation in the Apparel Industry L Olofsson - 2018 - diva-portal.org Uses Critical Discourse Analysis: Employs a critical discourse analysis to review sustainability reports from two Swedish apparel companies, focusing on communicated motives for SDG integration and methods used to measure and report on goal fulfillment.",
+    "highlights": [
+      "Investigates the potential discrepancy between sustainability communication and concrete action by analyzing the integration of Sustainable Development Goals (SDGs) in corporate reports, which is related to distinguishing between different types of claims.",
+      "Investigates SDG Integration Value: Aims to investigate the perceived value of SDG integration in sustainability reporting within the apparel industry to address the challenge that simply linking sustainability activities to the SDGs and 'cherry-picking' easy goals is insufficient."
+    ],
+    "cited_by": 229,
+    "versions": 17,
+    "pdf_available": true,
+    "raw_text": "Save Cite Cited by 229 Related articles All 17 versions \n[PDF] diva-portal.org\n[PDF] Integrating the UN Sustainable Development Goals in Sustainability Reporting: A Discourse Analysis on Value Creation in the Apparel Industry\nL Olofsson - 2018 - diva-portal.org\nInvestigates the potential discrepancy between sustainability communication and concrete action by analyzing the integration of Sustainable Development Goals (SDGs) in corporate reports, which is related to distinguishing between different types of claims.\nUses Critical Discourse Analysis: Employs a critical discourse analysis to review sustainability reports from two Swedish apparel companies, focusing on communicated motives for SDG integration and methods used to measure and report on goal fulfillment.\nInvestigates SDG Integration Value: Aims to investigate the perceived value of SDG integration in sustainability reporting within the apparel industry to address the challenge that simply linking sustainability activities to the SDGs and 'cherry-picking' easy goals is insufficient."
+  },
+  {
+    "paper_id": "save_cite_cited_by_2_related_articles_all_2_versions",
+    "title": "Save Cite Cited by 2 Related articles All 2 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "[PDF] wiley.com Biodiversity reporting by United Kingdom (UK)‐listed companies: A review of extent, content and readability of disclosures W Maroun, D Ecim - Business Strategy and the Environment, 2024 - Wiley Online Library Develops an instrument, based on earlier research, that is used to analyze biodiversity-related disclosures as either policy considerations or actions taken to conserve biodiversity. Policy vs. Performance Analysis: Uses a qualitative analysis of biodiversity reporting at the level of policy and performance to contextualize quantitative results, effectively distinguishing between intent and action. Evaluating Actionable Claims: Notes that few organizations are setting detailed biodiversity-related targets linked clearly to operational plans, risk assessments, and key performance indicators, indicating a lack of actionable performance claims despite possible policy statements.",
+    "highlights": [],
+    "cited_by": 2,
+    "versions": 2,
+    "pdf_available": true,
+    "raw_text": "Save Cite Cited by 2 Related articles All 2 versions \n[PDF] wiley.com\nBiodiversity reporting by United Kingdom (UK)‐listed companies: A review of extent, content and readability of disclosures\nW Maroun, D Ecim - Business Strategy and the Environment, 2024 - Wiley Online Library\nDevelops an instrument, based on earlier research, that is used to analyze biodiversity-related disclosures as either policy considerations or actions taken to conserve biodiversity.\nPolicy vs. Performance Analysis: Uses a qualitative analysis of biodiversity reporting at the level of policy and performance to contextualize quantitative results, effectively distinguishing between intent and action.\nEvaluating Actionable Claims: Notes that few organizations are setting detailed biodiversity-related targets linked clearly to operational plans, risk assessments, and key performance indicators, indicating a lack of actionable performance claims despite possible policy statements."
+  },
+  {
+    "paper_id": "save_cite_cited_by_20_related_articles_all_9_versions",
+    "title": "Save Cite Cited by 20 Related articles All 9 versions",
+    "authors": [],
+    "venue": null,
+    "year": null,
+    "source": null,
+    "description": "",
+    "highlights": [],
+    "cited_by": 20,
+    "versions": 9,
+    "pdf_available": false,
+    "raw_text": "Save Cite Cited by 20 Related articles All 9 versions"
+  }
+]

@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "project": "Multilingual Explainable ESG Intelligence System",
+    "generated_at": "2025-05-22T14:30:00Z",
+    "version": "2.0",
+    "description": "Machine-persistable reference mapping linking ESG research objectives to literature evidence and causal logic chains."
+  },
+  "research_plan_references": {
+    "objective_layer_1": {
+      "focus": "ESG Data, Semantics & Multilingual Foundations",
+      "plan_elements": {
+        "contributions": [
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C2: Normalized ESG data schema",
+          "C3: Cross-lingual ESG transfer learning",
+          "C9: Integrated ESG multidimensional dataset"
+        ],
+        "research_questions": [
+          "RQ1.1: How can Transformer-based architectures be optimized for bilingual ESG ABSA?",
+          "RQ1.3: How can regional calibration and ESG lexicons mitigate bias?",
+          "RQ1.1 (v1): How can we design a Document-, Tone-, and Ontology-Aware ESG-ABSA system?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Translation between typologically diverse languages",
+          "authors": "Donald Philippi",
+          "year": 1989,
+          "source_index": 46,
+          "relevance": "Provides the linguistic theoretical basis for managing cross-lingual transfer (C3) between typologically distinct languages, essential for Indonesian-English ESG alignment (RQ1.1).",
+          "tags": ["Cross-lingual", "Typology"]
+        },
+        {
+          "title": "AFRIDOC-MT: Document-level MT Corpus for African Languages",
+          "authors": "Jesujoba Oluwadara Alabi, et al.",
+          "year": 2025,
+          "source_index": 91,
+          "relevance": "Demonstrates the necessity of document-level datasets (C9) and the challenges of generalizing from sentence-level to longer document contexts (RQ1.1v1).",
+          "tags": ["Multilingual", "Document-level"]
+        }
+      ]
+    },
+    "objective_layer_2": {
+      "focus": "Representation Learning, Benchmarking & Fusion",
+      "plan_elements": {
+        "contributions": [
+          "C8: Large-scale ESG LLM benchmark (30+ models)",
+          "C10: Multi-LLM fusion framework",
+          "C13: Hybrid hierarchical–long context architecture",
+          "C16: Weakly supervised ESG training"
+        ],
+        "research_questions": [
+          "RQ2.1: To what extent does few-shot learning improve ESG granularity?",
+          "RQ2.4: How can multi-LLM fusion reduce hallucination?",
+          "RQ2.2: How can long-context mechanisms enhance scalability?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Demystifying Domain-adaptive Post-training for Financial LLMs",
+          "authors": "Zixuan Ke, et al.",
+          "year": 2025,
+          "source_index": 88,
+          "relevance": "Directly supports the large-scale benchmarking of LLMs for financial tasks (C8) and evaluates domain adaptation strategies required for ESG granularity (RQ2.1).",
+          "tags": ["Financial LLMs", "Benchmarking"]
+        },
+        {
+          "title": "CoLA: Compute-Efficient Pre-Training of LLMs via Low-Rank Activation",
+          "authors": "Ziyue Liu, et al.",
+          "year": 2025,
+          "source_index": 103,
+          "relevance": "Validates the use of low-rank activations to enhance training efficiency and representation scalability (C13), addressing long-context limitations (RQ2.2).",
+          "tags": ["Efficiency", "Representations"]
+        }
+      ]
+    },
+    "objective_layer_3": {
+      "focus": "Reasoning, Explainability & Semantic Alignment",
+      "plan_elements": {
+        "contributions": [
+          "C4: Explainable ESG monitoring framework",
+          "C5: Unified Research–Model–Metric framework",
+          "C7: GraphRAG ESG reasoning architecture",
+          "C15: Ontology-aligned explainability"
+        ],
+        "research_questions": [
+          "RQ3.1: How can explainable AI enhance stakeholder trust?",
+          "RQ3.1 (v1): How can symbolic reasoning be integrated using ESG ontologies?",
+          "RQ3.2: How can transparent outputs be ensured via reasoning graphs?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "ReAgent: Reversible Multi-Agent Reasoning for Knowledge-Enhanced Multi-Hop QA",
+          "authors": "Xinjie Zhao, et al.",
+          "year": 2025,
+          "source_index": 154,
+          "relevance": "Introduces backtracking mechanisms in multi-agent reasoning, supporting the transparent outputs required for GraphRAG architectures (C7, RQ3.2).",
+          "tags": ["Multi-Agent", "Reasoning"]
+        },
+        {
+          "title": "Towards Statistical Factuality Guarantee for Large Vision-Language Models",
+          "authors": "Zhuohang Li, et al.",
+          "year": 2025,
+          "source_index": 137,
+          "relevance": "Provides a framework for claim verification and statistical guarantees on output factuality, directly linked to enhancing stakeholder trust (C4, RQ3.1).",
+          "tags": ["Factuality", "XAI"]
+        }
+      ]
+    },
+    "objective_layer_4": {
+      "focus": "Trust, Risk & Greenwashing Intelligence",
+      "plan_elements": {
+        "contributions": [
+          "C11: Narrative-grounded greenwashing detection",
+          "C14: Tone-aware bias correction models",
+          "C6: Ontology-linked evaluation metrics"
+        ],
+        "research_questions": [
+          "RQ4.5: Can tone–outcome mismatch reliably indicate greenwashing?",
+          "RQ4.2: How can cross-model consistency be measured?",
+          "RQ4.1: How can XAI improve stakeholder trust in ESG outputs?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Graders should cheat: privileged information enables expert-level automated evaluations",
+          "authors": "Jin Zhou, et al.",
+          "year": 2025,
+          "source_index": 101,
+          "relevance": "Uses ground-truth guidelines to improve automated evaluations, supporting the development of ontology-linked metrics for detecting credibility risks (C6, RQ4.2).",
+          "tags": ["Evaluation", "Expert Alignment"]
+        },
+        {
+          "title": "Unveiling the Response of Large Vision-Language Models to Visually Absent Tokens",
+          "authors": "Sohee Kim, et al.",
+          "year": 2025,
+          "source_index": 528,
+          "relevance": "Investigates model responses to absent or mismatched evidence, providing a methodology for quantifying tone-action-outcome mismatches in greenwashing (C11, RQ4.5).",
+          "tags": ["Bias", "Consistency"]
+        }
+      ]
+    },
+    "objective_layer_5": {
+      "focus": "Deployment, Reproducibility & Decision Support",
+      "plan_elements": {
+        "contributions": [
+          "C12: Open-source ESG pipeline + visualization",
+          "C1: Production-grade bilingual ESG-ABSA platform",
+          "C5: Unified Research–Model–Metric framework"
+        ],
+        "research_questions": [
+          "RQ5.1: How can transparent and auditable outputs be ensured?",
+          "RQ5.2: How can reasoning quality and consistency be operationalized at scale?"
+        ]
+      },
+      "literature_references": [
+        {
+          "title": "Model-based Large Language Model Customization as Service",
+          "authors": "Zhaomin Wu, et al.",
+          "year": 2024,
+          "source_index": 225,
+          "relevance": "Discusses the deployment of customized LLMs as a service, supporting the operationalization of a production-grade ESG platform (C1, RQ5.2).",
+          "tags": ["Customization", "Deployment"]
+        },
+        {
+          "title": "BannerAgency: Advertising Banner Design with Multimodal LLM Agents",
+          "authors": "Heng Wang, et al.",
+          "year": 2025,
+          "source_index": 152,
+          "relevance": "Demonstrates the use of blueprints and editable components (SVG) for visual interfaces, informing the design of auditable ESG dashboards (C12, RQ5.1).",
+          "tags": ["Visualization", "Interface"]
+        }
+      ]
+    }
+  }
+}

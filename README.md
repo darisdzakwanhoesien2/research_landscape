@@ -2,6 +2,554 @@
 2. https://chatgpt.com/c/695bfa94-94b8-8332-8f38-55c3e68a33ec
 3. https://chatgpt.com/c/6962c8a3-8914-8326-b4a7-c0709d871cbf
 
+https://chatgpt.com/c/69725648-b964-8331-a998-a7fb022ee95c
+
+Great question — this is exactly where a clean **data engineering / reproducible research layout** helps a lot, especially since you already run multi-stage pipelines and Streamlit dashboards.
+
+If you have:
+
+```
+rq1.csv
+rq2.csv
+rq1.bib
+rq2.bib
+```
+
+and you want to **ingest → normalize → merge → version → explore in Streamlit**, I recommend this structure.
+
+---
+
+# ✅ Recommended Project Directory Structure
+
+```
+literature_pipeline/
+│
+├── app.py                         # Streamlit entrypoint (uploader + merge UI)
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   ├── raw/                        # Original untouched files
+│   │   ├── rq1/
+│   │   │   ├── rq1.csv
+│   │   │   └── rq1.bib
+│   │   │
+│   │   └── rq2/
+│   │       ├── rq2.csv
+│   │       └── rq2.bib
+│   │
+│   ├── interim/                   # Parsed but not merged
+│   │   ├── rq1_normalized.csv
+│   │   └── rq2_normalized.csv
+│   │
+│   ├── processed/                 # Final merged datasets
+│   │   ├── merged_all.csv
+│   │   ├── merged_all.json
+│   │   └── merged_all.parquet
+│   │
+│   └── registry/                  # Provenance tracking
+│       └── ingestion_log.json
+│
+├── pipelines/                     # Reusable processing logic
+│   ├── __init__.py
+│   ├── loaders.py                 # CSV + Bib loaders
+│   ├── normalizer.py              # Schema alignment
+│   ├── merger.py                  # Dedup + merge logic
+│   └── export.py                  # Save artifacts
+│
+├── pages/                         # Streamlit multipage UI
+│   ├── 1_upload.py
+│   ├── 2_preview.py
+│   ├── 3_merge.py
+│   └── 4_export.py
+│
+├── notebooks/                     # Optional exploration
+│   └── validation.ipynb
+│
+└── scripts/                       # CLI batch processing
+    └── run_ingestion.py
+```
+
+---
+
+# 🎯 Why This Structure Works (For You)
+
+This mirrors:
+
+✔️ Your ABSA pipelines
+✔️ Your Spark + registry workflows
+✔️ Your multi-stage experiment tracking
+✔️ Streamlit multipage dashboards
+✔️ Reproducible ML pipelines
+
+---
+
+# 📁 Where Each File Goes
+
+### 🔹 Raw Inputs
+
+```
+data/raw/rq1/rq1.csv
+data/raw/rq1/rq1.bib
+
+data/raw/rq2/rq2.csv
+data/raw/rq2/rq2.bib
+```
+
+✅ Never modify these
+✅ Source-of-truth
+
+---
+
+### 🔹 Interim Normalized Outputs
+
+After parsing and schema alignment:
+
+```
+data/interim/rq1_normalized.csv
+data/interim/rq2_normalized.csv
+```
+
+✅ Same schema
+✅ Still per-RQ
+
+---
+
+### 🔹 Final Merged Dataset
+
+```
+data/processed/merged_all.csv
+data/processed/merged_all.json
+```
+
+✅ Deduplicated
+✅ Ready for analysis / modeling
+
+---
+
+### 🔹 Registry (Audit Trail)
+
+```
+data/registry/ingestion_log.json
+```
+
+Example:
+
+```json
+{
+  "run_id": "2026-01-22T18:10:00",
+  "inputs": [
+    "data/raw/rq1/rq1.csv",
+    "data/raw/rq1/rq1.bib",
+    "data/raw/rq2/rq2.csv",
+    "data/raw/rq2/rq2.bib"
+  ],
+  "records_loaded": 124,
+  "records_after_dedup": 98,
+  "output": "data/processed/merged_all.csv"
+}
+```
+
+This matches your registry-heavy engineering style 👍
+
+---
+
+---
+
+# 🧪 Minimal Version (If You Want Simpler)
+
+If you don't want pipelines yet:
+
+```
+literature_app/
+│
+├── app.py
+├── requirements.txt
+│
+├── data/
+│   ├── rq1.csv
+│   ├── rq1.bib
+│   ├── rq2.csv
+│   ├── rq2.bib
+│   └── merged.csv
+```
+
+But this becomes messy fast — I don't recommend it for your scale.
+
+---
+
+---
+
+# 🚀 How Streamlit Uses This
+
+### Upload Page
+
+Reads from:
+
+```
+data/raw/**/*
+```
+
+---
+
+### Preview Page
+
+Reads from:
+
+```
+data/interim/*.csv
+```
+
+---
+
+### Merge Page
+
+Outputs to:
+
+```
+data/processed/merged_all.csv
+```
+
+---
+
+---
+
+# 🧩 Optional: RQ-Aware Tagging (Highly Recommended)
+
+Add automatic tagging:
+
+```
+RQ = rq1 | rq2
+Source = csv | bib
+```
+
+Schema addition:
+
+```
+RQ, Source, DOI, Title, Authors, ...
+```
+
+This allows:
+
+✔️ RQ-level filtering
+✔️ Per-question analysis
+✔️ Traceability
+
+---
+
+---
+
+# ✅ If You Want Next
+
+I can generate for you:
+
+✅ Folder auto-creation script
+✅ Pipeline code templates
+✅ Streamlit multipage scaffold
+✅ Registry logger
+✅ Deduplication logic (DOI + Title fuzzy)
+✅ Parquet export for large-scale analysis
+
+Just say what layer you want first 👍
+
+
+Yes 👍
+You can absolutely build a **Streamlit app that:**
+
+✅ Uploads **multiple CSV files**
+✅ Uploads **multiple BibTeX (.bib) files**
+✅ Parses BibTeX into structured rows
+✅ Normalizes everything into the same schema
+✅ Concatenates into one unified table
+✅ Allows preview + download as CSV / JSON
+
+Given your column schema:
+
+```
+DOI, Title, Authors, Journal, Year, Abstract,
+LitmapsId, Cited By, References, PubMedId, Tags
+```
+
+Below is a **complete working Streamlit app**.
+
+This fits nicely with your existing data-pipeline style projects and dashboards.
+
+---
+
+# ✅ Streamlit App — CSV + Bib Concatenator
+
+Create a file:
+
+```
+app.py
+```
+
+---
+
+## 📦 Install Dependencies
+
+Add to `requirements.txt`:
+
+```
+streamlit
+pandas
+bibtexparser
+```
+
+---
+
+## 🧠 Complete App Code
+
+```python
+import streamlit as st
+import pandas as pd
+from io import StringIO
+import bibtexparser
+
+# =====================================================
+# PAGE CONFIG
+# =====================================================
+
+st.set_page_config(
+    page_title="📚 CSV + BibTeX Concatenator",
+    layout="wide"
+)
+
+st.title("📚 CSV + BibTeX Dataset Concatenator")
+st.caption("Upload multiple CSV and BibTeX files and merge them into a unified dataset")
+
+# =====================================================
+# TARGET SCHEMA
+# =====================================================
+
+TARGET_COLUMNS = [
+    "DOI",
+    "Title",
+    "Authors",
+    "Journal",
+    "Year",
+    "Abstract",
+    "LitmapsId",
+    "Cited By",
+    "References",
+    "PubMedId",
+    "Tags",
+]
+
+# =====================================================
+# FILE UPLOAD
+# =====================================================
+
+uploaded_files = st.file_uploader(
+    "Upload CSV and/or BibTeX files",
+    type=["csv", "bib"],
+    accept_multiple_files=True
+)
+
+# =====================================================
+# UTILITIES
+# =====================================================
+
+def normalize_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Force dataframe into target schema.
+    Missing columns are created automatically.
+    Extra columns are dropped.
+    """
+    df = df.copy()
+
+    # Normalize column names
+    df.columns = [c.strip() for c in df.columns]
+
+    for col in TARGET_COLUMNS:
+        if col not in df.columns:
+            df[col] = None
+
+    return df[TARGET_COLUMNS]
+
+
+def parse_csv(file) -> pd.DataFrame:
+    df = pd.read_csv(file)
+    return normalize_dataframe(df)
+
+
+def parse_bibtex(file) -> pd.DataFrame:
+    """
+    Convert BibTeX entries into dataframe rows.
+    """
+    text = file.read().decode("utf-8")
+    bib_db = bibtexparser.loads(text)
+
+    rows = []
+
+    for entry in bib_db.entries:
+        row = {
+            "DOI": entry.get("doi"),
+            "Title": entry.get("title"),
+            "Authors": entry.get("author"),
+            "Journal": entry.get("journal") or entry.get("booktitle"),
+            "Year": entry.get("year"),
+            "Abstract": entry.get("abstract"),
+            "LitmapsId": None,
+            "Cited By": None,
+            "References": None,
+            "PubMedId": entry.get("pmid"),
+            "Tags": entry.get("keywords"),
+        }
+        rows.append(row)
+
+    df = pd.DataFrame(rows)
+    return normalize_dataframe(df)
+
+
+# =====================================================
+# PROCESS FILES
+# =====================================================
+
+all_dfs = []
+
+if uploaded_files:
+    st.success(f"📂 {len(uploaded_files)} files uploaded")
+
+    for file in uploaded_files:
+        st.write(f"▶️ Processing `{file.name}`")
+
+        try:
+            if file.name.lower().endswith(".csv"):
+                df = parse_csv(file)
+
+            elif file.name.lower().endswith(".bib"):
+                df = parse_bibtex(file)
+
+            else:
+                st.warning(f"Unsupported file type: {file.name}")
+                continue
+
+            st.write(f"✅ Loaded {len(df)} rows")
+            all_dfs.append(df)
+
+        except Exception as e:
+            st.error(f"❌ Failed to parse {file.name}: {e}")
+
+# =====================================================
+# CONCATENATE + DISPLAY
+# =====================================================
+
+if all_dfs:
+    combined_df = pd.concat(all_dfs, ignore_index=True)
+
+    st.subheader("📊 Combined Dataset Preview")
+    st.dataframe(combined_df, use_container_width=True)
+
+    st.metric("Total Records", len(combined_df))
+
+    # =====================================================
+    # DOWNLOAD
+    # =====================================================
+
+    csv_data = combined_df.to_csv(index=False).encode("utf-8")
+    json_data = combined_df.to_json(orient="records", indent=2).encode("utf-8")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.download_button(
+            "⬇️ Download CSV",
+            csv_data,
+            file_name="combined_dataset.csv",
+            mime="text/csv"
+        )
+
+    with col2:
+        st.download_button(
+            "⬇️ Download JSON",
+            json_data,
+            file_name="combined_dataset.json",
+            mime="application/json"
+        )
+
+else:
+    st.info("📥 Upload CSV and/or BibTeX files to begin.")
+```
+
+---
+
+# 🎯 What This App Does
+
+### ✔ Upload
+
+* Multiple `.csv`
+* Multiple `.bib`
+
+---
+
+### ✔ Auto Parsing
+
+**CSV**
+
+* Reads directly
+* Normalizes into target schema
+
+**BibTeX**
+
+* Extracts:
+
+  * DOI
+  * Title
+  * Author
+  * Journal / Booktitle
+  * Year
+  * Abstract
+  * PMID
+  * Keywords → Tags
+
+---
+
+### ✔ Auto Schema Alignment
+
+Any missing column is automatically added:
+
+```
+DOI, Title, Authors, Journal, Year, Abstract,
+LitmapsId, Cited By, References, PubMedId, Tags
+```
+
+---
+
+### ✔ Output
+
+* Interactive table preview
+* Download merged dataset as:
+
+  * ✅ CSV
+  * ✅ JSON
+
+---
+
+# 🚀 Run It
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# ✨ Optional Enhancements (If You Want)
+
+Given your heavy data workflows, you may like:
+
+✅ Deduplicate by DOI
+✅ Normalize author names
+✅ Tag cleaning
+✅ Citation count aggregation
+✅ BibTeX error recovery
+✅ Save merged output into `/data/processed/`
+✅ Registry logging (like your ABSA pipelines)
+✅ Filters + search UI
+
+If you'd like, I can extend this into a **multi-page data ingestion dashboard** aligned with your current Streamlit architecture.
+
+
 Perfect — here’s a **planning table structure** you can use as the **input control layer** for your modular LaTeX + batch prompt workflow (NotebookLM / Streamlit / CLI).
 
 I’ll give you:

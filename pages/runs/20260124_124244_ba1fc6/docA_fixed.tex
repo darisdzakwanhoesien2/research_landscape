@@ -1,0 +1,146 @@
+\documentclass{article}
+
+% =====================================================
+% PACKAGES
+% =====================================================
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{hyperref}
+\usepackage{microtype}       % improves spacing
+\usepackage{setspace}
+\usepackage{paracol}         % ← added: best for side-by-side text + figures
+
+% =====================================================
+% METADATA
+% =====================================================
+\title{Neurosymbolic Reasoning for Robust Greenwashing Detection and Actionable ESG Analysis}
+\author{Daris Dzakwan Hoesien}
+\date{15th January 2026}
+
+\begin{document}
+
+\maketitle
+
+% =====================================================
+% INTRODUCTION
+% =====================================================
+\section{Introduction}
+The rapid integration of Environmental, Social, and Governance (ESG) factors into financial decision-making has necessitated the development of advanced Natural Language Processing (NLP) systems capable of processing vast quantities of corporate disclosures \citep{cite_001}. Recent advancements in Generative Large Language Models (LLMs) have demonstrated significant potential in identifying ESG issues across multiple languages, frequently outperforming traditional supervised models in specialized subtasks \citep{cite_007, cite_012}. However, as the volume of reporting grows, the complexity of extracting quantitative Key Performance Indicators (KPIs) from unstructured formats, such as tables in annual reports, remains a significant technical challenge \citep{cite_010}. Furthermore, the industry is increasingly focused not only on issue identification but also on the specific impact types, distinguishing between risks and opportunities for corporate entities \citep{cite_002, cite_009}.
+
+% =====================================================
+% RESEARCH GAP
+% =====================================================
+\section{Research Gap}
+Despite the high performance of LLMs in benchmark tasks, there remains a critical gap in the robustness of these models against ``greenwashing''—claims that are misleading, exaggerated, or fabricated \citep{cite_011}. Current analytical tools often fail to distinguish between vague, performative rhetoric and verifiable, substantive actions \citep{cite_011}. Additionally, while LLMs excel at generating semantically plausible responses, they frequently suffer from hallucinations and a failure to retrieve accurate evidence from provided contexts, especially when questions are unanswerable based on the text \citep{cite_004}. There is also a noted discrepancy between the ``performance'' of LLMs in statistical tasks and their true linguistic ``competence'' in understanding complex semantic nuances \citep{cite_003}. Current research lacks a unified framework that combines fine-grained promise verification with cross-lingual robustness in low-resource settings \citep{cite_005, cite_013}.
+
+% =====================================================
+% PROBLEM STATEMENT
+% =====================================================
+\section{Problem Statement}
+The lack of transparent and verifiable evidence for ESG scores leads to vague and unclear corporate evaluations, undermining the credibility of sustainable investment decisions \citep{cite_006}. Current LLM-based systems for ESG monitoring are susceptible to greenwashing risks because they do not explicitly link sustainability aspects with grounded, verifiable actions \citep{cite_011}. This problem is compounded in multilingual environments where models show inconsistent performance in verifying sustainability promises across different languages, such as English, Japanese, and Chinese \citep{cite_005}. Without a mechanism to ensure factual consistency and evidence-based reasoning, automated ESG assessments risk propagating misleading information \citep{cite_008, cite_004}.
+\clearpage
+\section{End-to-End Execution Workflow}
+
+\begin{paracol}{2}
+\small
+\setlength{\itemsep}{1pt}
+\setlength{\parskip}{0pt}
+\raggedright
+
+\begin{itemize}
+\item \textbf{Document Ingestion} Users upload sustainability reports or datasets via the \textit{UploadUI}.
+\item \textbf{Optical Character Recognition (OCR)} Documents are processed by the \textit{OCRService}, which invokes the \textit{MistralAPI}.
+\item \textbf{Text Normalization and Cleaning} The extracted text is normalized by the \textit{TextCleanup} module.
+\item \textbf{Persistent Document Storage} Cleaned documents are stored in the \textit{DocStore} as structured Markdown or JSON files.
+\item \textbf{Prompt Strategy Instantiation} Zero-shot, Few-shot, and Chain-of-Thought (CoT) strategies are instantiated.
+\item \textbf{Prompt Assembly} The \textit{TemplateEngine} dynamically assembles the final prompts.
+\item \textbf{Self-Consistency Sampling} Each prompt is evaluated multiple times using stochastic decoding.
+\item \textbf{Model Inference Routing} Inference requests are routed through the \textit{ModelRouter}.
+\item \textbf{Reasoning Trace Parsing} Raw model outputs are parsed by the \textit{CoTParser}.
+\item \textbf{Claim and Aspect Extraction} Parsed outputs are normalized by the \textit{ClaimExtractor}.
+\item \textbf{Evidence Grounding} Extracted claims are grounded by the \textit{EvidenceLinker}.
+\item \textbf{Greenwashing Classification} Claims are categorized by the \textit{GreenwashDetector}.
+\item \textbf{Metric Computation} Precision, recall, and F1-score metrics are computed.
+\item \textbf{Hallucination Auditing} Unsupported or contradictory claims are detected.
+\item \textbf{Error Analysis} False positives and false negatives are analyzed.
+\item \textbf{Cross-Strategy Comparison} Performance is compared across prompting strategies.
+\item \textbf{Dataset Generation} Instruction datasets are generated via \textit{JSONLBuilder}.
+\item \textbf{Model Artifact Storage} Fine-tuned models and metadata are persisted.
+\end{itemize}
+
+\switchcolumn
+
+\centering
+
+\adjustbox{max width=\linewidth, max height=0.28\textheight, keepaspectratio}{%
+  \includegraphics{figures/workflows-thesis-part-1.png}%
+}\par
+\vspace{4pt}
+\small
+\textbf{Figure 7.1.} Document ingestion and inference orchestration pipeline.
+\label{fig:workflow1}
+
+\vspace{1.2em}
+
+\adjustbox{max width=\linewidth, max height=0.28\textheight, keepaspectratio}{%
+  \includegraphics{figures/workflows-thesis-part-2.png}%
+}\par
+\vspace{4pt}
+\small
+\textbf{Figure 7.2.} Reasoning, evaluation, and dataset generation pipeline.
+\label{fig:workflow2}
+
+\end{paracol}
+
+% =====================================================
+% OBJECTIVES
+% =====================================================
+\clearpage
+\section{Objectives}
+\begin{itemize}
+\item To investigate the extent to which the inclusion of Chain-of-Thought (CoT) reasoning in system prompts reduces hallucination in Aspect-Based Sentiment Analysis (ABSA) for complex ESG disclosures.
+\item To evaluate the effectiveness of the Policy Focus ABSA template in distinguishing between ``performative'' and ``actionable'' sustainability claims in corporate reports.
+\item To benchmark the performance of Few-shot prompting against Zero-shot strategies in identifying policy stances and ESG promises from multilingual reports
+% \citep{cite_005}.
+\item To develop a scalable framework for extracting quantitative facts from complex ESG tables by translating them into standardized statements
+% \citep{cite_010}.
+\end{itemize}
+
+% =====================================================
+% RESEARCH QUESTIONS
+% =====================================================
+\section{Research Questions}
+\begin{enumerate}
+\item To what extent does the inclusion of Chain-of-Thought (CoT) reasoning in system prompts reduce hallucination in Aspect-Based Sentiment Analysis (ABSA) for complex ESG disclosures?
+\item How does the performance of Few-shot prompting with 2--4 domain-specific examples compare to Zero-shot strategies in identifying policy stances from parliamentary debates?
+\item Does the Self-Consistency method significantly improve labeling accuracy in logic-heavy classification tasks compared to a single-pass inference?
+\item How effective is the Policy Focus ABSA template in distinguishing between ``performative'' and ``actionable'' sustainability claims in corporate reports?
+\end{enumerate}
+
+% =====================================================
+% EVALUATION METRICS
+% =====================================================
+\section{Evaluation Metrics}
+\begin{itemize}
+\item \textbf{Accuracy}: In the context of ESG promise verification, accuracy provides a general measure of how often the model correctly identifies or rejects a promise, though it may be misleading in imbalanced datasets 
+% \citep{cite_005}.
+\item \textbf{Precision}: High precision in ESG issue identification ensures that the news articles classified under a specific ESG pillar actually belong to that category, reducing false alarms.
+\item \textbf{Recall}: High recall is critical in risk identification subtasks; it ensures that most ``Risk'' events mentioned in news articles are successfully captured by the system 
+% \citep{cite_009}.
+\item \textbf{F1-score}: This is the primary metric for the ML-ESG shared tasks. Achieving a high F1-score indicates a model's robustness in identifying and categorizing complex disclosures 
+% \citep{cite_006, cite_007}.
+\end{itemize}
+
+% =====================================================
+% EXPECTED CONTRIBUTIONS
+% =====================================================
+\section{Expected Contributions}
+\begin{itemize}
+\item \textbf{Empirical Prompting Benchmarks} The research provides a rigorous empirical baseline for LLM reasoning in the ESG domain by comparing Zero-shot, Few-shot, and Chain-of-Thought strategies.
+\item \textbf{Reasoning Reliability Framework} By implementing Self-Consistency voting, the research provides a framework for quantifying and reducing logical instability in model outputs.
+\item \textbf{Greenwashing Detection Methodology} The Policy Focus ABSA framework distinguishes between performative rhetoric and actionable sustainability actions.
+\item \textbf{Domain-Specific Instruction-Tuning Dataset} A reproducible pipeline converts experiments into structured JSONL datasets for fine-tuning open-source models.
+\end{itemize}

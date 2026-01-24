@@ -1,0 +1,203 @@
+{
+  "objectives": [
+    {
+      "id": "OBJ1",
+      "statement": "To investigate the extent to which Chain-of-Thought (CoT) reasoning in system prompts reduces hallucination in Aspect-Based Sentiment Analysis (ABSA) for complex ESG disclosures.",
+      "citations": [
+        "\\citep{RQ: Research Questions}",
+        "\\citep{HalluMeasure: Fine-grained hallucination measurement using chain-of-thought reasoning}"
+      ]
+    },
+    {
+      "id": "OBJ2",
+      "statement": "To benchmark the performance of the Political DEBATE language models using few-shot and zero-shot strategies for identifying policy stances in parliamentary documents.",
+      "citations": [
+        "\\citep{Political DEBATE: Efficient Zero-Shot and Few-Shot Classifiers for Political Text}",
+        "\\citep{RQ: Research Questions}"
+      ]
+    },
+    {
+      "id": "OBJ3",
+      "statement": "To evaluate the efficacy of the Self-Consistency method in improving labeling accuracy for logic-heavy classification tasks through multi-path reasoning aggregation.",
+      "citations": [
+        "\\citep{Self-Consistency Improves Chain of Thought Reasoning in Language Models}",
+        "\\citep{RQ: Research Questions}"
+      ]
+    },
+    {
+      "id": "OBJ4",
+      "statement": "To develop a framework for distinguishing between performative symbolic claims and actionable sustainability steps in corporate reports using aspect-action analysis.",
+      "citations": [
+        "\\citep{Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization}",
+        "\\citep{RQ: Research Questions}"
+      ]
+    }
+  ],
+  "research_gap": [
+    {
+      "id": "GAP1",
+      "description": "Large Language Models exhibit a significant disparity between answer accuracy and reasoning faithfulness, often arriving at correct answers through factually incorrect intermediate steps.",
+      "citations": [
+        "\\citep{Direct evaluation of chain-of-thought in multi-hop reasoning with knowledge graphs}"
+      ]
+    },
+    {
+      "id": "GAP2",
+      "description": "Traditional CoT prompting relies heavily on explicit target phrases, showing limited effectiveness in complex ABSA scenarios involving implicit sentiments and targets.",
+      "citations": [
+        "\\citep{Syntactic-Guided Chain of Thought for Iterative Implicit and Explicit Target Detection in Aspect-Based Sentiment Analysis}"
+      ]
+    },
+    {
+      "id": "GAP3",
+      "description": "A lack of fine-grained, automated tools exists to systematically assess the truthfulness of corporate environmental claims and distinguish actionable implementation from vague greenwashing.",
+      "citations": [
+        "\\citep{Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization}",
+        "\\citep{An integrated framework to assess greenwashing}"
+      ]
+    }
+  ],
+  "problem_statement": {
+    "statement": "LLMs suffer from hallucinations that undermine trust in high-stakes financial and political tasks, such as ESG analysis where corporate narratives often prioritize symbolic legitimation (green talk) over substantive commitment (green walk). Current analytical frameworks lack the structured reasoning capabilities to reliably separate these performative claims from actionable steps, leading to inaccurate sustainability assessments and low-resource policy detection failures.",
+    "citations": [
+      "\\citep{Direct evaluation of chain-of-thought in multi-hop reasoning with knowledge graphs}",
+      "\\citep{Critical Discourse Analysis in Corporate Reports: Legitimation Strategies in the Context of Environmental Controversies}",
+      "\\citep{The harm of symbolic actions and green-washing: Corporate actions and communications on environmental performance and their financial implications}",
+      "\\citep{Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization}"
+    ]
+  },
+  "research_questions": [
+    {
+      "id": "RQ1",
+      "question": "To what extent does the inclusion of Chain-of-Thought (CoT) reasoning in system prompts reduce hallucination in Aspect-Based Sentiment Analysis (ABSA) for complex ESG disclosures?",
+      "citations": [
+        "\\citep{RQ: Research Questions}"
+      ]
+    },
+    {
+      "id": "RQ2",
+      "question": "How does the performance of Few-shot prompting with 2–4 domain-specific examples compare to Zero-shot strategies in identifying policy stances from parliamentary debates?",
+      "citations": [
+        "\\citep{RQ: Research Questions}",
+        "\\citep{Political DEBATE: Efficient Zero-Shot and Few-Shot Classifiers for Political Text}"
+      ]
+    },
+    {
+      "id": "RQ3",
+      "question": "Does the Self-Consistency method (aggregating results from multiple runs with temperature = 0.7) significantly improve labeling accuracy in logic-heavy classification tasks compared to a single-pass inference?",
+      "citations": [
+        "\\citep{RQ: Research Questions}",
+        "\\citep{Self-Consistency Improves Chain of Thought Reasoning in Language Models}"
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "hypothesis": "The integration of syntactic-guided structures in CoT reasoning (IS-COT) reduces hallucination by grounding model inference in document-level syntactic dependencies and explicit reasoning steps.",
+      "null_hypothesis": "The integration of syntactic-guided structures in CoT has no significant impact on model hallucination rates in ABSA tasks.",
+      "citations": [
+        "\\citep{Syntactic-Guided Chain of Thought for Iterative Implicit and Explicit Target Detection in Aspect-Based Sentiment Analysis}",
+        "\\citep{Chain-of-thought improves text generation with citations in large language models}"
+      ]
+    },
+    {
+      "id": "H2",
+      "hypothesis": "Few-shot prompting with contextually relevant exemplars enables Political DEBATE models to adapt to specialized political vocabularies and outperform zero-shot strategies in stance detection.",
+      "null_hypothesis": "Few-shot prompting performance in political stance detection is not significantly different from zero-shot performance.",
+      "citations": [
+        "\\citep{Political DEBATE: Efficient Zero-Shot and Few-Shot Classifiers for Political Text}",
+        "\\citep{PoliPrompt: A High-Performance Cost-Effective LLM-Based Text Classification Framework for Political Science}"
+      ]
+    }
+  ],
+  "expected_contributions": [
+    {
+      "id": "EC1",
+      "contribution": "The Iterative Syntactic-Guided Chain of Thought (IS-COT) framework for robust target detection in complex ABSA.",
+      "type": "methodological",
+      "citations": [
+        "\\citep{Syntactic-Guided Chain of Thought for Iterative Implicit and Explicit Target Detection in Aspect-Based Sentiment Analysis}"
+      ]
+    },
+    {
+      "id": "EC2",
+      "contribution": "The A3CG dataset for Aspect-Action Analysis to facilitate greenwashing risk evaluation.",
+      "type": "dataset",
+      "citations": [
+        "\\citep{Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization}"
+      ]
+    },
+    {
+      "id": "EC3",
+      "contribution": "Political DEBATE (DeBERTa Algorithm for Textual Entailment) language models tailored for political contexts.",
+      "type": "system",
+      "citations": [
+        "\\citep{Political DEBATE: Efficient Zero-Shot and Few-Shot Classifiers for Political Text}"
+      ]
+    },
+    {
+      "id": "EC4",
+      "contribution": "A specialized evaluation metric called 'ESG-action orientation' to quantify material significance in sustainability assessments.",
+      "type": "methodological",
+      "citations": [
+        "\\citep{ESGSenticNet: A neurosymbolic knowledge base for corporate sustainability analysis}"
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Accuracy",
+      "definition": "The ratio of correctly predicted observations to the total observations in sustainability and political tasks.",
+      "formula": "Accuracy = (TP + TN) / (TP + TN + FP + FN)",
+      "interpretation": "Higher values indicate a higher proportion of correct classification and reasoning paths.",
+      "related_error_types": [
+        "FP",
+        "FN",
+        "TP",
+        "TN"
+      ]
+    },
+    {
+      "name": "F1-Score",
+      "definition": "The harmonic mean of precision and recall used to evaluate overall performance in hallucination detection and stance classification.",
+      "formula": "F1 = 2 * (Precision * Recall) / (Precision + Recall)",
+      "interpretation": "A higher F1 score indicates a better balance between finding all correct cases and avoiding false positives.",
+      "related_error_types": [
+        "FP",
+        "FN",
+        "TP"
+      ]
+    },
+    {
+      "name": "ESG-action orientation",
+      "definition": "The proportion of topic terms focused specifically on concrete ESG actions rather than vague sentiment.",
+      "formula": "Action Orientation = Count of Action-Focused Terms / Total Count of Topic Terms",
+      "interpretation": "Higher percentages indicate disclosures with greater material significance and concrete implementation.",
+      "related_error_types": [
+        "FN",
+        "TP"
+      ]
+    },
+    {
+      "name": "Specificity",
+      "definition": "The proportion of actual negatives that are correctly identified by the hallucination detection framework.",
+      "formula": "Specificity = TN / (TN + FP)",
+      "interpretation": "Indicates the model's ability to avoid falsely labeling factual information as hallucinations.",
+      "related_error_types": [
+        "FP",
+        "TN"
+      ]
+    },
+    {
+      "name": "Maj@8",
+      "definition": "A consistency metric calculating the accuracy of the majority solution among eight sampled reasoning paths.",
+      "formula": "Maj@8 = Mode(Sample_1, ..., Sample_8) Accuracy",
+      "interpretation": "Measures the robustness of the model's self-consistency in logic-heavy reasoning tasks.",
+      "related_error_types": [
+        "TP",
+        "TN"
+      ]
+    }
+  ]
+}

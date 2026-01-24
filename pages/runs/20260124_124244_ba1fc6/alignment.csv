@@ -1,0 +1,34 @@
+canonical_id,A_raw,B_raw,similarity,status
+cite_001,chen-etal-2023-multi-lingual,A low resource framework for Multi-lingual ESG Impact Type Identification,63.41463414634146,unmatched-A
+cite_002,chen-etal-2023-multi-lingual-esg,A low resource framework for Multi-lingual ESG Impact Type Identification,69.38775510204081,unmatched-A
+cite_003,he-etal-2025-large-language,EaSyGuide : ESG Issue Identification Framework leveraging Abilities of Generative Large Language Models,68.29268292682927,unmatched-A
+cite_004,henning-etal-2023-answer,Is the Answer in the Text? Challenging ChatGPT with Evidence Retrieval from Instructive Text,40.0,unmatched-A
+cite_005,huang-etal-2025-multilingual-promise,Multilingual Promise Verification in ESG Reports with Large Language Model Performance Evaluation,71.42857142857143,unmatched-A
+cite_006,kannan-seki-2023-textual,Textual Evidence Extraction for ESG Scores,45.45454545454545,unmatched-A
+cite_007,lee-etal-2023-easyguide,EaSyGuide : ESG Issue Identification Framework leveraging Abilities of Generative Large Language Models,56.25,unmatched-A
+cite_008,mesgar-etal-2021-improving,Improving Factual Consistency Between a Response and Persona Facts,51.42857142857143,unmatched-A
+cite_009,mishra-2023-esg,A Scalable Framework for Table of Contents Extraction from Complex ESG Annual Reports,33.33333333333333,unmatched-A
+cite_010,mishra-etal-2024-statements,Statements: Universal Information Extraction from Tables with Large Language Models for ESG KPIs,54.054054054054056,unmatched-A
+cite_011,ong-etal-2025-towards-robust,Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization,66.66666666666666,unmatched-A
+cite_012,pontes-etal-2023-leveraging,ESG Impact Type Classification: Leveraging Strategic Prompt Engineering and LLM Fine-Tuning,54.054054054054056,unmatched-A
+cite_013,vardhan-etal-2023-low,RQ: Research Questions,33.33333333333333,unmatched-A
+cite_014,,A Scalable Framework for Table of Contents Extraction from Complex ESG Annual Reports,,unmatched-B
+cite_015,,A low resource framework for Multi-lingual ESG Impact Type Identification,,unmatched-B
+cite_016,,ESG Impact Type Classification: Leveraging Strategic Prompt Engineering and LLM Fine-Tuning,,unmatched-B
+cite_017,,ESG-Kor: A Korean Dataset for ESG-related Information Extraction and Practical Use Cases,,unmatched-B
+cite_018,,ESGenius: Benchmarking LLMs on Environmental,,unmatched-B
+cite_019,,EaSyGuide : ESG Issue Identification Framework leveraging Abilities of Generative Large Language Models,,unmatched-B
+cite_020,,Enhancing Retrieval for ESGLLM via ESG-CID: A Disclosure Content Index Finetuning Dataset for Mapping GRI and ESRS,,unmatched-B
+cite_021,,Improving Factual Consistency Between a Response and Persona Facts,,unmatched-B
+cite_022,,Is the Answer in the Text? Challenging ChatGPT with Evidence Retrieval from Instructive Text,,unmatched-B
+cite_023,,Large Language Models as Neurolinguistic Subjects: Discrepancy between Performance and Competence,,unmatched-B
+cite_024,,Leveraging BERT Language Models for Multi-Lingual ESG Issue Identification,,unmatched-B
+cite_025,,Multi-Lingual ESG Impact Type Identification,,unmatched-B
+cite_026,,Multi-Lingual ESG Issue Identification,,unmatched-B
+cite_027,,Multilingual Promise Verification in ESG Reports with Large Language Model Performance Evaluation,,unmatched-B
+cite_028,,RQ: Research Questions,,unmatched-B
+cite_029,,Social,,unmatched-B
+cite_030,,Statements: Universal Information Extraction from Tables with Large Language Models for ESG KPIs,,unmatched-B
+cite_031,,Textual Evidence Extraction for ESG Scores,,unmatched-B
+cite_032,,Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization,,unmatched-B
+cite_033,,and Governance (ESG) and Sustainability Knowledge,,unmatched-B

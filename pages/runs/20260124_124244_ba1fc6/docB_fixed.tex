@@ -1,0 +1,107 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{natbib}
+
+\title{Enhancing Factual Integrity and Actionable Intelligence in Multilingual ESG Reporting through Neurosymbolic Large Language Models}
+\author{Academic Research Group}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+The rapid integration of Environmental, Social, and Governance (ESG) factors into financial decision-making has necessitated the development of advanced Natural Language Processing (NLP) systems capable of processing vast quantities of corporate disclosures \citep{cite_026}. Recent advancements in Generative Large Language Models (LLMs) have demonstrated significant potential in identifying ESG issues across multiple languages, frequently outperforming traditional supervised models in specialized subtasks \citep{cite_019, cite_024}. However, as the volume of reporting grows, the complexity of extracting quantitative Key Performance Indicators (KPIs) from unstructured formats, such as tables in annual reports, remains a significant technical challenge \citep{cite_030}. Furthermore, the industry is increasingly focused not only on issue identification but also on the specific impact types, distinguishing between risks and opportunities for corporate entities \citep{cite_025, cite_016}.
+
+\section{Research Gap}
+Despite the high performance of LLMs in benchmark tasks, there remains a critical gap in the robustness of these models against "greenwashing"—claims that are misleading, exaggerated, or fabricated \citep{cite_032}. Current analytical tools often fail to distinguish between vague, performative rhetoric and verifiable, substantive actions \citep{cite_032}. Additionally, while LLMs excel at generating semantically plausible responses, they frequently suffer from hallucinations and a failure to retrieve accurate evidence from provided contexts, especially when questions are unanswerable based on the text \citep{cite_022}. There is also a noted discrepancy between the "performance" of LLMs in statistical tasks and their true linguistic "competence" in understanding complex semantic nuances \citep{cite_023}. Current research lacks a unified framework that combines fine-grained promise verification with cross-lingual robustness in low-resource settings \citep{cite_027, cite_015}.
+
+\section{Problem Statement}
+The lack of transparent and verifiable evidence for ESG scores leads to vague and unclear corporate evaluations, undermining the credibility of sustainable investment decisions \citep{cite_031}. Current LLM-based systems for ESG monitoring are susceptible to greenwashing risks because they do not explicitly link sustainability aspects with grounded, verifiable actions \citep{cite_032}. This problem is compounded in multilingual environments where models show inconsistent performance in verifying sustainability promises across different languages, such as English, Japanese, and Chinese \citep{cite_027}. Without a mechanism to ensure factual consistency and evidence-based reasoning, automated ESG assessments risk propagating misleading information \citep{cite_021, cite_022}.
+
+\section{Objectives}
+\begin{itemize}
+\item To investigate the extent to which the inclusion of Chain-of-Thought (CoT) reasoning in system prompts reduces hallucination in Aspect-Based Sentiment Analysis (ABSA) for complex ESG disclosures \citep{cite_028}.
+\item To evaluate the effectiveness of the Policy Focus ABSA template in distinguishing between "performative" and "actionable" sustainability claims in corporate reports \citep{cite_028}.
+\item To benchmark the performance of Few-shot prompting against Zero-shot strategies in identifying policy stances and ESG promises from multilingual reports \citep{cite_028, cite_027}.
+\item To develop a scalable framework for extracting quantitative facts from complex ESG tables by translating them into standardized statements \citep{cite_030}.
+\item To improve the explainability of model-generated sustainability scores through the generation of knowledge triplets (KG-RAG) from digitized disclosures \citep{cite_028}.
+\end{itemize}
+
+\section{Research Questions}
+\begin{enumerate}
+\item To what extent does the inclusion of Chain-of-Thought (CoT) reasoning in system prompts reduce hallucination in Aspect-Based Sentiment Analysis (ABSA) for complex ESG disclosures \citep{cite_028}?
+\item How does the performance of Few-shot prompting with 2–4 domain-specific examples compare to Zero-shot strategies in identifying policy stances from parliamentary debates \citep{cite_028}?
+\item Does the Self-Consistency method significantly improve labeling accuracy in logic-heavy classification tasks compared to a single-pass inference \citep{cite_028}?
+\item How effective is the Policy Focus ABSA template in distinguishing between "performative" and "actionable" sustainability claims in corporate reports \citep{cite_028}?
+\item Can triplet generation (KG-RAG) from digitized ESG reports improve the explainability of model-generated sustainability scores for SMEs \citep{cite_028}?
+\end{enumerate}
+
+\section{Hypotheses}
+\begin{enumerate}
+\item $H_1$: The integration of Chain-of-Thought (CoT) reasoning and evidence retrieval mechanisms significantly reduces the rate of hallucinated claims in ESG promise verification tasks compared to standard prompting \citep{cite_022, cite_027}.
+\item $H_0$: There is no significant difference in the accuracy of ESG issue identification between zero-shot and five-shot prompting strategies in multilingual contexts.
+\item $H_1$: Models fine-tuned on specialized financial and ESG datasets (e.g., ESG-Kor or ESG-CID) will achieve significantly higher F1-scores in evidence extraction than models pre-trained on general-purpose corpora \citep{cite_017, cite_020}.
+\item $H_0$: The structure of ESG reports does not impact the scalability of Table of Contents extraction frameworks using reading order and font size modeling \citep{cite_014}.
+\end{enumerate}
+
+\section{Expected Contributions}
+\begin{itemize}
+\item \textbf{A3CG Dataset:} A novel dataset for Aspect-Action Analysis to improve the robustness of ESG analysis against greenwashing by linking aspects to verifiable actions \citep{cite_032}.
+\item \textbf{Statements Framework:} A domain-agnostic data structure and supervised deep-learning task for universal information extraction from ESG tables \citep{cite_030}.
+\item \textbf{ESGenius Benchmark:} A comprehensive benchmark for evaluating LLMs on ESG and sustainability knowledge, featuring over 1,000 MCQ samples validated by experts \citep{cite_018, cite_029, cite_033}.
+\item \textbf{Multilingual Baseline:} A clearer evaluation baseline for ESG promise verification across Chinese, Japanese, and English, supporting the development of credible sustainability reporting tools \citep{cite_027}.
+\item \textbf{Hybrid Extraction Method:} An innovative approach combining BERT-based labeling models with LLM fine-tuning to extract textual evidence for ESG scores with high confidence \citep{cite_031}.
+\end{itemize}
+
+\section{Evaluation Metrics}
+\subsection{Accuracy}
+Definition: The proportion of total correct predictions (both true positives and true negatives) among the total number of cases examined.
+Formula: $Accuracy = \frac{TP + TN}{TP + TN + FP + FN}$
+Interpretation: In the context of ESG promise verification, accuracy provides a general measure of how often the model correctly identifies or rejects a promise, though it may be misleading in imbalanced datasets \citep{cite_027}.
+
+\subsection{Precision}
+Definition: The proportion of positive identifications that were actually correct.
+Formula: $Precision = \frac{TP}{TP + FP}$
+Interpretation: High precision in ESG issue identification ensures that the news articles classified under a specific ESG pillar (e.g., "Climate Change") actually belong to that category, reducing false alarms for investors.
+
+\subsection{Recall}
+Definition: The proportion of actual positives that were correctly identified.
+Formula: $Recall = \frac{TP}{TP + FN}$
+Interpretation: High recall is critical in risk identification subtasks; it ensures that most "Risk" events mentioned in news articles are successfully captured by the system \citep{cite_016}.
+
+\subsection{F1-score}
+Definition: The harmonic mean of precision and recall, providing a balanced measure of performance.
+Formula: $F1 = 2 \times \frac{Precision \times Recall}{Precision + Recall}$
+Interpretation: This is the primary metric for the ML-ESG shared tasks. Achieving a high F1-score (e.g., 0.87 for ESG labeling) indicates a model's robustness in both identifying and correctly categorizing complex disclosures \citep{cite_031, cite_019}.
+
+\subsection{Confusion Matrix Components}
+\begin{itemize}
+\item \textbf{True Positive (TP):} The model correctly identifies an ESG promise or issue that exists in the text.
+\item \textbf{True Negative (TN):} The model correctly identifies that an article or sentence does not contain a specific ESG issue or is unanswerable.
+\item \textbf{False Positive (FP):} The model identifies a sustainability promise where none exists, or incorrectly flags a claim as "actionable" when it is "performative" (Greenwashing Risk).
+\item \textbf{False Negative (FN):} The model fails to detect an actual ESG risk or opportunity mentioned in the report.
+\end{itemize}
+
+\section{References}
+% References are generated automatically via \citep{}
+% \citep{cite_028}
+% \citep{cite_032}
+% \citep{cite_026}
+% \citep{cite_030}
+% \citep{cite_018, cite_029, cite_033}
+% \citep{cite_027}
+% \citep{cite_031}
+% \citep{cite_022}
+% \citep{cite_019}
+% \citep{cite_024}
+% \citep{cite_023}
+% \citep{cite_017}
+% \citep{cite_014}
+% \citep{cite_021}
+% \citep{cite_020}
+% \citep{cite_025}
+% \citep{cite_016}
+% \bibliographystyle{apalike}
+
+\end{document}

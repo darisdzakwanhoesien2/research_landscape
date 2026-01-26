@@ -1,0 +1,142 @@
+{
+  "objectives": [
+    "Evaluate reasoning over structured financial documents, multilingual text, and temporal market signals.",
+    "Benchmark multilingual regional knowledge in Indonesian and English with transfer to Arabic and Finnish.",
+    "Quantify reasoning degradation across hierarchical taxonomies, cross-document evidence fusion, and sequential decision contexts.",
+    "Optimize agent-based reasoning via iterative retrieval, verification, and internal confidence calibration.",
+    "Measure behavioral bias effects on financial judgment, misinformation detection, and investment decision outcomes.",
+    "Learn hierarchical narrative archetypes for multilingual entity framing and discourse interpretation."
+  ],
+  "research_gap": [
+    "Existing benchmarks isolate financial QA, market prediction, and misinformation reasoning without unified evaluation of reasoning transfer.",
+    "Financial reasoning benchmarks rarely test hierarchical structured documents alongside unstructured multilingual evidence.",
+    "Investment decision models underexplore explainability, reasoning faithfulness, and multilingual robustness.",
+    "Indonesian regional knowledge remains underrepresented in large-scale evaluation, with limited cross-lingual transfer studies to Arabic and Finnish.",
+    "Narrative framing and behavioral bias modeling lack fine-grained taxonomies and multilingual validation.",
+    "Current metrics emphasize surface accuracy rather than causal reasoning consistency and decision reliability."
+  ],
+  "problem_statement": [
+    "Language models struggle to jointly reason over structured taxonomies, multilingual evidence, and dynamic market signals.",
+    "Retrieval-centric pipelines incur high cost and limited reasoning efficiency for financial verification and decision support.",
+    "Models exhibit unstable generalization across low-resource languages and cross-domain transfer scenarios.",
+    "Behavioral biases induce systematic errors in high-stakes financial reasoning and decision-making tasks.",
+    "Existing evaluation frameworks fail to capture reasoning depth, causal consistency, and narrative semantics simultaneously."
+  ],
+  "research_questions": [
+    {
+      "id": "RQ1",
+      "text": "How accurately can models reason over hierarchical XBRL structures compared to unstructured multilingual documents?"
+    },
+    {
+      "id": "RQ2",
+      "text": "How does reasoning performance degrade when integrating multilingual evidence versus single-source inputs?"
+    },
+    {
+      "id": "RQ3",
+      "text": "What efficiency gains arise from iterative retrieval compared to fixed-step reasoning pipelines?"
+    },
+    {
+      "id": "RQ4",
+      "text": "How does multilingual reasoning quality transfer from Indonesian and English to Arabic and Finnish?"
+    },
+    {
+      "id": "RQ5",
+      "text": "How strongly do behavioral scenarios shift misinformation classification and financial decision accuracy?"
+    },
+    {
+      "id": "RQ6",
+      "text": "How does discourse granularity affect macro-F1 in hierarchical narrative archetype classification?"
+    },
+    {
+      "id": "RQ7",
+      "text": "What relationship exists between reasoning confidence, evidence grounding, and investment return metrics?"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "text": "Hierarchical structured reasoning yields lower accuracy than unstructured retrieval tasks across all languages."
+    },
+    {
+      "id": "H2",
+      "text": "Multilingual evidence fusion increases reasoning error compared to monolingual baselines."
+    },
+    {
+      "id": "H3",
+      "text": "Iterative retrieval reduces external API usage while preserving reasoning accuracy."
+    },
+    {
+      "id": "H4",
+      "text": "Low-resource languages exhibit larger generalization gaps in zero-shot reasoning tasks."
+    },
+    {
+      "id": "H5",
+      "text": "Scenario conditioning systematically shifts decision boundaries in misinformation and trading predictions."
+    },
+    {
+      "id": "H6",
+      "text": "Rare narrative archetypes produce lower macro-F1 due to class imbalance."
+    },
+    {
+      "id": "H7",
+      "text": "Higher reasoning confidence correlates with improved financial decision stability and lower drawdown."
+    }
+  ],
+  "expected_contributions": [
+    {
+      "type": null,
+      "text": "Methodological"
+    },
+    {
+      "type": null,
+      "text": "Unified agent architecture integrating structured reasoning, multilingual evidence fusion, and iterative verification."
+    },
+    {
+      "type": null,
+      "text": "Cross-task evaluation protocol connecting QA accuracy, reasoning faithfulness, and financial decision outcomes."
+    },
+    {
+      "type": null,
+      "text": "Behavioral bias auditing framework for multilingual financial reasoning agents."
+    },
+    {
+      "type": null,
+      "text": "Empirical"
+    },
+    {
+      "type": null,
+      "text": "Quantitative analysis of reasoning degradation across structure complexity, language transfer, and task coupling."
+    },
+    {
+      "type": null,
+      "text": "Large-scale evaluation of bias sensitivity across personas, regions, and narrative contexts."
+    },
+    {
+      "type": null,
+      "text": "Correlation studies linking reasoning confidence to economic performance metrics."
+    },
+    {
+      "type": null,
+      "text": "Benchmark"
+    },
+    {
+      "type": null,
+      "text": "Multilingual reasoning benchmark for Indonesian–English with transfer evaluation to Arabic and Finnish."
+    },
+    {
+      "type": null,
+      "text": "Hierarchical XBRL reasoning dataset with semantic, relational, and numerical subtasks."
+    },
+    {
+      "type": null,
+      "text": "Multilingual narrative archetype corpus annotated across five languages."
+    },
+    {
+      "type": null,
+      "text": "Financial decision dataset linking textual reasoning to market outcomes."
+    }
+  ],
+  "metadata": {
+    "parsed_at": "2026-01-26T09:34:00.890151"
+  }
+}

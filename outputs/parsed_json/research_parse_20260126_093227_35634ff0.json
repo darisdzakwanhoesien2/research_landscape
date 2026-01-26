@@ -1,0 +1,96 @@
+{
+  "objectives": [
+    "Evaluate model reasoning across US-GAAP-compliant XBRL filings using semantic, relational, and numerical consistency subtasks.",
+    "Benchmark large language models on multilingual regional knowledge using 23,000+ multiple-choice and reasoning items in Indonesian and English, with transfer evaluation to Arabic and Finnish contexts.",
+    "Integrate iterative evidence retrieval and claim verification into a unified agent framework to reduce operational reasoning costs.",
+    "Quantify behavioral biases in financial misinformation detection across scenario-conditioned persona, regional, and identity variants.",
+    "Classify entity mentions into a hierarchical taxonomy of 22 storytelling archetypes spanning Indonesian, English, Arabic, Finnish, and Spanish, defined by narrative function and role."
+  ],
+  "research_gap": [
+    "Existing financial benchmarks ignore hierarchical inter-dependencies and structural constraints in multi-document XBRL digital filings.",
+    "Fact-checking methods lack iterative reasoning and treat evidence retrieval and verification as separate, fixed-step processes.",
+    "Limited benchmarking resources exist for Indonesian linguistic and cultural context, and transfer capabilities to Arabic and Finnish are underexplored.",
+    "Current multilingual NLP research rarely measures how stakeholder personas influence financial judgments across culturally diverse languages.",
+    "Narrative framing studies focus on high-level sentiment rather than fine-grained archetypal roles defined by narrative function."
+  ],
+  "problem_statement": [
+    "Large language models do not reliably reason over structured, taxonomy-driven financial documents despite competence on unstructured text.",
+    "Retrieval-based fact-checking is cost-inefficient and fails to leverage internal model reasoning.",
+    "Models demonstrate performance gaps in Indonesian, Arabic, and Finnish language contexts due to limited multilingual training and benchmarks.",
+    "Behavioral biases lead to systematic, context-dependent errors in multilingual misinformation tasks.",
+    "Traditional NLP metrics (e.g., lexical overlap) do not capture deep narrative logic or fine-grained archetypal roles in text."
+  ],
+  "research_questions": [
+    {
+      "id": null,
+      "text": "What is model accuracy for detecting structural inconsistency and hierarchical inversion in financial taxonomies across languages?"
+    },
+    {
+      "id": null,
+      "text": "How much do iterative retrieval frameworks reduce API reasoning cost compared to fixed-step pipelines?"
+    },
+    {
+      "id": null,
+      "text": "To what degree does scenario conditioning shift F1 performance in misinformation judgments across Indonesian, Arabic, Finnish, and English?"
+    },
+    {
+      "id": null,
+      "text": "What is the correlation between model confidence and zero-shot accuracy across the four language contexts?"
+    },
+    {
+      "id": null,
+      "text": "How does discourse granularity (sentence, paragraph, document) affect macro-F1 in hierarchical entity framing tasks?"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": null,
+      "text": "LLMs exhibit significantly lower accuracy on deep reasoning and numerical inference in structured filings than on value retrieval tasks."
+    },
+    {
+      "id": null,
+      "text": "Explicit chain-of-thought reasoning increases internal confidence and reduces reliance on costly external retrieval."
+    },
+    {
+      "id": null,
+      "text": "Class imbalance leads to lower macro-F1 for rare narrative archetypes in supervised settings."
+    },
+    {
+      "id": null,
+      "text": "Scenario information systematically shifts decision boundaries compared to scenario-agnostic baselines across languages."
+    },
+    {
+      "id": null,
+      "text": "State-of-the-art proprietary models generalize better across domain and language complexities than open-source models."
+    }
+  ],
+  "expected_contributions": [
+    {
+      "type": "Methodological",
+      "text": "An agent-based framework aligning internal confidence with iterative external evidence seeking for cost-effective fact-checking."
+    },
+    {
+      "type": "Methodological",
+      "text": "A structured evaluation pipeline for hierarchical financial auditing combining semantic matching and relationship extraction."
+    },
+    {
+      "type": "Empirical",
+      "text": "Quantitative analysis showing accuracy degradation when models reason over hierarchical, multi-document structures."
+    },
+    {
+      "type": "Empirical",
+      "text": "Comprehensive characterization of behavioral biases in a diverse model set across persona, language, and scenario conditions."
+    },
+    {
+      "type": "Benchmark",
+      "text": "IndoNLU / IndoMMLU-style evaluation suite for Indonesian and English region-specific knowledge and reasoning in multiple tasks."
+    },
+    {
+      "type": "Benchmark",
+      "text": "A multilingual narrative framing corpus annotated for 22 archetypes in Indonesian, English, Arabic, Finnish, and Spanish, with detailed role definitions and narrative functions."
+    }
+  ],
+  "metadata": {
+    "parsed_at": "2026-01-26T09:32:27.073448"
+  }
+}

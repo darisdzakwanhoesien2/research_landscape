@@ -1,0 +1,49 @@
+{
+  "objectives": [
+    "Predict discrete Buy, Hold, or Sell actions using integrated historical price series and contemporaneous textual information.",
+    "Quantify predictive performance via Cumulative Return, Sharpe Ratio, Maximum Drawdown, and Annualized Volatility."
+  ],
+  "research_gap": [
+    "Inadequate integration of heterogeneous sources, including news, market dynamics, and portfolio positions, for actionable investment insights."
+  ],
+  "problem_statement": [
+    "The requirement to map complex market contexts C={Pt,Nt} to discrete financial decision-making actions."
+  ],
+  "research_questions": [
+    {
+      "id": null,
+      "text": "What Cumulative Return is achieved by models integrating price series, news summaries, and fundamental filings across 525 contexts?"
+    },
+    {
+      "id": null,
+      "text": "How does the Sharpe Ratio vary between models evaluated on the BTC and TSLA datasets?"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": null,
+      "text": "Models utilizing combined Pt and Nt inputs yield positive Cumulative Returns across the TSLA dataset timeframe."
+    },
+    {
+      "id": null,
+      "text": "The TSLA dataset results in lower Maximum Drawdown compared to the BTC dataset across the specified daily contexts."
+    }
+  ],
+  "expected_contributions": [
+    {
+      "type": "Methodological",
+      "text": "A framework for integrating heterogeneous information sources to generate discrete Buy, Hold, or Sell actions."
+    },
+    {
+      "type": "Empirical",
+      "text": "Performance data for 525 daily contexts measured by Cumulative Return, Sharpe Ratio, and Daily Volatility."
+    },
+    {
+      "type": "Benchmark",
+      "text": "Two curated JSON datasets providing prices, news summaries, and fundamental filings for Bitcoin and Tesla stocks"
+    }
+  ],
+  "metadata": {
+    "parsed_at": "2026-01-26T09:01:24.105279"
+  }
+}

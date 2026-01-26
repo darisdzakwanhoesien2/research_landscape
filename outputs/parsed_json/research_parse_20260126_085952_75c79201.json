@@ -1,0 +1,75 @@
+{
+  "objectives": [
+    "Quantify cross-lingual reasoning capability when integrating English SEC filings with multilingual news evidence.",
+    "Isolate performance degradation between single-document factual retrieval and multi-document analytical reasoning.",
+    "Measure evidence grounding quality under multilingual noise using ROUGE-1 against expert references.",
+    "Analyze sensitivity of model accuracy to linguistic heterogeneity and document fusion complexity."
+  ],
+  "research_gap": [
+    "Financial QA benchmarks predominantly evaluate monolingual retrieval or reasoning, ignoring multilingual evidence fusion.",
+    "Existing evaluations conflate language understanding with reasoning, lacking controlled separation of factual retrieval versus analytical synthesis.",
+    "No benchmark systematically measures robustness of evidence grounding when supporting documents span heterogeneous languages and sources."
+  ],
+  "problem_statement": [
+    "It is unclear how reliably language models can align, integrate, and reason over semantically related financial evidence distributed across multiple languages and documents.",
+    "There is no standardized evaluation protocol to quantify reasoning degradation induced by cross-lingual evidence aggregation.",
+    "The absence of controlled difficulty stratification limits interpretability of model reasoning failures."
+  ],
+  "research_questions": [
+    {
+      "id": "RQ1",
+      "text": "How does cross-lingual evidence integration affect answer accuracy compared to monolingual financial QA baselines?"
+    },
+    {
+      "id": "RQ2",
+      "text": "What performance gap emerges between factual retrieval (PolyFiQA-Easy) and analytical multi-document reasoning (PolyFiQA-Expert)?"
+    },
+    {
+      "id": "RQ3",
+      "text": "How sensitive is ROUGE-1 performance to linguistic diversity in the supporting document set?"
+    },
+    {
+      "id": "RQ4",
+      "text": "To what extent do generated answers preserve explicit evidence grounding under multilingual context expansion?"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "text": "ROUGE-1 scores decrease significantly when multilingual evidence is introduced compared to monolingual-only inputs."
+    },
+    {
+      "id": "H2",
+      "text": "Performance degradation is larger for PolyFiQA-Expert than for PolyFiQA-Easy due to multi-hop reasoning demands."
+    },
+    {
+      "id": "H3",
+      "text": "Linguistic heterogeneity increases hallucination and reduces lexical alignment with expert references."
+    },
+    {
+      "id": "H4",
+      "text": "Models exhibit weaker evidence grounding when required to reconcile conflicting or redundant multilingual sources."
+    }
+  ],
+  "expected_contributions": [
+    {
+      "type": "Benchmark",
+      "text": "A controlled evaluation framework isolating multilingual fusion, reasoning depth, and grounding reliability in financial QA."
+    },
+    {
+      "type": "Empirical",
+      "text": "Quantitative characterization of reasoning degradation across language diversity and task difficulty."
+    },
+    {
+      "type": "Diagnostic",
+      "text": "Error taxonomy linking failure modes to linguistic alignment, document fusion, and reasoning complexity."
+    },
+    {
+      "type": "Methodological",
+      "text": "Reproducible protocol for evaluating cross-lingual reasoning beyond surface retrieval accuracy."
+    }
+  ],
+  "metadata": {
+    "parsed_at": "2026-01-26T08:59:52.328851"
+  }
+}

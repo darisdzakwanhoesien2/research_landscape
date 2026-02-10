@@ -1,0 +1,35 @@
+\section{Sensitivity of ROUGE-1 to Linguistic Diversity}
+
+ROUGE-based metrics, particularly ROUGE-1, remain the dominant automatic evaluation standard for summarization and cross-lingual summarization tasks \citep{wang2022survey}. ROUGE-1 measures unigram overlap between system-generated summaries and reference summaries and is often interpreted as a proxy for content coverage. However, a growing body of evidence shows that ROUGE-1 is sensitive to linguistic diversity, morphology, tokenization, and dataset construction choices, which can substantially affect its reliability across languages \citep{ganesan2018rouge2, mondshine2025beyond}.
+
+\subsection{Empirical Evidence from Cross-Lingual and Multilingual Summarization}
+
+Multiple large-scale datasets demonstrate that ROUGE-1 performance varies significantly across languages and resource levels. Studies on CrossSum, WikiLingua, MassiveSumm, and M3LS show that languages with complex morphology or limited training data often obtain systematically lower ROUGE-1 scores compared to high-resource languages \citep{varab2021massivesumm, verma2023m3ls, parnell2024sumtra}. For example, Arabic and Telugu exhibit lower ROUGE-1 values due to rich morphology and data sparsity, while Hausa sometimes achieves higher scores than expected, indicating that linguistic structure and dataset composition jointly influence metric behavior \citep{varab2021massivesumm}.
+
+Cross-lingual extreme summarization experiments further reveal that ROUGE-1 varies not only across languages but also across data creation pipelines. The X-SciTLDR dataset shows that Japanese summaries, which were human-generated rather than post-edited machine translations, yield substantially higher ROUGE-1 improvements compared to German, Italian, and Chinese subsets \citep{takeshita2022xscitldr, takeshita2024xscitldr}. These findings indicate that ROUGE-1 is sensitive to stylistic variation and annotation artifacts embedded in multilingual datasets.
+
+Historical and temporally diverse corpora introduce additional variability. In cross-lingual cross-temporal summarization, ROUGE-1 performance remains largely invariant or slightly decreases when linguistic diversity increases, especially when older and syntactically complex texts are included \citep{zhang2024crosstemporal}. Longer and historically distant documents are consistently harder to summarize, regardless of model architecture.
+
+\subsection{Effects of Multilingual Training and Resource Mixing}
+
+Several studies show that multilingual training can improve ROUGE-1 performance for low-resource languages when combined with high-resource languages. Cross-language summarization experiments demonstrate that Hindi and Bengali benefit from multilingual training that includes English, suggesting positive transfer effects when linguistic diversity is strategically introduced \citep{jannat2025crosslanguage}. Similarly, alignment-based models trained on highly multilingual datasets such as CrossSum (45 languages) achieve stable ROUGE-1 improvements across diverse language pairs, indicating robustness to skewed language distributions \citep{li2023across}.
+
+Large multilingual pretraining approaches further confirm this trend. Many-to-many summarization models such as PISCES achieve significantly higher zero-shot ROUGE-1 scores than traditional multilingual baselines, highlighting improved generalization across unseen language pairs \citep{wang2023pisces}. Translate-then-summarize pipelines also exhibit strong correlations between ROUGE-1 and BLEU across dozens of source languages, suggesting that translation quality mediates ROUGE sensitivity in cross-lingual settings \citep{varab2024translate}.
+
+\subsection{Metric Limitations and Linguistic Bias}
+
+Despite its widespread use, ROUGE-1 exhibits several intrinsic limitations. ROUGE relies on surface-level n-gram overlap and fails to capture semantic equivalence, synonymy, and paraphrasing, which are particularly prevalent in multilingual and morphologically rich languages \citep{ganesan2018rouge2}. Empirical evaluations demonstrate that ROUGE correlates less reliably with human judgments in fusional and agglutinative languages unless careful tokenization strategies are applied \citep{mondshine2025beyond}. 
+
+Broader meta-evaluations confirm that ROUGE is less robust than neural metrics when applied directly to multilingual texts and may underestimate summary quality in non-English languages \citep{han2024metaeval, forde2024reevaluating}. Large-scale cross-lingual evaluations further suggest that metrics such as BERTScore provide more consistent cross-language reliability compared to ROUGE \citep{koto2021efficacy}.
+
+Dialectal diversity introduces additional bias. Summarization systems trained on standard language varieties tend to under-represent dialectal content, leading to distorted ROUGE evaluations when dialect-rich corpora are used \citep{keswani2021dialect}. This highlights that linguistic diversity extends beyond language identity to sociolinguistic variation.
+
+\subsection{Evidence from Multilingual Evaluation Campaigns}
+
+Early multilingual evaluation campaigns already observed ROUGE-1 sensitivity across languages. The MultiLing and TAC shared tasks demonstrated substantial variation in ROUGE-1 across Arabic, Hebrew, Hindi, Chinese, and European languages, with ROUGE-1 often exhibiting the largest inter-system variance \citep{kubina2013multiling, giannakopoulos2013multiling}. Multilingual sentence extraction systems such as MUSE achieved stable ROUGE-1 across English, Hebrew, and Arabic, suggesting that language-independent feature engineering can partially mitigate linguistic sensitivity \citep{litvak2011muse}.
+
+Parallel corpus experiments further reveal mixed outcomes. Some studies report comparable ROUGE-1 performance between Arabic and English when translation quality is high \citep{elhaj2011arabic}, whereas others observe significant degradation when Arabic is the target language \citep{oufaida2014minimum}. These inconsistencies reinforce that ROUGE-1 sensitivity is strongly conditioned on preprocessing, translation quality, and corpus design.
+
+\subsection{Summary}
+
+Overall, the literature consistently indicates that ROUGE-1 is sensitive to linguistic diversity along multiple dimensions: language typology, morphology, resource availability, dataset construction, translation pipelines, dialect variation, and tokenization strategies. While multilingual training and alignment-based models can partially stabilize ROUGE-1 across languages, the metric remains inherently biased toward surface lexical overlap and English-centric assumptions. Consequently, ROUGE-1 should be interpreted cautiously in multilingual evaluations and ideally complemented with semantic metrics and human judgments when assessing cross-lingual summarization performance.

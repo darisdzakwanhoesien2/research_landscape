@@ -2,6 +2,211 @@
 2. https://chatgpt.com/c/695bfa94-94b8-8332-8f38-55c3e68a33ec
 3. https://chatgpt.com/c/6962c8a3-8914-8326-b4a7-c0709d871cbf
 
+
+Excellent idea — this fits perfectly with your existing **BibTeX tooling + LaTeX intelligence pipeline**.
+You’re essentially building a **Bib Mapping + LaTeX Repair System**:
+
+> 🎯 **Goal**
+> Match **generated BibTeX entries** against **ground-truth BibTeX**, store validated mappings, and automatically **fix LaTeX citations** using the verified keys — all inside a Streamlit app with persistent storage.
+
+Given your background in building Streamlit pipelines and Bib parsers, this will integrate nicely with your existing projects.
+
+Below is a **production-grade architecture + working code skeleton** you can directly extend.
+
+---
+
+# 🏗️ Project Architecture
+
+```
+bib_mapper_app/
+├── app/
+│   └── streamlit_app.py              # Main UI
+│
+├── data/
+│   ├── generated_bib/               # Model-generated bib files
+│   ├── groundtruth_bib/             # Trusted bib database
+│   ├── latex/                       # LaTeX files to fix
+│   ├── mappings/                    # Stored mapping results (JSON/CSV)
+│   └── logs/
+│
+├── services/
+│   ├── bib_loader.py                # Parse BibTeX
+│   ├── matcher.py                   # Similarity matching
+│   ├── mapping_store.py             # Save/load mappings
+│   ├── latex_fixer.py               # Patch LaTeX citations
+│
+├── utils/
+│   ├── text_normalizer.py
+│   ├── similarity.py
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# 🧠 System Capabilities
+
+| Feature                      | Status |
+| ---------------------------- | ------ |
+| Load all generated `.bib`    | ✅      |
+| Load all ground truth `.bib` | ✅      |
+| Automatic fuzzy matching     | ✅      |
+| Human validation UI          | ✅      |
+| Persistent mapping storage   | ✅      |
+| Patch LaTeX citations        | ✅      |
+| Reproducible logs            | ✅      |
+
+---
+
+# 📦 requirements.txt
+
+```
+streamlit
+pandas
+bibtexparser
+rapidfuzz
+scikit-learn
+```
+
+---
+
+# 🔧 Core Services
+
+---
+
+## ✅ `services/bib_loader.py`
+
+```python
+
+```
+
+---
+
+---
+
+## ✅ `utils/text_normalizer.py`
+
+```python
+
+```
+
+---
+
+---
+
+## ✅ `utils/similarity.py`
+
+```python
+
+```
+
+---
+
+---
+
+## ✅ `services/matcher.py`
+
+```python
+
+```
+
+---
+
+---
+
+## ✅ `services/mapping_store.py`
+
+```python
+
+```
+
+---
+
+---
+
+## ✅ `services/latex_fixer.py`
+
+```python
+
+```
+
+---
+
+---
+
+# 🖥️ Streamlit UI
+
+---
+
+## ✅ `app/streamlit_app.py`
+
+```python
+
+```
+
+---
+
+# 🚀 How to Run
+
+```bash
+cd bib_mapper_app
+pip install -r requirements.txt
+streamlit run app/streamlit_app.py
+```
+
+---
+
+# 🧪 Example Workflow
+
+1. Drop generated `.bib` into:
+
+```
+data/generated_bib/
+```
+
+2. Drop trusted `.bib` into:
+
+```
+data/groundtruth_bib/
+```
+
+3. Drop LaTeX files into:
+
+```
+data/latex/
+```
+
+4. Run matching
+5. Manually correct mappings
+6. Save mapping
+7. Patch LaTeX automatically
+
+---
+
+# 🌱 Future Extensions (Highly aligned with your research)
+
+Given your work on **auditable pipelines and document intelligence**, you could extend this into:
+
+✅ Provenance tracking
+✅ Confidence calibration
+✅ Multi-model ensemble matching
+✅ Citation embedding search
+✅ Cross-document citation normalization
+✅ Graph-based citation alignment
+✅ Integration with your Literature Resource Mapper
+
+If you'd like, I can also provide:
+
+✅ DOI-based validation
+✅ Semantic embedding matcher
+✅ Citation graph visualization
+✅ Bib quality auditing dashboard
+
+Just say which direction you want 👍
+
+
+
 https://chatgpt.com/c/69770ee1-ca08-832a-8815-345f7ee9b48d
 
 Yes — this is an excellent idea, and it fits perfectly with the kind of **research infrastructure tooling** you’ve been building (BibTeX mining, citation alignment, Streamlit dashboards, provenance tracking, etc.). 👍
@@ -44,10 +249,10 @@ your_project/
 ├── app/
 │   └── streamlit_app.py
 ├── data/
-│   ├── litmap/
+│   ├── litmap_paper/
 │   │   ├── ai_reasoning.csv
 │   │   ├── finance_llm.csv
-│   ├── bib/
+│   ├── bib_paper/
 │   │   ├── references1.bib
 │   │   └── references2.bib
 │   ├── aux/

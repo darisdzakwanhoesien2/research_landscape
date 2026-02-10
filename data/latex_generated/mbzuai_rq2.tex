@@ -1,0 +1,41 @@
+\section{Cross-Lingual Evidence Integration in Financial Question Answering}
+
+Financial question answering (QA) systems increasingly operate in multilingual environments where relevant evidence may exist in different languages from the user query. Cross-lingual evidence integration refers to the ability of a system to retrieve, align, reason over, and synthesize information across multiple languages to produce accurate answers. While multilingual pretrained language models and cross-lingual retrieval pipelines have significantly advanced this capability, empirical evidence shows persistent accuracy gaps compared to monolingual financial QA baselines \citep{lewis2020mlqa, peng2025multifinben}.
+
+\subsection{Multilingual Models for Financial QA}
+
+Recent work has evaluated multilingual pretrained models directly on financial QA tasks. In the FinCausal shared task, multilingual encoders such as XLM-RoBERTa and multilingual BERT achieved strong cross-lingual performance across English and Spanish datasets, with XLM-RoBERTa-large achieving high semantic similarity and exact match scores \citep{allaith2025fincausal}. These results demonstrate that multilingual encoders can achieve competitive accuracy when trained and evaluated on aligned bilingual datasets.
+
+Domain-specific multilingual models further improve performance. Multilingual Financial BERT (MFinBERT) leverages large-scale multilingual financial corpora to improve downstream QA performance across English, Vietnamese, and Lithuanian \citep{nguyen2022mfinbert}. Similarly, bilingual and multilingual instruction-tuned models outperform monolingual counterparts in financial reasoning tasks, suggesting positive cross-lingual transfer effects when domain alignment is maintained \citep{zhang2024dolares, hu2024nolanguage}.
+
+Large-scale benchmarks such as FinBen, Golden Touchstone, FAMMA, and MME-Finance provide systematic evaluation environments for multilingual and multimodal financial QA \citep{xie2024finben, wu2024golden, xue2024famma, gan2025mme}. However, these benchmarks consistently reveal that multilingual QA remains substantially more challenging than monolingual evaluation, particularly for complex reasoning tasks.
+
+\subsection{Accuracy Gap Between Cross-Lingual and Monolingual QA}
+
+Despite strong multilingual representations, cross-lingual QA systems generally underperform monolingual systems. MultiFinBen reports a performance gap exceeding 10 percentage points between multilingual and monolingual QA settings, indicating that current models struggle with cross-lingual generalization and multi-language evidence integration \citep{peng2025multifinben}. Similarly, MLQA demonstrates that zero-shot cross-lingual transfer lags significantly behind same-language training and testing \citep{lewis2020mlqa}.
+
+Low-resource language studies further reinforce this gap. In Greek financial QA, models fine-tuned exclusively on Greek data outperform cross-lingual transfer baselines, highlighting the limitations of relying solely on multilingual evidence \citep{peng2025plutus}. Cross-lingual embedding approaches for Persian-to-English community QA improve retrieval effectiveness compared to naive translation baselines, but still do not fully close the accuracy gap with monolingual systems \citep{haji2020crosslingual}.
+
+Earlier cross-language QA studies similarly reported that cross-lingual QA achieves only approximately half to two-thirds of monolingual accuracy, even when translation pipelines are applied \citep{kwok2006chinese}. These findings collectively indicate that cross-lingual evidence integration introduces compounded error sources from retrieval, translation, alignment, and reasoning.
+
+\subsection{Retrieval Strategies and Evidence Alignment}
+
+Cross-lingual QA performance is strongly influenced by retrieval strategy. Translation-based pipelines often outperform direct multilingual dense retrieval for financial documents, especially in recall and ranking accuracy \citep{chiu2025translation}. Translation-centric approaches remain competitive in candidate ranking tasks in multilingual product QA, whereas multilingual fine-tuning is more effective for answer generation \citep{shen2023xpqa}.
+
+Embedding-based cross-lingual retrieval improves over early statistical translation methods but remains sensitive to domain mismatch and embedding alignment quality \citep{goworek2025clir, hieber2015bow}. Hybrid retrieval architectures integrating multilingual embeddings and generative models demonstrate improved retrieval robustness, yet still exhibit performance degradation when compared to monolingual pipelines \citep{khetarpaul2024clorqa}.
+
+\subsection{Cross-Lingual Knowledge Transfer and Reasoning Limitations}
+
+Several studies caution that high zero-shot cross-lingual performance may not reflect genuine linguistic reasoning ability. Cross-lingual knowledge transfer evaluations reveal that multilingual models often rely on surface-level patterns rather than true semantic transfer, leading to fragile generalization \citep{rajaee2024transfer}. Fine-tuning adjustments may improve cross-lingual QA in some languages but can degrade monolingual performance or yield statistically unstable gains \citep{efimov2023adjustment}.
+
+Large language model evaluations further identify persistent cross-lingual knowledge barriers. Even state-of-the-art LLMs struggle to integrate knowledge across languages without explicit mixed-language training or bilingual supervision \citep{chua2024barriers}. While bilingual instruction tuning significantly improves cross-lingual reasoning, monolingual performance gaps remain evident in financially specialized tasks \citep{hu2024nolanguage, zhang2024dolares}.
+
+\subsection{Evidence Integration in Multilingual Financial Systems}
+
+Integrated multilingual financial systems demonstrate both opportunities and limitations for cross-lingual evidence integration. Systems such as DeepFinLLM 2.0 report high QA accuracy using multilingual retrieval and orchestration pipelines, suggesting that architectural integration can mitigate some cross-lingual inefficiencies \citep{reddy2025deepfinllm}. Cross-lingual neural database architectures further demonstrate substantial zero-shot improvements in low-resource settings while maintaining parity with English-only baselines \citep{bacciu2025xndb}.
+
+However, benchmark-driven evaluations consistently reveal that multilingual evidence integration remains substantially more difficult than monolingual reasoning for complex financial tasks \citep{peng2025multifinben, xue2024famma}. Multimodal and multilingual benchmarks highlight that even proprietary systems achieve moderate accuracy levels, underscoring the unresolved challenges of scalable cross-lingual financial reasoning.
+
+\subsection{Summary}
+
+The literature indicates that cross-lingual evidence integration improves coverage and accessibility in financial QA but introduces measurable accuracy degradation compared to monolingual baselines. Translation errors, retrieval noise, embedding misalignment, and limited cross-lingual reasoning capabilities jointly contribute to this gap. While multilingual pretraining, bilingual instruction tuning, and integrated retrieval architectures partially mitigate performance loss, current systems remain constrained by cross-lingual knowledge transfer limitations and evaluation inconsistencies. These findings motivate the need for auditable, multilingual reasoning frameworks capable of explicit evidence alignment, uncertainty tracing, and language-aware verification.
